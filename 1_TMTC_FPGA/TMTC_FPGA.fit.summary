@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Aug 26 09:40:58 2015
+Quartus II Version : 10.1 Build 197 01/19/2011 SP 1 SJ Full Version
+Revision Name : TMTC_FPGA
+Top-level Entity Name : TMTC_FPGA
+Family : Cyclone IV E
+Device : EP4CE55F23I7
+Timing Models : Final
+Total logic elements : 2,434 / 55,856 ( 4 % )
+    Total combinational functions : 1,780 / 55,856 ( 3 % )
+    Dedicated logic registers : 1,775 / 55,856 ( 3 % )
+Total registers : 1775
+Total pins : 104 / 325 ( 32 % )
+Total virtual pins : 0
+Total memory bits : 733,184 / 2,396,160 ( 31 % )
+Embedded Multiplier 9-bit elements : 0 / 308 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

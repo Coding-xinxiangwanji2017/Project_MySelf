@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Aug 26 09:40:38 2015
+Quartus II Version : 10.1 Build 197 01/19/2011 SP 1 SJ Full Version
+Revision Name : TMTC_FPGA
+Top-level Entity Name : TMTC_FPGA
+Family : Cyclone IV E
+Total logic elements : 2,572
+    Total combinational functions : 1,778
+    Dedicated logic registers : 1,775
+Total registers : 1775
+Total pins : 104
+Total virtual pins : 0
+Total memory bits : 733,184
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

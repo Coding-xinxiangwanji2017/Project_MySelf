@@ -1,0 +1,57 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+
+--  Entity Declaration
+
+ENTITY BingChuan IS
+
+	PORT
+	(
+		clk        :in std_logic;
+		pcm_clk    :in std_logic;
+		reset      :in std_logic;	
+		pcm_data   :out std_logic
+	);
+
+	
+END BingChuan;
+--  Architecture Bo
+ARCHITECTURE BingChuan_architecture OF BingChuan IS
+signal pcm_clk_signal_vector  :std_logic_vector (1 downto 0);
+signal pcm   :std_logic;
+
+BEGIN
+process(clk,pcm_clk)
+begin
+	if rising_edge(clk)   then
+		pcm_clk_signal_vector(1)<=pcm_clk_signal_vector(0);
+		pcm_clk_signal_vector(0)<= pcm_clk;
+
+	end if;
+end process;
+process(clk,pcm_clk_signal_vector,reset)
+variable count_pcm   :integer range 0 to 8;
+variable send_data_buffer       :std_logic_vector(7 downto 0);
+variable send_data :std_logic_vector(7 downto 0);
+begin
+pcm_data <= pcm;
+if rising_edge(clk) then
+	if(reset='1')	then
+		count_pcm:=0;
+		send_data:="00000000";
+	elsif ((pcm_clk_signal_vector="01"))   then  --rising_edge
+
+			   pcm<= send_data_buffer(7); 
+			   send_data_buffer(7 downto 1):=send_data_buffer(6 downto 0);
+			   count_pcm:=count_pcm+1;
+			   if (count_pcm=8) then
+					count_pcm:=0;
+					send_data:=send_data+'1';
+					send_data_buffer(7 downto 0):=send_data(7 downto 0);
+			   end if;
+	end if;
+end if;
+end process;
+END BingChuan_architecture;

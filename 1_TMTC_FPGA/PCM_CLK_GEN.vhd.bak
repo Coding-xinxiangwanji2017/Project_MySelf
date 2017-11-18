@@ -1,0 +1,53 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+
+ENTITY PCM_CLK_GEN IS
+	-- {{ALTERA_IO_BEGIN}} DO NOT REMOVE THIS LINE!
+	PORT
+	(
+		clk   :in std_logic;  --18.432M
+		reset :in std_logic;
+		pcm_clk :out std_logic;
+		frame_end :out std_logic
+	);
+	-- {{ALTERA_IO_END}} DO NOT REMOVE THIS LINE!
+	
+END PCM_CLK_GEN;
+
+ARCHITECTURE PCM_CLK_GEN_architecture OF PCM_CLK_GEN IS
+signal  counter_16384   :integer range 0 to 16383;
+signal counter_2047   :integer range 0 to 8192;
+signal  pcm_clk_signal : std_logic;
+BEGIN
+pcm_clk<= pcm_clk_signal;
+process(clk,reset,pcm_clk_signal)
+
+begin
+	if (reset='1') then
+		counter_2047<=1;
+		counter_16384<=0;
+		frame_end<='1';
+		pcm_clk_signal<='1';
+	elsif rising_edge(clk)  then
+		counter_16384 <=counter_16384+1;
+	    if(counter_16384=15625) then
+			counter_16384<=0;
+			pcm_clk_signal<= not pcm_clk_signal;
+			counter_2047<= counter_2047+1;
+		end if;
+		if((counter_2047>4080) and (counter_2047<4097) ) then
+--		if((counter_2047>10) and (counter_2047<27) ) then
+			frame_end<='0';
+		elsif 	(counter_2047=4097)	 then
+--		elsif 	(counter_2047=27)	 then
+			frame_end<= '1';
+			counter_2047<=1;
+		else 
+			frame_end<='1';
+		end if;
+	end if;
+		
+end process;
+END PCM_CLK_GEN_architecture;

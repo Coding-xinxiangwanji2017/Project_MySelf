@@ -1,0 +1,41 @@
+
+
+G:/xxl/GF4/TMTC_FPGA/RxFifo.vhd
+
+Aug 09 03PM:26:12>: Megafunction LPM_FIFO+ is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+G:/xxl/GF4/TMTC_FPGA/RxFifo.vhd
+
+Aug 09 03PM:28:50>: Megafunction LPM_FIFO+ is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+G:/xxl/GF4/TMTC_FPGA/RxFifo.vhd
+
+Aug 09 03PM:28:53>: Megafunction LPM_FIFO+ is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+G:/xxl/GF4/TMTC_FPGA/lpm_fifo2.vhd
+
+Aug 09 03PM:29:13>: Megafunction LPM_FIFO+ is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+G:/xxl/GF4/TMTC_FPGA/lpm_fifo2.vhd
+
+Aug 09 03PM:29:21>: Megafunction LPM_FIFO+ is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+G:/xxl/GF4/TMTC_FPGA/lpm_fifo2.vhd
+
+Aug 09 03PM:29:24>: Megafunction LPM_FIFO+ is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+G:/xxl/GF4/TMTC_FPGA/lpm_fifo2.vhd
+
+Aug 09 03PM:29:30>: Megafunction LPM_FIFO+ is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+G:/xxl/GF4/TMTC_FPGA/lpm_fifo2.vhd
+
+Aug 09 03PM:29:32>: Megafunction LPM_FIFO+ is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted

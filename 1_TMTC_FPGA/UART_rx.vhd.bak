@@ -1,0 +1,38 @@
+---------------------------------------------------------------------------------------------------------------
+-- Copyright  :  513 Di Mian Zhuang Bei Shi Ye Bu
+-- Project    :  CPCI_UART
+-- Module     :  UART RX module, write RXD data into FIFO,generate interrupt signal 
+-- File       :  UART_rx.vhd
+-- Author     :  Xiaohm
+-- Fuction    :  
+-- Edition    :  V1.0
+-- Date       :  2014-11-08
+---------------------------------------------------------------------------------------------------------------
+-- History    :
+---------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_arith.all;
+use IEEE.std_logic_unsigned.all;
+
+entity  UART_rx  is
+	port(
+	       --------------global signals-----------
+			 sysclk_i			:    in    std_logic;
+			 reset_i_n        :    in    std_logic;
+			 s_reset_i_p      :    in    std_logic;
+			 -------------UART  signals-------------
+			 CPCI_enable_i_p  :    in    std_logic;
+			 baud_s_i         :    in    std_logic_vector(15 downto 0);
+			 data_s_i         :    in    std_logic_vector(2 downto 0); 
+			 parity_s_i       :    in    std_logic_vector(1 downto 0);
+			 fifo_empty_i_n   :    in    std_logic;
+			 fifo_data_i      :    in    std_logic_vector(7 downto 0);
+			 fifo_rd_o_p      :    out   std_logic;
+			 data_txd_o       :    out   std_logic
+			 
+	    );
+end UART_rx;
+
