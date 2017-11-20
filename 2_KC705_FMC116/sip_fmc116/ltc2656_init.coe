@@ -1,0 +1,24 @@
+;******************************************************************
+;** LTC2656 Initialization                                      **
+;******************************************************************
+;
+; This .COE file specifies initialization values for a block
+; memory of depth=16, and width=24.
+; Values are specified in hexadecimal format:
+; 8 MSB = command/address, 16 LSB = data.
+;
+; Loading from ROM stops when address 0xFF has been processed.
+; therefore this register must be the last entry in this file.
+;
+memory_initialization_radix=16;
+memory_initialization_vector=
+000000,
+010000,
+020000,
+030000,
+040000,
+050000,
+060000,
+070000,
+1F0000,
+FF0000;

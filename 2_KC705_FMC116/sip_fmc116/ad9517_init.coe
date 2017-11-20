@@ -1,0 +1,56 @@
+;******************************************************************
+;** AD9517 Initialization                                        **
+;******************************************************************
+;
+; This .COE file specifies initialization values for a block
+; memory of depth=64, and width=20.
+; Values are specified in hexadecimal format:
+; 12 MSB = address, 8 LSB = data.
+;
+; Loading from ROM stops when address 0x232 has been processed.
+; therefore this register must be the last entry in this file.
+;
+memory_initialization_radix=16;
+memory_initialization_vector=
+0107C,
+0110A,
+01200,
+01300,
+01419,
+01500,
+01604,
+017B4,
+01800,
+01900,
+01A00,
+01B00,
+01C87,
+01D00,
+0F0C0,
+0F103,
+0F4C0,
+0F503,
+14001,
+14101,
+14200,
+14301,
+19000,
+19180,
+19200,
+19600,
+19780,
+19800,
+19900,
+19A00,
+19B00,
+19C20,
+19D00,
+19E00,
+19F00,
+1A000,
+1A120,
+1A200,
+1E000,
+1E102,
+23000,
+23201;
