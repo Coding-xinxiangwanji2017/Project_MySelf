@@ -1,0 +1,300 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date:    14:23:51 04/19/2016 
+// Design Name: 
+// Module Name:    flash_load_xfer 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
+module flash_load_xfer(
+	input							sys_clk,
+	input							glbl_rst_n,
+	
+	input 						flash_xfer_en,
+	output	reg				flash_xfer_done,
+	output	reg				flash_xfer_error,
+	
+	output 	reg				xfer_flash_rden,
+	output 	reg	[23:0]	xfer_flash_length,
+	output 	reg	[24:0]	xfer_flash_addr,
+	input 						init_flash_valid,
+	input 						init_flash_last,
+	input 			[7:0]		init_flash_data,
+	
+	output 						init_xfer_wren,
+	output 	reg	[17:0]	init_xfer_addr,
+	output 			[7:0]		init_xfer_data,
+	output 	reg	[95:0]	init_xfer_para,
+	
+	output 	reg	[127:0]	flash_xfer_crc
+);
+
+	wire crc_right;
+
+	localparam idle 	= 	3'd0;
+	localparam para 	= 	3'd1;
+	localparam xf_in 	= 	3'd2;
+	localparam xf_ou 	= 	3'd3;
+	localparam xf_nt 	= 	3'd4;
+
+	reg init_flash_valid_reg;
+	
+	reg init_flash_last_reg;
+	reg init_flash_last_crc;
+
+	reg [31:0]crc_reg;
+	reg [223:0]para_reg;
+	
+	reg [2:0]rd_state;
+	reg para_en;
+	reg [2:0]wr_state;
+
+	assign crc_right = 1;////////////////////////////////////////
+
+	assign init_xfer_wren = (~para_en) & init_flash_valid;
+	assign init_xfer_data = ((~para_en) & (init_flash_valid | init_flash_valid_reg)) ? init_flash_data : 8'd0;
+
+	always @ (posedge sys_clk)
+		if(!glbl_rst_n)
+			begin
+				crc_reg <= 0;
+				flash_xfer_crc <= 0;
+				para_reg <= 0;
+				init_xfer_para <= 0;
+				init_flash_valid_reg <= 0;
+			end
+		else
+			begin
+				init_flash_valid_reg <= init_flash_valid;
+				if(init_flash_valid) crc_reg <= {init_flash_data,crc_reg[31:8]};
+				if(init_flash_last_reg) flash_xfer_crc <= {crc_reg,flash_xfer_crc[127:32]};
+				if(init_flash_valid == 1 && para_en == 1) para_reg <= {init_flash_data,para_reg[223:8]};
+				if(flash_xfer_done) init_xfer_para <= {para_reg[159:128],para_reg[95:64],para_reg[31:0]};
+			end
+	
+	always @ (posedge sys_clk)
+		if(!glbl_rst_n)
+			begin
+				init_flash_last_reg <= 0;
+				init_flash_last_crc <= 0;
+			end
+		else
+			begin
+				init_flash_last_reg <= init_flash_last;
+				init_flash_last_crc <= init_flash_last_reg;
+			end
+			
+	always @ (posedge sys_clk)
+		if(!glbl_rst_n)
+			begin
+				wr_state <= idle;
+				init_xfer_addr <= 0;
+				flash_xfer_done <= 0;
+				flash_xfer_error <= 0;
+				para_en <= 0;
+			end
+		else
+			case(wr_state)
+				idle	:	begin
+								init_xfer_addr <= 0;
+				            flash_xfer_done <= 0;
+				            flash_xfer_error <= 0;
+								para_en <= 1;
+								if(flash_xfer_en)
+									begin
+										wr_state <= para;
+										init_xfer_addr <= 0;
+									end
+							end
+				para	:	begin
+								if(init_flash_last_crc)
+									begin
+										if(crc_right)
+											begin
+												wr_state <= xf_in;
+												para_en <= 0;
+											end
+										else
+											begin
+												wr_state <= idle;
+												flash_xfer_error <= 1;
+											end
+									end
+							end 	
+				xf_in	:	begin
+								if(init_flash_valid_reg)	init_xfer_addr <= init_xfer_addr + 1'b1;
+								if(init_flash_last_crc || para_reg[23:0] == 0)
+									begin
+										if(crc_right || para_reg[23:0] == 0)
+											begin
+												wr_state <= xf_ou;
+											end
+										else
+											begin
+												wr_state <= idle;
+												flash_xfer_error <= 1;
+											end
+									end
+							end
+				xf_ou	:	begin
+								if(init_flash_valid_reg)	init_xfer_addr <= init_xfer_addr + 1'b1;
+								if(init_flash_last_crc || para_reg[87:64] == 0)
+									begin
+										if(crc_right || para_reg[87:64] == 0)
+											begin
+												wr_state <= xf_nt;
+											end
+										else
+											begin
+												wr_state <= idle;
+												flash_xfer_error <= 1;
+											end
+									end
+							end	
+				xf_nt	:	begin
+								if(init_flash_valid_reg)	init_xfer_addr <= init_xfer_addr + 1'b1;
+								if(init_flash_last_crc || para_reg[151:128] == 0)
+									begin
+										if(crc_right || para_reg[151:128] == 0)
+											begin
+												wr_state <= idle;
+												flash_xfer_done <= 1;
+												para_en <= 1;
+											end
+										else
+											begin
+												wr_state <= idle;
+												flash_xfer_error <= 1;
+											end
+									end
+							end	
+				default	:	wr_state <= idle; 
+			endcase
+
+	always @ (posedge sys_clk)
+		if(!glbl_rst_n)
+			begin
+				xfer_flash_rden <= 0;
+				xfer_flash_length <= 0;
+				xfer_flash_addr <= 0;
+				rd_state <= idle;
+			end
+		else
+			case(rd_state)
+				idle	:	begin
+								if(flash_xfer_en)
+									begin
+										xfer_flash_rden <= 1;
+										xfer_flash_length <= 24'd28;
+										xfer_flash_addr <= 25'h420;
+										rd_state <= para;
+									end
+							end
+				para	:	begin
+								if(init_flash_last_crc)
+									if(para_reg[23:0] == 0)
+										rd_state <= xf_in;
+									else
+										begin
+											xfer_flash_rden <= 1;
+											xfer_flash_length <= para_reg[23:0];
+											xfer_flash_addr <= para_reg[55:32];
+											rd_state <= xf_in;
+										end
+								else
+									begin
+										xfer_flash_rden <= 0;
+										xfer_flash_length <= 24'd0;
+										xfer_flash_addr <= 25'h0;
+									end
+							end
+				xf_in	:	begin
+								if(flash_xfer_error)
+									begin
+										xfer_flash_rden <= 0;
+										xfer_flash_length <= 0;
+										xfer_flash_addr <= 0;
+										rd_state <= idle;
+									end
+								else
+									begin
+										if(init_flash_last_crc)
+											if(para_reg[87:64] == 0)
+												rd_state <= xf_ou;
+											else
+												begin
+													xfer_flash_rden <= 1;
+													xfer_flash_length <= para_reg[87:64];
+													xfer_flash_addr <= para_reg[119:96];
+													rd_state <= xf_ou;
+												end
+										else
+											begin
+												xfer_flash_rden <= 0;
+												xfer_flash_length <= 24'd0;
+												xfer_flash_addr <= 25'h0;
+											end
+									end
+							end
+				xf_ou	:	begin
+								if(flash_xfer_error)
+									begin
+										xfer_flash_rden <= 0;
+										xfer_flash_length <= 0;
+										xfer_flash_addr <= 0;
+										rd_state <= idle;
+									end
+								else
+									begin
+										if(init_flash_last_crc)
+											if(para_reg[151:128] == 0)
+												rd_state <= xf_nt;
+											else
+												begin
+													xfer_flash_rden <= 1;
+													xfer_flash_length <= para_reg[151:128];
+													xfer_flash_addr <= para_reg[183:160];
+													rd_state <= xf_nt;
+												end
+										else
+											begin
+												xfer_flash_rden <= 0;
+												xfer_flash_length <= 24'd0;
+												xfer_flash_addr <= 25'h0;
+											end
+									end
+							end
+				xf_nt	:	begin
+								xfer_flash_rden <= 0;
+								xfer_flash_length <= 24'd0;
+								xfer_flash_addr <= 25'h0;
+								rd_state <= idle;
+							end
+				default	:	rd_state <= idle; 
+			endcase
+
+
+    M_Crc32De8 flM_Crc32De8(
+        .CpSl_Rst_i (sys_clk)  ,                 
+        .CpSl_Clk_i  (~glbl_rst_n) ,                 
+
+        .CpSl_Init_i (flash_xfer_en) ,                 
+        .CpSv_Data_i (init_flash_data) ,                 
+        .CpSl_CrcEn_i (init_flash_valid) ,                
+        .CpSl_CrcEnd_i (init_flash_last_reg),                
+        .CpSl_CrcErr_o  ()              
+    );
+
+endmodule

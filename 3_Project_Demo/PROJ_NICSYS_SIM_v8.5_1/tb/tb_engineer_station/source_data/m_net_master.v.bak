@@ -1,0 +1,33 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Copyright (c)2015 CNCS Incorporated                                             //
+// All Rights Reserved                                                            //
+// THIS IS UNPUBLISHED PROPRIETARY SOURCE CODE of CNCS Inc.               //
+// The copyright notice above does not evidence any actual or intended                     //
+// publication of such source code.                                                  //
+// No part of this code may be reproduced, stored in a retrieval system,                     //
+// or transmitted, in any form or by any means, electronic, mechanical,                     //
+// photocopying, recording, or otherwise, without the prior written                        //
+// permission of CNCS                                                           //
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Name of module :crc16_tb                                                       //
+// Project    : NicSys8000N                                                     //
+// Func       : crc_tb                                          //
+// Author     : ***                                                       //
+// Simulator   : ModelsimMicrosemi 10.3c / Windows 7 32bit                          //
+// Synthesizer  : LiberoSoC v11.5 SP2 / Windows 7 32bit                              //
+// FPGA/CPLD type : M2GL050-1FG484                                           //
+// version 1.0  : made in Date: 2015.12.01                                          //
+// Update: 1.1  : made in Date£º2015.12.10                                         //
+// Purpose      : add the logic of redundancy                                         //
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+`timescale 1ns / 100ps
+
+module m_net_tb();
+parameter CYCLE = 20;//50Mhz
+
+
+
+endmodule
+
+// din <= $urandom; //32-bit random number generator (new number gen on each call)

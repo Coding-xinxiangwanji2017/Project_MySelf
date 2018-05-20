@@ -1,0 +1,35 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.5 SP2 (Version 11.5.2.6)
+
+Date      :  Wed Mar 30 14:12:23 2016
+Project   :  D:\Libero_Project\spi_eeprom_rw
+Component :  tx_fifo
+Family    :  IGLOO2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/Libero_Project/spi_eeprom_rw/component/work/tx_fifo/tx_fifo.v
+    D:/Libero_Project/spi_eeprom_rw/component/work/tx_fifo/tx_fifo_0/rtl/vlog/core/COREFIFO.v
+    D:/Libero_Project/spi_eeprom_rw/component/work/tx_fifo/tx_fifo_0/rtl/vlog/core/corefifo_async.v
+    D:/Libero_Project/spi_eeprom_rw/component/work/tx_fifo/tx_fifo_0/rtl/vlog/core/corefifo_doubleSync.v
+    D:/Libero_Project/spi_eeprom_rw/component/work/tx_fifo/tx_fifo_0/rtl/vlog/core/corefifo_fwft.v
+    D:/Libero_Project/spi_eeprom_rw/component/work/tx_fifo/tx_fifo_0/rtl/vlog/core/corefifo_grayToBinConv.v
+    D:/Libero_Project/spi_eeprom_rw/component/work/tx_fifo/tx_fifo_0/rtl/vlog/core/corefifo_sync.v
+    D:/Libero_Project/spi_eeprom_rw/component/work/tx_fifo/tx_fifo_0/rtl/vlog/core/corefifo_sync_scntr.v
+    D:/Libero_Project/spi_eeprom_rw/component/work/tx_fifo/tx_fifo_0/rtl/vlog/core/tx_fifo_tx_fifo_0_LSRAM_top.v
+    D:/Libero_Project/spi_eeprom_rw/component/work/tx_fifo/tx_fifo_0/rtl/vlog/core/tx_fifo_tx_fifo_0_ram_wrapper.v
+
+Stimulus files for all Simulation tools:
+    D:/Libero_Project/spi_eeprom_rw/component/work/tx_fifo/tx_fifo_0/mti/scripts/runall.do
+
+    D:/Libero_Project/spi_eeprom_rw/component/Actel/DirectCore/COREFIFO/2.4.100/rtl/vlog/test/user/MEM_WeqR.v
+    D:/Libero_Project/spi_eeprom_rw/component/Actel/DirectCore/COREFIFO/2.4.100/rtl/vlog/test/user/MEM_WgtR.v
+    D:/Libero_Project/spi_eeprom_rw/component/Actel/DirectCore/COREFIFO/2.4.100/rtl/vlog/test/user/MEM_WltR.v
+    D:/Libero_Project/spi_eeprom_rw/component/Actel/DirectCore/COREFIFO/2.4.100/rtl/vlog/test/user/clock_driver.v
+    D:/Libero_Project/spi_eeprom_rw/component/Actel/DirectCore/COREFIFO/2.4.100/rtl/vlog/test/user/fifo_driver.v
+    D:/Libero_Project/spi_eeprom_rw/component/Actel/DirectCore/COREFIFO/2.4.100/rtl/vlog/test/user/fifo_monitor.v
+    D:/Libero_Project/spi_eeprom_rw/component/Actel/DirectCore/COREFIFO/2.4.100/rtl/vlog/test/user/g4_dp_ext_mem.v
+    D:/Libero_Project/spi_eeprom_rw/component/Actel/DirectCore/COREFIFO/2.4.100/rtl/vlog/test/user/wave.do
+    D:/Libero_Project/spi_eeprom_rw/component/work/tx_fifo/tx_fifo_0/coreparameters.v
+    D:/Libero_Project/spi_eeprom_rw/component/work/tx_fifo/tx_fifo_0/rtl/vlog/test/user/testbench.v
+    D:/Libero_Project/spi_eeprom_rw/component/work/tx_fifo/tx_fifo_0/rtl/vlog/test/user/top_define.v
+

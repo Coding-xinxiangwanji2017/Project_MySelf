@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Administrator\Desktop\version\CAMERA_TOP6.5_20171211_frame_test_plus\project_14.7\CAMERAL_TOP\CAMERA_TOP.ncd
+OUTFILE=C:\Users\Administrator\Desktop\version\CAMERA_TOP6.5_20171211_frame_test_plus\project_14.7\CAMERAL_TOP\CAMERA_TOP.bit
+FAMILY=Kintex7
+PART=xc7k325t-2ffg900
+WORKINGDIR=C:\Users\Administrator\Desktop\version\CAMERA_TOP6.5_20171211_frame_test_plus\project_14.7\CAMERAL_TOP
+LICENSE=ISE
+USER_INFO=_

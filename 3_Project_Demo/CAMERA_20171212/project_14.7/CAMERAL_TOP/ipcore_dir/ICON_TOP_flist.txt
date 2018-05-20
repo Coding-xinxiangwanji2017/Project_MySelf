@@ -1,0 +1,17 @@
+# Output products list for <ICON_TOP>
+ICON_TOP.asy
+ICON_TOP.constraints\ICON_TOP.ucf
+ICON_TOP.constraints\ICON_TOP.xdc
+ICON_TOP.gise
+ICON_TOP.ngc
+ICON_TOP.sym
+ICON_TOP.ucf
+ICON_TOP.v
+ICON_TOP.veo
+ICON_TOP.xco
+ICON_TOP.xdc
+ICON_TOP.xise
+ICON_TOP_flist.txt
+ICON_TOP_readme.txt
+ICON_TOP_xmdf.tcl
+_xmsgs\pn_parser.xmsgs

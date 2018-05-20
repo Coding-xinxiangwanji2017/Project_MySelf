@@ -1,0 +1,52 @@
+module link(
+//input
+input Rclk,
+input rst,
+input tx_buf_wren,
+input [10:0]tx_buf_waddr,
+input [7:0]tx_buf_wdata,
+input [10:0]tx_data_len,
+input tx_start,
+input sys_clk,
+input clk_phy_p0,
+input clk_phy_p90,
+input clk_phy_p180,
+input clk_phy_p270,
+input rx_buf_rden,
+input [10:0]rx_buf_raddr,
+input lb_rxd,
+
+//output
+output lb_txd,
+output lb_txen,
+output o_rx_done,
+output [7:0]rx_buf_rdata,
+output [1:0]o_rx_crc_rslt,
+output o_rx_start);
+
+tx_lianlu_top tx_top(.wclk(sys_clk),
+                     .Rclk(Rclk),
+                     .rst(rst),
+                     .tx_buf_wren(tx_buf_wren),
+                     .tx_buf_waddr(tx_buf_waddr),
+                     .tx_buf_wdata(tx_buf_wdata),
+                     .tx_data_len(tx_data_len),
+                     .tx_start(tx_start),
+                     .lb_txen(lb_txen),
+                     .lb_txd(lb_txd));
+                     
+rx_link rx_link(.sys_clk(sys_clk),
+                .clk_phy_p0(clk_phy_p0), 
+                .clk_phy_p90(clk_phy_p90), 
+                .clk_phy_p180(clk_phy_p180),
+                .clk_phy_p270(clk_phy_p270),
+                .rst(rst),               
+                .rx_buf_rden(rx_buf_rden),       
+                .rx_buf_raddr(rx_buf_raddr),
+                .lb_rxd(lb_rxd),
+                .o_rx_done(o_rx_done),                   
+                .rx_buf_rdata(rx_buf_rdata),      
+                .o_rx_crc_rslt(o_rx_crc_rslt), 
+                .o_rx_start(o_rx_start)); 
+                
+endmodule         

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="ConstraintSystem" num="0" >Constraint &lt;NET &quot;SBRAM_nCE2_3_OBUF&quot; TNM_NET = D_CLK&gt; was not distributed to the output pin TXOUTCLK of block u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7_i/gtxe2_i because the signal path to this output pin depends upon block attribute settings. Constraint distribution does not support attribute dependent distribution.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >Constraint &lt;NET &quot;SBRAM_nCE2_3_OBUF&quot; TNM_NET = D_CLK&gt; was not distributed to the output pin QPLLOUTREFCLK of block u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gtxe2_common_0_i because the signal path to this output pin depends upon block attribute settings. Constraint distribution does not support attribute dependent distribution.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >Constraint &lt;NET &quot;*/q0_clk1_refclk_i&quot; TNM_NET = &quot;q0_clk1_refclk_i&quot;;&gt; [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/ucf/top_test.ucf(71)] was not distributed to the output pin TXOUTCLK of block u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7_i/gtxe2_i because the signal path to this output pin depends upon block attribute settings. Constraint distribution does not support attribute dependent distribution.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >Constraint &lt;NET &quot;*/q0_clk1_refclk_i&quot; TNM_NET = &quot;q0_clk1_refclk_i&quot;;&gt; [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/ucf/top_test.ucf(71)] was not distributed to the output pin QPLLOUTREFCLK of block u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gtxe2_common_0_i because the signal path to this output pin depends upon block attribute settings. Constraint distribution does not support attribute dependent distribution.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/InterruptInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullNCopy[7].nTxFullNCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullNCopy[6].nTxFullNCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullNCopy[5].nTxFullNCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullNCopy[4].nTxFullNCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullNCopy[3].nTxFullNCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullNCopy[2].nTxFullNCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullNCopy[1].nTxFullNCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullNCopy[0].nTxFullNCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullPCopy[7].nTxFullPCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullPCopy[6].nTxFullPCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullPCopy[5].nTxFullPCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullPCopy[4].nTxFullPCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullPCopy[3].nTxFullPCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullPCopy[2].nTxFullPCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullPCopy[1].nTxFullPCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullPCopy[0].nTxFullPCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/DataInNCopy[7].DataInNCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/DataInNCopy[6].DataInNCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/DataInNCopy[5].DataInNCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/DataInNCopy[4].DataInNCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/DataInNCopy[3].DataInNCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/DataInNCopy[2].DataInNCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/DataInNCopy[1].DataInNCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/DataInNCopy[0].DataInNCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/ChanInNCopy[2].ChanInNCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/ChanInNCopy[1].ChanInNCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/ChanInNCopy[0].ChanInNCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/ChanInPCopy[2].ChanInPCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/ChanInPCopy[1].ChanInPCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/ChanInPCopy[0].ChanInPCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_CAMERA_SIM/u1_GigExPhyFIFO/nRxNCopyInst</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gt0_txresetfsm_i/sync_qplllock/data_sync_reg</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gt0_rxresetfsm_i/sync_mmcm_lock_reclocked/data_sync_reg</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gt0_rxresetfsm_i/sync_qplllock/data_sync_reg</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="old" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">SBRAM_DQP&lt;15&gt;</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="old" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">SBRAM_DQP&lt;14&gt;</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="old" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">SBRAM_DQP&lt;13&gt;</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="old" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">SBRAM_DQP&lt;12&gt;</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="old" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">SBRAM_DQP&lt;11&gt;</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="old" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">SBRAM_DQP&lt;10&gt;</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="old" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">SBRAM_DQP&lt;9&gt;</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="old" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">SBRAM_DQP&lt;8&gt;</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="old" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">SBRAM_DQP&lt;7&gt;</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="old" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">SBRAM_DQP&lt;6&gt;</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="old" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">SBRAM_DQP&lt;5&gt;</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="old" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">SBRAM_DQP&lt;4&gt;</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="old" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">SBRAM_DQP&lt;3&gt;</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="old" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">SBRAM_DQP&lt;2&gt;</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="old" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">SBRAM_DQP&lt;1&gt;</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="old" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">SBRAM_DQP&lt;0&gt;</arg>&apos; has no legal driver
+</msg>
+
+</messages>
+

@@ -1,0 +1,23 @@
+Tue May 03 09:31:27 CST 2016
+Trace back: wrong # args: should be "mti_popupinternal menu w"
+    while executing
+"mti_popupinternal .signalspopup_popup "
+    ("after" script)
+  <2:D:/modeltech64_10.2/tcl/tk8.5/bgerror.tcl:95: ::tkerror {wrong # args: should be "mti_popupinternal menu w"}
+  <1:D:/modeltech64_10.2/tcl/tk8.5/menu.tcl:-1: ::tk::dialog::error::bgerror {wrong # args: should be "mti_popupinternal menu w"}
+Tue May 10 18:21:43 CST 2016
+Trace back: Bad sequence in.main_pane.memory.interior.cs.body.list.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)
+    while executing
+"$itk_component(tree) insertquery end """
+    (object "::.main_pane.memory.interior.cs.body.list" method "::vsimwidgets::Hierarchy::requery" body line 3)
+    invoked from within
+"requery"
+    (object "::.main_pane.memory.interior.cs.body.list" method "::FlatMemlist::UpdateFlatMemList" body line 8)
+    invoked from within
+"$list UpdateFlatMemList"
+    (procedure "Memview::delayedUpdateMemoryList" line 5)
+    invoked from within
+"Memview::delayedUpdateMemoryList"
+    ("after" script)
+  <2:D:/ProgramFiles/ModelSimSE_10.2c/tcl/tk8.5/bgerror.tcl:95: ::tkerror {Bad sequence in.main_pane.memory.interior.cs.body.list.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)}
+  <1:proc:8: ::tk::dialog::error::bgerror {Bad sequence in.main_pane.memory.interior.cs.body.list.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)}

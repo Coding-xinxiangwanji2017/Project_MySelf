@@ -1,0 +1,264 @@
+ module TX_control(clk,
+                  reset,
+                  data_length,
+                  tx_start,
+                  TX_RDY,
+                  RDen,
+                  RDaddr,
+                  RDdata,
+                  data_out,
+                  CRC_in,
+                  CRC_Enable,
+                  wr_en_out,
+                  ctrl_en_out,
+                  CRC_init);
+
+parameter n=11;
+parameter width=8;
+
+input clk;                    //clocck
+input reset;                  //reset
+input tx_start;               //start enable
+input TX_RDY;                 //ready to transmit data
+input [width-1:0]RDdata;      //read data
+input [31:0]CRC_in;           //CRC result data
+input [n-1:0]data_length;      //valid data length
+
+output RDen;                  //read enable
+output CRC_Enable;            //CRC calculate enable
+output wr_en_out;             //transmit data enable
+output ctrl_en_out;           //transmit JK or TT enable
+output [width-1:0]data_out;   //data output
+output [n-1:0]RDaddr;         //read address
+output CRC_init;               //CRC initial
+
+reg [width-1:0]rdata;         //read data register
+reg [1:0]tx_start_edge;       //tx_start edge
+wire TX_RDY_edge; 
+reg tx_rdy_d1;
+//reg [1:0]TX_RDY_edge;         //TX_RDY edge
+reg [31:0]CRC_buffer;         //CRC result register
+reg [n-1:0]length;            //length register
+reg RD_en;                    //read enable register
+reg CRC_en;                    //CRC enable register
+reg [1:0]transmit_en;         //transmit enable register
+reg [n-1:0]RD_addr;           //read address register
+reg [11:0]count;                    //data byetes count
+reg [4:0]i;                   //state control
+reg CRC_initial;               //CRC initial
+reg [3:0]count1;
+
+//edge detector sequence for control signals
+always @(posedge clk or posedge reset)
+begin
+if(reset)
+begin
+tx_start_edge<=2'b00;
+//TX_RDY_edge<=2'b00;
+end
+else begin
+tx_start_edge<={tx_start_edge[0],tx_start};     //tx_start edge detector
+//TX_RDY_edge<={TX_RDY_edge[0],TX_RDY};           //TX_RDY edge detector
+end
+end
+
+always @ (posedge clk or posedge reset)
+begin
+	if(reset)
+		tx_rdy_d1 <= 0;
+	else
+		tx_rdy_d1 <= TX_RDY;
+end
+
+assign TX_RDY_edge = TX_RDY & ~tx_rdy_d1;
+
+//fsm
+always @(posedge clk or posedge reset)
+begin
+if(reset)
+begin
+  rdata<=8'h0;                   //rdata clear
+  CRC_buffer<=32'h0;             //CRC result regidter
+  RD_en<=1'b0;                   //read enable clear
+  CRC_en<=1'b0;                  //CRC enable clear
+  transmit_en<=2'd0;             //transmit enable clear
+  RD_addr<=11'h0;                //read address clear
+  length<=11'h0;                 //bytes length clear
+  i<=5'd0;                       //state control
+  count<=11'h0;                  //count clear
+  count1<=4'd0;
+  CRC_initial<=1'b0;
+end
+else 
+  case(i)
+    0:
+    begin
+    rdata<=8'd0; 
+    if(tx_start_edge==2'b01 && TX_RDY)//(TX_RDY_edge==2'b01||TX_RDY_edge==2'b11)
+      begin
+        transmit_en<=2'b01;
+        RD_en<=1'b1;
+        i<=i+1'b1;
+      end
+  else begin i<=5'd0;end
+    end                                        //begin to transmit SYNC and JK
+    
+    1:
+    begin length<=data_length;i<=i+1'b1;CRC_initial<=1'b1;end
+      
+    2:
+    begin transmit_en<=2'b00;i<=i+1'b1;CRC_initial<=1'b0;end         //transmit enable reset
+      
+    3:
+    begin
+    if(TX_RDY_edge && count<=length-1)//
+    begin
+      rdata<=RDdata;      
+      CRC_en<=1'b1;
+      transmit_en<=2'b10;
+      RD_addr<=RD_addr+1'b1;
+      count<=count+1'b1;
+      i<=i+1'b1;
+    end 
+    else if(TX_RDY_edge && count>length-1)//
+    begin
+      i<=5'd6;
+      //CRC_buffer<=CRC_in;
+      count1<=4'd0;
+      transmit_en<=2'b10;
+      rdata<=CRC_buffer[31:24];
+      count<=11'h0;
+    end
+    else begin i<=5'd3;end  
+  end                                //transmit data 
+    
+    4:
+    begin i<=i+1'b1;CRC_en<=1'b0;end              //transmit enable
+      
+    5:
+    begin 
+    transmit_en<=2'b00;
+    if(count>length-1)
+     begin
+      if(count1<4'd3)
+         begin
+            count1<=count1+1'b1;
+            i<=5'd5;
+         end
+        else begin
+      CRC_buffer<=CRC_in;
+      i<=5'd3;
+      end
+    end
+    else begin
+      i<=5'd3;
+    end
+    end
+
+    6:
+    begin
+      CRC_initial<=1'b1;
+      RD_addr<=11'h0;
+      count<=11'h0;
+      RD_en<=1'b0;
+      i<=i+1'b1;
+    end                                                    //transmit 1st byte CRC RESULT
+    
+    7:
+    begin
+      CRC_initial<=1'b0;
+      transmit_en<=2'b00;
+      i<=i+1'b1;
+    end                                                     //transmit enable reset
+    
+    8:
+    begin
+      if(TX_RDY_edge)//
+      begin
+        rdata<=CRC_buffer[23:16];
+        transmit_en<=2'b10;
+        i<=i+1'b1;
+      end
+    else begin i<=5'd8;end                                  //transmit 2nd byte CRC result
+    end
+    
+    9:
+    begin
+      transmit_en<=2'b00;
+      i<=i+1'b1;
+    end
+    
+    10:
+    begin
+      if(TX_RDY_edge)//
+        begin
+          rdata<=CRC_buffer[15:8];
+          transmit_en<=2'b10;
+          i<=i+1'b1;
+        end
+      else begin i<=5'd10;end                               //transmit 3rd byte CRC result
+    end
+    
+    11:
+    begin
+      transmit_en<=2'b00;
+      i<=i+1'b1;
+    end
+    
+    12:
+    begin
+      if(TX_RDY_edge)//
+        begin
+          rdata<=CRC_buffer[7:0];
+          transmit_en<=2'b10;
+          i<=5'd15;
+        end
+      else begin i<=5'd12;end                                //transmit 4th byte CRC result
+    end
+    
+    15:
+    begin
+      transmit_en<=2'b00;
+      i<=5'd13;
+    end
+    
+    13:
+    begin
+      if(TX_RDY_edge)//
+        begin
+          rdata<=8'd1;
+          transmit_en<=2'b01;
+          i<=i+1'b1;
+        end
+      else begin i<=5'd13;end                                //transmit ending symbol TT
+    end
+    
+    14:
+    begin
+      transmit_en<=2'b00;                                    //clear and return to wait new data
+      i<=5'd0;
+    end
+    
+    default:;
+  endcase
+end
+  
+  assign {wr_en_out,ctrl_en_out}=transmit_en;
+  
+  assign data_out=rdata;
+  
+  assign RDen=RD_en;
+  assign CRC_Enable=CRC_en;
+  assign RDaddr=RD_addr;
+  assign CRC_init=CRC_initial;
+
+  
+endmodule
+      
+    
+        
+      
+      
+    
+      
+      

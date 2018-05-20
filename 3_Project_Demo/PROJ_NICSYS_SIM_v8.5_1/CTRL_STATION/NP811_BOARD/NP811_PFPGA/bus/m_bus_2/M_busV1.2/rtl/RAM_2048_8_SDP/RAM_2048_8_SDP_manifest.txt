@@ -1,0 +1,12 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.5 SP3 (Version 11.5.3.10)
+
+Date      :  Wed Apr 13 18:56:35 2016
+Project   :  D:\hhh\hhh
+Component :  RAM_2048_8_SDP
+Family    :  IGLOO2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/hhh/hhh/component/work/RAM_2048_8_SDP/RAM_2048_8_SDP.v
+    D:/hhh/hhh/component/work/RAM_2048_8_SDP/RAM_2048_8_SDP_0/RAM_2048_8_SDP_RAM_2048_8_SDP_0_TPSRAM.v
+

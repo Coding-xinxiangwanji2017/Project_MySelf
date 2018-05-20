@@ -1,0 +1,212 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd
+../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd
+../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc
+C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/uc
+f/top_test.ucf -uc
+C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/uc
+f/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd
+
+Reading NGO file
+"C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/p
+roject_14.7/CAMERAL_TOP/CAMERA_TOP.ngc" ...
+Loading design module "ipcore_dir/ICON_TOP.ngc"...
+Loading design module
+"../../ipcore_verilog/RAM_4096_16_SDP/RAM_4096_16_SDP.ngc"...
+Loading design module "ipcore_dir/ILA1.ngc"...
+Loading design module "ipcore_dir/vio.ngc"...
+Loading design module "../../hdl/data_tx/fifo_4096_32.ngc"...
+Loading design module "ipcore_dir/flash_fifo_4k_16.ngc"...
+Loading design module "../../hdl/data_move/fifo.ngc"...
+Loading design module "../../hdl/TOE/rom_64_8_sdp.ngc"...
+Loading design module "../../ipcore_verilog/GTX/data_vio.ngc"...
+Loading design module "../../ipcore_verilog/GTX/ila.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file
+"C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/u
+cf/top_test.ucf" ...
+Annotating constraints to design from ucf file
+"C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/u
+cf/CAMERA.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem - Constraint <NET "SBRAM_nCE2_3_OBUF" TNM_NET = D_CLK>
+   was not distributed to the output pin TXOUTCLK of block
+   u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7
+   _i/gtxe2_i because the signal path to this output pin depends upon block
+   attribute settings. Constraint distribution does not support attribute
+   dependent distribution.
+
+WARNING:ConstraintSystem - Constraint <NET "SBRAM_nCE2_3_OBUF" TNM_NET = D_CLK>
+   was not distributed to the output pin QPLLOUTREFCLK of block
+   u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gtxe2_common_0_i
+   because the signal path to this output pin depends upon block attribute
+   settings. Constraint distribution does not support attribute dependent
+   distribution.
+
+WARNING:ConstraintSystem - Constraint <NET "*/q0_clk1_refclk_i" TNM_NET =
+   "q0_clk1_refclk_i";>
+   [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plu
+   s/ucf/top_test.ucf(71)] was not distributed to the output pin TXOUTCLK of
+   block
+   u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7
+   _i/gtxe2_i because the signal path to this output pin depends upon block
+   attribute settings. Constraint distribution does not support attribute
+   dependent distribution.
+
+WARNING:ConstraintSystem - Constraint <NET "*/q0_clk1_refclk_i" TNM_NET =
+   "q0_clk1_refclk_i";>
+   [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plu
+   s/ucf/top_test.ucf(71)] was not distributed to the output pin QPLLOUTREFCLK
+   of block
+   u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gtxe2_common_0_i
+   because the signal path to this output pin depends upon block attribute
+   settings. Constraint distribution does not support attribute dependent
+   distribution.
+
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/InterruptInst' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullNCopy[7].nTxFullNCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullNCopy[6].nTxFullNCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullNCopy[5].nTxFullNCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullNCopy[4].nTxFullNCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullNCopy[3].nTxFullNCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullNCopy[2].nTxFullNCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullNCopy[1].nTxFullNCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullNCopy[0].nTxFullNCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullPCopy[7].nTxFullPCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullPCopy[6].nTxFullPCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullPCopy[5].nTxFullPCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullPCopy[4].nTxFullPCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullPCopy[3].nTxFullPCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullPCopy[2].nTxFullPCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullPCopy[1].nTxFullPCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/nTxFullPCopy[0].nTxFullPCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/DataInNCopy[7].DataInNCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/DataInNCopy[6].DataInNCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/DataInNCopy[5].DataInNCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/DataInNCopy[4].DataInNCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/DataInNCopy[3].DataInNCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/DataInNCopy[2].DataInNCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/DataInNCopy[1].DataInNCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/DataInNCopy[0].DataInNCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/ChanInNCopy[2].ChanInNCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/ChanInNCopy[1].ChanInNCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/ChanInNCopy[0].ChanInNCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/ChanInPCopy[2].ChanInPCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/ChanInPCopy[1].ChanInPCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_CAMERA_SIM/u1_GigExPhyFIFO/ChanInPCopy[0].ChanInPCopyInst' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'u1_CAMERA_SIM/u1_GigExPhyFIFO/nRxNCopyInst'
+   has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gt0_txresetfsm_i/sync_qplllock/d
+   ata_sync_reg' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gt0_rxresetfsm_i/sync_mmcm_lock_
+   reclocked/data_sync_reg' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gt0_rxresetfsm_i/sync_qplllock/d
+   ata_sync_reg' has unconnected output pin
+WARNING:NgdBuild:470 - bidirect pad net 'SBRAM_DQP<15>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'SBRAM_DQP<14>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'SBRAM_DQP<13>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'SBRAM_DQP<12>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'SBRAM_DQP<11>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'SBRAM_DQP<10>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'SBRAM_DQP<9>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'SBRAM_DQP<8>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'SBRAM_DQP<7>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'SBRAM_DQP<6>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'SBRAM_DQP<5>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'SBRAM_DQP<4>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'SBRAM_DQP<3>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'SBRAM_DQP<2>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'SBRAM_DQP<1>' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'SBRAM_DQP<0>' has no legal driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  55
+
+Total memory usage is 413284 kilobytes
+
+Writing NGD file "CAMERA_TOP.ngd" ...
+Total REAL time to NGDBUILD completion:  51 sec
+Total CPU time to NGDBUILD completion:   51 sec
+
+Writing NGDBUILD log file "CAMERA_TOP.bld"...

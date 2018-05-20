@@ -1,0 +1,12 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.5 SP3 (Version 11.5.3.10)
+
+Date      :  Wed Apr 20 16:32:05 2016
+Project   :  D:\hhh\hhh
+Component :  RAM_26624_8_DP
+Family    :  IGLOO2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/hhh/hhh/component/work/RAM_26624_8_DP/RAM_26624_8_DP.v
+    D:/hhh/hhh/component/work/RAM_26624_8_DP/RAM_26624_8_DP_0/RAM_26624_8_DP_RAM_26624_8_DP_0_DPSRAM.v
+

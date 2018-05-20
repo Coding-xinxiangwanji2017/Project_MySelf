@@ -1,0 +1,533 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c)2015 CNCS Incorporated
+// All Rights Reserved
+// THIS IS UNPUBLISHED PROPRIETARY SOURCE CODE of CNCS Inc.
+// The copyright notice above does not evidence any actual or intended
+// publication of such source code.
+// No part of this code may be reproduced, stored in a retrieval system,
+// or transmitted, in any form or by any means, electronic, mechanical,
+// photocopying, recording, or otherwise, without the prior written
+// permission of CNCS
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+// Name of module : NP811_U1_C01_TOP
+// Project        : NicSys8000
+// Func           : Project TOP
+// Author         : Liu zhikai
+// Simulator      : Modelsim Microsemi 10.3c / Windows 7 32bit
+// Synthesizer    : Libero SoC v11.5 SP2 / Windows 7 32bit
+// FPGA/CPLD type : M2GL050-FG484
+// version 1.0    : made in Date: 2015.12.01
+// Modification Logs:
+// -----------------------------------------------------------------------------
+//   Version   Date         Description(Recorder)
+// -----------------------------------------------------------------------------
+//     1.0   2016/04/25   Initial version(xu peidong)
+//
+//
+//
+////////////////////////////////////////////////////////////////////////////////
+
+
+module rx_bus_control(
+    //------------------------------------------
+    //--  Global Reset, active low
+    //------------------------------------------
+    input reset                                     ,
+    //------------------------------------------
+    //--  Global clocks
+    //------------------------------------------
+    input clk                                       ,
+    //------------------------------------------
+    //--  local download RAM
+    //------------------------------------------
+    output reg lddb_wren                            ,
+    output reg [23:0]lddb_waddr                     ,
+    output reg [7:0]lddb_wdata                      ,
+    //------------------------------------------
+    //--  local console order RAM
+    //------------------------------------------
+    output reg lcdcb_wren                           ,
+    output reg [23:0]lcdcb_waddr                    ,
+    output reg [7:0]lcdcb_wdata                     ,
+    //------------------------------------------
+    //--  local console data  RAM
+    //------------------------------------------
+    output reg lcddb_wren                           ,
+    output reg [23:0]lcddb_waddr                    ,
+    output reg [7:0]lcddb_wdata                    ,
+    //------------------------------------------
+    //--  link interface
+    //------------------------------------------
+    input [7:0]rx_buf_rdata                         ,
+    input [1:0]rx_crc_rslt                          ,
+    input rx_start                                  ,
+    input rx_done                                   ,
+    input ini_done                                  ,
+    output reg rx_buf_rden                          ,
+    output reg [10:0]rx_buf_raddr                   ,
+    //------------------------------------------
+    //--  bus read interface
+    //------------------------------------------
+    input read_done                                 ,
+    input [7:0]DA                                   ,
+    input [7:0]FC                                   ,
+    input [7:0]MODE                                 ,
+    //------------------------------------------
+    //--  bus read_1 interface
+    //------------------------------------------
+    input addr_read_done                            ,
+    input [23:0]ADDR                                ,
+    output reg addr_read_reg                        , 
+    //------------------------------------------
+    //--  tx interface
+    //------------------------------------------
+    output reg [7:0]rx_mode                         ,
+    output reg [23:0]rx_addr                        ,
+    output reg rx_flag                              ,
+    //------------------------------------------
+    //--  input
+    //------------------------------------------
+    input [2:0]rack_id                              ,
+    input [3:0]slot_id                              ,
+    //------------------------------------------
+    //--  output
+    //------------------------------------------
+    output reg card_reset_reg                       ,
+    output reg wr_lddb_flag                         ,
+    output reg CRC_err                              ,
+    output reg [7:0]mode_reg                                 
+);
+   //=========================================================
+   // Local parameters
+   //=========================================================
+   parameter idle =4'd0;
+   parameter Judgecrc =4'd1;       
+   parameter JudgeDA  =4'd2;
+   parameter JudgeFC  =4'd3;
+   parameter Judgemode=4'd4;
+   parameter wrcmd    =4'd5;
+   parameter wrdata   =4'd6;
+   parameter delay    =4'd7;
+   parameter delay1   =4'd8;
+   parameter delay2   =4'd9;
+   //=========================================================
+   // Internal signal definition
+   //=========================================================
+   reg [3:0]state;
+   reg [3:0]next_state;
+   reg [7:0]SA;
+   reg [1:0]ini_done_edge;
+   reg [1:0]rx_done_edge;
+   reg [1:0]CRC_result;
+   reg [1:0]rx_start_edge;
+   reg [4:0]count;
+   reg [7:0]count1;
+   reg [1:0]count4;
+   reg [1:0]i;
+   reg [1:0]cnt;
+   reg [31:0]BUFF;
+   reg BEGIN;
+   reg cmd_flag;
+   reg data_flag;
+   reg delay_flag;
+   reg [7:0]rack;
+   reg [7:0]slot;
+   //=========================================================
+   //  edge detector
+   //=========================================================
+   always @(posedge clk or posedge reset)
+   begin
+     if(reset)
+       begin
+       ini_done_edge<=2'b00;
+       rx_done_edge<=2'b00;
+       end
+     else begin
+       ini_done_edge<={ini_done_edge[0],ini_done};
+       rx_done_edge<={rx_done_edge[0],rx_done};
+     end
+   end
+   //=========================================================
+   //  count
+   //=========================================================
+   always@(posedge clk)
+   begin
+   if(delay_flag && count4<2'd2)
+   count4<=count4+1'b1;
+   else 
+   count4<=2'd0;
+   end
+   
+   always@(posedge clk)
+   begin
+   if(cmd_flag && count<5'd5)
+   count<=count+1'b1;
+   else
+   count<=5'd0;
+   end
+   
+   always@(posedge clk)
+   begin
+   if(data_flag && count1<8'd128)
+   count1<=count1+1'b1;
+   else
+   count1<=8'd0;
+   end
+   //=========================================================
+   //  current state
+   //=========================================================   
+   always @(posedge clk or posedge reset)
+   begin
+     if(reset)
+       begin
+       state<=4'd0;          
+       end
+     else 
+       state<=next_state;
+   end
+   //=========================================================
+   //  next state
+   //=========================================================
+   always @(state or count or count1 or ini_done_edge or rx_done or read_done or addr_read_done or count4)
+   begin
+   case(state)
+   
+   idle:
+   begin
+   lddb_wren=1'b0;
+   lddb_waddr=23'd0;
+   lddb_wdata=8'd0;
+   lcdcb_wren=1'b0;
+   lcdcb_waddr=23'd0;
+   lcdcb_wdata=8'd0;
+   lcddb_wren=1'b0;
+   lcddb_waddr=23'd0;
+   lcddb_wdata=8'd0;
+   next_state=4'd0;
+   SA=8'd0;
+   CRC_result=2'd0;
+   cnt=2'd0;
+   i=2'd0;
+   card_reset_reg=1'b0;
+   wr_lddb_flag=1'b0;
+   CRC_err=1'b0;
+   rx_mode=8'd0;
+   cmd_flag=1'b0;
+   data_flag=1'b0;
+   delay_flag=1'b0;
+   rx_buf_rden=1'b0;
+   rx_buf_raddr=11'd0;
+   rack=8'd0;
+   slot=8'd0;
+   mode_reg=8'd0;
+   if(ini_done_edge==2'b01)
+   begin
+   slot={4'd0,slot_id};
+   rack={5'd0,rack_id}; 
+   next_state=Judgecrc;
+   end
+   end                                                                 //wait initial done
+   
+   Judgecrc:
+   begin
+     CRC_err=1'b0;
+     card_reset_reg=1'b0;
+     i=2'b00;
+     SA=(rack<<4)-(rack<<1)+8'd14-slot;
+     if(rx_done)//rx_done_edge==2'b01
+       begin
+         if(rx_crc_rslt[0])
+           next_state=JudgeDA;
+         else
+           begin
+           next_state=Judgecrc;
+           CRC_err=1'b1;
+           end
+       end
+     else
+       next_state=Judgecrc;     
+   end                                                                 //wait rx done and judge CRC result
+                   
+   JudgeDA:
+   begin
+     if(read_done)
+       begin
+         if(DA==SA||DA==8'hff)
+           next_state=JudgeFC;
+         else begin
+           next_state=Judgecrc;
+         end
+       end                                                             //wait read done and judge DA
+   end
+   
+   JudgeFC:
+   begin
+     if(FC==8'hff)
+     begin
+     if(cnt<2'd3)
+       begin
+       cnt=cnt+1'b1;
+       next_state=Judgecrc;
+       end
+     else if(cnt==2'd3)
+       begin
+         cnt=2'd0;
+         next_state=Judgecrc;
+         card_reset_reg=1'b1;                                         //give card reset signal
+       end
+     end
+     else if(FC==8'h60)
+       begin
+         cnt=1'b0;
+         next_state=Judgemode;
+       end
+     else
+       next_state=Judgecrc;                                           //judge FC 
+   end
+   
+   Judgemode:
+   begin
+     if(MODE<8'd2)
+       begin
+         i=2'd1;
+         next_state=delay;
+         addr_read_reg=1'b1;
+         mode_reg=MODE;
+       end
+     else if(MODE==8'd2)
+       begin
+         i=2'd2;
+         next_state=delay;
+         addr_read_reg=1'b1;
+         mode_reg=MODE;
+       end
+     else 
+       next_state=Judgecrc;
+   end
+     
+   wrcmd:
+   begin
+     case(i)
+       2'd1:
+       begin
+         if(count<5'd5)
+           begin
+             lcdcb_waddr=lcdcb_waddr+1'b1;
+             lcdcb_wdata=rx_buf_rdata;
+             rx_buf_raddr=rx_buf_raddr+1'b1;
+           end
+         else if(count>=5'd5)
+           begin
+             next_state=delay2;
+             lcdcb_wren=1'b0;
+             lcdcb_waddr=23'd0;
+             lcdcb_wdata=8'd0;
+             rx_buf_raddr=11'd10;
+             cmd_flag=1'b0;
+             delay_flag=1'b1;
+           end
+       end
+        
+       2'd2:
+       begin
+         wr_lddb_flag =1'b0;
+         if(count<5'd5)
+           begin
+             lddb_waddr=lddb_waddr+1'b1;
+             lddb_wdata=rx_buf_rdata;
+             rx_buf_raddr=rx_buf_raddr+1'b1;
+           end
+         else if(count>=5'd5)
+           begin
+             next_state=delay2;
+             lddb_wren=1'b0;
+             lddb_waddr=23'd0;
+             lddb_wdata=8'd0;
+             rx_buf_raddr=11'd10;
+             cmd_flag=1'b0;
+             delay_flag=1'b1;
+           end
+       end  
+       default:;
+     endcase    
+   end     
+   
+   wrdata:
+   begin
+     case(i)
+       2'd1:
+       begin
+         if(count1<8'd128)
+           begin
+           rx_buf_raddr=rx_buf_raddr+1'b1;
+           lcddb_waddr=lcddb_waddr+1'b1;
+           lcddb_wdata=rx_buf_rdata;
+           end
+         else if(count1>=8'd128)
+           begin
+           next_state=Judgecrc;
+           rx_buf_rden=1'b0;
+           rx_buf_raddr=11'b0;
+           lcddb_waddr=23'd0;
+           lcddb_wren=1'b0;
+           lcddb_wdata=8'd0;
+           data_flag=1'b0;
+           end
+       end 
+       
+       2'd2:
+       begin
+         if(count1<8'd128)
+           begin
+           rx_buf_raddr=rx_buf_raddr+1'b1;
+           lddb_waddr=lddb_waddr+1'b1;
+           lddb_wdata=rx_buf_rdata;
+           end
+         else if(count1>=8'd128)
+           begin
+           next_state=Judgecrc;
+           rx_buf_rden=1'b0;
+           rx_buf_raddr=11'b0;
+           lddb_waddr=23'd0;
+           lddb_wren=1'b0;
+           lddb_wdata=8'd0;
+           data_flag=1'b0;
+           end
+       end
+       default:;
+     endcase     
+   end 
+   
+   delay:
+   begin
+     case(i)
+     2'd1:
+     begin
+       if(addr_read_done)
+         begin
+           rx_flag=1'b1;
+           rx_mode=MODE;
+           rx_addr=ADDR;
+           next_state=delay1;
+           rx_buf_rden=1'b1;
+           rx_buf_raddr=11'd4;
+           delay_flag=1'b1;
+           addr_read_reg=1'b0;
+         end                                                                   //run and console mode
+     end
+     
+     2'd2:
+     begin
+       if(addr_read_done)
+         begin
+           rx_flag=1'b1;
+           rx_mode=MODE;
+           rx_addr=ADDR;
+           next_state=delay1;
+           addr_read_reg=1'b0;
+           rx_buf_rden=1'b1;
+           rx_buf_raddr=11'd4;
+           delay_flag=1'b1;
+         end                                                                    //download mode
+     end
+     
+     default:;
+   endcase
+   end
+   
+   delay1:
+   begin
+     case(i)
+       2'd1:
+       begin
+         rx_flag=1'b0;
+         rx_mode=8'd0;
+         rx_addr=23'd0;
+         if(count4<2'd2)
+           begin
+           rx_buf_raddr=rx_buf_raddr+1'b1;
+           end
+         else if(count4>=2'd2)
+           begin
+             rx_buf_raddr=rx_buf_raddr+1'b1;
+             lcdcb_wren=1'b1;
+             lcdcb_waddr=ADDR>>4;
+             lcdcb_wdata=rx_buf_rdata;
+             next_state=wrcmd;
+             delay_flag=1'b0;
+             cmd_flag=1'b1;
+           end
+       end
+       
+       2'd2:
+       begin
+         rx_flag=1'b0;
+         rx_mode=8'd0;
+         rx_addr=23'd0;
+         if(count4<2'd2)
+           begin
+           rx_buf_raddr=rx_buf_raddr+1'b1;
+           end
+         else if(count4>=2'd2)
+           begin
+             rx_buf_raddr=rx_buf_raddr+1'b1;
+             lddb_wren=1'b1;
+             lddb_waddr=0;
+             lddb_wdata=rx_buf_rdata;
+             next_state=wrcmd;
+             wr_lddb_flag=1'b1;
+             delay_flag=1'b0;
+             cmd_flag=1'b1;
+           end
+       end
+       default:;
+     endcase
+   end
+   
+   delay2:
+   begin
+     case(i)
+       2'd1:
+       begin
+         if(count4<2'd2)
+           begin
+           rx_buf_raddr=rx_buf_raddr+1'b1;
+           end
+         else if(count4>=2'd2)
+           begin
+             next_state=wrdata;
+             lcddb_wren=1'b1;
+             lcddb_waddr=ADDR;
+             lcddb_wdata=rx_buf_rdata;
+             rx_buf_raddr=rx_buf_raddr+1'b1;
+             delay_flag=1'b0;
+             data_flag=1'b1;
+           end
+       end
+       
+       2'd2:
+       begin
+         if(count4<2'd2)
+           begin
+           rx_buf_raddr=rx_buf_raddr+1'b1;
+           end
+         else if(count4>=2'd2)
+           begin
+             next_state=wrdata;
+             lddb_wren=1'b1;
+             lddb_waddr='d0+4'd8;
+             lddb_wdata=rx_buf_rdata;
+             rx_buf_raddr=rx_buf_raddr+1'b1;
+             delay_flag=1'b0;
+             data_flag=1'b1;
+           end
+       end
+       
+       default:;
+     endcase
+   end
+ endcase
+ end
+ 
+ endmodule

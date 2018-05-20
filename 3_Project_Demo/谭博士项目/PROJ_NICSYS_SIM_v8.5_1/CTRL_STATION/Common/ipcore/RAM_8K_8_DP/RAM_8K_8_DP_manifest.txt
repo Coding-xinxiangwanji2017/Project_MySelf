@@ -1,0 +1,12 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.5 SP2 (Version 11.5.2.6)
+
+Date      :  Mon May 09 20:56:04 2016
+Project   :  C:\Users\Administrator\Desktop\test_lvds\rx\rx_top
+Component :  RAM_8K_8_DP
+Family    :  IGLOO2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/Administrator/Desktop/test_lvds/rx/rx_top/component/work/RAM_8K_8_DP/RAM_8K_8_DP.v
+    C:/Users/Administrator/Desktop/test_lvds/rx/rx_top/component/work/RAM_8K_8_DP/RAM_8K_8_DP_0/RAM_8K_8_DP_RAM_8K_8_DP_0_DPSRAM.v
+

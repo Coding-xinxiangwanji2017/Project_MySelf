@@ -1,0 +1,430 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c)2015 CNCS Incorporated
+// All Rights Reserved
+// THIS IS UNPUBLISHED PROPRIETARY SOURCE CODE of CNCS Inc.
+// The copyright notice above does not evidence any actual or intended
+// publication of such source code.
+// No part of this code may be reproduced, stored in a retrieval system,
+// or transmitted, in any form or by any means, electronic, mechanical,
+// photocopying, recording, or otherwise, without the prior written
+// permission of CNCS
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+// Name of module : NP811_U1_C01_TOP
+// Project        : NicSys8000
+// Func           : Project TOP
+// Author         : Liu zhikai
+// Simulator      : Modelsim Microsemi 10.3c / Windows 7 32bit
+// Synthesizer    : Libero SoC v11.5 SP2 / Windows 7 32bit
+// FPGA/CPLD type : M2GL050-FG484
+// version 1.0    : made in Date: 2015.12.01
+// Modification Logs:
+// -----------------------------------------------------------------------------
+//   Version   Date         Description(Recorder)
+// -----------------------------------------------------------------------------
+//     1.0   2016/04/12   Initial version(Tan Xingye)
+//
+//
+//
+////////////////////////////////////////////////////////////////////////////////
+module area3_scan_CM(
+
+	input 	wire				clk,
+	input 	wire				rst,
+
+	input	 	wire				i_start,
+	input		wire [09:0] im_base_addr,
+	output 	reg 				o_done,
+	//维护上行数据RAM
+	output 	reg 				o_cudb_wren,
+	output 	reg [12:0] 	om_cudb_addr,
+	output 	reg [7:0] 	om_cudb_din,
+	//下行数据RAM接口
+	output 	reg [12:0] 	om_ch1_addr,
+	input		wire [7:0] 	im_ch1_rdata,
+	output 	reg [12:0] 	om_ch2_addr,
+	input		wire [7:0] 	im_ch2_rdata,
+	output 	reg [12:0] 	om_ch3_addr,
+	input		wire [7:0] 	im_ch3_rdata,
+	output 	reg [12:0] 	om_ch4_addr,
+	input		wire [7:0] 	im_ch4_rdata,
+	output 	reg [12:0] 	om_ch5_addr,
+	input		wire [7:0] 	im_ch5_rdata,
+	output 	reg [12:0] 	om_ch6_addr,
+	input		wire [7:0] 	im_ch6_rdata
+
+	
+);
+
+
+//=========================================================
+// Local parameters
+//=========================================================	
+
+	parameter s0  = 9'b0_0000_0001;
+	parameter s1  = 9'b0_0000_0010;
+	parameter s2  = 9'b0_0000_0100;
+	parameter s3  = 9'b0_0000_1000;
+	parameter s4  = 9'b0_0001_0000;
+	parameter s5  = 9'b0_0010_0000;
+	parameter s6  = 9'b0_0100_0000;
+	parameter s7  = 9'b0_1000_0000;
+	parameter s8  = 9'b1_0000_0000;
+	
+	parameter ch1_addr = 13'd2048;
+	parameter ch2_addr = 13'd3072;
+	parameter ch3_addr = 13'd4096;
+	parameter ch4_addr = 13'd5120;
+	parameter ch5_addr = 13'd6144;
+	parameter ch6_addr = 13'd7168;
+
+
+//=========================================================
+// internal signals
+//=========================================================
+
+	reg [17:0] state;
+	reg [12:0] r_addr;
+	reg [15:0] cnt;
+
+	reg ch1_rden;
+	reg ch2_rden;
+	reg ch3_rden;
+	reg ch4_rden;
+	reg ch5_rden;
+	reg ch6_rden;
+	
+	reg ch1_rden_d1;
+	reg ch1_rden_d2;
+	reg ch2_rden_d1;
+	reg ch2_rden_d2;
+	reg ch3_rden_d1;
+	reg ch3_rden_d2;
+	reg ch4_rden_d1;
+	reg ch4_rden_d2;
+	reg ch5_rden_d1;
+	reg ch5_rden_d2;
+	reg ch6_rden_d1;
+	reg ch6_rden_d2;
+	
+//=========================================================
+// fsm_1s
+//=========================================================
+
+always @ (posedge clk)
+begin
+	if(rst)
+		begin
+			state <= s0;
+			o_done <= 0;
+			ch1_rden <= 0;
+			ch2_rden <= 0;
+			ch3_rden <= 0;
+			ch4_rden <= 0;
+			ch5_rden <= 0;
+			ch6_rden <= 0;
+		end
+	else begin
+		case(state)
+			s0	:	begin
+							o_done <= 0;
+							if(i_start)
+								begin
+									state <= s1;
+								end
+							else
+								state <= s0;
+						end
+			s1	:	begin
+							cnt <= 0;
+							case(r_addr)
+								ch1_addr	:	state <= s2;
+								ch2_addr	:	state <= s3;
+								ch3_addr	:	state <= s4;
+								ch4_addr	:	state <= s5;
+								ch5_addr	:	state <= s6;
+								ch6_addr	:	state <= s7;
+								default		:	state <= s0;
+							endcase
+						end
+			s2	:	begin
+							if(cnt <= 1024)
+								begin
+									state <= s2;
+									ch1_rden <= 1;
+									cnt <= cnt + 1;
+								end
+							else begin
+								state <= s3;
+								ch1_rden <= 0;
+							end
+						end
+			s3	:	begin
+							if(cnt <= 1024)
+								begin
+									state <= s3;
+									ch2_rden <= 1;
+									cnt <= cnt + 1;
+								end
+							else begin
+								state <= s8;
+								ch2_rden <= 0;
+							end
+						end
+			s4	:	begin
+							if(cnt <= 1024)
+								begin
+									state <= s4;
+									ch3_rden <= 1;
+									cnt <= cnt + 1;
+								end
+							else begin
+								state <= s8;
+								ch3_rden <= 0;
+							end
+						end
+			s5	:	begin
+							if(cnt <= 1024)
+								begin
+									state <= s5;
+									ch4_rden <= 1;
+									cnt <= cnt + 1;
+								end
+							else begin
+								state <= s8;
+								ch4_rden <= 0;
+							end
+						end
+			s6	:	begin
+							if(cnt <= 1024)
+								begin
+									state <= s6;
+									ch5_rden <= 1;
+									cnt <= cnt + 1;
+								end
+							else begin
+								state <= s8;
+								ch5_rden <= 0;
+							end
+						end	
+			s7	:	begin
+							if(cnt <= 1024)
+								begin
+									state <= s7;
+									ch6_rden <= 1;
+									cnt <= cnt + 1;
+								end
+							else begin
+								state <= s8;
+								ch6_rden <= 0;
+							end
+						end	
+			s8	:	begin
+							state <= s0;
+							o_done <= 1;
+							cnt <= 0;
+						end
+			default :	state <= s0;
+		endcase
+	end
+end
+
+//=========================================================
+//rden delay
+//=========================================================
+
+
+always @ (posedge clk)
+begin
+	if(rst)
+		begin
+			ch1_rden_d1 <= 0;
+			ch1_rden_d2 <= 0;
+		end
+	else begin
+		ch1_rden_d1 <= ch1_rden;
+		ch1_rden_d2 <= ch1_rden_d1;
+	end
+end
+always @ (posedge clk)
+begin
+	if(rst)
+		begin
+			ch2_rden_d1 <= 0;
+			ch2_rden_d2 <= 0;
+		end
+	else begin
+		ch2_rden_d1 <= ch2_rden;
+		ch2_rden_d2 <= ch2_rden_d1;
+	end
+end
+always @ (posedge clk)
+begin
+	if(rst)
+		begin
+			ch3_rden_d1 <= 0;
+			ch3_rden_d2 <= 0;
+		end
+	else begin
+		ch3_rden_d1 <= ch3_rden;
+		ch3_rden_d2 <= ch3_rden_d1;
+	end
+end
+always @ (posedge clk)
+begin
+	if(rst)
+		begin
+			ch4_rden_d1 <= 0;
+			ch4_rden_d2 <= 0;
+		end
+	else begin
+		ch4_rden_d1 <= ch4_rden;
+		ch4_rden_d2 <= ch4_rden_d1;
+	end
+end
+always @ (posedge clk)
+begin
+	if(rst)
+		begin
+			ch5_rden_d1 <= 0;
+			ch5_rden_d2 <= 0;
+		end
+	else begin
+		ch5_rden_d1 <= ch5_rden;
+		ch5_rden_d2 <= ch5_rden_d1;
+	end
+end
+always @ (posedge clk)
+begin
+	if(rst)
+		begin
+			ch6_rden_d1 <= 0;
+			ch6_rden_d2 <= 0;
+		end
+	else begin
+		ch6_rden_d1 <= ch6_rden;
+		ch6_rden_d2 <= ch6_rden_d1;
+	end
+end
+
+
+
+//=========================================================
+//gene chn read addr
+//=========================================================
+
+always @ (posedge clk)
+begin
+	if(rst)
+		om_ch1_addr <= 0;
+	else if(ch1_rden)
+		om_ch1_addr <= om_ch1_addr + 1;
+	else
+		om_ch1_addr <= 0;
+end
+always @ (posedge clk)
+begin
+	if(rst)
+		om_ch2_addr <= 0;
+	else if(ch2_rden)
+		om_ch2_addr <= om_ch2_addr + 1;
+	else
+		om_ch2_addr <= 0;
+end
+always @ (posedge clk)
+begin
+	if(rst)
+		om_ch3_addr <= 0;
+	else if(ch3_rden)
+		om_ch3_addr <= om_ch3_addr + 1;
+	else
+		om_ch3_addr <= 0;
+end
+always @ (posedge clk)
+begin
+	if(rst)
+		om_ch4_addr <= 0;
+	else if(ch4_rden)
+		om_ch4_addr <= om_ch4_addr + 1;
+	else
+		om_ch4_addr <= 0;
+end
+always @ (posedge clk)
+begin
+	if(rst)
+		om_ch5_addr <= 0;
+	else if(ch5_rden)
+		om_ch5_addr <= om_ch5_addr + 1;
+	else
+		om_ch5_addr <= 0;
+end
+always @ (posedge clk)
+begin
+	if(rst)
+		om_ch6_addr <= 0;
+	else if(ch6_rden)
+		om_ch6_addr <= om_ch6_addr + 1;
+	else
+		om_ch6_addr <= 0;
+end
+
+//=========================================================
+// cap im_base_addr & addr convert
+//=========================================================
+always @ (posedge clk)
+begin
+	if(rst)
+		r_addr <= 0;
+	else if(i_start)
+		r_addr <= {im_base_addr[8:0],4'd0};
+end
+
+//=========================================================
+// write cudb
+//=========================================================
+
+always @ (posedge clk)
+begin
+	if(rst)
+		om_cudb_addr <= 0;
+	else if(i_start)
+		om_cudb_addr <= {im_base_addr[8:0],4'd0};
+	else if(ch1_rden_d2 | ch2_rden_d2 | ch3_rden_d2 | ch4_rden_d2 | ch5_rden_d2 | ch6_rden_d2)
+		om_cudb_addr <= om_cudb_addr + 1;
+	else
+		om_cudb_addr <= 0;
+end
+
+always @ (posedge clk)
+begin
+	if(rst)
+		o_cudb_wren <= 0;
+	else if(ch1_rden_d1 | ch2_rden_d1 | ch3_rden_d1 | ch4_rden_d1 | ch5_rden_d1 | ch6_rden_d1)
+		o_cudb_wren <= 1;
+	else
+		o_cudb_wren <= 0;
+end
+
+always @ (posedge clk)
+begin
+	if(rst)
+		om_cudb_din <= 0;
+	else if(ch1_rden_d1 | ch2_rden_d1 | ch3_rden_d1 | ch4_rden_d1 | ch5_rden_d1 | ch6_rden_d1)
+		begin
+			case(r_addr)
+				ch1_addr	:	om_cudb_din <= im_ch1_rdata;
+				ch2_addr	:	om_cudb_din <= im_ch2_rdata;
+				ch3_addr	:	om_cudb_din <= im_ch3_rdata;
+				ch4_addr	:	om_cudb_din <= im_ch4_rdata;
+				ch5_addr	:	om_cudb_din <= im_ch5_rdata;
+				ch6_addr	:	om_cudb_din <= im_ch6_rdata;
+				default		:	om_cudb_din <= 0;
+			endcase
+		end
+	else
+		om_cudb_din <= 0;
+end
+
+
+
+endmodule

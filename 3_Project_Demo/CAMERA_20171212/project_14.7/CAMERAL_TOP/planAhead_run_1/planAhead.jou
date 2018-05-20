@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue Dec 05 20:12:17 2017
+# Process ID: 10560
+# Log file: C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/pa.fromNcd.tcl

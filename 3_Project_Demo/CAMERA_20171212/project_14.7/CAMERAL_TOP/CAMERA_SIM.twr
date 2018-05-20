@@ -1,0 +1,780 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml CAMERA_SIM.twx CAMERA_SIM.ncd -o CAMERA_SIM.twr
+CAMERA_SIM.pcf
+
+Design file:              CAMERA_SIM.ncd
+Physical constraint file: CAMERA_SIM.pcf
+Device,package,speed:     xc7k325t,ffg900,C,-2 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more 
+   information, see the TSI report.  Please consult the Xilinx Command Line 
+   Tools User Guide for information on generating a TSI report.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: TS_q0_clk1_refclk_i = PERIOD TIMEGRP "q0_clk1_refclk_i" 5 ns 
+HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   1.538ns.
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_q0_clk1_refclk_i = PERIOD TIMEGRP "q0_clk1_refclk_i" 5 ns HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 3.462ns (period - min period limit)
+  Period: 5.000ns
+  Min period limit: 1.538ns (650.195MHz) (Tgtxper_GTREFCLK)
+  Physical resource: u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7_i/gtxe2_i/GTREFCLK0
+  Logical resource: u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7_i/gtxe2_i/GTREFCLK0
+  Location pin: GTXE2_CHANNEL_X0Y0.GTREFCLK1
+  Clock network: u1_top_test/u1_gtwizard_v2_7_exdes/q0_clk1_refclk_i
+--------------------------------------------------------------------------------
+Slack: 3.507ns (period - min period limit)
+  Period: 5.000ns
+  Min period limit: 1.493ns (669.792MHz) (Tgtxper_GTREFCLK)
+  Physical resource: u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gtxe2_common_0_i/GTREFCLK0
+  Logical resource: u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gtxe2_common_0_i/GTREFCLK0
+  Location pin: GTXE2_COMMON_X0Y0.GTREFCLK1
+  Clock network: u1_top_test/u1_gtwizard_v2_7_exdes/q0_clk1_refclk_i
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_drpclk_in_i = PERIOD TIMEGRP "drpclk_in_i" 10 ns HIGH 
+50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   5.714ns.
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_drpclk_in_i = PERIOD TIMEGRP "drpclk_in_i" 10 ns HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 4.286ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 5.714ns (175.009MHz) (Tgtxper_DRPCLK)
+  Physical resource: u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7_i/gtxe2_i/DRPCLK
+  Logical resource: u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7_i/gtxe2_i/DRPCLK
+  Location pin: GTXE2_CHANNEL_X0Y0.DRPCLK
+  Clock network: u1_top_test/u1_gtwizard_v2_7_exdes/drpclk_in_i
+--------------------------------------------------------------------------------
+Slack: 8.462ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 1.538ns (650.195MHz) (Tgtxper_CPLLLOCKDET)
+  Physical resource: u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7_i/gtxe2_i/CPLLLOCKDETCLK
+  Logical resource: u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7_i/gtxe2_i/CPLLLOCKDETCLK
+  Location pin: GTXE2_CHANNEL_X0Y0.CPLLLOCKDETCLK
+  Clock network: u1_top_test/u1_gtwizard_v2_7_exdes/drpclk_in_i
+--------------------------------------------------------------------------------
+Slack: 8.507ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 1.493ns (669.792MHz) (Tgtxper_QPLLLOCKDETCLK)
+  Physical resource: u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gtxe2_common_0_i/QPLLLOCKDETCLK
+  Logical resource: u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gtxe2_common_0_i/QPLLLOCKDETCLK
+  Location pin: GTXE2_COMMON_X0Y0.QPLLLOCKDETCLK
+  Clock network: u1_top_test/u1_gtwizard_v2_7_exdes/drpclk_in_i
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_gt0_txusrclk_i = PERIOD TIMEGRP "gt0_txusrclk_i" 20 ns 
+HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 8187 paths analyzed, 2040 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   3.485ns.
+--------------------------------------------------------------------------------
+
+Paths for end point u1_CMD_PROC_RX/r_frm_start (SLICE_X122Y148.A6), 26 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     16.515ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7_i/gtxe2_i (HSIO)
+  Destination:          u1_CMD_PROC_RX/r_frm_start (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      3.325ns (Levels of Logic = 5)
+  Clock Path Skew:      -0.125ns (1.228 - 1.353)
+  Source Clock:         u1_top_test/u1_gtwizard_v2_7_exdes/gt0_txusrclk_i rising at 0.000ns
+  Destination Clock:    u1_top_test/u1_gtwizard_v2_7_exdes/gt0_txusrclk_i rising at 20.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7_i/gtxe2_i to u1_CMD_PROC_RX/r_frm_start
+    Location                   Delay type         Delay(ns)  Physical Resource
+                                                             Logical Resource(s)
+    -------------------------------------------------------  -------------------
+    GTXE2_CHANNEL_X0Y0.RXDATA5 Tgtxcko_RXDATA        1.009   u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7_i/gtxe2_i
+                                                             u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7_i/gtxe2_i
+    SLICE_X135Y151.D1          net (fanout=3)        1.097   w_RX_DATA<5>
+    SLICE_X135Y151.D           Tilo                  0.043   u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o2
+                                                             u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o2
+    SLICE_X135Y151.C6          net (fanout=1)        0.191   u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o2
+    SLICE_X135Y151.C           Tilo                  0.043   u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o2
+                                                             u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o3
+    SLICE_X133Y150.D4          net (fanout=1)        0.334   u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o3
+    SLICE_X133Y150.D           Tilo                  0.043   u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gt0_txresetfsm_i/cplllock_sync
+                                                             u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o4
+    SLICE_X133Y150.C5          net (fanout=1)        0.150   u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o4
+    SLICE_X133Y150.C           Tilo                  0.043   u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gt0_txresetfsm_i/cplllock_sync
+                                                             u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o5
+    SLICE_X122Y148.A6          net (fanout=1)        0.393   u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o5
+    SLICE_X122Y148.CLK         Tas                  -0.021   u1_CMD_PROC_RX/r_frm_start
+                                                             u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o7
+                                                             u1_CMD_PROC_RX/r_frm_start
+    -------------------------------------------------------  ---------------------------
+    Total                                            3.325ns (1.160ns logic, 2.165ns route)
+                                                             (34.9% logic, 65.1% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     16.519ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7_i/gtxe2_i (HSIO)
+  Destination:          u1_CMD_PROC_RX/r_frm_start (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      3.321ns (Levels of Logic = 5)
+  Clock Path Skew:      -0.125ns (1.228 - 1.353)
+  Source Clock:         u1_top_test/u1_gtwizard_v2_7_exdes/gt0_txusrclk_i rising at 0.000ns
+  Destination Clock:    u1_top_test/u1_gtwizard_v2_7_exdes/gt0_txusrclk_i rising at 20.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7_i/gtxe2_i to u1_CMD_PROC_RX/r_frm_start
+    Location                   Delay type         Delay(ns)  Physical Resource
+                                                             Logical Resource(s)
+    -------------------------------------------------------  -------------------
+    GTXE2_CHANNEL_X0Y0.RXDATA0 Tgtxcko_RXDATA        1.009   u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7_i/gtxe2_i
+                                                             u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7_i/gtxe2_i
+    SLICE_X135Y151.D2          net (fanout=3)        1.093   w_RX_DATA<0>
+    SLICE_X135Y151.D           Tilo                  0.043   u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o2
+                                                             u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o2
+    SLICE_X135Y151.C6          net (fanout=1)        0.191   u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o2
+    SLICE_X135Y151.C           Tilo                  0.043   u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o2
+                                                             u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o3
+    SLICE_X133Y150.D4          net (fanout=1)        0.334   u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o3
+    SLICE_X133Y150.D           Tilo                  0.043   u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gt0_txresetfsm_i/cplllock_sync
+                                                             u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o4
+    SLICE_X133Y150.C5          net (fanout=1)        0.150   u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o4
+    SLICE_X133Y150.C           Tilo                  0.043   u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gt0_txresetfsm_i/cplllock_sync
+                                                             u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o5
+    SLICE_X122Y148.A6          net (fanout=1)        0.393   u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o5
+    SLICE_X122Y148.CLK         Tas                  -0.021   u1_CMD_PROC_RX/r_frm_start
+                                                             u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o7
+                                                             u1_CMD_PROC_RX/r_frm_start
+    -------------------------------------------------------  ---------------------------
+    Total                                            3.321ns (1.160ns logic, 2.161ns route)
+                                                             (34.9% logic, 65.1% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     16.740ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7_i/gtxe2_i (HSIO)
+  Destination:          u1_CMD_PROC_RX/r_frm_start (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      3.100ns (Levels of Logic = 5)
+  Clock Path Skew:      -0.125ns (1.228 - 1.353)
+  Source Clock:         u1_top_test/u1_gtwizard_v2_7_exdes/gt0_txusrclk_i rising at 0.000ns
+  Destination Clock:    u1_top_test/u1_gtwizard_v2_7_exdes/gt0_txusrclk_i rising at 20.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7_i/gtxe2_i to u1_CMD_PROC_RX/r_frm_start
+    Location                   Delay type         Delay(ns)  Physical Resource
+                                                             Logical Resource(s)
+    -------------------------------------------------------  -------------------
+    GTXE2_CHANNEL_X0Y0.RXDATA3 Tgtxcko_RXDATA        1.009   u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7_i/gtxe2_i
+                                                             u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7_i/gtxe2_i
+    SLICE_X135Y151.D5          net (fanout=3)        0.872   w_RX_DATA<3>
+    SLICE_X135Y151.D           Tilo                  0.043   u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o2
+                                                             u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o2
+    SLICE_X135Y151.C6          net (fanout=1)        0.191   u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o2
+    SLICE_X135Y151.C           Tilo                  0.043   u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o2
+                                                             u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o3
+    SLICE_X133Y150.D4          net (fanout=1)        0.334   u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o3
+    SLICE_X133Y150.D           Tilo                  0.043   u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gt0_txresetfsm_i/cplllock_sync
+                                                             u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o4
+    SLICE_X133Y150.C5          net (fanout=1)        0.150   u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o4
+    SLICE_X133Y150.C           Tilo                  0.043   u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gt0_txresetfsm_i/cplllock_sync
+                                                             u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o5
+    SLICE_X122Y148.A6          net (fanout=1)        0.393   u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o5
+    SLICE_X122Y148.CLK         Tas                  -0.021   u1_CMD_PROC_RX/r_frm_start
+                                                             u1_CMD_PROC_RX/r_RXCTRL_d1[1]_r_RX_DATA_d1[15]_AND_19_o7
+                                                             u1_CMD_PROC_RX/r_frm_start
+    -------------------------------------------------------  ---------------------------
+    Total                                            3.100ns (1.160ns logic, 1.940ns route)
+                                                             (37.4% logic, 62.6% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/Mshreg_rx_data_r_track_15 (SLICE_X138Y148.DX), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     17.374ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/rx_data_r3_15 (FF)
+  Destination:          u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/Mshreg_rx_data_r_track_15 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      2.643ns (Levels of Logic = 0)
+  Clock Path Skew:      0.052ns (1.234 - 1.182)
+  Source Clock:         u1_top_test/u1_gtwizard_v2_7_exdes/gt0_txusrclk_i rising at 0.000ns
+  Destination Clock:    u1_top_test/u1_gtwizard_v2_7_exdes/gt0_txusrclk_i rising at 20.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/rx_data_r3_15 to u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/Mshreg_rx_data_r_track_15
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X137Y150.DQ    Tcko                  0.223   u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/rx_data_r3<15>
+                                                       u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/rx_data_r3_15
+    SLICE_X138Y148.DX    net (fanout=1)        2.386   u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/rx_data_r3<15>
+    SLICE_X138Y148.CLK   Tds                   0.034   u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/rx_data_r_track_151
+                                                       u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/Mshreg_rx_data_r_track_15
+    -------------------------------------------------  ---------------------------
+    Total                                      2.643ns (0.257ns logic, 2.386ns route)
+                                                       (9.7% logic, 90.3% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point u1_CMD_PROC_RX/CMD_ShutDown (SLICE_X98Y146.A2), 43 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     17.402ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               u1_CMD_PROC_RX/Reg_OpCode_1_6 (FF)
+  Destination:          u1_CMD_PROC_RX/CMD_ShutDown (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      2.511ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.052ns (0.561 - 0.613)
+  Source Clock:         u1_top_test/u1_gtwizard_v2_7_exdes/gt0_txusrclk_i rising at 0.000ns
+  Destination Clock:    u1_top_test/u1_gtwizard_v2_7_exdes/gt0_txusrclk_i rising at 20.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: u1_CMD_PROC_RX/Reg_OpCode_1_6 to u1_CMD_PROC_RX/CMD_ShutDown
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X104Y143.CMUX  Tshcko                0.317   u1_CMD_PROC_RX/Reg_OpCode_1<3>
+                                                       u1_CMD_PROC_RX/Reg_OpCode_1_6
+    SLICE_X104Y147.A2    net (fanout=1)        0.757   u1_CMD_PROC_RX/Reg_OpCode_1<6>
+    SLICE_X104Y147.A     Tilo                  0.043   u1_CMD_PROC_RX/Reg_OpCode_1<15>
+                                                       u1_CMD_PROC_RX/r_frm_end_d3_Reg_OpCode_1[15]_AND_39_o1_SW0
+    SLICE_X104Y145.C1    net (fanout=1)        0.455   N240
+    SLICE_X104Y145.CMUX  Topcc                 0.271   u1_CMD_PROC_RX/CMD_Cfg_Done
+                                                       u1_CMD_PROC_RX/r_frm_end_d3_Reg_OpCode_1[15]_AND_39_o1_lut
+                                                       u1_CMD_PROC_RX/r_frm_end_d3_Reg_OpCode_1[15]_AND_35_o_cy
+    SLICE_X98Y146.A2     net (fanout=9)        0.689   u1_CMD_PROC_RX/r_frm_end_d3_Reg_OpCode_1[15]_AND_35_o1
+    SLICE_X98Y146.CLK    Tas                  -0.021   u1_CMD_PROC_RX/CMD_ShutDown
+                                                       u1_CMD_PROC_RX/r_frm_end_d3_Reg_OpCode_1[15]_AND_39_o
+                                                       u1_CMD_PROC_RX/CMD_ShutDown
+    -------------------------------------------------  ---------------------------
+    Total                                      2.511ns (0.610ns logic, 1.901ns route)
+                                                       (24.3% logic, 75.7% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     17.663ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               u1_CMD_PROC_RX/Reg_OpCode_1_3 (FF)
+  Destination:          u1_CMD_PROC_RX/CMD_ShutDown (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      2.250ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.052ns (0.561 - 0.613)
+  Source Clock:         u1_top_test/u1_gtwizard_v2_7_exdes/gt0_txusrclk_i rising at 0.000ns
+  Destination Clock:    u1_top_test/u1_gtwizard_v2_7_exdes/gt0_txusrclk_i rising at 20.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: u1_CMD_PROC_RX/Reg_OpCode_1_3 to u1_CMD_PROC_RX/CMD_ShutDown
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X104Y143.DQ    Tcko                  0.259   u1_CMD_PROC_RX/Reg_OpCode_1<3>
+                                                       u1_CMD_PROC_RX/Reg_OpCode_1_3
+    SLICE_X104Y147.A1    net (fanout=1)        0.554   u1_CMD_PROC_RX/Reg_OpCode_1<3>
+    SLICE_X104Y147.A     Tilo                  0.043   u1_CMD_PROC_RX/Reg_OpCode_1<15>
+                                                       u1_CMD_PROC_RX/r_frm_end_d3_Reg_OpCode_1[15]_AND_39_o1_SW0
+    SLICE_X104Y145.C1    net (fanout=1)        0.455   N240
+    SLICE_X104Y145.CMUX  Topcc                 0.271   u1_CMD_PROC_RX/CMD_Cfg_Done
+                                                       u1_CMD_PROC_RX/r_frm_end_d3_Reg_OpCode_1[15]_AND_39_o1_lut
+                                                       u1_CMD_PROC_RX/r_frm_end_d3_Reg_OpCode_1[15]_AND_35_o_cy
+    SLICE_X98Y146.A2     net (fanout=9)        0.689   u1_CMD_PROC_RX/r_frm_end_d3_Reg_OpCode_1[15]_AND_35_o1
+    SLICE_X98Y146.CLK    Tas                  -0.021   u1_CMD_PROC_RX/CMD_ShutDown
+                                                       u1_CMD_PROC_RX/r_frm_end_d3_Reg_OpCode_1[15]_AND_39_o
+                                                       u1_CMD_PROC_RX/CMD_ShutDown
+    -------------------------------------------------  ---------------------------
+    Total                                      2.250ns (0.552ns logic, 1.698ns route)
+                                                       (24.5% logic, 75.5% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     17.777ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               u1_CMD_PROC_RX/Reg_OpCode_1_14 (FF)
+  Destination:          u1_CMD_PROC_RX/CMD_ShutDown (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      2.135ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.053ns (0.561 - 0.614)
+  Source Clock:         u1_top_test/u1_gtwizard_v2_7_exdes/gt0_txusrclk_i rising at 0.000ns
+  Destination Clock:    u1_top_test/u1_gtwizard_v2_7_exdes/gt0_txusrclk_i rising at 20.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: u1_CMD_PROC_RX/Reg_OpCode_1_14 to u1_CMD_PROC_RX/CMD_ShutDown
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X104Y147.CQ    Tcko                  0.259   u1_CMD_PROC_RX/Reg_OpCode_1<15>
+                                                       u1_CMD_PROC_RX/Reg_OpCode_1_14
+    SLICE_X104Y147.A4    net (fanout=1)        0.439   u1_CMD_PROC_RX/Reg_OpCode_1<14>
+    SLICE_X104Y147.A     Tilo                  0.043   u1_CMD_PROC_RX/Reg_OpCode_1<15>
+                                                       u1_CMD_PROC_RX/r_frm_end_d3_Reg_OpCode_1[15]_AND_39_o1_SW0
+    SLICE_X104Y145.C1    net (fanout=1)        0.455   N240
+    SLICE_X104Y145.CMUX  Topcc                 0.271   u1_CMD_PROC_RX/CMD_Cfg_Done
+                                                       u1_CMD_PROC_RX/r_frm_end_d3_Reg_OpCode_1[15]_AND_39_o1_lut
+                                                       u1_CMD_PROC_RX/r_frm_end_d3_Reg_OpCode_1[15]_AND_35_o_cy
+    SLICE_X98Y146.A2     net (fanout=9)        0.689   u1_CMD_PROC_RX/r_frm_end_d3_Reg_OpCode_1[15]_AND_35_o1
+    SLICE_X98Y146.CLK    Tas                  -0.021   u1_CMD_PROC_RX/CMD_ShutDown
+                                                       u1_CMD_PROC_RX/r_frm_end_d3_Reg_OpCode_1[15]_AND_39_o
+                                                       u1_CMD_PROC_RX/CMD_ShutDown
+    -------------------------------------------------  ---------------------------
+    Total                                      2.135ns (0.552ns logic, 1.583ns route)
+                                                       (25.9% logic, 74.1% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: TS_gt0_txusrclk_i = PERIOD TIMEGRP "gt0_txusrclk_i" 20 ns HIGH 50%;
+--------------------------------------------------------------------------------
+
+Paths for end point u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/begin_r (SLICE_X139Y149.B1), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.044ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/start_of_packet_detected_r (FF)
+  Destination:          u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/begin_r (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.310ns (Levels of Logic = 1)
+  Clock Path Skew:      0.266ns (0.798 - 0.532)
+  Source Clock:         u1_top_test/u1_gtwizard_v2_7_exdes/gt0_txusrclk_i rising at 20.000ns
+  Destination Clock:    u1_top_test/u1_gtwizard_v2_7_exdes/gt0_txusrclk_i rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/start_of_packet_detected_r to u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/begin_r
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X140Y150.CQ    Tcko                  0.100   u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/start_of_packet_detected_r
+                                                       u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/start_of_packet_detected_r
+    SLICE_X139Y149.B1    net (fanout=11)       0.252   u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/start_of_packet_detected_r
+    SLICE_X139Y149.CLK   Tah         (-Th)     0.042   u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/track_data_r
+                                                       u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/next_begin_c1
+                                                       u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/begin_r
+    -------------------------------------------------  ---------------------------
+    Total                                      0.310ns (0.058ns logic, 0.252ns route)
+                                                       (18.7% logic, 81.3% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/track_data_r (SLICE_X139Y149.B1), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.054ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/start_of_packet_detected_r (FF)
+  Destination:          u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/track_data_r (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.320ns (Levels of Logic = 1)
+  Clock Path Skew:      0.266ns (0.798 - 0.532)
+  Source Clock:         u1_top_test/u1_gtwizard_v2_7_exdes/gt0_txusrclk_i rising at 20.000ns
+  Destination Clock:    u1_top_test/u1_gtwizard_v2_7_exdes/gt0_txusrclk_i rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/start_of_packet_detected_r to u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/track_data_r
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X140Y150.CQ    Tcko                  0.100   u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/start_of_packet_detected_r
+                                                       u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/start_of_packet_detected_r
+    SLICE_X139Y149.B1    net (fanout=11)       0.252   u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/start_of_packet_detected_r
+    SLICE_X139Y149.CLK   Tah         (-Th)     0.032   u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/track_data_r
+                                                       u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/next_track_data_c1
+                                                       u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/track_data_r
+    -------------------------------------------------  ---------------------------
+    Total                                      0.320ns (0.068ns logic, 0.252ns route)
+                                                       (21.3% logic, 78.8% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/rx_data_r_track_4 (SLICE_X142Y148.SR), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.057ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/system_reset_r (FF)
+  Destination:          u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/rx_data_r_track_4 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.323ns (Levels of Logic = 0)
+  Clock Path Skew:      0.266ns (0.798 - 0.532)
+  Source Clock:         u1_top_test/u1_gtwizard_v2_7_exdes/gt0_txusrclk_i rising at 20.000ns
+  Destination Clock:    u1_top_test/u1_gtwizard_v2_7_exdes/gt0_txusrclk_i rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/system_reset_r to u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/rx_data_r_track_4
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X140Y151.BQ    Tcko                  0.100   u1_top_test/u1_gtwizard_v2_7_exdes/gt0_rxresetdone_r3
+                                                       u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/system_reset_r
+    SLICE_X142Y148.SR    net (fanout=12)       0.229   u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/system_reset_r
+    SLICE_X142Y148.CLK   Tcksr       (-Th)     0.006   u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/rx_data_r_track<7>
+                                                       u1_top_test/u1_gtwizard_v2_7_exdes/gt0_frame_check/rx_data_r_track_4
+    -------------------------------------------------  ---------------------------
+    Total                                      0.323ns (0.094ns logic, 0.229ns route)
+                                                       (29.1% logic, 70.9% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_gt0_txusrclk_i = PERIOD TIMEGRP "gt0_txusrclk_i" 20 ns HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 16.970ns (period - min period limit)
+  Period: 20.000ns
+  Min period limit: 3.030ns (330.033MHz) (Tgtxper_RXUSRCLK(Trx))
+  Physical resource: u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7_i/gtxe2_i/RXUSRCLK
+  Logical resource: u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7_i/gtxe2_i/RXUSRCLK
+  Location pin: GTXE2_CHANNEL_X0Y0.RXUSRCLK
+  Clock network: u1_top_test/u1_gtwizard_v2_7_exdes/gt0_txusrclk_i
+--------------------------------------------------------------------------------
+Slack: 16.970ns (period - min period limit)
+  Period: 20.000ns
+  Min period limit: 3.030ns (330.033MHz) (Tgtxper_RXUSRCLK2(Trx2))
+  Physical resource: u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7_i/gtxe2_i/RXUSRCLK2
+  Logical resource: u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7_i/gtxe2_i/RXUSRCLK2
+  Location pin: GTXE2_CHANNEL_X0Y0.RXUSRCLK2
+  Clock network: u1_top_test/u1_gtwizard_v2_7_exdes/gt0_txusrclk_i
+--------------------------------------------------------------------------------
+Slack: 16.970ns (period - min period limit)
+  Period: 20.000ns
+  Min period limit: 3.030ns (330.033MHz) (Tgtxper_TXUSRCLK(Ttx))
+  Physical resource: u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7_i/gtxe2_i/TXUSRCLK
+  Logical resource: u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7_i/gtxe2_i/TXUSRCLK
+  Location pin: GTXE2_CHANNEL_X0Y0.TXUSRCLK
+  Clock network: u1_top_test/u1_gtwizard_v2_7_exdes/gt0_txusrclk_i
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_clk_bufg_100m = PERIOD TIMEGRP "clk_bufg_100m" 10 ns HIGH 
+50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 13744 paths analyzed, 3758 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   5.902ns.
+--------------------------------------------------------------------------------
+
+Paths for end point u1_sram_controller/i_m_sram_wr_ctrl/sram2_wr_data_out_16 (SLICE_X0Y309.SR), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     4.098ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               u1_clk_ctrl/locked (FF)
+  Destination:          u1_sram_controller/i_m_sram_wr_ctrl/sram2_wr_data_out_16 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      5.778ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.050ns (1.464 - 1.514)
+  Source Clock:         w_CLK_100M rising at 0.000ns
+  Destination Clock:    w_CLK_100M rising at 10.000ns
+  Clock Uncertainty:    0.074ns
+
+  Clock Uncertainty:          0.074ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.129ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: u1_clk_ctrl/locked to u1_sram_controller/i_m_sram_wr_ctrl/sram2_wr_data_out_16
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X5Y129.CQ      Tcko                  0.223   u1_clk_ctrl/locked
+                                                       u1_clk_ctrl/locked
+    SLICE_X4Y176.D4      net (fanout=21)       1.472   u1_clk_ctrl/locked
+    SLICE_X4Y176.D       Tilo                  0.043   u1_flash_control/read_inst/fifo_wr
+                                                       u1_data_move/rst1
+    SLICE_X0Y309.SR      net (fanout=321)      3.828   u1_CMD_PROC_RX/rst_n_inv
+    SLICE_X0Y309.CLK     Trck                  0.212   u1_sram_controller/i_m_sram_wr_ctrl/sram2_wr_data_out<23>
+                                                       u1_sram_controller/i_m_sram_wr_ctrl/sram2_wr_data_out_16
+    -------------------------------------------------  ---------------------------
+    Total                                      5.778ns (0.478ns logic, 5.300ns route)
+                                                       (8.3% logic, 91.7% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point u1_sram_controller/i_m_sram_wr_ctrl/sram2_wr_data_out_20 (SLICE_X0Y309.SR), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     4.098ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               u1_clk_ctrl/locked (FF)
+  Destination:          u1_sram_controller/i_m_sram_wr_ctrl/sram2_wr_data_out_20 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      5.778ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.050ns (1.464 - 1.514)
+  Source Clock:         w_CLK_100M rising at 0.000ns
+  Destination Clock:    w_CLK_100M rising at 10.000ns
+  Clock Uncertainty:    0.074ns
+
+  Clock Uncertainty:          0.074ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.129ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: u1_clk_ctrl/locked to u1_sram_controller/i_m_sram_wr_ctrl/sram2_wr_data_out_20
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X5Y129.CQ      Tcko                  0.223   u1_clk_ctrl/locked
+                                                       u1_clk_ctrl/locked
+    SLICE_X4Y176.D4      net (fanout=21)       1.472   u1_clk_ctrl/locked
+    SLICE_X4Y176.D       Tilo                  0.043   u1_flash_control/read_inst/fifo_wr
+                                                       u1_data_move/rst1
+    SLICE_X0Y309.SR      net (fanout=321)      3.828   u1_CMD_PROC_RX/rst_n_inv
+    SLICE_X0Y309.CLK     Trck                  0.212   u1_sram_controller/i_m_sram_wr_ctrl/sram2_wr_data_out<23>
+                                                       u1_sram_controller/i_m_sram_wr_ctrl/sram2_wr_data_out_20
+    -------------------------------------------------  ---------------------------
+    Total                                      5.778ns (0.478ns logic, 5.300ns route)
+                                                       (8.3% logic, 91.7% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point u1_sram_controller/i_m_sram_wr_ctrl/sram2_wr_data_out_17 (SLICE_X0Y309.SR), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     4.098ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               u1_clk_ctrl/locked (FF)
+  Destination:          u1_sram_controller/i_m_sram_wr_ctrl/sram2_wr_data_out_17 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      5.778ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.050ns (1.464 - 1.514)
+  Source Clock:         w_CLK_100M rising at 0.000ns
+  Destination Clock:    w_CLK_100M rising at 10.000ns
+  Clock Uncertainty:    0.074ns
+
+  Clock Uncertainty:          0.074ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.129ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: u1_clk_ctrl/locked to u1_sram_controller/i_m_sram_wr_ctrl/sram2_wr_data_out_17
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X5Y129.CQ      Tcko                  0.223   u1_clk_ctrl/locked
+                                                       u1_clk_ctrl/locked
+    SLICE_X4Y176.D4      net (fanout=21)       1.472   u1_clk_ctrl/locked
+    SLICE_X4Y176.D       Tilo                  0.043   u1_flash_control/read_inst/fifo_wr
+                                                       u1_data_move/rst1
+    SLICE_X0Y309.SR      net (fanout=321)      3.828   u1_CMD_PROC_RX/rst_n_inv
+    SLICE_X0Y309.CLK     Trck                  0.212   u1_sram_controller/i_m_sram_wr_ctrl/sram2_wr_data_out<23>
+                                                       u1_sram_controller/i_m_sram_wr_ctrl/sram2_wr_data_out_17
+    -------------------------------------------------  ---------------------------
+    Total                                      5.778ns (0.478ns logic, 5.300ns route)
+                                                       (8.3% logic, 91.7% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: TS_clk_bufg_100m = PERIOD TIMEGRP "clk_bufg_100m" 10 ns HIGH 50%;
+--------------------------------------------------------------------------------
+
+Paths for end point u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gt0_txresetfsm_i/cplllock_ris_edge (SLICE_X133Y149.A4), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.025ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gt0_txresetfsm_i/sync_cplllock/data_sync_reg (FF)
+  Destination:          u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gt0_txresetfsm_i/cplllock_ris_edge (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.291ns (Levels of Logic = 1)
+  Clock Path Skew:      0.266ns (0.797 - 0.531)
+  Source Clock:         u1_top_test/u1_gtwizard_v2_7_exdes/drpclk_in_i rising at 10.000ns
+  Destination Clock:    u1_top_test/u1_gtwizard_v2_7_exdes/drpclk_in_i rising at 10.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gt0_txresetfsm_i/sync_cplllock/data_sync_reg to u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gt0_txresetfsm_i/cplllock_ris_edge
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X133Y150.BQ    Tcko                  0.100   u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gt0_txresetfsm_i/cplllock_sync
+                                                       u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gt0_txresetfsm_i/sync_cplllock/data_sync_reg
+    SLICE_X133Y149.A4    net (fanout=2)        0.223   u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gt0_txresetfsm_i/cplllock_sync
+    SLICE_X133Y149.CLK   Tah         (-Th)     0.032   u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gt0_txresetfsm_i/cplllock_ris_edge
+                                                       u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gt0_txresetfsm_i/cplllock_ris_edge_rstpot1
+                                                       u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gt0_txresetfsm_i/cplllock_ris_edge
+    -------------------------------------------------  ---------------------------
+    Total                                      0.291ns (0.068ns logic, 0.223ns route)
+                                                       (23.4% logic, 76.6% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point u1_flash_control/flash_fifo_rd/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/SDP.SIMPLE_PRIM36.ram (RAMB36_X0Y41.ADDRBWRADDRL6), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.045ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               u1_flash_control/flash_fifo_rd/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_3 (FF)
+  Destination:          u1_flash_control/flash_fifo_rd/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/SDP.SIMPLE_PRIM36.ram (RAM)
+  Requirement:          0.000ns
+  Data Path Delay:      0.090ns (Levels of Logic = 0)
+  Clock Path Skew:      0.045ns (0.109 - 0.064)
+  Source Clock:         w_CLK_100M rising at 10.000ns
+  Destination Clock:    w_CLK_100M rising at 10.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: u1_flash_control/flash_fifo_rd/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_3 to u1_flash_control/flash_fifo_rd/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/SDP.SIMPLE_PRIM36.ram
+    Location                   Delay type         Delay(ns)  Physical Resource
+                                                             Logical Resource(s)
+    -------------------------------------------------------  -------------------
+    SLICE_X8Y207.DQ            Tcko                  0.118   u1_flash_control/flash_fifo_rd/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1<3>
+                                                             u1_flash_control/flash_fifo_rd/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_3
+    RAMB36_X0Y41.ADDRBWRADDRL6 net (fanout=6)        0.155   u1_flash_control/flash_fifo_rd/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1<3>
+    RAMB36_X0Y41.CLKBWRCLKL    Trckc_ADDRB (-Th)     0.183   u1_flash_control/flash_fifo_rd/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/SDP.SIMPLE_PRIM36.ram
+                                                             u1_flash_control/flash_fifo_rd/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/SDP.SIMPLE_PRIM36.ram
+    -------------------------------------------------------  ---------------------------
+    Total                                            0.090ns (-0.065ns logic, 0.155ns route)
+                                                             (-72.2% logic, 172.2% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point u1_flash_control/flash_fifo_rd/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/SDP.SIMPLE_PRIM36.ram (RAMB36_X0Y41.ADDRBWRADDRU6), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.045ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               u1_flash_control/flash_fifo_rd/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_3 (FF)
+  Destination:          u1_flash_control/flash_fifo_rd/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/SDP.SIMPLE_PRIM36.ram (RAM)
+  Requirement:          0.000ns
+  Data Path Delay:      0.090ns (Levels of Logic = 0)
+  Clock Path Skew:      0.045ns (0.109 - 0.064)
+  Source Clock:         w_CLK_100M rising at 10.000ns
+  Destination Clock:    w_CLK_100M rising at 10.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: u1_flash_control/flash_fifo_rd/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_3 to u1_flash_control/flash_fifo_rd/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/SDP.SIMPLE_PRIM36.ram
+    Location                   Delay type         Delay(ns)  Physical Resource
+                                                             Logical Resource(s)
+    -------------------------------------------------------  -------------------
+    SLICE_X8Y207.DQ            Tcko                  0.118   u1_flash_control/flash_fifo_rd/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1<3>
+                                                             u1_flash_control/flash_fifo_rd/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_3
+    RAMB36_X0Y41.ADDRBWRADDRU6 net (fanout=6)        0.155   u1_flash_control/flash_fifo_rd/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1<3>
+    RAMB36_X0Y41.CLKBWRCLKU    Trckc_ADDRB (-Th)     0.183   u1_flash_control/flash_fifo_rd/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/SDP.SIMPLE_PRIM36.ram
+                                                             u1_flash_control/flash_fifo_rd/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/SDP.SIMPLE_PRIM36.ram
+    -------------------------------------------------------  ---------------------------
+    Total                                            0.090ns (-0.065ns logic, 0.155ns route)
+                                                             (-72.2% logic, 172.2% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_clk_bufg_100m = PERIOD TIMEGRP "clk_bufg_100m" 10 ns HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 4.286ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 5.714ns (175.009MHz) (Tgtxper_DRPCLK)
+  Physical resource: u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7_i/gtxe2_i/DRPCLK
+  Logical resource: u1_top_test/u1_gtwizard_v2_7_exdes/gtwizard_v2_7_init_i/gtwizard_v2_7_i/gt0_gtwizard_v2_7_i/gtxe2_i/DRPCLK
+  Location pin: GTXE2_CHANNEL_X0Y0.DRPCLK
+  Clock network: u1_top_test/u1_gtwizard_v2_7_exdes/drpclk_in_i
+--------------------------------------------------------------------------------
+Slack: 8.161ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 1.839ns (543.774MHz) (Trper_CLKA)
+  Physical resource: u1_data_move/fifo_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/SDP.SIMPLE_PRIM36.ram/CLKARDCLKL
+  Logical resource: u1_data_move/fifo_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/SDP.SIMPLE_PRIM36.ram/CLKARDCLKL
+  Location pin: RAMB36_X0Y47.CLKARDCLKL
+  Clock network: w_CLK_100M
+--------------------------------------------------------------------------------
+Slack: 8.161ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 1.839ns (543.774MHz) (Trper_CLKA)
+  Physical resource: u1_data_move/fifo_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/SDP.SIMPLE_PRIM36.ram/CLKARDCLKU
+  Logical resource: u1_data_move/fifo_inst/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/SDP.SIMPLE_PRIM36.ram/CLKARDCLKU
+  Location pin: RAMB36_X0Y47.CLKARDCLKU
+  Clock network: w_CLK_100M
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock SYS_CLK_100M_N
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+SYS_CLK_100M_N |    5.902|         |         |         |
+SYS_CLK_100M_P |    5.902|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SYS_CLK_100M_P
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+SYS_CLK_100M_N |    5.902|         |         |         |
+SYS_CLK_100M_P |    5.902|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 21931 paths, 0 nets, and 5205 connections
+
+Design statistics:
+   Minimum period:   5.902ns{1}   (Maximum frequency: 169.434MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Mon Aug 22 12:45:54 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 889 MB
+
+
+

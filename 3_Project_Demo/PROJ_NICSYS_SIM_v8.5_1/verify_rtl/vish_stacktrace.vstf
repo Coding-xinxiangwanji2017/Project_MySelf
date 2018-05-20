@@ -1,0 +1,243 @@
+# Current time Fri Apr 29 14:59:25 2016
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.2"
+# Version = "2013.02"
+# Date = "Feb  2 2013"
+# Platform = win64
+
+Exception c0000005 has occurred at address 4029254c. Traceback:
+# 0    0x4029254c: 'Ucdb_Init + 0x8c8c'
+# 1    0x401d28da: 'Mtirpc_Init + 0xe724a'
+# 2    0x401b81a7: 'Mtirpc_Init + 0xccb17'
+StackWalk failed 0
+# End of Stack Trace
+
+# Current time Fri Apr 29 20:56:20 2016
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.2"
+# Version = "2013.02"
+# Date = "Feb  2 2013"
+# Platform = win64
+
+Exception c0000005 has occurred at address 4022519f. Traceback:
+# 0    0x4022519f: 'Mtirpc_Init + 0x139b0f'
+# 1    0x40226548: 'Mtirpc_Init + 0x13aeb8'
+# 2    0x029d7d70: '<unknown (@0x29d7d70)>'
+# 3    0x00000002: '<unknown (@0x2)>'
+# 4    0x407a31d0: 'Sqlite_SafeUnload + 0x287c70'
+# 5    0x0dc67cd0: '<unknown (@0xdc67cd0)>'
+StackWalk failed 487
+# End of Stack Trace
+
+# Current time Wed May 04 16:44:50 2016
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.2"
+# Version = "2013.02"
+# Date = "Feb  2 2013"
+# Platform = win64
+
+Exception c0000005 has occurred at address 4029254c. Traceback:
+# 0    0x4029254c: 'Ucdb_Init + 0x8c8c'
+# 1    0x401d28da: 'Mtirpc_Init + 0xe724a'
+# 2    0x401b81a7: 'Mtirpc_Init + 0xccb17'
+StackWalk failed 0
+# End of Stack Trace
+
+# Current time Wed May 04 16:48:04 2016
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.2"
+# Version = "2013.02"
+# Date = "Feb  2 2013"
+# Platform = win64
+
+Exception c0000005 has occurred at address 4029254c. Traceback:
+# 0    0x4029254c: 'Ucdb_Init + 0x8c8c'
+# 1    0x401d28da: 'Mtirpc_Init + 0xe724a'
+# 2    0x401b81a7: 'Mtirpc_Init + 0xccb17'
+StackWalk failed 0
+# End of Stack Trace
+
+# Current time Wed May 04 16:52:11 2016
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.2"
+# Version = "2013.02"
+# Date = "Feb  2 2013"
+# Platform = win64
+
+Exception c0000005 has occurred at address 4029254c. Traceback:
+# 0    0x4029254c: 'Ucdb_Init + 0x8c8c'
+# 1    0x401d28da: 'Mtirpc_Init + 0xe724a'
+# 2    0x401b81a7: 'Mtirpc_Init + 0xccb17'
+StackWalk failed 0
+# End of Stack Trace
+
+# Current time Wed May 04 17:03:17 2016
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.2"
+# Version = "2013.02"
+# Date = "Feb  2 2013"
+# Platform = win64
+
+Exception c0000005 has occurred at address 4029254c. Traceback:
+# 0    0x4029254c: 'Ucdb_Init + 0x8c8c'
+# 1    0x401d28da: 'Mtirpc_Init + 0xe724a'
+# 2    0x401b81a7: 'Mtirpc_Init + 0xccb17'
+StackWalk failed 0
+# End of Stack Trace
+
+# Current time Wed May 04 18:16:57 2016
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.2"
+# Version = "2013.02"
+# Date = "Feb  2 2013"
+# Platform = win64
+
+Exception c0000005 has occurred at address 4029254c. Traceback:
+# 0    0x4029254c: 'Ucdb_Init + 0x8c8c'
+# 1    0x401d28da: 'Mtirpc_Init + 0xe724a'
+# 2    0x401b81a7: 'Mtirpc_Init + 0xccb17'
+StackWalk failed 0
+# End of Stack Trace
+
+# Current time Thu May 05 11:47:15 2016
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.2"
+# Version = "2013.02"
+# Date = "Feb  2 2013"
+# Platform = win64
+
+Exception c0000005 has occurred at address 4029254c. Traceback:
+# 0    0x4029254c: 'Ucdb_Init + 0x8c8c'
+# 1    0x401d28da: 'Mtirpc_Init + 0xe724a'
+# 2    0x401b81a7: 'Mtirpc_Init + 0xccb17'
+StackWalk failed 0
+# End of Stack Trace
+
+# Current time Thu May 05 14:07:25 2016
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.2"
+# Version = "2013.02"
+# Date = "Feb  2 2013"
+# Platform = win64
+
+Exception c0000005 has occurred at address 4029254c. Traceback:
+# 0    0x4029254c: 'Ucdb_Init + 0x8c8c'
+# 1    0x401d28da: 'Mtirpc_Init + 0xe724a'
+# 2    0x401b81a7: 'Mtirpc_Init + 0xccb17'
+StackWalk failed 0
+# End of Stack Trace
+
+# Current time Thu May 05 15:31:01 2016
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.2"
+# Version = "2013.02"
+# Date = "Feb  2 2013"
+# Platform = win64
+
+Exception c0000005 has occurred at address 4029254c. Traceback:
+# 0    0x4029254c: 'Ucdb_Init + 0x8c8c'
+# 1    0x401d28da: 'Mtirpc_Init + 0xe724a'
+# 2    0x401b81a7: 'Mtirpc_Init + 0xccb17'
+StackWalk failed 0
+# End of Stack Trace
+
+# Current time Thu May 12 15:19:37 2016
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.2"
+# Version = "2013.02"
+# Date = "Feb  2 2013"
+# Platform = win64
+
+Exception c0000005 has occurred at address 102e192c. Traceback:
+# 0    0x102e192c: 'Tk_HandleEvent + 0x27c'
+# 1    0x102528be: 'Tk_MapWindow + 0x12e'
+# 2    0x102cb2e2: 'Tk_PostscriptImage + 0x4052'
+# 3    0x100b7d6c: 'TclServiceIdle + 0x6c'
+# 4    0x06adfd20: '<unknown (@0x6adfd20)>'
+# 5    0x66666667: '<unknown (@0x66666667)>'
+# 6    0x05698080: '<unknown (@0x5698080)>'
+# 7    0x100b7d0c: 'TclServiceIdle + 0xc'
+# 8    0x10095e41: 'Tcl_DoOneEvent + 0x181'
+# 9    0xfffffffd: '<unknown (@0xfffffffd)>'
+# 10   0x00000001: '<unknown (@0x1)>'
+# 11   0x01d1a6b0: '<unknown (@0x1d1a6b0)>'
+# 12   0xfffffffd: '<unknown (@0xfffffffd)>'
+# 13   0x00000003: '<unknown (@0x3)>'
+# 14   0x02ab93f0: '<unknown (@0x2ab93f0)>'
+StackWalk failed 487
+# End of Stack Trace
+
+# Current time Thu May 12 15:19:37 2016
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.2"
+# Version = "2013.02"
+# Date = "Feb  2 2013"
+# Platform = win64
+
+Exception c0000005 has occurred at address 102e192c. Traceback:
+# 0    0x102e192c: 'Tk_HandleEvent + 0x27c'
+# 1    0x102e0120: 'TkCreateThreadExitHandler + 0x270'
+# 2    0x10095a12: 'Tcl_ServiceEvent + 0xd2'
+# 3    0x02a678a0: '<unknown (@0x2a678a0)>'
+# 4    0x0000000c: '<unknown (@0xc)>'
+# 5    0x001fd480: '<unknown (@0x1fd480)>'
+# 6    0x10095955: 'Tcl_ServiceEvent + 0x15'
+# 7    0x10095d8b: 'Tcl_DoOneEvent + 0xcb'
+# 8    0x0000000c: '<unknown (@0xc)>'
+StackWalk failed 487
+# End of Stack Trace
+
+# Current time Thu May 12 15:19:37 2016
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.2"
+# Version = "2013.02"
+# Date = "Feb  2 2013"
+# Platform = win64
+
+Exception c0000005 has occurred at address 102e192c. Traceback:
+# 0    0x102e192c: 'Tk_HandleEvent + 0x27c'
+# 1    0x102e0120: 'TkCreateThreadExitHandler + 0x270'
+# 2    0x10095a12: 'Tcl_ServiceEvent + 0xd2'
+# 3    0x02a678a0: '<unknown (@0x2a678a0)>'
+# 4    0x0000000c: '<unknown (@0xc)>'
+# 5    0x001fd480: '<unknown (@0x1fd480)>'
+# 6    0x10095955: 'Tcl_ServiceEvent + 0x15'
+# 7    0x10095d8b: 'Tcl_DoOneEvent + 0xcb'
+# 8    0x0000000c: '<unknown (@0xc)>'
+StackWalk failed 487
+# End of Stack Trace
+
+# Current time Thu May 12 15:19:37 2016
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.2"
+# Version = "2013.02"
+# Date = "Feb  2 2013"
+# Platform = win64
+
+Exception c0000005 has occurred at address 102e192c. Traceback:
+# 0    0x102e192c: 'Tk_HandleEvent + 0x27c'
+# 1    0x102e0120: 'TkCreateThreadExitHandler + 0x270'
+# 2    0x10095a12: 'Tcl_ServiceEvent + 0xd2'
+# 3    0x02a678a0: '<unknown (@0x2a678a0)>'
+# 4    0x0000000c: '<unknown (@0xc)>'
+# 5    0x001fd480: '<unknown (@0x1fd480)>'
+# 6    0x10095955: 'Tcl_ServiceEvent + 0x15'
+# 7    0x10095d8b: 'Tcl_DoOneEvent + 0xcb'
+# 8    0x0000000c: '<unknown (@0xc)>'
+StackWalk failed 487
+# End of Stack Trace
+

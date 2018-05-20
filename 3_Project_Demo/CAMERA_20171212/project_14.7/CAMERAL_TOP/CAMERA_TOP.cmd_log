@@ -1,0 +1,765 @@
+xst -intstyle ise -ifn "D:/project/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "D:/project/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "D:/project/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "D:/project/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "D:/project/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "D:/project/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -nt timestamp -uc D:/project/CAMERA_TOP6/ucf/top_test.ucf -uc D:/project/CAMERA_TOP6/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+xst -intstyle ise -ifn "D:/project/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "D:/project/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -nt timestamp -uc D:/project/CAMERA_TOP6/ucf/top_test.ucf -uc D:/project/CAMERA_TOP6/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ipcore_dir -nt timestamp -uc C:/Users/Blackman/Desktop/CAMERA_TOP6/ucf/top_test.ucf -uc C:/Users/Blackman/Desktop/CAMERA_TOP6/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+xst -intstyle ise -ifn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ipcore_dir -nt timestamp -uc C:/Users/Blackman/Desktop/CAMERA_TOP6/ucf/top_test.ucf -uc C:/Users/Blackman/Desktop/CAMERA_TOP6/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+xst -intstyle ise -ifn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ipcore_dir -nt timestamp -uc C:/Users/Blackman/Desktop/CAMERA_TOP6/ucf/top_test.ucf -uc C:/Users/Blackman/Desktop/CAMERA_TOP6/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ipcore_dir -nt timestamp -uc C:/Users/Blackman/Desktop/CAMERA_TOP6/ucf/top_test.ucf -uc C:/Users/Blackman/Desktop/CAMERA_TOP6/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+xst -intstyle ise -ifn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ipcore_dir -nt timestamp -uc C:/Users/Blackman/Desktop/CAMERA_TOP6/ucf/top_test.ucf -uc C:/Users/Blackman/Desktop/CAMERA_TOP6/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ipcore_dir -nt timestamp -uc C:/Users/Blackman/Desktop/CAMERA_TOP6/ucf/top_test.ucf -uc C:/Users/Blackman/Desktop/CAMERA_TOP6/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ipcore_dir -nt timestamp -uc C:/Users/Blackman/Desktop/CAMERA_TOP6/ucf/top_test.ucf -uc C:/Users/Blackman/Desktop/CAMERA_TOP6/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+xst -intstyle ise -ifn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ipcore_dir -nt timestamp -uc C:/Users/Blackman/Desktop/CAMERA_TOP6/ucf/top_test.ucf -uc C:/Users/Blackman/Desktop/CAMERA_TOP6/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ipcore_dir -nt timestamp -uc C:/Users/Blackman/Desktop/CAMERA_TOP6/ucf/top_test.ucf -uc C:/Users/Blackman/Desktop/CAMERA_TOP6/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ipcore_dir -nt timestamp -uc C:/Users/Blackman/Desktop/CAMERA_TOP6/ucf/top_test.ucf -uc C:/Users/Blackman/Desktop/CAMERA_TOP6/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ipcore_dir -nt timestamp -uc C:/Users/Blackman/Desktop/CAMERA_TOP6/ucf/top_test.ucf -uc C:/Users/Blackman/Desktop/CAMERA_TOP6/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ipcore_dir -nt timestamp -uc C:/Users/Blackman/Desktop/CAMERA_TOP6/ucf/top_test.ucf -uc C:/Users/Blackman/Desktop/CAMERA_TOP6/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ipcore_dir -nt timestamp -uc C:/Users/Blackman/Desktop/CAMERA_TOP6/ucf/top_test.ucf -uc C:/Users/Blackman/Desktop/CAMERA_TOP6/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Blackman/Desktop/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ipcore_dir -nt timestamp -uc C:/Users/Blackman/Desktop/CAMERA_TOP6/ucf/top_test.ucf -uc C:/Users/Blackman/Desktop/CAMERA_TOP6/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ipcore_dir -nt timestamp -uc E:/WORK/project/CAMERA_TOP6/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ipcore_dir -nt timestamp -uc E:/WORK/project/CAMERA_TOP6/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.1/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6.1/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.1/ucf/CAMERA.ucf -uc E:/WORK/project/CAMERA_TOP6.1/ucf/top_test.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.1/ucf/CAMERA.ucf -uc E:/WORK/project/CAMERA_TOP6.1/ucf/top_test.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.1/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6.1/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.1/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6.1/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.1/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6.1/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.1/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6.1/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.1/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6.1/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.1/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6.1/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.1/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6.1/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.1/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.1/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6.1/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.2/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.2/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.2/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.2/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.2/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6.2/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.2/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.2/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.2/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6.2/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.2/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.2/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.2/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6.2/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.2/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.2/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.2/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6.2/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.2/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.2/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.2/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.2/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.2/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6.2/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+pin2ucf -o CAMERA_TOP_locked.ucf CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.2/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.2/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.2/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6.2/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.2/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.2/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.2/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6.2/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.2/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.2/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.2/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6.2/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.3/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.3/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.3/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6.3/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.3/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.3/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.3/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6.3/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.3/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.3/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.3/ucf/CAMERA.ucf -uc E:/WORK/project/CAMERA_TOP6.3/ucf/top_test.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.5/ucf/CAMERA.ucf -uc E:/WORK/project/CAMERA_TOP6.5/ucf/top_test.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.5/ucf/CAMERA.ucf -uc E:/WORK/project/CAMERA_TOP6.5/ucf/top_test.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.5/ucf/CAMERA.ucf -uc E:/WORK/project/CAMERA_TOP6.5/ucf/top_test.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.5/ucf/CAMERA.ucf -uc E:/WORK/project/CAMERA_TOP6.5/ucf/top_test.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.5/ucf/CAMERA.ucf -uc E:/WORK/project/CAMERA_TOP6.5/ucf/top_test.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.5/ucf/CAMERA.ucf -uc E:/WORK/project/CAMERA_TOP6.5/ucf/top_test.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.5/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6.5/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.5/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6.5/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.5/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6.5/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.5/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6.5/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.5/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6.5/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.5/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6.5/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.5/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6.5/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.5/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6.5/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/WORK/project/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc E:/WORK/project/CAMERA_TOP6.5/ucf/top_test.ucf -uc E:/WORK/project/CAMERA_TOP6.5/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/CAMERA_TOP6.5/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/CAMERA_TOP6.5/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/CAMERA_TOP6.5/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/work/project/CAMERA_TOP6.5_20171123/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/work/project/CAMERA_TOP6.5_20171123/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc E:/work/project/CAMERA_TOP6.5_20171123/ucf/CAMERA.ucf -uc E:/work/project/CAMERA_TOP6.5_20171123/ucf/top_test.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+xst -intstyle ise -ifn "E:/work/project/CAMERA_TOP6.5_20171123/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/work/project/CAMERA_TOP6.5_20171123/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "E:/work/project/CAMERA_TOP6.5_20171123/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/work/project/CAMERA_TOP6.5_20171123/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc E:/work/project/CAMERA_TOP6.5_20171123/ucf/top_test.ucf -uc E:/work/project/CAMERA_TOP6.5_20171123/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/work/project/CAMERA_TOP6.5_20171123/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/work/project/CAMERA_TOP6.5_20171123/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc E:/work/project/CAMERA_TOP6.5_20171123/ucf/CAMERA.ucf -uc E:/work/project/CAMERA_TOP6.5_20171123/ucf/top_test.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/work/project/cameral_project/CAMERA_TOP6.5_2017114/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/work/project/cameral_project/CAMERA_TOP6.5_2017114/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "E:/work/project/cameral_project/CAMERA_TOP6.5_2017114/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/work/project/cameral_project/CAMERA_TOP6.5_2017114/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "E:/work/project/cameral_project/CAMERA_TOP6.5_2017114/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/work/project/cameral_project/CAMERA_TOP6.5_2017114/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "E:/work/project/cameral_project/CAMERA_TOP6.5_2017114/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/work/project/cameral_project/CAMERA_TOP6.5_2017114/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc E:/work/project/cameral_project/CAMERA_TOP6.5_2017114/ucf/top_test.ucf -uc E:/work/project/cameral_project/CAMERA_TOP6.5_2017114/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/work/project/cameral_project/CAMERA_TOP6.5_2017114/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/work/project/cameral_project/CAMERA_TOP6.5_2017114/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "E:/work/project/cameral_project/CAMERA_TOP6.5_2017114/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/work/project/cameral_project/CAMERA_TOP6.5_2017114/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "E:/work/project/cameral_project/CAMERA_TOP6.5_2017114/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/work/project/cameral_project/CAMERA_TOP6.5_2017114/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc E:/work/project/cameral_project/CAMERA_TOP6.5_2017114/ucf/top_test.ucf -uc E:/work/project/cameral_project/CAMERA_TOP6.5_2017114/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/work/project/cameral_project/CAMERA_TOP6.5_2017114/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/work/project/cameral_project/CAMERA_TOP6.5_2017114/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc E:/work/project/cameral_project/CAMERA_TOP6.5_2017114/ucf/top_test.ucf -uc E:/work/project/cameral_project/CAMERA_TOP6.5_2017114/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/work/project/cameral_project/CAMERA_TOP6.5_20171127_frame_test/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/work/project/cameral_project/CAMERA_TOP6.5_20171127_frame_test/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc E:/work/project/cameral_project/CAMERA_TOP6.5_20171127_frame_test/ucf/top_test.ucf -uc E:/work/project/cameral_project/CAMERA_TOP6.5_20171127_frame_test/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/work/project/cameral_project/CAMERA_TOP6.5_20171127_frame_test/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/work/project/cameral_project/CAMERA_TOP6.5_20171127_frame_test/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "E:/work/project/cameral_project/CAMERA_TOP6.5_20171127_frame_test/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/work/project/cameral_project/CAMERA_TOP6.5_20171127_frame_test/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc E:/work/project/cameral_project/CAMERA_TOP6.5_20171127_frame_test/ucf/top_test.ucf -uc E:/work/project/cameral_project/CAMERA_TOP6.5_20171127_frame_test/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/work/project/cameral_project/CAMERA_TOP6.5_20171127_frame_test/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/work/project/cameral_project/CAMERA_TOP6.5_20171127_frame_test/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc E:/work/project/cameral_project/CAMERA_TOP6.5_20171127_frame_test/ucf/top_test.ucf -uc E:/work/project/cameral_project/CAMERA_TOP6.5_20171127_frame_test/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/work/project/cameral_project/CAMERA_TOP6.5_20171127_frame_test/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/work/project/cameral_project/CAMERA_TOP6.5_20171127_frame_test/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc E:/work/project/cameral_project/CAMERA_TOP6.5_20171127_frame_test/ucf/top_test.ucf -uc E:/work/project/cameral_project/CAMERA_TOP6.5_20171127_frame_test/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/work/project/cameral_project/CAMERA_TOP6.5_20171127_frame_test/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/work/project/cameral_project/CAMERA_TOP6.5_20171127_frame_test/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc E:/work/project/cameral_project/CAMERA_TOP6.5_20171127_frame_test/ucf/top_test.ucf -uc E:/work/project/cameral_project/CAMERA_TOP6.5_20171127_frame_test/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "E:/work/project/cameral_project/CAMERA_TOP6.5_20171127_frame_test/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "E:/work/project/cameral_project/CAMERA_TOP6.5_20171127_frame_test/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc E:/work/project/cameral_project/CAMERA_TOP6.5_20171127_frame_test/ucf/top_test.ucf -uc E:/work/project/cameral_project/CAMERA_TOP6.5_20171127_frame_test/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test/ucf/CAMERA.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test/ucf/top_test.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test/ucf/CAMERA.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test/ucf/top_test.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171127_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171201_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171206_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171206_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171206_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171206_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171206_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171206_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171206_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171206_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171206_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171206_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171206_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171206_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171206_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171206_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171206_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171206_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171206_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171206_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171206_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171206_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171206_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171206_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171206_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171206_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171206_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171206_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171208_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171208_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171208_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171208_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.xst" -ofn "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -sd ../../ipcore_verilog/GTX -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/ucf/top_test.ucf -uc C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_TOP.ngc CAMERA_TOP.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_TOP_map.ncd CAMERA_TOP.ngd CAMERA_TOP.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_TOP_map.ncd CAMERA_TOP.ncd CAMERA_TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_TOP.twx CAMERA_TOP.ncd -o CAMERA_TOP.twr CAMERA_TOP.pcf 
+bitgen -intstyle ise -f CAMERA_TOP.ut CAMERA_TOP.ncd 

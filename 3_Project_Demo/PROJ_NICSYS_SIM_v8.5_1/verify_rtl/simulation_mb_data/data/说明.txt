@@ -1,0 +1,23 @@
+控制器下载FRAM2包+维护2包
+AFPGA(FRAM)：AI ID25 初始化数据CH1-CH16 0x01000000~0x02000000~++~0x20000000; 通道enable diagENABLE 电流 诊断周期 1ms 均值 2次平均
+             DI ID26 初始化数据CH1-CH16 0x0100                               去抖时间3ms  诊断周期1s
+             CM811TX（CH1）ID49      0x0100                                  00-03-00(stationID SlotID   portID)
+             AO初始化数据  ID27    CH1-CH8  0x0001~0x0002~++~0x0008;         通道enable diagENABLE 电流 诊断周期 1ms 
+             DO初始化数据  ID28    CH1-CH16 0x01~0x00~0x01~0x00。。。        诊断周期1s
+             CM811RX       ID50   0x0200
+             VAR           Timer  0x0300 
+             
+强制         CM811TX（CH1）ID49      0x0100 -〉0x0500           
+             DI ID26 初始化数据CH16  0x0100 -〉0x00AA
+保存         VAR           Timer  0x0400 
+
+
+请求         AI ID25 数据CH1-CH16 DI ID26 CH1
+
+
+
+AI811      强制第一通道数据FFFF 保存诊断周期2ms 将电流强制为电压  请求所有通道采集数据
+AO811      强制第一通道数据FFFF   请求所有通道采集数据   保存诊断周期2ms 将电流强制为电压 
+DI811      强制第一二通道数据为0  请求所有通道采集数据   保存诊断周期2ms  将去抖时间强制为4ms
+DI811      强制第一二通道数据为0  请求所有通道采集数据   保存诊断周期2ms  
+CM811      两个ID均请求第一报数据（128B）

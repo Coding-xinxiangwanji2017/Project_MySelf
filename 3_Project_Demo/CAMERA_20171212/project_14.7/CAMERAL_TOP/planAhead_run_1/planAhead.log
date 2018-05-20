@@ -1,0 +1,404 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue Dec 05 20:12:17 2017
+# Process ID: 10560
+# Log file: C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+INFO: [Common 17-81] Feature available: PartialReconfiguration
+source C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/pa.fromNcd.tcl
+# create_project -name CAMERAL_TOP -dir "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/planAhead_run_2" -part xc7k325tffg900-2
+# set srcset [get_property srcset [current_run -impl]]
+# set_property design_mode GateLvl $srcset
+# set_property edif_top_file "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP} {../../hdl/data_move} {../../hdl/data_send} {../../hdl/data_tx} {../../hdl/TOE} {../../ipcore_verilog/RAM_4096_16_SDP} {../../ipcore_verilog/GTX} {ipcore_dir} }
+# add_files [list {ipcore_dir/flash_fifo_4k_16.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/icon.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/ICON1.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/ICON2.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/icon_i.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/ICON_TOP.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/ila.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/ILA1.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/vio.ncf}] -fileset [get_property constrset [current_run]]
+# set_property target_constrs_file "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/CAMERA.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/CAMERA.ucf' to fileset 'constrs_1'
+# add_files [list {C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/CAMERA.ucf}] -fileset [get_property constrset [current_run]]
+# add_files [list {C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/top_test.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc7k325tffg900-2
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design CAMERA_TOP.ngc ...
+WARNING:NetListWriters:298 - No output is written to CAMERA_TOP.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_toe_app/rx_toe/rx_ctrl/rx_type<4 : 0> on block CAMERA_TOP is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_control/r_write_num<2 : 0> on block
+   CAMERA_TOP is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus u1_CAMERA_SIM/u1_CMD_PROC_TX/TX_DATA<15
+   : 0> on block CAMERA_TOP is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/cmd_wr_addr<24 : 0> on block
+   CAMERA_TOP is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/bread/rd_length<11 : 4> on block
+   CAMERA_TOP is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/bread/wr_data<5 : 0> on block
+   CAMERA_TOP is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/bread/wr_addr<15 : 0> on block
+   CAMERA_TOP is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/erase/wr_data<6 : 0> on block
+   CAMERA_TOP is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/erase/GND_108_o_GND_108_o_mux_66_OU
+   T<6 : 0> on block CAMERA_TOP is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/prog/r_length<7 : 2> on block
+   CAMERA_TOP is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/bread/GND_128_o_GND_128_o_mux_62_OU
+   T<5 : 0> on block CAMERA_TOP is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/bread/GND_128_o_GND_128_o_mux_47_OU
+   T<15 : 0> on block CAMERA_TOP is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/bread/GND_128_o_r_length[16]_mux_53
+   _OUT<11 : 4> on block CAMERA_TOP is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/bread/r_length<11 : 4> on block
+   CAMERA_TOP is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/cmd/sread/Madd_GND_157_o_r_length[1
+   6]_add_23_OUT_cy<4 : 0> on block CAMERA_TOP is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/cmd/sread/Madd_GND_157_o_r_length[1
+   6]_add_23_OUT_lut<4 : 0> on block CAMERA_TOP is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/cmd/sread/GND_157_o_r_length[16]_ad
+   d_23_OUT<11 : 0> on block CAMERA_TOP is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/cmd/sread/GND_157_o_r_length[16]_ad
+   d_17_OUT<11 : 2> on block CAMERA_TOP is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/cmd/sread/r_length<11 : 0> on block
+   CAMERA_TOP is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_CMD_PROC_TX/tx_state[3]_GND_12_o_wide_mux_13_OUT<15 : 0> on
+   block CAMERA_TOP is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_toe_app/tx_toe/tx_control/type<7 : 0> on block CAMERA_TOP is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_toe_app/tx_toe/tx_control/type[7]_rx_type[7]_mux_26_OUT<7 :
+   0> on block CAMERA_TOP is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_gtwizard_v2_7_exdes/shared_vio_out_i<31 : 27> on block CAMERA_TOP is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_gtwizard_v2_7_exdes/gt0_frame_check/_n0136<24 : 16> on block CAMERA_TOP is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_gtwizard_v2_7_exdes/gt0_frame_check/rx_data_ram_r<28 : 16> on block
+   CAMERA_TOP is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file CAMERA_TOP.edif ...
+ngc2edif: Total memory usage is 94304 kilobytes
+
+Parsing EDIF File [./planAhead_run_2/CAMERAL_TOP.data/cache/CAMERA_TOP_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_2/CAMERAL_TOP.data/cache/CAMERA_TOP_ngc_zx.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design data_vio.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file data_vio.edif ...
+ngc2edif: Total memory usage is 84512 kilobytes
+
+Reading core file 'C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ipcore_verilog/GTX/data_vio.ngc' for (cell view 'data_vio', library 'CAMERA_TOP_lib', file 'CAMERA_TOP.ngc')
+Parsing EDIF File [./planAhead_run_2/CAMERAL_TOP.data/cache/data_vio_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_2/CAMERAL_TOP.data/cache/data_vio_ngc_zx.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design fifo_4096_32.ngc ...
+WARNING:NetListWriters:298 - No output is written to fifo_4096_32.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file fifo_4096_32.edif ...
+ngc2edif: Total memory usage is 82848 kilobytes
+
+Reading core file 'C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/hdl/data_tx/fifo_4096_32.ngc' for (cell view 'fifo_4096_32', library 'CAMERA_TOP_lib', file 'CAMERA_TOP.ngc')
+Parsing EDIF File [./planAhead_run_2/CAMERAL_TOP.data/cache/fifo_4096_32_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_2/CAMERAL_TOP.data/cache/fifo_4096_32_ngc_zx.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design vio.ngc ...
+WARNING:NetListWriters:298 - No output is written to vio.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file vio.edif ...
+ngc2edif: Total memory usage is 82848 kilobytes
+
+Reading core file 'C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/ipcore_dir/vio.ngc' for (cell view 'vio', library 'CAMERA_TOP_lib', file 'CAMERA_TOP.ngc')
+Parsing EDIF File [./planAhead_run_2/CAMERAL_TOP.data/cache/vio_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_2/CAMERAL_TOP.data/cache/vio_ngc_zx.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design ila.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block ila is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block ila is not
+   reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file ila.edif ...
+ngc2edif: Total memory usage is 86112 kilobytes
+
+Reading core file 'C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ipcore_verilog/GTX/ila.ngc' for (cell view 'ila', library 'CAMERA_TOP_lib', file 'CAMERA_TOP.ngc')
+Parsing EDIF File [./planAhead_run_2/CAMERAL_TOP.data/cache/ila_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_2/CAMERAL_TOP.data/cache/ila_ngc_zx.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design RAM_4096_16_SDP.ngc ...
+WARNING:NetListWriters:298 - No output is written to RAM_4096_16_SDP.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file RAM_4096_16_SDP.edif ...
+ngc2edif: Total memory usage is 81440 kilobytes
+
+Reading core file 'C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ipcore_verilog/RAM_4096_16_SDP/RAM_4096_16_SDP.ngc' for (cell view 'RAM_4096_16_SDP', library 'CAMERA_TOP_lib', file 'CAMERA_TOP.ngc')
+Parsing EDIF File [./planAhead_run_2/CAMERAL_TOP.data/cache/RAM_4096_16_SDP_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_2/CAMERAL_TOP.data/cache/RAM_4096_16_SDP_ngc_zx.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design ILA1.ngc ...
+WARNING:NetListWriters:298 - No output is written to ILA1.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block ILA1 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block ILA1 is not
+   reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file ILA1.edif ...
+ngc2edif: Total memory usage is 106016 kilobytes
+
+Reading core file 'C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/ipcore_dir/ILA1.ngc' for (cell view 'ILA1', library 'CAMERA_TOP_lib', file 'CAMERA_TOP.ngc')
+Parsing EDIF File [./planAhead_run_2/CAMERAL_TOP.data/cache/ILA1_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_2/CAMERAL_TOP.data/cache/ILA1_ngc_zx.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design fifo.ngc ...
+WARNING:NetListWriters:298 - No output is written to fifo.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file fifo.edif ...
+ngc2edif: Total memory usage is 82464 kilobytes
+
+Reading core file 'C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/hdl/data_move/fifo.ngc' for (cell view 'fifo', library 'CAMERA_TOP_lib', file 'CAMERA_TOP.ngc')
+Parsing EDIF File [./planAhead_run_2/CAMERAL_TOP.data/cache/fifo_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_2/CAMERAL_TOP.data/cache/fifo_ngc_zx.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design rom_64_8_sdp.ngc ...
+WARNING:NetListWriters:298 - No output is written to rom_64_8_sdp.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file rom_64_8_sdp.edif ...
+ngc2edif: Total memory usage is 81440 kilobytes
+
+Reading core file 'C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/hdl/TOE/rom_64_8_sdp.ngc' for (cell view 'rom_64_8_sdp', library 'CAMERA_TOP_lib', file 'CAMERA_TOP.ngc')
+Parsing EDIF File [./planAhead_run_2/CAMERAL_TOP.data/cache/rom_64_8_sdp_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_2/CAMERAL_TOP.data/cache/rom_64_8_sdp_ngc_zx.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design flash_fifo_4k_16.ngc ...
+WARNING:NetListWriters:298 - No output is written to flash_fifo_4k_16.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file flash_fifo_4k_16.edif ...
+ngc2edif: Total memory usage is 82464 kilobytes
+
+Reading core file 'C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/ipcore_dir/flash_fifo_4k_16.ngc' for (cell view 'flash_fifo_4k_16', library 'CAMERA_TOP_lib', file 'CAMERA_TOP.ngc')
+Parsing EDIF File [./planAhead_run_2/CAMERAL_TOP.data/cache/flash_fifo_4k_16_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_2/CAMERAL_TOP.data/cache/flash_fifo_4k_16_ngc_zx.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design ICON_TOP.ngc ...
+WARNING:NetListWriters:298 - No output is written to ICON_TOP.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   ICON_TOP is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file ICON_TOP.edif ...
+ngc2edif: Total memory usage is 82912 kilobytes
+
+Reading core file 'C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/ipcore_dir/ICON_TOP.ngc' for (cell view 'ICON_TOP', library 'CAMERA_TOP_lib', file 'CAMERA_TOP.ngc')
+Parsing EDIF File [./planAhead_run_2/CAMERAL_TOP.data/cache/ICON_TOP_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_2/CAMERAL_TOP.data/cache/ICON_TOP_ngc_zx.edif]
+INFO: [Netlist 29-17] Analyzing 12965 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/kintex7/kintex7/xc7k325t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/kintex7/kintex7/xc7k325t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/kintex7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/kintex7/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/kintex7/kintex7/xc7k325t/ffg900/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/kintex7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/kintex7/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/kintex7/drc.xml
+Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/ipcore_dir/flash_fifo_4k_16.ncf]
+Finished Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/ipcore_dir/flash_fifo_4k_16.ncf]
+Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/ipcore_dir/flash_fifo_4k_16.ncf]
+Finished Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/ipcore_dir/flash_fifo_4k_16.ncf]
+Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/ipcore_dir/ICON_TOP.ncf]
+Finished Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/ipcore_dir/ICON_TOP.ncf]
+Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/ipcore_dir/ila.ncf]
+Finished Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/ipcore_dir/ila.ncf]
+Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/ipcore_dir/ILA1.ncf]
+Finished Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/ipcore_dir/ILA1.ncf]
+Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/ipcore_dir/vio.ncf]
+Finished Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/ipcore_dir/vio.ncf]
+Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/.Xil/PlanAhead-10560-USER-20170214RQ/ngc2edif/data_vio.xncf]
+Finished Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/.Xil/PlanAhead-10560-USER-20170214RQ/ngc2edif/data_vio.xncf]
+Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/.Xil/PlanAhead-10560-USER-20170214RQ/ngc2edif/data_vio.xncf]
+Finished Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/.Xil/PlanAhead-10560-USER-20170214RQ/ngc2edif/data_vio.xncf]
+Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/.Xil/PlanAhead-10560-USER-20170214RQ/ngc2edif/data_vio.xncf]
+Finished Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/.Xil/PlanAhead-10560-USER-20170214RQ/ngc2edif/data_vio.xncf]
+Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/.Xil/PlanAhead-10560-USER-20170214RQ/ngc2edif/data_vio.xncf]
+Finished Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/.Xil/PlanAhead-10560-USER-20170214RQ/ngc2edif/data_vio.xncf]
+Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/.Xil/PlanAhead-10560-USER-20170214RQ/ngc2edif/ila.xncf]
+Finished Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/.Xil/PlanAhead-10560-USER-20170214RQ/ngc2edif/ila.xncf]
+Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/.Xil/PlanAhead-10560-USER-20170214RQ/ngc2edif/data_vio.xncf]
+Finished Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/.Xil/PlanAhead-10560-USER-20170214RQ/ngc2edif/data_vio.xncf]
+Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/CAMERA.ucf]
+Finished Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/CAMERA.ucf]
+Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/top_test.ucf]
+Finished Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/top_test.ucf]
+Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/.Xil/PlanAhead-10560-USER-20170214RQ/ngc2edif/data_vio.xncf]
+Finished Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/.Xil/PlanAhead-10560-USER-20170214RQ/ngc2edif/data_vio.xncf]
+Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/.Xil/PlanAhead-10560-USER-20170214RQ/ngc2edif/data_vio.xncf]
+Finished Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/.Xil/PlanAhead-10560-USER-20170214RQ/ngc2edif/data_vio.xncf]
+Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/.Xil/PlanAhead-10560-USER-20170214RQ/ngc2edif/data_vio.xncf]
+Finished Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/.Xil/PlanAhead-10560-USER-20170214RQ/ngc2edif/data_vio.xncf]
+Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/.Xil/PlanAhead-10560-USER-20170214RQ/ngc2edif/ila.xncf]
+Finished Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/.Xil/PlanAhead-10560-USER-20170214RQ/ngc2edif/ila.xncf]
+Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/.Xil/PlanAhead-10560-USER-20170214RQ/ngc2edif/data_vio.xncf]
+Finished Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/.Xil/PlanAhead-10560-USER-20170214RQ/ngc2edif/data_vio.xncf]
+Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/.Xil/PlanAhead-10560-USER-20170214RQ/ngc2edif/data_vio.xncf]
+Finished Parsing UCF File [C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/.Xil/PlanAhead-10560-USER-20170214RQ/ngc2edif/data_vio.xncf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 12930 instances were transformed.
+  FD => FDCE: 2576 instances
+  FDC => FDCE: 1614 instances
+  FDC_1 => FDCE (inverted pins: C): 16 instances
+  FDE => FDCE: 3379 instances
+  FDP => FDPE: 2476 instances
+  FDR => FDRE: 556 instances
+  FDS => FDSE: 30 instances
+  IBUFGDS => IBUFDS: 4 instances
+  IOBUF => IOBUF (OBUFT, IBUF): 144 instances
+  LD => LDCE: 3 instances
+  LDC => LDCE: 24 instances
+  LDP => LDPE: 3 instances
+  MUXCY_L => MUXCY: 795 instances
+  MUXF5 => LUT3: 2 instances
+  MUXF6 => LUT3: 1 instances
+  RAMB36 => RAMB36E1: 119 instances
+  SRL16 => SRL16E: 1188 instances
+
+Phase 0 | Netlist Checksum: b0b058a6
+link_design: Time (s): elapsed = 00:01:00 . Memory (MB): peak = 986.691 ; gain = 521.656
+# read_xdl -file "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.ncd"
+Release 14.7 - xdl P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+WARNING:XDL:213 - The resulting xdl output will not have LUT equation strings or RAM INIT strings.
+Loading device for application Rf_Device from file '7k325t.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+   "CAMERA_TOP" is an NCD, version 3.2, device xc7k325t, package ffg900, speed -2
+Successfully converted design 'C:\Users\Administrator\Desktop\version\CAMERA_TOP6.5_20171205_frame_test_plus\project_14.7\CAMERAL_TOP\CAMERA_TOP.ncd' to
+'C:\Users\Administrator\Desktop\version\CAMERA_TOP6.5_20171205_frame_test_plus\project_14.7\CAMERAL_TOP\CAMERA_TOP.xdl'.
+INFO: [Designutils 20-669] Parsing Placement File : C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.ncd
+WARNING: [Designutils 20-665] Net Name: SBRAM_DQP<13>. Found in file: C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.ncd. Not Recognizable in the Context
+WARNING: [Designutils 20-665] Net Name: SBRAM_DQP<14>. Found in file: C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.ncd. Not Recognizable in the Context
+WARNING: [Designutils 20-665] Net Name: SBRAM_DQP<11>. Found in file: C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.ncd. Not Recognizable in the Context
+WARNING: [Designutils 20-665] Net Name: SBRAM_DQP<12>. Found in file: C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.ncd. Not Recognizable in the Context
+WARNING: [Designutils 20-665] Net Name: SBRAM_DQP<10>. Found in file: C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.ncd. Not Recognizable in the Context
+WARNING: [Designutils 20-665] Net Name: SBRAM_DQP<15>. Found in file: C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.ncd. Not Recognizable in the Context
+WARNING: [Designutils 20-665] Net Name: SBRAM_DQP<0>. Found in file: C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.ncd. Not Recognizable in the Context
+WARNING: [Designutils 20-665] Net Name: SBRAM_DQP<4>. Found in file: C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.ncd. Not Recognizable in the Context
+WARNING: [Designutils 20-665] Net Name: SBRAM_DQP<3>. Found in file: C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.ncd. Not Recognizable in the Context
+WARNING: [Designutils 20-665] Net Name: SBRAM_DQP<2>. Found in file: C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.ncd. Not Recognizable in the Context
+WARNING: [Designutils 20-665] Net Name: SBRAM_DQP<1>. Found in file: C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.ncd. Not Recognizable in the Context
+WARNING: [Designutils 20-665] Net Name: SBRAM_DQP<8>. Found in file: C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.ncd. Not Recognizable in the Context
+WARNING: [Designutils 20-665] Net Name: SBRAM_DQP<7>. Found in file: C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.ncd. Not Recognizable in the Context
+WARNING: [Designutils 20-665] Net Name: SBRAM_DQP<6>. Found in file: C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.ncd. Not Recognizable in the Context
+WARNING: [Designutils 20-665] Net Name: SBRAM_DQP<5>. Found in file: C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.ncd. Not Recognizable in the Context
+WARNING: [Designutils 20-665] Net Name: SBRAM_DQP<9>. Found in file: C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.ncd. Not Recognizable in the Context
+INFO: [Designutils 20-658] Finished Parsing Placement File : C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.ncd
+INFO: [Designutils 20-671] Placed 22866 instances
+read_xdl: Time (s): elapsed = 00:00:47 . Memory (MB): peak = 1011.809 ; gain = 25.117
+# if {[catch {read_twx -name results_1 -file "C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.twx"} eInfo]} {
+#    puts "WARNING: there was a problem importing \"C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERA_TOP.twx\": $eInfo"
+# }
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+ (See C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/project_14.7/CAMERAL_TOP\planAhead_pid10560.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Wed Dec 06 15:09:36 2017...
+INFO: [Common 17-83] Releasing license: PlanAhead

@@ -1,0 +1,89 @@
+onerror {resume}
+quietly virtual signal -install /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/l_bus_top { /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/l_bus_top/card_id[3:0]} slot_id
+quietly virtual signal -install /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/l_bus_top { /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/l_bus_top/card_id[6:4]} rack_id
+quietly WaveActivateNextPane {} 0
+add wave -noupdate -expand -group process_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/process/mode_reg
+add wave -noupdate -expand -group process_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/process/slot_id
+add wave -noupdate -expand -group process_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/process/flag_slot_start
+add wave -noupdate -expand -group process_np811 -radix unsigned /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/process/id_slot
+add wave -noupdate -expand -group process_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/process/flag_start_token
+add wave -noupdate -expand -group process_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/process/join_start
+add wave -noupdate -expand -group process_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/process/ini_start
+add wave -noupdate -expand -group process_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/process/ini_done
+add wave -noupdate -expand -group process_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/process/ini_fail
+add wave -noupdate -expand -group process_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/process/mb_tx_en
+add wave -noupdate -expand -group process_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/process/lb_tx_en
+add wave -noupdate -expand -group process_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/process/cb_tx_en
+add wave -noupdate -expand -group process_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/process/rb_tx_en
+add wave -noupdate -expand -group process_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/process/down_en
+add wave -noupdate -expand -group process_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/process/xfer_in_en
+add wave -noupdate -expand -group process_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/process/xfer_out_en
+add wave -noupdate -expand -group process_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/process/cal_en
+add wave -noupdate -expand -group process_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/process/diag_en
+add wave -noupdate -expand -group process_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/process/sync_trans_en
+add wave -noupdate -expand -group process_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/process/sync_recv_en
+add wave -noupdate -expand -group process_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/process/console_in_en
+add wave -noupdate -expand -group process_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/process/console_out_en
+add wave -noupdate -expand -group mbus_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/M_bus_top/lb_rxd
+add wave -noupdate -expand -group mbus_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/M_bus_top/lddb_wren
+add wave -noupdate -expand -group mbus_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/M_bus_top/lddb_waddr
+add wave -noupdate -expand -group mbus_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/M_bus_top/lddb_wdata
+add wave -noupdate -group down_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/console/down/i_down_en
+add wave -noupdate -group down_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/console/down/i_flag_wr_ddb
+add wave -noupdate -group down_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/console/down/om_ddb_addr
+add wave -noupdate -group down_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/console/down/im_ddb_dout
+add wave -noupdate -group down_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/console/down/o_dub_wren
+add wave -noupdate -group down_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/console/down/om_dub_addr
+add wave -noupdate -group down_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/console/down/om_dub_din
+add wave -noupdate -group down_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/console/down/im_dub_dout
+add wave -noupdate -group down_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/console/down/o_fram_rden
+add wave -noupdate -group down_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/console/down/o_fram_wren
+add wave -noupdate -group down_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/console/down/om_fram_addr
+add wave -noupdate -group down_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/console/down/om_fram_wr_len
+add wave -noupdate -group down_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/console/down/o_fram_wr_dv
+add wave -noupdate -group down_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/console/down/o_fram_wdata
+add wave -noupdate -group down_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/console/down/i_fram_rd_dv
+add wave -noupdate -group down_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/console/down/im_fram_rdata
+add wave -noupdate -group down_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/console/down/i_fram_rdy
+add wave -noupdate -group down_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/console/down/flash_rden
+add wave -noupdate -group down_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/console/down/flash_wren
+add wave -noupdate -group down_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/console/down/flash_era
+add wave -noupdate -group down_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/console/down/flash_addr
+add wave -noupdate -group down_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/console/down/flash_length
+add wave -noupdate -group down_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/console/down/flash_ready
+add wave -noupdate -group down_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/console/down/flash_wr_data
+add wave -noupdate -group down_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/console/down/flash_wr_valid
+add wave -noupdate -group down_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/console/down/flash_rd_data
+add wave -noupdate -group down_np811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_NP811_BOARD_B01/u1_NP811_U1_B01/console/down/flash_rd_valid
+add wave -noupdate -expand -group mbus_cm811_02 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_CM811_BOARD_B01/u_CM811_UT4_B01/M_bus_top/lb_rxd
+add wave -noupdate -expand -group mbus_cm811_02 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_CM811_BOARD_B01/u_CM811_UT4_B01/M_bus_top/lddb_wren
+add wave -noupdate -expand -group mbus_cm811_02 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_CM811_BOARD_B01/u_CM811_UT4_B01/M_bus_top/lddb_waddr
+add wave -noupdate -expand -group mbus_cm811_02 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_CM811_BOARD_B01/u_CM811_UT4_B01/M_bus_top/lddb_wdata
+add wave -noupdate -group down_cm811_02 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_CM811_BOARD_B01/u_CM811_UT4_B01/console_CM/down_IO/i_flag_wr_ddb
+add wave -noupdate -group down_cm811_02 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_CM811_BOARD_B01/u_CM811_UT4_B01/console_CM/down_IO/o_e2prom_wren
+add wave -noupdate -group down_cm811_02 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_CM811_BOARD_B01/u_CM811_UT4_B01/console_CM/down_IO/om_e2prom_addr
+add wave -noupdate -group down_cm811_02 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_CM811_BOARD_B01/u_CM811_UT4_B01/console_CM/down_IO/om_e2prom_wr_len
+add wave -noupdate -group down_cm811_02 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_CM811_BOARD_B01/u_CM811_UT4_B01/console_CM/down_IO/om_e2prom_wdata
+add wave -noupdate -group down_cm811_02 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_CM811_BOARD_B01/u_CM811_UT4_B01/console_CM/down_IO/om_e2prom_wr_dv
+add wave -noupdate -expand -group mbus_di811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_DI812_BOARD_B01/u_DI812_UT4_B01/M_bus_top/lb_rxd
+add wave -noupdate -expand -group mbus_di811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_DI812_BOARD_B01/u_DI812_UT4_B01/M_bus_top/lddb_wren
+add wave -noupdate -expand -group mbus_di811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_DI812_BOARD_B01/u_DI812_UT4_B01/M_bus_top/lddb_waddr
+add wave -noupdate -expand -group mbus_di811 /tb_SYSTEM/u1_tb_STATION/u1_tb_MAIN_RACK/u1_DI812_BOARD_B01/u_DI812_UT4_B01/M_bus_top/lddb_wdata
+TreeUpdate [SetDefaultTree]
+WaveRestoreCursors {{Cursor 1} {901830020 ps} 0}
+quietly wave cursor active 1
+configure wave -namecolwidth 190
+configure wave -valuecolwidth 105
+configure wave -justifyvalue left
+configure wave -signalnamewidth 1
+configure wave -snapdistance 10
+configure wave -datasetprefix 0
+configure wave -rowmargin 4
+configure wave -childrowmargin 2
+configure wave -gridoffset 0
+configure wave -gridperiod 1
+configure wave -griddelta 40
+configure wave -timeline 0
+configure wave -timelineunits ns
+update
+WaveRestoreZoom {202451506 ps} {1602332598 ps}

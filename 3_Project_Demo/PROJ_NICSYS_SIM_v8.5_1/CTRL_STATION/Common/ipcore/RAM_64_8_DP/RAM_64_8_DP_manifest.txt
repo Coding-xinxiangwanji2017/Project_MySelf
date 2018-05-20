@@ -1,0 +1,12 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.5 SP2 (Version 11.5.2.6)
+
+Date      :  Mon May 09 18:15:45 2016
+Project   :  D:\project\NP811_PFPGA
+Component :  RAM_64_8_DP
+Family    :  IGLOO2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/project/NP811_PFPGA/component/work/RAM_64_8_DP/RAM_64_8_DP.v
+    D:/project/NP811_PFPGA/component/work/RAM_64_8_DP/RAM_64_8_DP_0/RAM_64_8_DP_RAM_64_8_DP_0_URAM.v
+

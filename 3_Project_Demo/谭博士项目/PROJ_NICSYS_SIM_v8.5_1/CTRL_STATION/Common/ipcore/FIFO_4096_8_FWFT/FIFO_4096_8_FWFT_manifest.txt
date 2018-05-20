@@ -1,0 +1,35 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.5 SP2 (Version 11.5.2.6)
+
+Date      :  Wed Apr 27 11:51:52 2016
+Project   :  D:\project\Pro_test
+Component :  FIFO_4096_8_FWFT
+Family    :  IGLOO2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/project/Pro_test/component/work/FIFO_4096_8_FWFT/FIFO_4096_8_FWFT.v
+    D:/project/Pro_test/component/work/FIFO_4096_8_FWFT/FIFO_4096_8_FWFT_0/rtl/vlog/core/COREFIFO.v
+    D:/project/Pro_test/component/work/FIFO_4096_8_FWFT/FIFO_4096_8_FWFT_0/rtl/vlog/core/FIFO_4096_8_FWFT_FIFO_4096_8_FWFT_0_LSRAM_top.v
+    D:/project/Pro_test/component/work/FIFO_4096_8_FWFT/FIFO_4096_8_FWFT_0/rtl/vlog/core/FIFO_4096_8_FWFT_FIFO_4096_8_FWFT_0_ram_wrapper.v
+    D:/project/Pro_test/component/work/FIFO_4096_8_FWFT/FIFO_4096_8_FWFT_0/rtl/vlog/core/corefifo_async.v
+    D:/project/Pro_test/component/work/FIFO_4096_8_FWFT/FIFO_4096_8_FWFT_0/rtl/vlog/core/corefifo_doubleSync.v
+    D:/project/Pro_test/component/work/FIFO_4096_8_FWFT/FIFO_4096_8_FWFT_0/rtl/vlog/core/corefifo_fwft.v
+    D:/project/Pro_test/component/work/FIFO_4096_8_FWFT/FIFO_4096_8_FWFT_0/rtl/vlog/core/corefifo_grayToBinConv.v
+    D:/project/Pro_test/component/work/FIFO_4096_8_FWFT/FIFO_4096_8_FWFT_0/rtl/vlog/core/corefifo_sync.v
+    D:/project/Pro_test/component/work/FIFO_4096_8_FWFT/FIFO_4096_8_FWFT_0/rtl/vlog/core/corefifo_sync_scntr.v
+
+Stimulus files for all Simulation tools:
+    D:/project/Pro_test/component/work/FIFO_4096_8_FWFT/FIFO_4096_8_FWFT_0/mti/scripts/runall.do
+
+    D:/project/Pro_test/component/Actel/DirectCore/COREFIFO/2.5.106/rtl/vlog/test/user/MEM_WeqR.v
+    D:/project/Pro_test/component/Actel/DirectCore/COREFIFO/2.5.106/rtl/vlog/test/user/MEM_WgtR.v
+    D:/project/Pro_test/component/Actel/DirectCore/COREFIFO/2.5.106/rtl/vlog/test/user/MEM_WltR.v
+    D:/project/Pro_test/component/Actel/DirectCore/COREFIFO/2.5.106/rtl/vlog/test/user/clock_driver.v
+    D:/project/Pro_test/component/Actel/DirectCore/COREFIFO/2.5.106/rtl/vlog/test/user/fifo_driver.v
+    D:/project/Pro_test/component/Actel/DirectCore/COREFIFO/2.5.106/rtl/vlog/test/user/fifo_monitor.v
+    D:/project/Pro_test/component/Actel/DirectCore/COREFIFO/2.5.106/rtl/vlog/test/user/g4_dp_ext_mem.v
+    D:/project/Pro_test/component/Actel/DirectCore/COREFIFO/2.5.106/rtl/vlog/test/user/wave.do
+    D:/project/Pro_test/component/work/FIFO_4096_8_FWFT/FIFO_4096_8_FWFT_0/coreparameters.v
+    D:/project/Pro_test/component/work/FIFO_4096_8_FWFT/FIFO_4096_8_FWFT_0/rtl/vlog/test/user/testbench.v
+    D:/project/Pro_test/component/work/FIFO_4096_8_FWFT/FIFO_4096_8_FWFT_0/rtl/vlog/test/user/top_define.v
+

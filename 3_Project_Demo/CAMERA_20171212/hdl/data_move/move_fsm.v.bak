@@ -1,0 +1,186 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date:    18:02:50 08/02/2016 
+// Design Name: 
+// Module Name:    moove_fsm 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
+module move_fsm(
+
+	input clk,
+	input rst_n,
+	input enable,
+	input flash_done,
+	input empty,
+	 
+	output reg busy,
+	output reg [13:0] row,
+	output reg rd_req,
+	output reg rd_en,
+	output [23:0] sram_waddr,
+	output reg wr_req,
+	output reg ram_wr,
+	output reg fifo_wr,
+	output reg [11:0] ram_addr
+);
+    
+	parameter idle 		 	 = 4'd0;
+	parameter row_sta        = 4'd1;
+	parameter read_req		 = 4'd2;
+	parameter read_req_n	 = 4'd3;
+	parameter read_flash 	 = 4'd4;
+	parameter write_req 	 = 4'd5;	
+	parameter write_sram     = 4'd6;
+	parameter write_ram	     = 4'd7;
+	
+	reg [11:0] cnt;
+	reg [3:0] state;
+	reg fifo_done;
+	reg fifo_wr_r;
+	
+	assign sram_waddr = {2'd0,row[10:0],11'd0};
+
+	always @ (posedge clk)
+	if(!rst_n)
+		state <= idle;
+	else
+		case(state)
+			idle	:	begin
+								if(enable)
+									state <= row;
+								else 
+									state <= idle;
+							end
+		    row_sta     :   begin
+		                        if(!enable)
+		                            state <= idle;
+		                        else 
+		                            state <= read_req; 
+			read_req	:	begin
+										if(!enable)
+											state <= idle;
+										else 
+											state <= read_req_n;
+									end
+			read_req_n	:	begin
+											if(!enable)
+												state <= idle;
+											else if(flash_done && (row[13:11] == 3'd3))
+												state <= write_ram;
+											else if(flash_done) 
+												state <= read_flash;
+										end						
+			read_flash	:	begin
+											if(!enable)
+												state <= idle;
+											else if(fifo_done)
+												state <= write_req;
+										end	
+			write_req		:	begin
+											if(!enable)
+												state <= idle;
+											else
+												state <= write_sram;
+										end											
+			write_sram	:	begin
+											if(!enable)
+												state <= idle;
+											else if(empty)
+												state <= read_req;
+										end	
+			write_ram : begin
+										if(!enable)
+												state <= idle;
+											else if(empty)
+												state <= idle;
+									 end				
+			default :  state <= idle;	
+											
+		endcase 
+	
+	always @ (posedge clk)
+		if(!rst_n)
+			begin
+				busy <= 0;
+		    row <= 14'h000;
+		    rd_req <= 0;
+		    rd_en <= 0;
+			  wr_req <= 0;
+			  ram_wr <= 0;
+			  fifo_wr_r <= 0;
+		    ram_addr <= 12'd0;
+		   end
+		else
+			case(state)
+				idle	:	begin
+									busy <= 0;
+							    row <= 14'h000;                 ////001,000,0000,0000
+							    rd_req <= 0;
+							    rd_en <= 0;
+								  wr_req <= 0;
+								  ram_wr <= 0;
+								  fifo_wr_r <= 0;
+								  cnt <= 0;
+							    ram_addr <= 12'd0;
+							   end
+			    row_sta     :   begin
+			                    row <= 14'h800;
+			                end
+				read_req		:	begin
+												busy <= 1;
+												rd_req <= 1;
+												wr_req <= 0; 
+											end			   
+				read_req_n	:	begin
+												rd_req <= 0;  
+											end
+				read_flash	:	begin
+												rd_en <= 1;
+												fifo_wr_r <= 1;
+												if(cnt == 12'd2069)
+													begin
+														fifo_done <= 1;
+														cnt = 0;
+													end
+												else
+													cnt = cnt + 1;
+											end	
+				write_req		:	begin
+												rd_en <= 0;
+												fifo_wr_r <= 0;
+												wr_req <= 1;
+											end			
+				write_sram	:	begin
+												wr_req <= 0;												
+												if(empty)
+													row <= row + 1;
+											end	
+											
+				write_ram	:	begin
+												rd_en <= 1;
+												ram_wr <= 1;
+												ram_addr <= ram_addr + 1;	
+										end	
+												
+			endcase
+			
+	always @ (posedge clk)
+		if(!rst_n)
+			fifo_wr <= 0;
+		else
+			fifo_wr <= fifo_wr_r;
+
+endmodule

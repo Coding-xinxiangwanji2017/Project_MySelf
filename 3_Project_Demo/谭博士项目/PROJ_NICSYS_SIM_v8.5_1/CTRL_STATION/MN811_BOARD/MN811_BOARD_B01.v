@@ -1,0 +1,673 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c)2015 CNCS Incorporated
+// All Rights Reserved
+// THIS IS UNPUBLISHED PROPRIETARY SOURCE CODE of CNCS Inc.
+// The copyright notice above does not evidence any actual or intended
+// publication of such source code.
+// No part of this code may be reproduced, stored in a retrieval system,
+// or transmitted, in any form or by any means, electronic, mechanical,
+// photocopying, recording, or otherwise, without the prior written
+// permission of CNCS
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+// Name of module : MN811_BOARD_B01
+// Project        : NicSys8000
+// Func           : MN811 BOARD Top
+// Author         : Zhang Xueyan
+// Simulator      : Modelsim Microsemi 10.3c / Windows 7 32bit
+// Synthesizer    : Libero SoC v11.5 SP2 / Windows 7 32bit
+// FPGA/CPLD type : M2GL050-FGG484
+// version 1.0    : made in Date: 2016.4.21
+// Modification Logs:
+// -----------------------------------------------------------------------------
+//   Version   Date         Description(Recorder)
+// -----------------------------------------------------------------------------
+//     1.0   2016/04/21   Initial version(Zhang Xueyan)
+//
+//
+//
+////////////////////////////////////////////////////////////////////////////////
+
+`timescale 1ns/100ps
+
+module MN811_BOARD_B01(
+
+    //-----------------------------------------------------------
+    //-- Station ID, Rack ID, Slot ID
+    //-----------------------------------------------------------
+    input  wire [ 7: 0]     STAT,
+    input  wire [ 3: 0]     RACK,
+    input  wire [ 4: 0]     SLOT,
+    
+    //-----------------------------------------------------------
+    //-- MODE KEY
+    //-----------------------------------------------------------
+
+    input  wire             M_KEY1,
+    input  wire             M_KEY2,
+    input  wire             M_KEY3,
+
+    //-----------------------------------------------------------
+    //-- M-BUS
+    //-----------------------------------------------------------
+    inout  tri              MBUS_1_P,
+    inout  tri              MBUS_1_N,
+    inout  tri              MBUS_2_P,
+    inout  tri              MBUS_2_N,
+
+    //-----------------------------------------------------------
+    //-- Ethernet: RMII interface-2
+    //-----------------------------------------------------------
+    output wire             ETH2_RST_n,
+    output wire             ETH2_REFCLK,
+
+    input  wire [ 1: 0]     ETH2_RXD_O,
+    input  wire             ETH2_RXDV_O,
+    input  wire             ETH2_RXER,
+    output wire             ETH2_TXEN,
+    output wire [ 1: 0]     ETH2_TXD,
+
+    output wire             ETH2_COM_LED
+
+    //inout  tri              ETH2_MDIO,
+    //output wire             ETH2_MDC,
+    //input  wire             ETH2_LEDG,
+    //input  wire             ETH2_LEDY,
+    //input  wire             ETH2_INTRP
+);
+
+
+
+//------------------------------------------------------------------------------
+//参数声明  开始
+//------------------------------------------------------------------------------
+  parameter GND = 1'd0;
+
+
+  //------------------------------------
+  //-- Mode switch
+  //------------------------------------
+//  parameter M_KEY1  = 1'b0;
+//  parameter M_KEY2  = 1'b0;
+//  parameter M_KEY3  = 1'b0;
+//
+//------------------------------------------------------------------------------
+//参数声明  结束
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+//内部变量声明  开始
+//------------------------------------------------------------------------------
+  wire          FP_RSTA;
+  wire          CLK50MP1;
+  wire          CLK_25MP1;
+          
+
+
+  wire             MB_RX1;
+  wire             MB_TX1;
+  wire             MB_TXEN1;
+  wire             MB_RX2;
+  wire             MB_TX2;
+  wire             MB_TXEN2;
+                   
+  wire [12: 0]     FIO_A;      //-- Addr
+  wire [ 7: 0]     FIO_D_P2D;  //-- date: PFPGA to DFPGA
+  wire [ 7: 0]     FIO_D_D2P;  //-- data: DFPGA to PFPGA
+  wire             FIO_WE;
+  wire             FIO_TICK;   //-- Heartbeat out
+  wire             FIO_RSTIN;  //-- Heartbeat in
+  wire             FIO_RSTO;   //-- DFPGA reset
+  wire             FIO_CLK;    //-- 50Mhz
+
+
+  wire [19: 0]     PSRAM1_A;
+  wire             PSRAM1_OE_n;
+  wire             PSRAM1_WE_n;
+  wire             PSRAM1_CE1_n;
+  wire             PSRAM1_CE2;
+  wire [15: 0]     PSRAM1_D;
+  wire             PSRAM1_ERR_n;
+  wire             PSRAM1_BHE_n;
+  wire             PSRAM1_BLE_n;
+
+  wire [19: 0]     PSRAM2_A;
+  wire             PSRAM2_OE_n;
+  wire             PSRAM2_WE_n;
+  wire             PSRAM2_CE1_n;
+  wire             PSRAM2_CE2;
+  wire [15: 0]     PSRAM2_D;
+  wire             PSRAM2_ERR_n;
+  wire             PSRAM2_BHE_n;
+  wire             PSRAM2_BLE_n;
+
+  wire [19: 0]     DSRAM1_A;
+  wire             DSRAM1_OE_n;
+  wire             DSRAM1_WE_n;
+  wire             DSRAM1_CE1_n;
+  wire             DSRAM1_CE2;
+  wire [15: 0]     DSRAM1_D;
+  wire             DSRAM1_ERR_n;
+  wire             DSRAM1_BHE_n;
+  wire             DSRAM1_BLE_n;
+
+  wire [19: 0]     DSRAM2_A;
+  wire             DSRAM2_OE_n;
+  wire             DSRAM2_WE_n;
+  wire             DSRAM2_CE1_n;
+  wire             DSRAM2_CE2;
+  wire [15: 0]     DSRAM2_D;
+  wire             DSRAM2_ERR_n;
+  wire             DSRAM2_BHE_n;
+  wire             DSRAM2_BLE_n;
+
+
+
+//------------------------------------------------------------------------------
+//板卡上FPGA例化 开始
+//------------------------------------------------------------------------------
+
+
+  //************************************************************
+  //--  Process FPGA
+  //************************************************************
+  MN811_UT4_B01 u_MN811_UT4_B01(
+    //-----------------------------------------------------------
+    //-- Global reset, clocks
+    //-----------------------------------------------------------
+    .FP_RSTA         (FP_RSTA    ),
+    .CLK_25MP1       (CLK_25MP1  ),
+    .CLK50MP1        (CLK50MP1   ),
+    //-----------------------------------------------------------
+    //-- Power Detector
+    //-----------------------------------------------------------
+    .FPWR_DPG      (),
+    //-----------------------------------------------------------
+    //-- Watchdog
+    //-----------------------------------------------------------
+    .FP_WDOA      (),
+    .FP_WDIA      (),
+    //.FD_WDOB      (),
+    //-----------------------------------------------------------
+    //-- Station ID, Rack ID, Slot ID
+    //-----------------------------------------------------------
+    .FP_MKEY1      (M_KEY1   ),
+    .FP_MKEY2      (M_KEY2   ),
+    .FP_MKEY3      (M_KEY3   ),
+    //-----------------------------------------------------------
+    //-- Station ID, Rack ID, Slot ID
+    //-----------------------------------------------------------
+    .FDP_RACK      (RACK  ),
+    .FDP_SLOT      (SLOT  ),
+    .FDP_STAT      (STAT  ),
+    //-----------------------------------------------------------
+    //-- LED indicator
+    //-----------------------------------------------------------
+    .FP_LED3       (),
+    .FP_LED4       (),
+    .FP_ERR_LED    (),
+    .FP_LED6       (),
+    //-----------------------------------------------------------
+    //-- Plug monitor, active low
+    //-----------------------------------------------------------
+    .PLUG_MON      (),
+
+    //-----------------------------------------------------------
+    //-- M-BUS
+    //-----------------------------------------------------------
+    .TICL_MB_PREM     (MB_PREM ),
+    
+    .TICL_MB_RX1      (MB_RX1  ),
+    .TICL_MB_TX1      (MB_TX1  ),
+    .TICL_MB_TXEN1    (MB_TXEN1),
+    
+    .TICL_MB_RX2      (MB_RX2  ),
+    .TICL_MB_TX2      (MB_TX2  ),
+    .TICL_MB_TXEN2    (MB_TXEN2),
+
+    //-----------------------------------------------------------
+    //-- SRAM1
+    //-----------------------------------------------------------
+    .PSRAM1_A         (PSRAM1_A    ),
+    .PSRAM1_OE_n      (PSRAM1_OE_n ),
+    .PSRAM1_WE_n      (PSRAM1_WE_n ),
+    .PSRAM1_CE1_n     (PSRAM1_CE1_n),
+    .PSRAM1_CE2       (PSRAM1_CE2  ),
+    .PSRAM1_D         (PSRAM1_D    ),
+    .PSRAM1_ERR_n     (PSRAM1_ERR_n),
+    .PSRAM1_BHE_n     (PSRAM1_BHE_n),
+    .PSRAM1_BLE_n     (PSRAM1_BLE_n),
+    //-----------------------------------------------------------
+    //-- SRAM2
+    //-----------------------------------------------------------
+    .PSRAM2_A           (PSRAM2_A    ),
+    .PSRAM2_OE_n        (PSRAM2_OE_n ),
+    .PSRAM2_WE_n        (PSRAM2_WE_n ),
+    .PSRAM2_CE1_n       (PSRAM2_CE1_n),
+    .PSRAM2_CE2         (PSRAM2_CE2  ),
+    .PSRAM2_D           (PSRAM2_D    ),
+    .PSRAM2_ERR_n       (PSRAM2_ERR_n),
+    .PSRAM2_BHE_n       (PSRAM2_BHE_n),
+    .PSRAM2_BLE_n       (PSRAM2_BLE_n),
+
+    //-----------------------------------------------------------
+    //-- Interface with DFPGA
+    //-----------------------------------------------------------
+    .FIO_DAT12_0_A        (FIO_A           ),    //-- Addr
+    .FIO_DAT20_13_DO      (FIO_D_P2D       ),    //-- date: PFPGA to DFPGA
+    .FIO_DAT23_21_DI2_0   (FIO_D_D2P[2:0]  ),    //-- date: PFPGA to DFPGA
+    .FIO_CS2_0_DI5_3      (FIO_D_D2P[5:3]  ),    //-- date: PFPGA to DFPGA
+    .FIO_RE_DI6           (FIO_D_D2P[6]    ),    //-- date: PFPGA to DFPGA
+    .FIO_ALE_DI7          (FIO_D_D2P[7]    ),    //-- date: PFPGA to DFPGA
+    .FIO_WE               (FIO_WE   ),
+    .FIO_TICK             (FIO_TICK ),      //-- Heartbeat out
+    .FIO_RSTIN            (FIO_RSTIN),      //-- Heartbeat in
+    .FIO_RSTO             (FIO_RSTO ),      //-- DFPGA reset
+    .FIO_CLK              (FIO_CLK  ),     //-- 50Mhz
+
+    //-----------------------------------------------------------
+    //-- Ethernet: RMII interface-1 (No Used now!)
+    //-----------------------------------------------------------
+    .ETH1_RST_n         (),
+    .ETH1_REFCLK        (),
+    .ETH1_RXD_O         (),
+    .ETH1_RXDV_O        (),
+    .ETH1_RXER          (),
+    .ETH1_TXEN          (),
+    .ETH1_TXD           (),
+    .ETH1_COM_LED       (),  // work normal ind
+    //.ETH1_MDIO
+    //.ETH1_MDC
+    //.ETH1_LEDG
+    //.ETH1_LEDY
+    //.ETH1_INTRP
+    //-----------------------------------------------------------
+    //-- Ethernet: RMII interface-2
+    //-----------------------------------------------------------
+    .ETH2_RST_n          (ETH2_RST_n     ),
+    .ETH2_REFCLK         (ETH2_REFCLK    ),
+    .ETH2_RXD_O          (ETH2_RXD_O     ),
+    .ETH2_RXDV_O         (ETH2_RXDV_O    ),
+    .ETH2_RXER           (ETH2_RXER      ),
+    .ETH2_TXEN           (ETH2_TXEN      ),
+    .ETH2_TXD            (ETH2_TXD       ),
+    .ETH2_COM_LED        (ETH2_COM_LED   ),
+    //.ETH2_MDIO
+    //.ETH2_MDC
+    //.ETH2_LEDG
+    //.ETH2_LEDY
+    //.ETH2_INTRP
+
+    //-----------------------------------------------------------
+    //-- SPI interface
+    //-----------------------------------------------------------
+    .FP_E2P_SCK        (),
+    .FP_E2P_CS         (),
+    .FP_E2P_SI         (),
+    .FP_E2P_SO         (),
+
+    //-----------------------------------------------------------
+    //-- I2C interface
+    //-----------------------------------------------------------
+    //output wire             I2C_SCL_TEMSR
+    //output wire             I2C_SDA_TEMSR
+
+    //-----------------------------------------------------------
+    //-- Test LED
+    //-----------------------------------------------------------
+    .TEST_LED0           (),
+    .TEST_LED1           (),
+    .TEST_LED2           (),
+    .TEST_LED3           (),
+
+    //-----------------------------------------------------------
+    //-- Test pins
+    //-----------------------------------------------------------
+    .TEST_T            ()
+
+);
+
+   //************************************************************
+   //--  Diagnose FPGA
+   //************************************************************
+   MN811_UT5_B01 u1_MN811_UT5_B01(
+    //-----------------------------------------------------------
+    //-- Global reset, clocks
+    //-----------------------------------------------------------
+    .FD_RSTB        (FP_RSTA   ),
+    .CLK50MP2       (CLK50MP1  ),
+    .CLK_25MD1      (CLK_25MP1 ),
+
+    //-----------------------------------------------------------
+    //-- Power Detector
+    //-----------------------------------------------------------
+    .FDWR_OV       (),
+    .FDWR_UV       (),
+    .FPWR_PG1      (),
+    .FPWR_PG2      (),
+    .FPWR_PG3      (),
+
+    //-----------------------------------------------------------
+    //-- Watchdog
+    //-----------------------------------------------------------
+    .FD_WDOB       (),
+    .FD_WDIB       (),
+    //.FP_WDOA     ()  ,
+
+    //-----------------------------------------------------------
+    //-- Mode Switch
+    //-----------------------------------------------------------
+    .FP_MKEY1     (M_KEY1   ) ,
+    .FP_MKEY2     (M_KEY2   ) ,
+    .FP_MKEY3     (M_KEY3   ) ,
+
+    //-----------------------------------------------------------
+    //-- Station ID, Rack ID, Slot ID
+    //-----------------------------------------------------------
+    .FDP_RACK      (RACK  ),
+    .FDP_SLOT      (SLOT  ),
+    .FDP_STAT      (STAT  ),
+
+    //-----------------------------------------------------------
+    //-- LED indicator
+    //-----------------------------------------------------------
+    .FD_LED4       (),
+
+    //-----------------------------------------------------------
+    //-- M-BUS
+    //-----------------------------------------------------------
+    .TICL_MB_PREM       (MB_PREM ),
+    .TICL_MB_RX1        (MB_RX1  ),
+    .TICL_MB_TX1        (MB_TX1  ),
+    .TICL_MB_TXEN1      (MB_TXEN1),
+    .TICL_MB_RX2        (MB_RX2  ),
+    .TICL_MB_TX2        (MB_TX2  ),
+    .TICL_MB_TXEN2      (MB_TXEN2),
+
+    //-----------------------------------------------------------
+    //-- SRAM1
+    //-----------------------------------------------------------
+    .DSRAM1_A            (DSRAM1_A    ),
+    .DSRAM1_OE_n         (DSRAM1_OE_n ),
+    .DSRAM1_WE_n         (DSRAM1_WE_n ),
+    .DSRAM1_CE1_n        (DSRAM1_CE1_n),
+    .DSRAM1_CE2          (DSRAM1_CE2  ),
+    .DSRAM1_D            (DSRAM1_D    ),
+    .DSRAM1_ERR_n        (DSRAM1_ERR_n),
+    .DSRAM1_BHE_n        (DSRAM1_BHE_n),
+    .DSRAM1_BLE_n        (DSRAM1_BLE_n),
+    //-----------------------------------------------------------
+    //-- SRAM2
+    //-----------------------------------------------------------
+    .DSRAM2_A            (DSRAM2_A    ),
+    .DSRAM2_OE_n         (DSRAM2_OE_n ),
+    .DSRAM2_WE_n         (DSRAM2_WE_n ),
+    .DSRAM2_CE1_n        (DSRAM2_CE1_n),
+    .DSRAM2_CE2          (DSRAM2_CE2  ),
+    .DSRAM2_D            (DSRAM2_D    ),
+    .DSRAM2_ERR_n        (DSRAM2_ERR_n),
+    .DSRAM2_BHE_n        (DSRAM2_BHE_n),
+    .DSRAM2_BLE_n        (DSRAM2_BLE_n),
+
+    //-----------------------------------------------------------
+    //-- Interface with PFPGA
+    //-----------------------------------------------------------
+    .FIO_DAT12_0_A               (FIO_A           ),
+    .FIO_DAT20_13_DI             (FIO_D_P2D       ),
+    .FIO_DAT23_21_DO2_0          (FIO_D_D2P[2:0]  ),
+    .FIO_CS2_0_DO5_3             (FIO_D_D2P[5:3]  ),
+    .FIO_RE_DO6                  (FIO_D_D2P[6]    ),
+    .FIO_ALE_DO7                 (FIO_D_D2P[7]    ),
+    .FIO_WE                      (FIO_WE          ),
+
+    .FIO_TICK                    (FIO_TICK ),  //-- PFPGA Heartbeat out
+    .FIO_RSTIN                   (FIO_RSTIN),  //-- PFPGA Heartbeat in
+    .FIO_RSTO                    (FIO_RSTO ),  //-- DFPGA reset
+    .FIO_CLK                     (FIO_CLK  ),  //-- 50Mhz
+
+    //-----------------------------------------------------------
+    //-- Ethernet: RMII interface-1
+    //-----------------------------------------------------------
+    .ETH1_REFCLK   (),
+    .ETH1_RXD_O    (),
+    .ETH1_RXDV_O   (),
+
+    //-----------------------------------------------------------
+    //-- Ethernet: RMII interface-2
+    //-----------------------------------------------------------
+    .ETH2_REFCLK         (ETH2_REFCLK    ),
+    .ETH2_RXD_O          (ETH2_RXD_O),
+    .ETH2_RXDV_O         (ETH2_RXDV_O),
+
+    //-----------------------------------------------------------
+    //-- SPI interface
+    //-----------------------------------------------------------
+    .FD_E2P_SCK    (),
+    .FD_E2P_CS     (),
+    .FD_E2P_SI     (),
+    .FD_E2P_SO     (),
+
+    //-----------------------------------------------------------
+    //-- Test LED
+    //-----------------------------------------------------------
+    .TEST_LED4     (),
+    .TEST_LED5     (),
+    .TEST_LED6     (),
+    .TEST_LED7     (),
+
+    //------------------------------------------------------------
+    //-- Test pins
+    //-----------------------------------------------------------
+    .FD_TEST       ()
+);
+
+
+//------------------------------------------------------------------------------
+//板卡上FPGA例化 结束                                                             
+//------------------------------------------------------------------------------
+
+
+
+//------------------------------------------------------------------------------
+//仿真模块例化 开始                                                             
+//------------------------------------------------------------------------------
+
+
+  //************************************************************
+  //--  Clock and Reset on board
+  //************************************************************
+  
+  //-- 50MHz clock
+  sysclkgen
+   #(
+    .CLK_PERIOD   (20 ),
+    .HIGH_PERIOD  (10 )
+   )
+   u1_sysclkgen
+   (
+    .clk      (CLK50MP1   )
+   );
+
+  //-- 25MHz clock
+  sysclkgen
+   #(
+    .CLK_PERIOD   (40 ),
+    .HIGH_PERIOD  (20 )
+   )
+   u2_sysclkgen
+   (
+    .clk      (CLK_25MP1  )
+   );
+
+  rstgen 
+  #(
+   .LEVEL    ("LOW"  ),//HIGH,LOW
+   .KEEP     (307    )
+   )
+   u1_rstgen
+   (
+    .rst       (FP_RSTA   )
+);
+
+
+  //************************************************************
+  //--  Async SRAM
+  //************************************************************
+   parameter SRAM_ADDR_BITS     =  20;
+   parameter SRAM_DATA_BITS     =  16;
+   parameter SRAM_Mode          =  2;           //--  tRC := 10 ns;
+   parameter SRAM_depth         =  1048576;     //--  1M: 1048576;
+   parameter SRAM_TimingInfo    =  1'b1;
+   parameter SRAM_TimingChecks  =  1'b1;
+
+
+   //-----------------------------------------------------------
+   //-- PFPGA SRAM,
+   //-----------------------------------------------------------
+   CY7C1061GE30_10
+     #(
+     .ADDR_BITS      (SRAM_ADDR_BITS   ),
+     .DATA_BITS      (SRAM_DATA_BITS   ),
+     .depth          (SRAM_depth       ),
+     .TimingInfo     (SRAM_TimingInfo  ),
+     .TimingChecks   (SRAM_TimingChecks)
+     )
+     u1_CY7C1061GE30_10(
+    .Model      (SRAM_Mode     ), //: IN integer;
+    .CE_b       (PSRAM1_CE1_n  ), //: IN Std_Logic;                                                  -- Chip Enable CE#
+    .WE_b       (PSRAM1_WE_n   ), //: IN Std_Logic;                                                  -- Write Enable WE#
+    .OE_b       (PSRAM1_OE_n   ), //: IN Std_Logic;                                                 -- Output Enable OE#
+    .BHE_b      (PSRAM1_BHE_n  ), //: IN std_logic;                                                 -- Byte Enable High BHE#
+    .BLE_b      (PSRAM1_BLE_n  ), //: IN std_logic;                                                 -- Byte Enable Low BLE#
+    .DS_b       (PSRAM1_CE2    ), //: IN std_logic;                                                 --Deep sleep Enable DS#
+    .A          (PSRAM1_A      ), //: IN Std_Logic_Vector(ADDR_BITS-1 downto 0);                    -- Address Inputs A
+    .DQ         (PSRAM1_D      ), //: INOUT Std_Logic_Vector(DATA_BITS-1 downto 0):=(others=>'Z');   -- Read/Write Data IO
+    .ERR        (PSRAM1_ERR_n  )  //: OUT std_logic --ERR output pin
+    );
+
+   CY7C1061GE30_10
+    #(
+     .ADDR_BITS      (SRAM_ADDR_BITS   ),
+     .DATA_BITS      (SRAM_DATA_BITS   ),
+     .depth          (SRAM_depth       ),
+     .TimingInfo     (SRAM_TimingInfo  ),
+     .TimingChecks   (SRAM_TimingChecks)
+     )
+     u2_CY7C1061GE30_10(
+    .Model      (SRAM_Mode     ),    //: IN integer;
+    .CE_b       (PSRAM2_CE1_n  ),    //: IN Std_Logic;                                                  -- Chip Enable CE#
+    .WE_b       (PSRAM2_WE_n   ),    //: IN Std_Logic;                                                  -- Write Enable WE#
+    .OE_b       (PSRAM2_OE_n   ),    //: IN Std_Logic;                                                 -- Output Enable OE#
+    .BHE_b      (PSRAM2_BHE_n  ),    //: IN std_logic;                                                 -- Byte Enable High BHE#
+    .BLE_b      (PSRAM2_BLE_n  ),    //: IN std_logic;                                                 -- Byte Enable Low BLE#
+    .DS_b       (PSRAM2_CE2    ),    //: IN std_logic;                                                 --Deep sleep Enable DS#
+    .A          (PSRAM2_A      ),    //: IN Std_Logic_Vector(ADDR_BITS-1 downto 0);                    -- Address Inputs A
+    .DQ         (PSRAM2_D      ),    //: INOUT Std_Logic_Vector(DATA_BITS-1 downto 0):=(others=>'Z');   -- Read/Write Data IO
+    .ERR        (PSRAM2_ERR_n  )     //: OUT std_logic --ERR output pin
+    );
+
+   //-----------------------------------------------------------
+   //-- DFPGA SRAM,
+   //-----------------------------------------------------------
+
+   CY7C1061GE30_10
+    #(
+     .ADDR_BITS      (SRAM_ADDR_BITS   ),
+     .DATA_BITS      (SRAM_DATA_BITS   ),
+     .depth          (SRAM_depth       ),
+     .TimingInfo     (SRAM_TimingInfo  ),
+     .TimingChecks   (SRAM_TimingChecks)
+     )
+     u3_CY7C1061GE30_10(
+    .Model      (SRAM_Mode     ), //: IN integer;
+    .CE_b       (DSRAM1_CE1_n  ), //: IN Std_Logic;                                                  -- Chip Enable CE#
+    .WE_b       (DSRAM1_WE_n   ), //: IN Std_Logic;                                                  -- Write Enable WE#
+    .OE_b       (DSRAM1_OE_n   ), //: IN Std_Logic;                                                 -- Output Enable OE#
+    .BHE_b      (DSRAM1_BHE_n  ), //: IN std_logic;                                                 -- Byte Enable High BHE#
+    .BLE_b      (DSRAM1_BLE_n  ), //: IN std_logic;                                                 -- Byte Enable Low BLE#
+    .DS_b       (DSRAM1_CE2    ), //: IN std_logic;                                                 --Deep sleep Enable DS#
+    .A          (DSRAM1_A      ), //: IN Std_Logic_Vector(ADDR_BITS-1 downto 0);                    -- Address Inputs A
+    .DQ         (DSRAM1_D      ), //: INOUT Std_Logic_Vector(DATA_BITS-1 downto 0):=(others=>'Z');   -- Read/Write Data IO
+    .ERR        (DSRAM1_ERR_n  )  //: OUT std_logic --ERR output pin
+    );
+
+
+   CY7C1061GE30_10
+    #(
+     .ADDR_BITS      (SRAM_ADDR_BITS   ),
+     .DATA_BITS      (SRAM_DATA_BITS   ),
+     .depth          (SRAM_depth       ),
+     .TimingInfo     (SRAM_TimingInfo  ),
+     .TimingChecks   (SRAM_TimingChecks)
+     )
+     u4_CY7C1061GE30_10(
+    .Model      (SRAM_Mode     ),     //: IN integer;
+    .CE_b       (DSRAM2_CE1_n  ),     //: IN Std_Logic;                                                  -- Chip Enable CE#
+    .WE_b       (DSRAM2_WE_n   ),     //: IN Std_Logic;                                                  -- Write Enable WE#
+    .OE_b       (DSRAM2_OE_n   ),     //: IN Std_Logic;                                                 -- Output Enable OE#
+    .BHE_b      (DSRAM2_BHE_n  ),     //: IN std_logic;                                                 -- Byte Enable High BHE#
+    .BLE_b      (DSRAM2_BLE_n  ),     //: IN std_logic;                                                 -- Byte Enable Low BLE#
+    .DS_b       (DSRAM2_CE2    ),     //: IN std_logic;                                                 --Deep sleep Enable DS#
+    .A          (DSRAM2_A      ),     //: IN Std_Logic_Vector(ADDR_BITS-1 downto 0);                    -- Address Inputs A
+    .DQ         (DSRAM2_D      ),     //: INOUT Std_Logic_Vector(DATA_BITS-1 downto 0):=(others=>'Z');   -- Read/Write Data IO
+    .ERR        (DSRAM2_ERR_n  )     //: OUT std_logic --ERR output pin
+    );
+
+
+
+  //************************************************************
+  //--  LVD206D, M-Bus converter
+  //************************************************************
+   
+   SN74AUP1G u1_SN74AUP1G(
+    .A            (MB_TXEN1),
+    .OE_n         (MB_PREM ),
+    .Y            (MB_DE1  )
+    );
+   
+   SN74AUP1G u2_SN74AUP1G(
+    .A            (MB_TXEN2),
+    .OE_n         (MB_PREM ),
+    .Y            (MB_DE2  )
+    );   
+     
+   LVD206D u1_M_BUS_LVD206D(
+    .D            (MB_TX1  ),
+    .DE           (MB_DE1  ),
+    .R            (MB_RX1  ),
+    .RE_n         (GND     ),
+    .A            (MBUS_1_P),
+    .B            (MBUS_1_N)    
+    );
+    
+   LVD206D u2_M_BUS_LVD206D(
+    .D            (MB_TX2  ),
+    .DE           (MB_DE2  ),
+    .R            (MB_RX2  ),
+    .RE_n         (GND     ),
+    .A            (MBUS_2_P),
+    .B            (MBUS_2_N)
+    );
+
+//------------------------------------------------------------------------------
+//仿真模块例化 结束
+//------------------------------------------------------------------------------
+
+
+
+
+//------------------------------------------------------------------------------
+//逻辑参考  开始
+//------------------------------------------------------------------------------
+
+
+
+//------------------------------------------------------------------------------
+//逻辑参考  结束
+//------------------------------------------------------------------------------
+
+
+
+
+
+
+endmodule

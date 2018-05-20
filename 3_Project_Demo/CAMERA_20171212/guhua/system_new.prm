@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o C:\Users\Administrator\Desktop\version\CAMERA_TOP6.5_20171211_frame_test_plus\guhua//system_new -s 65536 -u 0000 C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/project_14.7/CAMERAL_TOP/camera_top.bit -spi 
+
+PROM C:\Users\Administrator\Desktop\version\CAMERA_TOP6.5_20171211_frame_test_plus\guhua\system_new.prm map: Mon Dec 11 16:52:33 2017
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          65536K
+PROM start    0000:0000
+PROM end      03ff:ffff
+PROM checksum 4f394f74
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    00ae:9d9b     Dec 11 15:03:42 2017 C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/project_14.7/CAMERAL_TOP/camera_top.bit

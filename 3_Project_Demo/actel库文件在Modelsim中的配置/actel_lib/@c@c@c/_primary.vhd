@@ -1,0 +1,61 @@
+library verilog;
+use verilog.vl_types.all;
+entity CCC is
+    generic(
+        INIT            : vl_logic_vector(209 downto 0) := (Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0);
+        VCOFREQUENCY    : real    := 0.000000
+    );
+    port(
+        CLK0_PAD        : in     vl_logic;
+        CLK1_PAD        : in     vl_logic;
+        CLK2_PAD        : in     vl_logic;
+        CLK3_PAD        : in     vl_logic;
+        CLK0            : in     vl_logic;
+        CLK1            : in     vl_logic;
+        CLK2            : in     vl_logic;
+        CLK3            : in     vl_logic;
+        RCOSC_25_50MHZ  : in     vl_logic;
+        RCOSC_1MHZ      : in     vl_logic;
+        XTLOSC          : in     vl_logic;
+        NGMUX0_SEL      : in     vl_logic;
+        NGMUX1_SEL      : in     vl_logic;
+        NGMUX2_SEL      : in     vl_logic;
+        NGMUX3_SEL      : in     vl_logic;
+        NGMUX0_HOLD_N   : in     vl_logic;
+        NGMUX1_HOLD_N   : in     vl_logic;
+        NGMUX2_HOLD_N   : in     vl_logic;
+        NGMUX3_HOLD_N   : in     vl_logic;
+        NGMUX0_ARST_N   : in     vl_logic;
+        NGMUX1_ARST_N   : in     vl_logic;
+        NGMUX2_ARST_N   : in     vl_logic;
+        NGMUX3_ARST_N   : in     vl_logic;
+        PLL_BYPASS_N    : in     vl_logic;
+        PLL_ARST_N      : in     vl_logic;
+        PLL_POWERDOWN_N : in     vl_logic;
+        GPD0_ARST_N     : in     vl_logic;
+        GPD1_ARST_N     : in     vl_logic;
+        GPD2_ARST_N     : in     vl_logic;
+        GPD3_ARST_N     : in     vl_logic;
+        LOCK            : out    vl_logic;
+        BUSY            : out    vl_logic;
+        GL0             : out    vl_logic;
+        GL1             : out    vl_logic;
+        GL2             : out    vl_logic;
+        GL3             : out    vl_logic;
+        Y0              : out    vl_logic;
+        Y1              : out    vl_logic;
+        Y2              : out    vl_logic;
+        Y3              : out    vl_logic;
+        PCLK            : in     vl_logic;
+        PRESET_N        : in     vl_logic;
+        PSEL            : in     vl_logic;
+        PWRITE          : in     vl_logic;
+        PENABLE         : in     vl_logic;
+        PWDATA          : in     vl_logic_vector(7 downto 0);
+        PADDR           : in     vl_logic_vector(7 downto 2);
+        PRDATA          : out    vl_logic_vector(7 downto 0)
+    );
+    attribute mti_svvh_generic_type : integer;
+    attribute mti_svvh_generic_type of INIT : constant is 2;
+    attribute mti_svvh_generic_type of VCOFREQUENCY : constant is 1;
+end CCC;

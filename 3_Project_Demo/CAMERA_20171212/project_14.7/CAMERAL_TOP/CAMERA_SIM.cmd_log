@@ -1,0 +1,30 @@
+xst -intstyle ise -ifn "D:/project/CAMERA_TOP4/project_14.7/CAMERAL_TOP/CAMERA_SIM.xst" -ofn "D:/project/CAMERA_TOP4/project_14.7/CAMERAL_TOP/CAMERA_SIM.syr" 
+xst -intstyle ise -ifn "D:/project/CAMERA_TOP4/project_14.7/CAMERAL_TOP/CAMERA_SIM.xst" -ofn "D:/project/CAMERA_TOP4/project_14.7/CAMERAL_TOP/CAMERA_SIM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -nt timestamp -i -p xc7k325t-ffg900-2 CAMERA_SIM.ngc CAMERA_SIM.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_SIM_map.ncd CAMERA_SIM.ngd CAMERA_SIM.pcf 
+xst -intstyle ise -ifn "D:/project/CAMERA_TOP4/project_14.7/CAMERAL_TOP/CAMERA_SIM.xst" -ofn "D:/project/CAMERA_TOP4/project_14.7/CAMERAL_TOP/CAMERA_SIM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -nt timestamp -uc D:/project/CAMERA_TOP4/ucf/top_test.ucf -uc D:/project/CAMERA_TOP4/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_SIM.ngc CAMERA_SIM.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -nt timestamp -uc D:/project/CAMERA_TOP4/ucf/top_test.ucf -uc D:/project/CAMERA_TOP4/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_SIM.ngc CAMERA_SIM.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_SIM_map.ncd CAMERA_SIM.ngd CAMERA_SIM.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -nt timestamp -uc D:/project/CAMERA_TOP4/ucf/top_test.ucf -uc D:/project/CAMERA_TOP4/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_SIM.ngc CAMERA_SIM.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_SIM_map.ncd CAMERA_SIM.ngd CAMERA_SIM.pcf 
+xst -intstyle ise -ifn "D:/project/CAMERA_TOP4/project_14.7/CAMERAL_TOP/CAMERA_SIM.xst" -ofn "D:/project/CAMERA_TOP4/project_14.7/CAMERAL_TOP/CAMERA_SIM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -nt timestamp -uc D:/project/CAMERA_TOP4/ucf/top_test.ucf -uc D:/project/CAMERA_TOP4/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_SIM.ngc CAMERA_SIM.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_SIM_map.ncd CAMERA_SIM.ngd CAMERA_SIM.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_SIM_map.ncd CAMERA_SIM.ncd CAMERA_SIM.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_SIM.twx CAMERA_SIM.ncd -o CAMERA_SIM.twr CAMERA_SIM.pcf 
+bitgen -intstyle ise -f CAMERA_SIM.ut CAMERA_SIM.ncd 
+xst -intstyle ise -ifn "D:/project/CAMERA_TOP4/project_14.7/CAMERAL_TOP/CAMERA_SIM.xst" -ofn "D:/project/CAMERA_TOP4/project_14.7/CAMERAL_TOP/CAMERA_SIM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -nt timestamp -uc D:/project/CAMERA_TOP4/ucf/top_test.ucf -uc D:/project/CAMERA_TOP4/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_SIM.ngc CAMERA_SIM.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_SIM_map.ncd CAMERA_SIM.ngd CAMERA_SIM.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_SIM_map.ncd CAMERA_SIM.ncd CAMERA_SIM.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_SIM.twx CAMERA_SIM.ncd -o CAMERA_SIM.twr CAMERA_SIM.pcf 
+bitgen -intstyle ise -f CAMERA_SIM.ut CAMERA_SIM.ncd 
+xst -intstyle ise -ifn "D:/project/CAMERA_TOP4/project_14.7/CAMERAL_TOP/CAMERA_SIM.xst" -ofn "D:/project/CAMERA_TOP4/project_14.7/CAMERAL_TOP/CAMERA_SIM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -nt timestamp -uc D:/project/CAMERA_TOP4/ucf/top_test.ucf -uc D:/project/CAMERA_TOP4/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_SIM.ngc CAMERA_SIM.ngd  
+xst -intstyle ise -ifn "D:/project/CAMERA_TOP4/project_14.7/CAMERAL_TOP/CAMERA_SIM.xst" -ofn "D:/project/CAMERA_TOP4/project_14.7/CAMERAL_TOP/CAMERA_SIM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../hdl/data_move -sd ../../hdl/data_send -sd ../../hdl/data_tx -sd ../../hdl/flash -sd ../../hdl/TOE -sd ../../ipcore_verilog/RAM_4096_16_SDP -nt timestamp -uc D:/project/CAMERA_TOP4/ucf/top_test.ucf -uc D:/project/CAMERA_TOP4/ucf/CAMERA.ucf -p xc7k325t-ffg900-2 CAMERA_SIM.ngc CAMERA_SIM.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CAMERA_SIM_map.ncd CAMERA_SIM.ngd CAMERA_SIM.pcf 
+par -w -intstyle ise -ol high -mt off CAMERA_SIM_map.ncd CAMERA_SIM.ncd CAMERA_SIM.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAMERA_SIM.twx CAMERA_SIM.ncd -o CAMERA_SIM.twr CAMERA_SIM.pcf 
+bitgen -intstyle ise -f CAMERA_SIM.ut CAMERA_SIM.ncd 

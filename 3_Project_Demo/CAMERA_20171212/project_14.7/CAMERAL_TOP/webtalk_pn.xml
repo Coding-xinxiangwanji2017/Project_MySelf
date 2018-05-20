@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pn" timeStamp="Mon Dec 11 14:57:55 2017">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="F4059F64873E4A88A2C5D683A96EDD4F" type="project"/>
+<property name="ProjectIteration" value="113" type="project"/>
+<property name="ProjectFile" value="C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171211_frame_test_plus/project_14.7/CAMERAL_TOP/CAMERAL_TOP.xise" type="project"/>
+<property name="ProjectCreationTimestamp" value="2016-08-22T11:23:58" type="project"/>
+</section>
+<section name="Project Statistics" visible="true">
+<property name="PROPEXT_xilxBitgCfg_GenOpt_EnableCRC_virtex6" value="false" type="process"/>
+<property name="PROP_Enable_Message_Filtering" value="false" type="design"/>
+<property name="PROP_FitterReportFormat" value="HTML" type="process"/>
+<property name="PROP_LastAppliedGoal" value="Balanced" type="design"/>
+<property name="PROP_LastAppliedStrategy" value="Xilinx Default (unlocked)" type="design"/>
+<property name="PROP_ManualCompileOrderImp" value="false" type="design"/>
+<property name="PROP_PropSpecInProjFile" value="Store all values" type="design"/>
+<property name="PROP_Simulator" value="ISim (VHDL/Verilog)" type="design"/>
+<property name="PROP_SynthTopFile" value="changed" type="process"/>
+<property name="PROP_Top_Level_Module_Type" value="HDL" type="design"/>
+<property name="PROP_UseSmartGuide" value="false" type="design"/>
+<property name="PROP_UserConstraintEditorPreference" value="Text Editor" type="process"/>
+<property name="PROP_UserEditorCustomSetting" value="{D:\UE\uedit64.exe} $1 -l$2" type="process"/>
+<property name="PROP_UserEditorPreference" value="Custom" type="process"/>
+<property name="PROP_bitg_SetSPIConfigBusWidth" value="4" type="process"/>
+<property name="PROP_bitgen_otherCmdLineOptions_virtex5" value="-g UnconstrainedPins:Allow" type="process"/>
+<property name="PROP_intProjectCreationTimestamp" value="2016-08-22T11:23:58" type="design"/>
+<property name="PROP_intWbtProjectID" value="F4059F64873E4A88A2C5D683A96EDD4F" type="design"/>
+<property name="PROP_intWbtProjectIteration" value="113" type="process"/>
+<property name="PROP_intWorkingDirLocWRTProjDir" value="Same" type="design"/>
+<property name="PROP_intWorkingDirUsed" value="No" type="design"/>
+<property name="PROP_lastSelectedUcfFile" value="C:/Users/Administrator/Desktop/version/CAMERA_TOP6.5_20171205_frame_test_plus/ucf/CAMERA.ucf" type="process"/>
+<property name="PROP_xilxBitgCfg_Unused_virtex5" value="Float" type="process"/>
+<property name="PROP_AutoTop" value="false" type="design"/>
+<property name="PROP_DevFamily" value="Kintex7" type="design"/>
+<property name="PROP_DevDevice" value="xc7k325t" type="design"/>
+<property name="PROP_DevFamilyPMName" value="kintex7" type="design"/>
+<property name="PROP_DevPackage" value="ffg900" type="design"/>
+<property name="PROP_Synthesis_Tool" value="XST (VHDL/Verilog)" type="design"/>
+<property name="PROP_DevSpeed" value="-2" type="design"/>
+<property name="PROP_PreferredLanguage" value="Verilog" type="design"/>
+<property name="FILE_COREGEN" value="4" type="source"/>
+<property name="FILE_NGC" value="6" type="source"/>
+<property name="FILE_UCF" value="2" type="source"/>
+<property name="FILE_VERILOG" value="51" type="source"/>
+<property name="FILE_VHDL" value="1" type="source"/>
+</section>
+</application>
+</document>

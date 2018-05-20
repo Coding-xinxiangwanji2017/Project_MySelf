@@ -1,0 +1,220 @@
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design CAMERA_TOP.ngc ...
+WARNING:NetListWriters:298 - No output is written to CAMERA_TOP.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_toe_app/rx_toe/rx_ctrl/rx_type<4 : 0> on block CAMERA_TOP is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_control/r_write_num<2 : 0> on block
+   CAMERA_TOP is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus u1_CAMERA_SIM/u1_CMD_PROC_TX/TX_DATA<15
+   : 0> on block CAMERA_TOP is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/cmd_wr_addr<24 : 0> on block
+   CAMERA_TOP is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/bread/rd_length<11 : 4> on block
+   CAMERA_TOP is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/bread/wr_data<5 : 0> on block
+   CAMERA_TOP is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/bread/wr_addr<15 : 0> on block
+   CAMERA_TOP is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/erase/wr_data<6 : 0> on block
+   CAMERA_TOP is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/erase/GND_108_o_GND_108_o_mux_66_OU
+   T<6 : 0> on block CAMERA_TOP is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/prog/r_length<7 : 2> on block
+   CAMERA_TOP is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/bread/GND_128_o_GND_128_o_mux_62_OU
+   T<5 : 0> on block CAMERA_TOP is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/bread/GND_128_o_GND_128_o_mux_47_OU
+   T<15 : 0> on block CAMERA_TOP is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/bread/GND_128_o_r_length[16]_mux_53
+   _OUT<11 : 4> on block CAMERA_TOP is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/bread/r_length<11 : 4> on block
+   CAMERA_TOP is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/cmd/sread/Madd_GND_157_o_r_length[1
+   6]_add_23_OUT_cy<4 : 0> on block CAMERA_TOP is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/cmd/sread/Madd_GND_157_o_r_length[1
+   6]_add_23_OUT_lut<4 : 0> on block CAMERA_TOP is not reconstructed, because
+   there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/cmd/sread/GND_157_o_r_length[16]_ad
+   d_23_OUT<11 : 0> on block CAMERA_TOP is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/cmd/sread/GND_157_o_r_length[16]_ad
+   d_17_OUT<11 : 2> on block CAMERA_TOP is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_flash_control/flash_intf/cmd/sread/r_length<11 : 0> on block
+   CAMERA_TOP is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_CMD_PROC_TX/tx_state[3]_GND_12_o_wide_mux_13_OUT<15 : 0> on
+   block CAMERA_TOP is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_toe_app/tx_toe/tx_control/type<7 : 0> on block CAMERA_TOP is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_CAMERA_SIM/u1_toe_app/tx_toe/tx_control/type[7]_rx_type[7]_mux_26_OUT<7 :
+   0> on block CAMERA_TOP is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_gtwizard_v2_7_exdes/shared_vio_out_i<31 : 27> on block CAMERA_TOP is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_gtwizard_v2_7_exdes/gt0_frame_check/_n0136<24 : 16> on block CAMERA_TOP is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u1_gtwizard_v2_7_exdes/gt0_frame_check/rx_data_ram_r<28 : 16> on block
+   CAMERA_TOP is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file CAMERA_TOP.edif ...
+ngc2edif: Total memory usage is 94304 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design data_vio.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file data_vio.edif ...
+ngc2edif: Total memory usage is 84512 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design fifo_4096_32.ngc ...
+WARNING:NetListWriters:298 - No output is written to fifo_4096_32.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file fifo_4096_32.edif ...
+ngc2edif: Total memory usage is 82848 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design vio.ngc ...
+WARNING:NetListWriters:298 - No output is written to vio.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file vio.edif ...
+ngc2edif: Total memory usage is 82848 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design ila.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block ila is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block ila is not
+   reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file ila.edif ...
+ngc2edif: Total memory usage is 86112 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design RAM_4096_16_SDP.ngc ...
+WARNING:NetListWriters:298 - No output is written to RAM_4096_16_SDP.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file RAM_4096_16_SDP.edif ...
+ngc2edif: Total memory usage is 81440 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design ILA1.ngc ...
+WARNING:NetListWriters:298 - No output is written to ILA1.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block ILA1 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block ILA1 is not
+   reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file ILA1.edif ...
+ngc2edif: Total memory usage is 106016 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design fifo.ngc ...
+WARNING:NetListWriters:298 - No output is written to fifo.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file fifo.edif ...
+ngc2edif: Total memory usage is 82464 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design rom_64_8_sdp.ngc ...
+WARNING:NetListWriters:298 - No output is written to rom_64_8_sdp.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file rom_64_8_sdp.edif ...
+ngc2edif: Total memory usage is 81440 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design flash_fifo_4k_16.ngc ...
+WARNING:NetListWriters:298 - No output is written to flash_fifo_4k_16.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file flash_fifo_4k_16.edif ...
+ngc2edif: Total memory usage is 82464 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design ICON_TOP.ngc ...
+WARNING:NetListWriters:298 - No output is written to ICON_TOP.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   ICON_TOP is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file ICON_TOP.edif ...
+ngc2edif: Total memory usage is 82912 kilobytes
+

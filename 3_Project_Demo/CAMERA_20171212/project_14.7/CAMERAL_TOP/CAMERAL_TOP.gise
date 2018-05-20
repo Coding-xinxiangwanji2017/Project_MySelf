@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="CAMERAL_TOP.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="CAMERA_SIM.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="CAMERA_SIM.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="CAMERA_SIM.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="CAMERA_SIM.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="CAMERA_SIM.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="CAMERA_SIM.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="CAMERA_SIM.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="CAMERA_SIM.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="CAMERA_SIM.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="CAMERA_SIM.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CAMERA_SIM.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="CAMERA_SIM.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="CAMERA_SIM.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="CAMERA_SIM.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="CAMERA_SIM.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="CAMERA_SIM.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="CAMERA_SIM.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="CAMERA_SIM.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="CAMERA_SIM.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="CAMERA_SIM.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="CAMERA_SIM_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="CAMERA_SIM_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="CAMERA_SIM_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="CAMERA_SIM_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="CAMERA_SIM_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="CAMERA_SIM_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CAMERA_SIM_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CAMERA_SIM_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="CAMERA_SIM_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="CAMERA_SIM_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CAMERA_SIM_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="CAMERA_SIM_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="CAMERA_SIM_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="CAMERA_SIM_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CAMERA_SIM_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="CAMERA_TOP.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="CAMERA_TOP.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LOCKEDPIN_CONSTRAINTS" xil_pn:name="CAMERA_TOP.lpc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="CAMERA_TOP.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="CAMERA_TOP.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="CAMERA_TOP.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="CAMERA_TOP.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="CAMERA_TOP.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="CAMERA_TOP.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="CAMERA_TOP.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="CAMERA_TOP.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CAMERA_TOP.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="CAMERA_TOP.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="CAMERA_TOP.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="CAMERA_TOP.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="CAMERA_TOP.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="CAMERA_TOP.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="CAMERA_TOP.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="CAMERA_TOP.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="CAMERA_TOP.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="CAMERA_TOP.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="CAMERA_TOP_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="CAMERA_TOP_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="CAMERA_TOP_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="CAMERA_TOP_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="CAMERA_TOP_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="CAMERA_TOP_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CAMERA_TOP_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CAMERA_TOP_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="CAMERA_TOP_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="CAMERA_TOP_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CAMERA_TOP_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="CAMERA_TOP_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="CAMERA_TOP_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="CAMERA_TOP_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CAMERA_TOP_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="camera_sim.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="camera_sim.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="camera_sim.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="camera_top.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="camera_top.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="camera_top.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_USERDOC" xil_pn:name="ipcore_dir/ICON_TOP_readme.txt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="ipcore_dir/coregen.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1512553478" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1512553478">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1512553478" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="8740414021924029702" xil_pn:start_ts="1512553478">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1512553478" xil_pn:in_ck="-5637444926227297151" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-7967544249849128981" xil_pn:start_ts="1512553478">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/ICON_TOP.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/ICON_TOP.v"/>
+      <outfile xil_pn:name="ipcore_dir/ILA1.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/ILA1.v"/>
+      <outfile xil_pn:name="ipcore_dir/flash_fifo_4k_16.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/flash_fifo_4k_16.v"/>
+      <outfile xil_pn:name="ipcore_dir/vio.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/vio.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1512553478" xil_pn:in_ck="-8127336528278346115" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1512553478">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1512553478" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-5445711493822363374" xil_pn:start_ts="1512553478">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1512553478" xil_pn:in_ck="-8127336528278346115" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-5918749233538361311" xil_pn:start_ts="1512553478">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1512553478" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="818421326557419061" xil_pn:start_ts="1512553478">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1512975087" xil_pn:in_ck="-3099882631713551773" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="5451903105999719859" xil_pn:start_ts="1512974982">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="CAMERA_SIM.ngr"/>
+      <outfile xil_pn:name="CAMERA_TOP.lso"/>
+      <outfile xil_pn:name="CAMERA_TOP.ngc"/>
+      <outfile xil_pn:name="CAMERA_TOP.ngr"/>
+      <outfile xil_pn:name="CAMERA_TOP.prj"/>
+      <outfile xil_pn:name="CAMERA_TOP.stx"/>
+      <outfile xil_pn:name="CAMERA_TOP.syr"/>
+      <outfile xil_pn:name="CAMERA_TOP.xst"/>
+      <outfile xil_pn:name="CAMERA_TOP_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1512553613" xil_pn:in_ck="-5602385636380100455" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="8765649872797440701" xil_pn:start_ts="1512553613">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1512975142" xil_pn:in_ck="-1970853309642739683" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="8530341686257172711" xil_pn:start_ts="1512975087">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CAMERA_TOP.bld"/>
+      <outfile xil_pn:name="CAMERA_TOP.ngd"/>
+      <outfile xil_pn:name="CAMERA_TOP_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1512975475" xil_pn:in_ck="6471500905308910227" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="1066978947743128725" xil_pn:start_ts="1512975142">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="CAMERA_TOP.pcf"/>
+      <outfile xil_pn:name="CAMERA_TOP_map.map"/>
+      <outfile xil_pn:name="CAMERA_TOP_map.mrp"/>
+      <outfile xil_pn:name="CAMERA_TOP_map.ncd"/>
+      <outfile xil_pn:name="CAMERA_TOP_map.ngm"/>
+      <outfile xil_pn:name="CAMERA_TOP_map.xrpt"/>
+      <outfile xil_pn:name="CAMERA_TOP_summary.xml"/>
+      <outfile xil_pn:name="CAMERA_TOP_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1512975645" xil_pn:in_ck="7695652114849160965" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="3510646383847945537" xil_pn:start_ts="1512975475">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CAMERA_TOP.ncd"/>
+      <outfile xil_pn:name="CAMERA_TOP.pad"/>
+      <outfile xil_pn:name="CAMERA_TOP.par"/>
+      <outfile xil_pn:name="CAMERA_TOP.ptwx"/>
+      <outfile xil_pn:name="CAMERA_TOP.unroutes"/>
+      <outfile xil_pn:name="CAMERA_TOP.xpi"/>
+      <outfile xil_pn:name="CAMERA_TOP_pad.csv"/>
+      <outfile xil_pn:name="CAMERA_TOP_pad.txt"/>
+      <outfile xil_pn:name="CAMERA_TOP_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1512975828" xil_pn:in_ck="8581956966412575346" xil_pn:name="TRANEXT_bitFile_virtex7" xil_pn:prop_ck="5001687290946517206" xil_pn:start_ts="1512975645">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CAMERA_TOP.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="camera_top.bgn"/>
+      <outfile xil_pn:name="camera_top.bit"/>
+      <outfile xil_pn:name="camera_top.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1472819560" xil_pn:in_ck="4352495693523829190" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="7333617237298376541" xil_pn:start_ts="1472819557">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1473674576" xil_pn:in_ck="4352495693523829190" xil_pn:name="TRAN_analyzeDesignUsingChipscope" xil_pn:prop_ck="8530341686257172711" xil_pn:start_ts="1473674576">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1512475949" xil_pn:in_ck="3022231446669089419" xil_pn:name="TRAN_fpgaFloorplanPostPAR" xil_pn:start_ts="1512475943">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1472806087" xil_pn:in_ck="8581956966412575346" xil_pn:name="TRAN_genLockedPinConstraints" xil_pn:start_ts="1472806065">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1512975645" xil_pn:in_ck="3022231446669089419" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1512975610">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CAMERA_TOP.twr"/>
+      <outfile xil_pn:name="CAMERA_TOP.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

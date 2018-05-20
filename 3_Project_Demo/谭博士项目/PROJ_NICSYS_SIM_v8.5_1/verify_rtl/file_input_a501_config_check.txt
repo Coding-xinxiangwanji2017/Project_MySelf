@@ -1,0 +1,17 @@
+Command_type      1
+TDI_N      2
+TDI_DURATION      3
+TRACK_N      4
+LASER_INI_TIME      5
+TDI_START      6
+DIRECTION      7
+CMOS_X0      8
+CMOS_X1      9
+CMOS_Y0     10
+CMOS_Y1     11
+TRACK_X0     12
+TRACK_X1     13
+TRACK_Y0     14
+TRACK_Y1     15
+TDI_INTERVAL_LINE     16
+TDI_INTERVAL_TIME     17

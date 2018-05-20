@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/cs_dev/!svn/ver/52/trunk/01.Logic/02.SourceCode/01.General/01.bus/mnet
+END
+M_NET_APP_DATA.v
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/cs_dev/!svn/ver/52/trunk/01.Logic/02.SourceCode/01.General/01.bus/mnet/M_NET_APP_DATA.v
+END
+M_NET_MUX.v
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/cs_dev/!svn/ver/52/trunk/01.Logic/02.SourceCode/01.General/01.bus/mnet/M_NET_MUX.v
+END
+M_NET_req_ctrl.v
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/cs_dev/!svn/ver/52/trunk/01.Logic/02.SourceCode/01.General/01.bus/mnet/M_NET_req_ctrl.v
+END
+M_NET_Link_2.v
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/cs_dev/!svn/ver/52/trunk/01.Logic/02.SourceCode/01.General/01.bus/mnet/M_NET_Link_2.v
+END
+M_NET.v
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/cs_dev/!svn/ver/52/trunk/01.Logic/02.SourceCode/01.General/01.bus/mnet/M_NET.v
+END
+M_NET_RMII.v
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/cs_dev/!svn/ver/52/trunk/01.Logic/02.SourceCode/01.General/01.bus/mnet/M_NET_RMII.v
+END
+M_NET_APP_2.v
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/cs_dev/!svn/ver/52/trunk/01.Logic/02.SourceCode/01.General/01.bus/mnet/M_NET_APP_2.v
+END
+m_crc32en8_eth.v
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/cs_dev/!svn/ver/52/trunk/01.Logic/02.SourceCode/01.General/01.bus/mnet/m_crc32en8_eth.v
+END
+M_NET_rx_buffer.v
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/cs_dev/!svn/ver/52/trunk/01.Logic/02.SourceCode/01.General/01.bus/mnet/M_NET_rx_buffer.v
+END
+m_crc32de8_eth.v
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/cs_dev/!svn/ver/52/trunk/01.Logic/02.SourceCode/01.General/01.bus/mnet/m_crc32de8_eth.v
+END

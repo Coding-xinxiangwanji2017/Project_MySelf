@@ -1,0 +1,351 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date:    09:47:15 04/19/2016 
+// Design Name: 
+// Module Name:    init_load_ram 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
+module init_load_ram(
+	input					sys_clk,
+	input					fram_clk,
+	input					glbl_rst_n,
+	
+	input 				load_ram_en,
+	output				load_ram_done,
+	output				load_ram_error,
+	input 				init_ok,
+	
+	output 				init_fram_rden,
+	output 	[10:0]	init_fram_length,
+	output 	[15:0]	init_fram_addr,
+	input 				init_fram_valid,
+	input 				init_fram_last,
+	input 	[7:0]		init_fram_data,
+	
+	output 				init_afpga_rden,
+	output 				init_afpga_wren,
+	output 	[22:0]	init_afpga_addr,
+	input 	[7:0]		init_afpga_rdata,
+	output 	[7:0]		init_afpga_wdata,
+	
+	output 				init_cons_wren,
+	output 	[15:0]	init_cons_addr,
+	output 	[7:0]		init_cons_data,
+	output 	[191:0]	init_cons_para,
+	
+	output 				init_flash_rden,
+	output 	[23:0]	init_flash_length,
+	output 	[24:0]	init_flash_addr,
+	input 				init_flash_valid,
+	input 				init_flash_last,
+	input 	[7:0]		init_flash_data,
+	
+	output 				init_sram_wr_start,
+	output 				init_sram_wr_done,
+	
+	output 				init_xfer_wren,
+	output 	[17:0]	init_xfer_addr,
+	output 	[7:0]		init_xfer_data,
+	output 	[95:0]	init_xfer_para,
+	output 				init_card_wren,
+	output 	[9:0]		init_card_addr,	
+	output 	[7:0]		init_card_data,
+	
+	output 	[287:0]	load_ram_crc
+);
+
+	wire					fram_fsm_done;
+	wire					fram_fsm_error;
+	wire					flash_fsm_done;
+	wire					flash_fsm_error;
+	wire 					fram_afpga_en;
+	wire					fram_afpga_done;
+	wire					fram_afpga_error;
+	wire 					fram_cons_en;
+	wire					fram_cons_done;
+	wire					fram_cons_error;
+	
+	wire 					flash_afpga_en;
+	wire					flash_afpga_done;
+	wire					flash_afpga_error;
+	wire 					flash_cons_en;
+	wire					flash_cons_done;
+	wire					flash_cons_error;
+	wire 					flash_xfer_en;
+	wire					flash_xfer_done;
+	wire					flash_xfer_error;
+	wire 					flash_card_en;
+	wire					flash_card_done;
+	wire					flash_card_error;
+	
+	wire 					afpga_fram_rden;
+	wire 	[10:0]		afpga_fram_length;
+	wire 	[15:0]		afpga_fram_addr; 
+	wire					fram_afpga_wren;
+	wire	[22:0]		fram_afpga_addr;
+	wire	[7:0]			fram_afpga_wdata;
+	
+	wire					cons_fram_rden;
+	wire 	[10:0]		cons_fram_length;
+	wire 	[15:0]		cons_fram_addr; 
+	wire					fram_cons_wren;
+	wire	[15:0]		fram_cons_addr;
+	wire	[7:0]			fram_cons_data;
+	
+	wire					cons_flash_rden;
+	wire	[23:0]		cons_flash_length;
+	wire	[24:0]		cons_flash_addr;
+	wire					flash_cons_wren;
+	wire	[15:0]		flash_cons_addr;
+	wire	[7:0]			flash_cons_data;
+
+	wire					afpga_flash_rden;
+	wire	[23:0]		afpga_flash_length;
+	wire	[24:0]		afpga_flash_addr;
+	wire					flash_afpga_wren;
+	wire	[22:0]		flash_afpga_addr;
+	wire	[7:0]			flash_afpga_wdata;	
+	
+	wire					xfer_flash_rden;
+	wire	[23:0]		xfer_flash_length;
+	wire	[24:0]		xfer_flash_addr;
+	
+	wire					card_flash_rden;
+	wire	[23:0]		card_flash_length;
+	wire	[24:0]		card_flash_addr;
+	
+	assign init_sram_wr_start = flash_xfer_en;
+	assign init_sram_wr_done = flash_xfer_done | flash_xfer_error;
+
+
+assign load_ram_done = 1'b1;
+	
+	done_and_error_or done_and_error_or (
+		.sys_clk(sys_clk), 
+		.glbl_rst_n(glbl_rst_n), 
+		.load_ram_done(load_ram_done), //
+		.load_ram_error(load_ram_error), 
+		.fram_fsm_done(fram_fsm_done),  ////////////////////////////////////////////////////////
+		.fram_fsm_error(fram_fsm_error), 
+		.flash_fsm_done(flash_fsm_done), 
+		.flash_fsm_error(flash_fsm_error)
+	);
+
+	load_fram_fsm load_fram_fsm (
+		.sys_clk(sys_clk), 
+		.glbl_rst_n(glbl_rst_n), 
+		.load_ram_en(load_ram_en), /////////¹Ø±Õ¶Áfram//////////////////////////////////////
+		.fram_fsm_done(fram_fsm_done), 
+		.fram_fsm_error(fram_fsm_error), 
+		.flash_fsm_done(flash_fsm_done), 
+		.flash_fsm_error(flash_fsm_error), 
+		.fram_afpga_en(fram_afpga_en), 
+		.fram_afpga_done(fram_afpga_done), 
+		.fram_afpga_error(fram_afpga_error), 
+		.fram_cons_en(fram_cons_en), 
+		.fram_cons_done(1'b1), //fram_cons_done///////////////////////////////////////////
+		.fram_cons_error(fram_cons_error)
+	);
+
+	load_flash_fsm load_flash_fsm (
+		.sys_clk(sys_clk), 
+		.glbl_rst_n(glbl_rst_n), 
+		.load_ram_en(load_ram_en), //
+		.fram_fsm_done(fram_fsm_done), ///////¹Ø±Õ¶Áflash//////////////////////////////////////////////
+		.fram_fsm_error(fram_fsm_error), 
+		.flash_fsm_done(flash_fsm_done), 
+		.flash_fsm_error(flash_fsm_error), 
+		.flash_afpga_en(flash_afpga_en), 
+		.flash_afpga_done(1'b1), //flash_afpga_done/////////////////////////////////////////////////
+		.flash_afpga_error(flash_afpga_error), 
+		.flash_cons_en(flash_cons_en), 
+		.flash_cons_done(flash_cons_done), ///////////////////////////////////////////////////////
+		.flash_cons_error(flash_cons_error), 
+		.flash_xfer_en(flash_xfer_en), 
+		.flash_xfer_done(flash_xfer_done), 
+		.flash_xfer_error(flash_xfer_error), 
+		.flash_card_en(flash_card_en), 
+		.flash_card_done(1'b1), //flash_card_done///////////////////////////////////////////////////
+		.flash_card_error(flash_card_error)
+	);
+
+	fram_load_afpga fram_load_afpga (
+		.sys_clk(sys_clk), 
+		.fram_clk(fram_clk), 
+		.glbl_rst_n(glbl_rst_n), 
+		.fram_afpga_en(fram_afpga_en), 
+		.fram_afpga_done(fram_afpga_done), 
+		.fram_afpga_error(fram_afpga_error), 
+		
+		.afpga_fram_rden(afpga_fram_rden),
+		.afpga_fram_length(afpga_fram_length),
+		.afpga_fram_addr(afpga_fram_addr),
+		.init_fram_last(init_fram_last),
+		.init_fram_valid(init_fram_valid),
+		.init_fram_data(init_fram_data),
+		
+		.fram_afpga_wren(fram_afpga_wren), 
+		.fram_afpga_addr(fram_afpga_addr), 
+		.fram_afpga_wdata(fram_afpga_wdata)
+	);
+
+	fram_load_cons fram_load_cons (
+		.sys_clk(sys_clk), 
+		.fram_clk(fram_clk), 
+		.glbl_rst_n(glbl_rst_n), 
+		.fram_cons_en(1'b0), //fram_cons_en///////////////////////////////////////////////
+		.fram_cons_done(fram_cons_done), 
+		.fram_cons_error(fram_cons_error),
+		
+		.cons_fram_rden(cons_fram_rden),
+		.cons_fram_length(cons_fram_length),
+		.cons_fram_addr(cons_fram_addr),
+		.init_fram_valid(init_fram_valid),
+		.init_fram_last(init_fram_last),
+		.init_fram_data(init_fram_data),
+		
+		.fram_cons_wren(fram_cons_wren), 
+		.fram_cons_addr(fram_cons_addr), 
+		.fram_cons_data(fram_cons_data),
+		.fram_cons_crc(load_ram_crc[31:0])
+	);
+	
+	flash_load_cons flash_load_cons (
+		.sys_clk(sys_clk), 
+		.glbl_rst_n(glbl_rst_n), 
+		.flash_cons_en(flash_cons_en), ////////////////////////////////////////////////////
+		.flash_cons_done(flash_cons_done), 
+		.flash_cons_error(flash_cons_error), 
+		.cons_flash_rden(cons_flash_rden), 
+		.cons_flash_length(cons_flash_length), 
+		.cons_flash_addr(cons_flash_addr), 
+		.init_flash_valid(init_flash_valid), 
+		.init_flash_last(init_flash_last), 
+		.init_flash_data(init_flash_data), 
+		.flash_cons_wren(flash_cons_wren), 
+		.flash_cons_addr(flash_cons_addr), 
+		.flash_cons_data(flash_cons_data), 
+		.init_cons_para(init_cons_para),
+		.flash_cons_crc(load_ram_crc[95:32])
+	);
+
+	flash_load_afpga flash_load_afpga (
+		.sys_clk(sys_clk), 
+		.glbl_rst_n(glbl_rst_n), 
+		.init_ok(init_ok), 
+		.flash_afpga_en(1'b0), //flash_afpga_en///////////////////////////////////////////////////////
+		.flash_afpga_done(flash_afpga_done), 
+		.flash_afpga_error(flash_afpga_error), 
+		.afpga_flash_rden(afpga_flash_rden), 
+		.afpga_flash_length(afpga_flash_length), 
+		.afpga_flash_addr(afpga_flash_addr), 
+		.init_flash_valid(init_flash_valid), 
+		.init_flash_last(init_flash_last), 
+		.init_flash_data(init_flash_data), 
+		.flash_afpga_rden(init_afpga_rden), 
+		.flash_afpga_wren(flash_afpga_wren), 
+		.flash_afpga_addr(flash_afpga_addr), 
+		.init_afpga_rdata(init_afpga_rdata), 
+		.flash_afpga_wdata(flash_afpga_wdata), 
+		.fram_cons_crc(load_ram_crc[127:96])
+	);
+	 
+	flash_load_xfer flash_load_xfer (
+		.sys_clk(sys_clk), 
+		.glbl_rst_n(glbl_rst_n), 
+		.flash_xfer_en(flash_xfer_en), 
+		.flash_xfer_done(flash_xfer_done), 
+		.flash_xfer_error(flash_xfer_error), 
+		.xfer_flash_rden(xfer_flash_rden), 
+		.xfer_flash_length(xfer_flash_length), 
+		.xfer_flash_addr(xfer_flash_addr), 
+		.init_flash_valid(init_flash_valid), 
+		.init_flash_last(init_flash_last), 
+		.init_flash_data(init_flash_data), 
+		.init_xfer_wren(init_xfer_wren), 
+		.init_xfer_addr(init_xfer_addr), 
+		.init_xfer_data(init_xfer_data), 
+		.init_xfer_para(init_xfer_para), 
+		.flash_xfer_crc(load_ram_crc[255:128])
+	);	 
+	 
+	flash_load_card flash_load_card (
+		.sys_clk(sys_clk), 
+		.glbl_rst_n(glbl_rst_n), 
+		.flash_card_en(1'b0), //flash_card_en////////////////////////////////////////////////
+		.flash_card_done(flash_card_done), 
+		.flash_card_error(flash_card_error), 
+		.card_flash_rden(card_flash_rden), 
+		.card_flash_length(card_flash_length), 
+		.card_flash_addr(card_flash_addr), 
+		.init_flash_valid(init_flash_valid), 
+		.init_flash_last(init_flash_last), 
+		.init_flash_data(init_flash_data), 
+		.init_card_wren(init_card_wren), 
+		.init_card_addr(init_card_addr), 
+		.init_card_data(init_card_data), 
+		.flash_card_crc(load_ram_crc[287:256])
+	); 
+
+	load_ram_or load_ram_or (
+		.sys_clk(sys_clk), 
+		.fram_clk(fram_clk), 
+		.glbl_rst_n(glbl_rst_n), 
+		.afpga_fram_rden(afpga_fram_rden), 
+		.afpga_fram_addr(afpga_fram_addr), 
+		.afpga_fram_length(afpga_fram_length), 
+		.cons_fram_rden(cons_fram_rden), 
+		.cons_fram_addr(cons_fram_addr), 
+		.cons_fram_length(cons_fram_length), 
+		.cons_flash_rden(cons_flash_rden), 
+		.cons_flash_length(cons_flash_length), 
+		.cons_flash_addr(cons_flash_addr), 
+		.xfer_flash_rden(xfer_flash_rden), 
+		.xfer_flash_length(xfer_flash_length), 
+		.xfer_flash_addr(xfer_flash_addr), 
+		.card_flash_rden(card_flash_rden), 
+		.card_flash_length(card_flash_length), 
+		.card_flash_addr(card_flash_addr), 
+		.afpga_flash_rden(afpga_flash_rden), 
+		.afpga_flash_length(afpga_flash_length), 
+		.afpga_flash_addr(afpga_flash_addr), 
+		.fram_cons_wren(fram_cons_wren), 
+		.fram_cons_addr(fram_cons_addr), 
+		.fram_cons_data(fram_cons_data), 
+		.flash_cons_wren(flash_cons_wren), 
+		.flash_cons_addr(flash_cons_addr), 
+		.flash_cons_data(flash_cons_data), 
+		.fram_afpga_wren(fram_afpga_wren), 
+		.fram_afpga_addr(fram_afpga_addr), 
+		.fram_afpga_wdata(fram_afpga_wdata), 
+		.flash_afpga_wren(flash_afpga_wren), 
+		.flash_afpga_addr(flash_afpga_addr), 
+		.flash_afpga_wdata(flash_afpga_wdata), 
+		.init_fram_rden(init_fram_rden), 
+		.init_fram_addr(init_fram_addr), 
+		.init_fram_length(init_fram_length), 
+		.init_flash_rden(init_flash_rden), 
+		.init_flash_length(init_flash_length), 
+		.init_flash_addr(init_flash_addr), 
+		.init_afpga_wren(init_afpga_wren), 
+		.init_afpga_addr(init_afpga_addr), 
+		.init_afpga_wdata(init_afpga_wdata), 
+		.init_cons_wren(init_cons_wren), 
+		.init_cons_addr(init_cons_addr), 
+		.init_cons_data(init_cons_data)
+	);
+	 
+endmodule

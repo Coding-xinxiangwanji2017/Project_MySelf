@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component> 
+<vendor></vendor>
+<library></library>
+<name>RAM_8K_8_DP_RAM_8K_8_DP_0_DPSRAM</name>
+<version></version>
+<hwModel>
+<views>
+<view>
+<name>HDL</name>
+<fileSetRef>HDL_FILESET</fileSetRef>
+</view>
+<view>
+<name>SIMULATION</name>
+<fileSetRef>ANY_SIMULATION_FILESET</fileSetRef>
+</view>
+<view>
+<name>OTHER</name>
+<fileSetRef>OTHER_FILESET</fileSetRef>
+</view>
+</views>
+</hwModel>
+<fileSets>
+<fileSet fileSetId="HDL_FILESET">
+<file>
+<name>RAM_8K_8_DP_RAM_8K_8_DP_0_DPSRAM.v</name>
+<userFileType>verilogSource</userFileType>
+</file>
+</fileSet>
+<fileSet fileSetId="ANY_SIMULATION_FILESET">
+<file>
+<name>RAM_8K_8_DP_RAM_8K_8_DP_0_DPSRAM_R0C0.mem</name>
+<userFileType>MEM</userFileType>
+</file>
+<file>
+<name>RAM_8K_8_DP_RAM_8K_8_DP_0_DPSRAM_R0C1.mem</name>
+<userFileType>MEM</userFileType>
+</file>
+<file>
+<name>RAM_8K_8_DP_RAM_8K_8_DP_0_DPSRAM_R0C2.mem</name>
+<userFileType>MEM</userFileType>
+</file>
+<file>
+<name>RAM_8K_8_DP_RAM_8K_8_DP_0_DPSRAM_R0C3.mem</name>
+<userFileType>MEM</userFileType>
+</file>
+</fileSet>
+<fileSet fileSetId="OTHER_FILESET">
+<file>
+<name>RAM_8K_8_DP_RAM_8K_8_DP_0_DPSRAM.shx</name>
+<userFileType>Other</userFileType>
+</file>
+</fileSet>
+</fileSets>
+</component>

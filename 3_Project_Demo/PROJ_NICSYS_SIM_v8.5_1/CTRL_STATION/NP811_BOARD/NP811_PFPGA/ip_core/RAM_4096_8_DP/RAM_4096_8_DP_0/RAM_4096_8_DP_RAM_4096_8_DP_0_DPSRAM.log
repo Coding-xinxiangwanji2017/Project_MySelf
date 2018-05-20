@@ -1,0 +1,77 @@
+
+****************
+Macro Parameters
+****************
+
+Name                            : RAM_4096_8_DP_RAM_4096_8_DP_0_DPSRAM
+Family                          : IGLOO2
+Output Format                   : VERILOG
+Type                            : RAM
+Write Block Enable              : None
+Read Block Enable               : None
+A_DOUT_EN                       : None
+B_DOUT_EN                       : None
+A_DOUT_SRST_N                   : None
+B_DOUT_SRST_N                   : None
+A_DOUT_ARST_N                   : None
+B_DOUT_ARST_N                   : None
+A_DOUT_CLK                      : None
+B_DOUT_CLK                      : None
+Reset Polarity                  : None
+Read Clock                      : Rising
+Write Clock                     : Rising
+Write Depth                     : 4096
+Write Width                     : 8
+Read Depth                      : 4096
+Read Width                      : 8
+Portname DataIn                 : 
+Portname DataOut                : 
+Portname WClock                 : 
+Portname RClock                 : 
+Portname WAddress               : 
+Portname RAddress               : 
+Portname Clock                  : CLK
+Portname Reset                  : ARST_N
+Portname DataAIn                : A_DIN
+Portname DataBIn                : B_DIN
+Portname DataAOut               : A_DOUT
+Portname DataBOut               : B_DOUT
+Portname AddressA               : A_ADDR
+Portname AddressB               : B_ADDR
+Portname CLKA                   : A_CLK
+Portname CLKB                   : B_CLK
+Portname RWA                    : A_WEN
+Portname RWB                    : B_WEN
+Portname BLKA                   : A_BLK
+Portname BLKB                   : B_BLK
+Portname A_DOUT_EN              : A_DOUT_EN
+Portname B_DOUT_EN              : B_DOUT_EN
+Portname A_DOUT_SRST_N          : A_DOUT_SRST_N
+Portname B_DOUT_SRST_N          : B_DOUT_SRST_N
+Portname A_DOUT_ARST_N          : A_DOUT_ARST_N
+Portname B_DOUT_ARST_N          : B_DOUT_ARST_N
+Portname A_DOUT_CLK             : 
+Portname B_DOUT_CLK             : 
+Portname Write Enable           : 
+Portname Read Enable            : 
+Portname A_WBYTE_EN             : 
+Portname B_WBYTE_EN             : 
+LPM_HINT                        : 
+Device                          : 15000
+RAM Type                        : Dual Port
+Optimized for                   : Speed
+Initialize RAM                  : False
+Clocks                          : Independent Read and Write Clocks
+Byte Enables                    : No
+Read Pipeline A                 : No
+Read Pipeline B                 : No
+Write Mode A                    : Hold Data
+Write Mode B                    : Hold Data
+
+Cascade Configuration: 
+     Port A configuration       : 4096x4
+     Port B configuration       : 4096x4
+     Number of blocks depth wise: 1
+     Number of blocks width wise: 2
+
+Wrote Verilog netlist to D:\hhh\hhh\component\work\RAM_4096_8_DP\RAM_4096_8_DP_0\\RAM_4096_8_DP_RAM_4096_8_DP_0_DPSRAM.v.

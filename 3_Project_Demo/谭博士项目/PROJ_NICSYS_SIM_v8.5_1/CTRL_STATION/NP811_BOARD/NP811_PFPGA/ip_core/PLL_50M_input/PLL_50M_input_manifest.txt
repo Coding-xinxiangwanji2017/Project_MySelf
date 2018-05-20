@@ -1,0 +1,12 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.5 SP2 (Version 11.5.2.6)
+
+Date      :  Tue Apr 26 16:16:02 2016
+Project   :  D:\Libero_Project\test\Pro_test
+Component :  PLL_50M_input
+Family    :  IGLOO2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/Libero_Project/test/Pro_test/component/work/PLL_50M_input/PLL_50M_input.v
+    D:/Libero_Project/test/Pro_test/component/work/PLL_50M_input/PLL_50M_input_0/PLL_50M_input_PLL_50M_input_0_FCCC.v
+

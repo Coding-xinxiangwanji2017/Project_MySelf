@@ -1,0 +1,89 @@
+
+****************
+Macro Parameters
+****************
+
+Name                            : RAM_64_8_DP_RAM_64_8_DP_0_URAM
+Family                          : IGLOO2
+Output Format                   : VERILOG
+Type                            : URAM
+A_BLK                           : None
+B_BLK                           : None
+C_BLK                           : Active High
+Reset Polarity                  : None
+A Clock                         : Rising
+AddrA Clock                     : Rising
+DoutA Clock                     : Rising
+AddrA SReset                    : None
+DoutA SReset                    : None
+AddrA AReset                    : None
+DoutA AReset                    : None
+AddrA Enable                    : None
+DoutA Enable                    : None
+B Clock                         : Rising
+AddrB Clock                     : Rising
+DoutB Clock                     : Rising
+AddrB SReset                    : None
+DoutB SReset                    : None
+AddrB AReset                    : None
+DoutB AReset                    : None
+AddrB Enable                    : None
+DoutB Enable                    : None
+Write Clock                     : Rising
+Write Enable                    : Active High
+Write Depth                     : 64
+Write Width                     : 8
+Read Depth A                    : 64
+Read Width A                    : 8
+Read Depth B                    : 64
+Read Width B                    : 8
+A_ADDR_LAT                      : Register
+A_DOUT_LAT                      : Latch
+B_ADDR_LAT                      : Register
+B_DOUT_LAT                      : Latch
+Portname A_DOUT                 : A_DOUT
+Portname B_DOUT                 : B_DOUT
+Portname A_CLK                  : A_CLK
+Portname A_ADDR_CLK             : A_ADDR_CLK
+Portname A_DOUT_CLK             : A_DOUT_CLK
+Portname A_ADDR_SRST            : A_ADDR_SRST_N
+Portname A_DOUT_SRST            : A_DOUT_SRST_N
+Portname A_ADDR_ARST            : A_ADDR_ARST_N
+Portname A_DOUT_ARST            : A_DOUT_ARST_N
+Portname A_ADDR_EN              : A_ADDR_EN
+Portname A_DOUT_EN              : A_DOUT_EN
+Portname A_BLK                  : A_BLK
+Portname A_ADDR                 : A_ADDR
+Portname B_CLK                  : B_CLK
+Portname B_ADDR_CLK             : B_ADDR_CLK
+Portname B_DOUT_CLK             : B_DOUT_CLK
+Portname B_ADDR_SRST_N          : B_ADDR_SRST_N
+Portname B_DOUT_SRST_N          : B_DOUT_SRST_N
+Portname B_ADDR_ARST_N          : B_ADDR_ARST_N
+Portname B_DOUT_ARST_N          : B_DOUT_ARST_N
+Portname B_ADDR_EN              : B_ADDR_EN
+Portname B_DOUT_EN              : B_DOUT_EN
+Portname B_BLK                  : B_BLK
+Portname B_ADDR                 : B_ADDR
+Portname Write Clock            : C_CLK
+Portname Write Address          : C_ADDR
+Portname Write Data             : C_DIN
+Portname Write Enable           : C_WEN
+Portname Write BLK              : C_BLK
+Portname Clock                  : CLK
+Portname Reset                  : RESET
+LPM_HINT                        : 
+Device                          : 9000
+RAM Type                        : Three Port
+Optimized for                   : Speed
+Clocks                          : One Clock per port
+Initialize RAM                  : True
+
+Cascade Configuration: 
+     Port A configuration       : 128x9
+     Port B configuration       : 128x9
+     Port C configuration       : 128x9
+     Number of blocks depth wise: 1
+     Number of blocks width wise: 1
+
+Wrote Verilog netlist to G:\project_NicSys8000N\NP811_PFPGA\GHO\component\work\RAM_64_8_DP\RAM_64_8_DP_0\\RAM_64_8_DP_RAM_64_8_DP_0_URAM.v.
