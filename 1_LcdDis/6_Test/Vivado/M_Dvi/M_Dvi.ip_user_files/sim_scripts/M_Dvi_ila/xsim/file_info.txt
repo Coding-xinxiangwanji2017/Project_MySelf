@@ -1,0 +1,2 @@
+M_Dvi_ila.vhd,vhdl,xil_defaultlib,../../../../M_Dvi.srcs/sources_1/ip/M_Dvi_ila/sim/M_Dvi_ila.vhd,incdir="../../../../M_Dvi.srcs/sources_1/ip/M_Dvi_ila/hdl/verilog"
+glbl.v,Verilog,xil_defaultlib,glbl.v

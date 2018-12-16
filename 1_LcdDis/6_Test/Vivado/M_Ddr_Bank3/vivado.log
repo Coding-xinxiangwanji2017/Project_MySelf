@@ -1,0 +1,600 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Dec 16 21:32:17 2018
+# Process ID: 5856
+# Current directory: D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5344 D:\Project_MySelf\1_LcdDis\Vivado\M_Ddr_4\M_Ddr.xpr
+# Log file: D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/vivado.log
+# Journal file: D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/M_Tool/Vivado_2017.4/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:13 . Memory (MB): peak = 956.418 ; gain = 245.254
+update_compile_order -fileset sources_1
+set_property -dict [list CONFIG.XML_INPUT_FILE {mig_b.prj} CONFIG.RESET_BOARD_INTERFACE {Custom} CONFIG.MIG_DONT_TOUCH_PARAM {Custom} CONFIG.BOARD_MIG_PARAM {Custom}] [get_ips M_DdrCtrl]
+generate_target {instantiation_template} [get_files d:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.srcs/sources_1/ip/M_DdrCtrl/M_DdrCtrl.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'M_DdrCtrl'...
+generate_target all [get_files  D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.srcs/sources_1/ip/M_DdrCtrl/M_DdrCtrl.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'M_DdrCtrl'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'M_DdrCtrl'...
+WARNING: [IP_Flow 19-519] IP 'M_DdrCtrl' detected a language mismatch between 'VHDL Simulation Wrapper' and 'Verilog Simulation' output products. Please check with the IP provider to see if this is expected.
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'M_DdrCtrl'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'M_DdrCtrl'...
+catch { config_ip_cache -export [get_ips -all M_DdrCtrl] }
+export_ip_user_files -of_objects [get_files D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.srcs/sources_1/ip/M_DdrCtrl/M_DdrCtrl.xci] -no_script -sync -force -quiet
+reset_run M_DdrCtrl_synth_1
+launch_runs -jobs 4 M_DdrCtrl_synth_1
+[Sun Dec 16 21:39:16 2018] Launched M_DdrCtrl_synth_1...
+Run output will be captured here: D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/M_DdrCtrl_synth_1/runme.log
+export_simulation -of_objects [get_files D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.srcs/sources_1/ip/M_DdrCtrl/M_DdrCtrl.xci] -directory D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.ip_user_files/sim_scripts -ip_user_files_dir D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.ip_user_files -ipstatic_source_dir D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.cache/compile_simlib/modelsim} {questa=D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.cache/compile_simlib/questa} {riviera=D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.cache/compile_simlib/riviera} {activehdl=D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+[Sun Dec 16 21:43:05 2018] Launched synth_1...
+Run output will be captured here: D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/synth_1/runme.log
+[Sun Dec 16 21:43:05 2018] Launched impl_1...
+Run output will be captured here: D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Dec 16 21:49:21 2018] Launched impl_1...
+Run output will be captured here: D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.4
+  **** Build date : Dec 15 2017-21:08:27
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210308957375
+set_property PROGRAM.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.bit} [get_hw_devices xc7k325t_0]
+set_property PROBES.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.ltx} [get_hw_devices xc7k325t_0]
+current_hw_device [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'U_ila_0' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1609.113 ; gain = 3.113
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'U_ila_0' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1609.781 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:52:22
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes init_calib_complete_OBUF -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes tg_compare_error_OBUF -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {init_calib_complete_OBUF} {tg_compare_error_OBUF} }
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2018-Dec-16 21:53:02
+WARNING: [Labtools 27-157] hw_ila [hw_ila_1] stopped. No data to upload.
+set_property PROBES.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1628.934 ; gain = 0.477
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:53:56
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:53:56
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:53:58
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:53:58
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:54:00
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:54:00
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:54:01
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:54:01
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:54:02
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:54:02
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:54:04
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:54:04
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:54:06
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:54:06
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:54:07
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:54:07
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:54:09
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:54:09
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:54:10
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:54:10
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:54:13
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:54:13
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:54:14
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:54:14
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:54:16
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:54:16
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:54:18
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:54:18
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:54:19
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:54:19
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:54:21
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:54:21
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:54:23
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:54:23
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:54:26
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:54:26
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROBES.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1632.863 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'U_ila_0' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1632.863 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:55:37
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:55:37
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:55:39
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:55:40
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:55:42
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:55:42
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:55:43
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:55:43
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:55:46
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:55:46
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:56:28
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:56:28
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:56:40
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:56:40
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:56:42
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:56:42
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:56:44
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:56:44
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:56:46
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:56:46
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:56:47
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:56:47
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:56:50
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:56:50
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:56:51
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:56:51
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:56:53
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:56:53
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:56:54
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:56:54
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:56:57
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:56:57
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:56:58
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:56:58
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 21:57:00
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 21:57:00
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+save_wave_config {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+set_property PROBES.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1639.105 ; gain = 0.285
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+save_wave_config {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 22:01:07
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 22:01:07
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+save_wave_config {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+close_hw
+export_ip_user_files -of_objects  [get_files d:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.srcs/sources_1/ip/M_DdrCtrl/mig_b.prj] -no_script -reset -force -quiet
+remove_files  d:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.srcs/sources_1/ip/M_DdrCtrl/mig_b.prj
+export_ip_user_files -of_objects  [get_files D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.srcs/sources_1/ip/M_DdrCtrl/M_DdrCtrl/example_design/rtl/example_top.vhd] -no_script -reset -force -quiet
+remove_files  D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.srcs/sources_1/ip/M_DdrCtrl/M_DdrCtrl/example_design/rtl/example_top.vhd
+update_compile_order -fileset sources_1
+add_files -norecurse D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.srcs/sources_1/ip/M_DdrCtrl/M_DdrCtrl/example_design/rtl/example_top.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Dec 16 22:09:02 2018] Launched synth_1...
+Run output will be captured here: D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/synth_1/runme.log
+[Sun Dec 16 22:09:02 2018] Launched impl_1...
+Run output will be captured here: D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.4
+  **** Build date : Dec 15 2017-21:08:27
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210308957375
+set_property PROGRAM.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.bit} [get_hw_devices xc7k325t_0]
+set_property PROBES.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.ltx} [get_hw_devices xc7k325t_0]
+current_hw_device [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'U_ila_0' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1661.293 ; gain = 0.023
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'U_ila_0' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1661.293 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'U_ila_0' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1661.293 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 22:20:09
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 22:20:09
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 22:20:15
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 22:20:15
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 22:20:20
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 22:20:20
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 22:20:24
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 22:20:24
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 22:20:27
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 22:20:27
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 22:20:31
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 22:20:31
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 22:20:34
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 22:20:34
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+save_wave_config {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.4
+  **** Build date : Dec 15 2017-21:08:27
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210308957375
+set_property PROGRAM.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.bit} [get_hw_devices xc7k325t_0]
+set_property PROBES.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.ltx} [get_hw_devices xc7k325t_0]
+current_hw_device [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k325t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3403] Dropping logic core with cellname:'U_ila_0' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/impl_1/example_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1666.094 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 22:24:48
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 22:24:48
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 22:24:52
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 22:24:52
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 22:24:54
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 22:24:54
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 22:24:55
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 22:24:55
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 22:24:57
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 22:24:57
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 22:24:59
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 22:24:59
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 22:25:00
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 22:25:00
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 22:25:03
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 22:25:03
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 22:25:04
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 22:25:04
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Dec-16 22:25:06
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"U_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Dec-16 22:25:06
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+save_wave_config {D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+close_hw
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 16 22:28:06 2018...

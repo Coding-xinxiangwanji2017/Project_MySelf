@@ -1,0 +1,2 @@
+vhdl work ../../M_LSelectIO.vhd
+vhdl work ../example_design/M_LSelectIO_exdes.vhd

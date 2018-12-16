@@ -1,0 +1,28 @@
+xst -intstyle ise -ifn "D:/Project_MySelf/1_LcdDis/Data/M_Top/M_Top.xst" -ofn "D:/Project_MySelf/1_LcdDis/Data/M_Top/M_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../Debug -nt timestamp -uc D:/Project_MySelf/1_LcdDis/Data/M_DdrCtrl/user_design/constraints/M_DdrCtrl.ucf -p xc7k325t-ffg900-2 M_Top.ngc M_Top.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o M_Top_map.ncd M_Top.ngd M_Top.pcf 
+par -w -intstyle ise -ol high -mt off M_Top_map.ncd M_Top.ncd M_Top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml M_Top.twx M_Top.ncd -o M_Top.twr M_Top.pcf 
+bitgen -intstyle ise -f M_Top.ut M_Top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../Debug -nt timestamp -uc D:/Project_MySelf/1_LcdDis/Data/M_DdrCtrl/example_design/par/M_Top.ucf -p xc7k325t-ffg900-2 M_Top.ngc M_Top.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o M_Top_map.ncd M_Top.ngd M_Top.pcf 
+par -w -intstyle ise -ol high -mt off M_Top_map.ncd M_Top.ncd M_Top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml M_Top.twx M_Top.ncd -o M_Top.twr M_Top.pcf 
+bitgen -intstyle ise -f M_Top.ut M_Top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../Debug -nt timestamp -uc D:/Project_MySelf/1_LcdDis/Data/M_DdrCtrl/example_design/par/M_Top.ucf -p xc7k325t-ffg900-2 M_Top.ngc M_Top.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o M_Top_map.ncd M_Top.ngd M_Top.pcf 
+par -w -intstyle ise -ol high -mt off M_Top_map.ncd M_Top.ncd M_Top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml M_Top.twx M_Top.ncd -o M_Top.twr M_Top.pcf 
+bitgen -intstyle ise -f M_Top.ut M_Top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../Debug -nt timestamp -uc D:/Project_MySelf/1_LcdDis/Data/M_DdrCtrl/example_design/par/M_Top.ucf -p xc7k325t-ffg900-2 M_Top.ngc M_Top.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o M_Top_map.ncd M_Top.ngd M_Top.pcf 
+par -w -intstyle ise -ol high -mt off M_Top_map.ncd M_Top.ncd M_Top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml M_Top.twx M_Top.ncd -o M_Top.twr M_Top.pcf 
+bitgen -intstyle ise -f M_Top.ut M_Top.ncd 
+xst -intstyle ise -ifn "D:/Project_MySelf/1_LcdDis/Data_16bit/M_Top/M_Top.xst" -ofn "D:/Project_MySelf/1_LcdDis/Data_16bit/M_Top/M_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../Debug -nt timestamp -uc D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf -p xc7k325t-ffg900-2 M_Top.ngc M_Top.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ../Debug -nt timestamp -uc D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/example_top.ucf -p xc7k325t-ffg900-2 M_Top.ngc M_Top.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o M_Top_map.ncd M_Top.ngd M_Top.pcf 
+par -w -intstyle ise -ol high -mt off M_Top_map.ncd M_Top.ncd M_Top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml M_Top.twx M_Top.ncd -o M_Top.twr M_Top.pcf 
+bitgen -intstyle ise -f M_Top.ut M_Top.ncd 

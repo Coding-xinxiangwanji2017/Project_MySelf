@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../M_Dvi.srcs/sources_1/ip/M_Dvi_ila/sim/M_Dvi_ila.vhd" \
+
+nosort

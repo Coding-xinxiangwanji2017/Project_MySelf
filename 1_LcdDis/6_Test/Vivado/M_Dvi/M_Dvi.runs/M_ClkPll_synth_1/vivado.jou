@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Dec  4 11:30:06 2018
+# Process ID: 1956
+# Current directory: D:/Project_MySelf/1_LcdDis/Vivado/M_Dvi/M_Dvi.runs/M_ClkPll_synth_1
+# Command line: vivado.exe -log M_ClkPll.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source M_ClkPll.tcl
+# Log file: D:/Project_MySelf/1_LcdDis/Vivado/M_Dvi/M_Dvi.runs/M_ClkPll_synth_1/M_ClkPll.vds
+# Journal file: D:/Project_MySelf/1_LcdDis/Vivado/M_Dvi/M_Dvi.runs/M_ClkPll_synth_1\vivado.jou
+#-----------------------------------------------------------
+source M_ClkPll.tcl -notrace

@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+-- Copyright (c) 2018 Xilinx, Inc.
+-- All Rights Reserved
+-------------------------------------------------------------------------------
+--   ____  ____
+--  /   /\/   /
+-- /___/  \  /    Vendor     : Xilinx
+-- \   \   \/     Version    : 14.7
+--  \   \         Application: Xilinx CORE Generator
+--  /   /         Filename   : M_icon.vho
+-- /___/   /\     Timestamp  : Sun Dec 16 01:06:10 中国标准时间 2018
+-- \   \  /  \
+--  \___\/\___\
+--
+-- Design Name: ISE Instantiation template
+-- Component Identifier: xilinx.com:ip:chipscope_icon:1.06.a
+-------------------------------------------------------------------------------
+-- The following code must appear in the VHDL architecture header:
+
+------------- Begin Cut here for COMPONENT Declaration ------ COMP_TAG
+component M_icon
+  PORT (
+    CONTROL0 : INOUT STD_LOGIC_VECTOR(35 DOWNTO 0));
+
+end component;
+
+-- COMP_TAG_END ------ End COMPONENT Declaration ------------
+-- The following code must appear in the VHDL architecture
+-- body. Substitute your own instance name and net names.
+------------- Begin Cut here for INSTANTIATION Template ----- INST_TAG
+
+your_instance_name : M_icon
+  port map (
+    CONTROL0 => CONTROL0);
+
+-- INST_TAG_END ------ End INSTANTIATION Template ------------

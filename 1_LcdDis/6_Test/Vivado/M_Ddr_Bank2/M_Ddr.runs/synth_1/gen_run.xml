@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1544959467">
+  <File Type="PA-TCL" Name="example_top.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="example_top_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="example_top_reports.tcl"/>
+  <File Type="RDS-RDS" Name="example_top.vds"/>
+  <File Type="RDS-UTIL" Name="example_top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="example_top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="example_top.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="example_top_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="example_top_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/M_DdrCtrl/M_DdrCtrl/example_design/rtl/traffic_gen/mig_7series_v4_0_afifo.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/M_DdrCtrl/M_DdrCtrl/example_design/rtl/traffic_gen/mig_7series_v4_0_cmd_gen.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/M_DdrCtrl/M_DdrCtrl/example_design/rtl/traffic_gen/mig_7series_v4_0_cmd_prbs_gen.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/M_DdrCtrl/M_DdrCtrl/example_design/rtl/traffic_gen/mig_7series_v4_0_data_prbs_gen.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/M_DdrCtrl/M_DdrCtrl/example_design/rtl/traffic_gen/mig_7series_v4_0_init_mem_pattern_ctr.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/M_DdrCtrl/M_DdrCtrl/example_design/rtl/traffic_gen/mig_7series_v4_0_memc_flow_vcontrol.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/M_DdrCtrl/M_DdrCtrl/example_design/rtl/traffic_gen/mig_7series_v4_0_memc_traffic_gen.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/M_DdrCtrl/M_DdrCtrl/example_design/rtl/traffic_gen/mig_7series_v4_0_rd_data_gen.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/M_DdrCtrl/M_DdrCtrl/example_design/rtl/traffic_gen/mig_7series_v4_0_read_data_path.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/M_DdrCtrl/M_DdrCtrl/example_design/rtl/traffic_gen/mig_7series_v4_0_read_posted_fifo.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/M_DdrCtrl/M_DdrCtrl/example_design/rtl/traffic_gen/mig_7series_v4_0_s7ven_data_gen.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/M_DdrCtrl/M_DdrCtrl/example_design/rtl/traffic_gen/mig_7series_v4_0_tg_prbs_gen.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/M_DdrCtrl/M_DdrCtrl/example_design/rtl/traffic_gen/mig_7series_v4_0_tg_status.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/M_DdrCtrl/M_DdrCtrl/example_design/rtl/traffic_gen/mig_7series_v4_0_traffic_gen_top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/M_DdrCtrl/M_DdrCtrl/example_design/rtl/traffic_gen/mig_7series_v4_0_vio_init_pattern_bram.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/M_DdrCtrl/M_DdrCtrl/example_design/rtl/traffic_gen/mig_7series_v4_0_wr_data_gen.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/M_DdrCtrl/M_DdrCtrl/example_design/rtl/traffic_gen/mig_7series_v4_0_write_data_path.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/M_DdrCtrl/M_DdrCtrl/example_design/rtl/example_top.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/M_DdrCtrl/mig_a.prj">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="ScopedToCell" Val="M_DdrCtrl"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="example_top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/sources_1/ip/M_DdrCtrl/M_DdrCtrl/user_design/constraints/M_DdrCtrl.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/sources_1/ip/M_DdrCtrl/M_DdrCtrl/user_design/constraints/M_DdrCtrl.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="M_DdrCtrl"/>
+  <BlockFileSet Type="BlockSrcs" Name="ila_0"/>
+</GenRun>

@@ -1,0 +1,91 @@
+#------------------------------------------------------------------------------
+# Clk & Reset
+#------------------------------------------------------------------------------
+NET "CpSl_Clk_i"                        LOC = AB27 | IOSTANDARD = LVCMOS25;
+NET "CpSl_Rst_iN"                       LOC = F12  | IOSTANDARD = LVCMOS33;
+
+NET "CpSl_Clk_i" TNM_NET = "TNM_CpSl_Clk_i";
+TIMESPEC "TS_CpSl_Clk_i" = PERIOD "TNM_CpSl_Clk_i" 100MHz HIGH 50%;
+
+#------------------------------------------------------------------------------
+# DVI_D 2-channel
+#------------------------------------------------------------------------------
+##--------------------------------------
+## DVI0
+##--------------------------------------
+NET "HDMI_in_DVI0_CLK"                  LOC = G13 | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI0_CLK" TNM_NET = "TNM_HDMI_in_DVI0_CLK";
+TIMESPEC "TS_HDMI_in_DVI0_CLK" = PERIOD "TNM_HDMI_in_DVI0_CLK" 165MHz HIGH 50%;
+
+NET "HDMI_in_DVI0_DE"                   LOC = B12  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI0_B[7]"                 LOC = K13  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI0_B[6]"                 LOC = L13  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI0_B[5]"                 LOC = L12  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI0_B[4]"                 LOC = K15  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI0_B[3]"                 LOC = L15  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI0_B[2]"                 LOC = K16  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI0_B[1]"                 LOC = L16  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI0_B[0]"                 LOC = G12  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI0_G[7]"                 LOC = J11  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI0_G[6]"                 LOC = G15  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI0_G[5]"                 LOC = H15  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI0_G[4]"                 LOC = K11  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI0_G[3]"                 LOC = L11  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI0_G[2]"                 LOC = J14  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI0_G[1]"                 LOC = K14  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI0_G[0]"                 LOC = J13  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI0_R[7]"                 LOC = C12  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI0_R[6]"                 LOC = G14  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI0_R[5]"                 LOC = H14  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI0_R[4]"                 LOC = H12  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI0_R[3]"                 LOC = H11  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI0_R[2]"                 LOC = H16  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI0_R[1]"                 LOC = J16  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI0_R[0]"                 LOC = J12  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI0_HSYNC"                LOC = E11  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI0_VSYNC"                LOC = F11  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_PDO_n"                     LOC = AC29 | IOSTANDARD = LVCMOS25;
+NET "HDMI_in_SCDT"                      LOC = AB25 | IOSTANDARD = LVCMOS25;
+NET "HDMI_stag0_out"                    LOC = AA25 | IOSTANDARD = LVCMOS25;
+NET "HPD_Si1161"                        LOC = AB30 | IOSTANDARD = LVCMOS25;
+NET "LED0"                              LOC = W27  | IOSTANDARD = LVCMOS25;
+
+##--------------------------------------   
+## DVI1                                   
+##--------------------------------------   
+NET "HDMI_in_DVI1_CLK"                  LOC = D12 | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI1_CLK" TNM_NET = "TNM_HDMI_in_DVI1_CLK";
+TIMESPEC "TS_HDMI_in_DVI1_CLK" = PERIOD "TNM_HDMI_in_DVI1_CLK" 165MHz HIGH 50%;
+
+NET "HDMI_in_DVI1_DE"                   LOC = A11  | IOSTANDARD = LVCMOS33; 
+NET "HDMI_in_DVI1_B[7]"                 LOC = J19  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI1_B[6]"                 LOC = H17  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI1_B[5]"                 LOC = J17  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI1_B[4]"                 LOC = G20  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI1_B[3]"                 LOC = H20  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI1_B[2]"                 LOC = J18  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI1_B[1]"                 LOC = K18  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI1_B[0]"                 LOC = G19  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI1_G[7]"                 LOC = D21  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI1_G[6]"                 LOC = H22  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI1_G[5]"                 LOC = H21  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI1_G[4]"                 LOC = K20  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI1_G[3]"                 LOC = K19  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI1_G[2]"                 LOC = L18  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI1_G[1]"                 LOC = L17  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI1_G[0]"                 LOC = H19  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI1_R[7]"                 LOC = F20  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI1_R[6]"                 LOC = E21  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI1_R[5]"                 LOC = F21  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI1_R[4]"                 LOC = C22  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI1_R[3]"                 LOC = D22  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI1_R[2]"                 LOC = F22  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI1_R[1]"                 LOC = G22  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI1_R[0]"                 LOC = C21  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI1_HSYNC"                LOC = D11  | IOSTANDARD = LVCMOS33;
+NET "HDMI_in_DVI1_VSYNC"                LOC = A12  | IOSTANDARD = LVCMOS33;
+NET "HDMI_inB_PDO_n"                    LOC = AA30 | IOSTANDARD = LVCMOS25;
+NET "HDMI_inB_SCDT"                     LOC = Y30  | IOSTANDARD = LVCMOS25;
+NET "HDMI_stag1_out"                    LOC = AC30 | IOSTANDARD = LVCMOS25;
+NET "LED1"                              LOC = W28  | IOSTANDARD = LVCMOS25;
+

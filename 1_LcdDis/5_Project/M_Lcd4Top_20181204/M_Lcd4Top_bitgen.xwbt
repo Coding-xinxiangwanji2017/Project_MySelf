@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Project_MySelf\1_LcdDis\M_Lcd4Top_20181117_Clk\M_Lcd4Top.ncd
+OUTFILE=D:\Project_MySelf\1_LcdDis\M_Lcd4Top_20181117_Clk\M_Lcd4Top.bit
+FAMILY=Kintex7
+PART=xc7k325t-2ffg900
+WORKINGDIR=D:\Project_MySelf\1_LcdDis\M_Lcd4Top_20181117_Clk
+LICENSE=ISE
+USER_INFO=_

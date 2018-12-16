@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o D:\Project_MySelf\1_LcdDis\FPGA-2-Dvi\M_Dvi\mcs\20181207//M_Dvi_FPGA-2_20181207 -s 32768 -u 0000 D:/Project_MySelf/1_LcdDis/FPGA-2-Dvi/M_Dvi/bit/M_Dvi_FPGA-2_20181207.bit -spi 
+
+PROM D:\Project_MySelf\1_LcdDis\FPGA-2-Dvi\M_Dvi\mcs\20181207\M_Dvi_FPGA-2_20181207.prm map: Sat Dec 08 12:51:57 2018
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          32768K
+PROM start    0000:0000
+PROM end      01ff:ffff
+PROM checksum 50887fc9
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    00ae:9d9b     Dec 08 12:48:45 2018 D:/Project_MySelf/1_LcdDis/FPGA-2-Dvi/M_Dvi/bit/M_Dvi_FPGA-2_20181207.bit

@@ -1,0 +1,1952 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dD:\Project\Ha Gong Da Project\M_Lcd Code\FPGA-3\M_Lcd4Top_0707\sim
+!i10d 8192
+!i10e 25
+!i10f 100
+vddr3_model
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+r1
+31
+IX0i7nSE_9R9c`ofgNhY]^3
+Z2 dD:\Project\Ha Gong Da\M_Lcd4Top_K7\M_Lcd4Top-3FFG900\200Hz\M_Lcd4TopHz\sim
+w1474289723
+8ddr3_model.v
+Fddr3_model.v
+Fddr3_model_parameters.vh
+L0 87
+Z3 OL;L;10.2;57
+o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s10a 1474289723
+!s100 6EXl]mL@8laUC=7bT47em2
+!s108 1474300626.605000
+!s107 ddr3_model_parameters.vh|ddr3_model.v|
+!s90 -reportprogress|300|-incr|+incdir+.|+define+x4Gb|+define+sg125|+define+x16|ddr3_model.v|
+!s92 +incdir+. +define+x4Gb +define+sg125 +define+x16 -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s85 0
+!i10b 1
+vglbl
+Ilkb1HzcBCA=?Rd7B4d[=G2
+R1
+Z4 dD:\Project\xi an gong suo project\FPGA_Code\FPGA-2\M_Lcd4Top_20161130\sim
+w1381681120
+8D:/My_tool/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v
+FD:/My_tool/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v
+L0 5
+R3
+r1
+31
+Z5 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z6 !s110 1480758463
+!s100 V<`KW`8LXe32mQ2Gdj1MB2
+!s90 -reportprogress|300|-work|work|-novopt|D:/My_tool/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+!s108 1480758463.277000
+!s107 D:/My_tool/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+!i10b 1
+!s85 0
+Em_clkpll
+Z7 w1480574678
+Z8 DPx6 unisim 11 vcomponents 0 22 GSe5`g9<H?BhoL6KEg9iZ3
+Z9 DPx4 ieee 11 numeric_std 0 22 WES[o8HS0jHV[MIXQk2Ha1
+Z10 DPx4 ieee 15 std_logic_arith 0 22 I`lKR?Ob>E^B_e2VdVLiQ0
+Z11 DPx4 ieee 18 std_logic_unsigned 0 22 @_jbHPR7i^Jh?`2fDCO`m3
+Z12 DPx3 std 6 textio 0 22 Y8d?=bLj9m4jiPLbo;>GT0
+Z13 DPx4 ieee 14 std_logic_1164 0 22 1bm?@Gd;P>[>_lN8Do9gP3
+R4
+Z14 8../ipcore_dir/M_ClkPll.vhd
+Z15 F../ipcore_dir/M_ClkPll.vhd
+l0
+L76
+VI0gY?X8jDFAS[^OUAEoNQ0
+Z16 OL;C;10.2;57
+32
+Z17 !s110 1480758467
+Z18 !s108 1480758467.021000
+Z19 !s90 -reportprogress|300|-work|work|../ipcore_dir/M_ClkPll.vhd|../ipcore_dir/M_DviRxFifo.vhd|../ipcore_dir/M_HSelectIO.vhd|../ipcore_dir/M_Icon.vhd|../ipcore_dir/M_Ila.vhd|../ipcore_dir/M_LSelectIO.vhd|../ipcore_dir/M_LcdTxFifo.vhd|
+Z20 !s107 ../ipcore_dir/M_LcdTxFifo.vhd|../ipcore_dir/M_LSelectIO.vhd|../ipcore_dir/M_Ila.vhd|../ipcore_dir/M_Icon.vhd|../ipcore_dir/M_HSelectIO.vhd|../ipcore_dir/M_DviRxFifo.vhd|../ipcore_dir/M_ClkPll.vhd|
+Z21 o-work work
+Z22 tExplicit 1
+!s100 E9d[4Y@9jPIS^:<n4Zma20
+!i10b 1
+Axilinx
+R8
+R9
+R10
+R11
+R12
+R13
+DEx4 work 8 m_clkpll 0 22 I0gY?X8jDFAS[^OUAEoNQ0
+32
+R17
+l118
+L90
+VNdd`BcdI8[7IB4_WO:KF:0
+R16
+R18
+R19
+R20
+R21
+R22
+!s100 ;A_oKYj;agBhb[dh:DIc[2
+!i10b 1
+Em_ddrctrl
+Z23 w1474429775
+R9
+R12
+R13
+R4
+Z24 8../ipcore_dir/M_DdrCtrl/user_design/rtl/M_DdrCtrl.vhd
+Z25 F../ipcore_dir/M_DdrCtrl/user_design/rtl/M_DdrCtrl.vhd
+l0
+L77
+VNmC^]`9A7Udz>]mc]kn;z0
+R16
+32
+R6
+Z26 !s108 1480758463.402000
+Z27 !s90 -reportprogress|300|-work|work|../ipcore_dir/M_DdrCtrl/user_design/rtl/M_DdrCtrl.vhd|
+Z28 !s107 ../ipcore_dir/M_DdrCtrl/user_design/rtl/M_DdrCtrl.vhd|
+R21
+R22
+!s100 @QD0m]`dEb5^Y5C@6nM=80
+!i10b 1
+Aarch_m_ddrctrl
+R9
+R12
+R13
+DEx4 work 9 m_ddrctrl 0 22 NmC^]`9A7Udz>]mc]kn;z0
+32
+R6
+l1010
+L522
+VHlbXzHEaiOE;XFEa=OXLb2
+R16
+R26
+R27
+R28
+R21
+R22
+!s100 hJK1RGU<3i[4EJFa>BICS0
+!i10b 1
+Em_ddrif
+Z29 w1480666582
+R11
+R10
+R12
+R13
+R4
+Z30 8../src/M_DdrIf.vhd
+Z31 F../src/M_DdrIf.vhd
+l0
+L29
+V`15R:ZVEb08UCHaao66`Q1
+R16
+32
+R17
+Z32 !s108 1480758467.817000
+Z33 !s90 -reportprogress|300|-work|work|../src/M_DdrIf.vhd|../src/M_DviIf.vhd|../src/M_FreCtrl.vhd|../src/M_Lcd4Top.vhd|../src/M_LcdVsync.vhd|../src/M_Pattern.vhd|../src/M_Test.vhd|../src/pulse2pulse.vhd|../src/remapper.vhd|
+Z34 !s107 ../src/remapper.vhd|../src/pulse2pulse.vhd|../src/M_Test.vhd|../src/M_Pattern.vhd|../src/M_LcdVsync.vhd|../src/M_Lcd4Top.vhd|../src/M_FreCtrl.vhd|../src/M_DviIf.vhd|../src/M_DdrIf.vhd|
+R21
+R22
+!s100 _Z2;_OB6<gd0Pi=c9fN4J3
+!i10b 1
+Aarch_m_ddrif
+R11
+R10
+R12
+R13
+DEx4 work 7 m_ddrif 0 22 `15R:ZVEb08UCHaao66`Q1
+32
+R17
+l305
+L95
+VO?z[lH:<c1mYNM0QR;z0a2
+R16
+R32
+R33
+R34
+R21
+R22
+!s100 A9AU=21_0=941CfMn:h6]0
+!i10b 1
+Em_dviif
+Z35 w1480578155
+R8
+R11
+R10
+R12
+R13
+R4
+Z36 8../src/M_DviIf.vhd
+Z37 F../src/M_DviIf.vhd
+l0
+L32
+V7lT7zmng5n^P_CGZ^laUh1
+R16
+32
+Z38 !s110 1480758468
+R32
+R33
+R34
+R21
+R22
+!s100 =>5OKW1XG?M0jMmPHJ8;O3
+!i10b 1
+Aarch_m_ddrif
+R8
+R11
+R10
+R12
+R13
+DEx4 work 7 m_dviif 0 22 7lT7zmng5n^P_CGZ^laUh1
+32
+R38
+l79
+L61
+Vl[b?I4oIkm>VjELC`bPKJ1
+R16
+R32
+R33
+R34
+R21
+R22
+!s100 _kQNEUR^:AUWmQk?^n<CX2
+!i10b 1
+Em_dvirxfifo
+Z39 w1455776058
+R12
+R13
+R4
+Z40 8../ipcore_dir/M_DviRxFifo.vhd
+Z41 F../ipcore_dir/M_DviRxFifo.vhd
+l0
+L43
+V0jXWb>=j]PR5mXFl<B6Yn0
+R16
+32
+R17
+R18
+R19
+R20
+R21
+R22
+!s100 Q9LW?PF_MMQDJgl1?^zmH1
+!i10b 1
+Am_dvirxfifo_a
+R11
+R10
+Z42 DEx13 xilinxcorelib 19 fifo_generator_v9_3 0 22 EW:Y7TQG>TRm[co@EEm4N0
+R12
+R13
+DEx4 work 11 m_dvirxfifo 0 22 0jXWb>=j]PR5mXFl<B6Yn0
+32
+R17
+l267
+L57
+VUFV]6o]X?i`ZYIalKn?RX3
+R16
+R18
+R19
+R20
+R21
+R22
+!s100 PoNhnjIAnVQa0Bmd_DlCd1
+!i10b 1
+Em_frectrl
+Z43 w1480755713
+R11
+R10
+R12
+R13
+R4
+Z44 8../src/M_FreCtrl.vhd
+Z45 F../src/M_FreCtrl.vhd
+l0
+L29
+VQo1cjA0jc]Y<2?`D=<ec;0
+R16
+32
+R38
+R32
+R33
+R34
+R21
+R22
+!s100 KK1O`2Zif;:I644Hi:Vid2
+!i10b 1
+Aarch_m_frectrl
+R11
+R10
+R12
+R13
+DEx4 work 9 m_frectrl 0 22 Qo1cjA0jc]Y<2?`D=<ec;0
+32
+R38
+l116
+L68
+V1HMXTH6XoRnKWK_A:IB[L3
+R16
+R32
+R33
+R34
+R21
+R22
+!s100 fcGdKOk?jECWK`57QdU1<1
+!i10b 1
+Em_frectrl_tb
+Z46 w1457060006
+R11
+R10
+R12
+R13
+Z47 dD:\Project\Ha Gong Da Project\M_Lcd Code\FPGA-3\M_Lcd4Top_0707\sim
+Z48 8../src/M_FreCtrl_TB.vhd
+Z49 F../src/M_FreCtrl_TB.vhd
+l0
+L6
+VBPj9d>Uk`Jk4S<h]aWTJE0
+R16
+32
+Z50 !s110 1470040295
+Z51 !s108 1470040295.524000
+Z52 !s90 -reportprogress|300|-work|work|../src/M_DdrIf.vhd|../src/M_DviIf.vhd|../src/M_FreCtrl.vhd|../src/M_FreCtrl_TB.vhd|../src/M_Lcd4Top.vhd|../src/M_LcdVsync.vhd|../src/M_Pattern.vhd|../src/M_Tb.vhd|../src/M_Test.vhd|../src/remapper.vhd|
+Z53 !s107 ../src/remapper.vhd|../src/M_Test.vhd|../src/M_Tb.vhd|../src/M_Pattern.vhd|../src/M_LcdVsync.vhd|../src/M_Lcd4Top.vhd|../src/M_FreCtrl_TB.vhd|../src/M_FreCtrl.vhd|../src/M_DviIf.vhd|../src/M_DdrIf.vhd|
+R21
+R22
+!s100 PU]L<:TdYef<:X4D2f4<?3
+!i10b 1
+Aarch_m_frectrl_tb
+R11
+R10
+R12
+R13
+DEx4 work 12 m_frectrl_tb 0 22 BPj9d>Uk`Jk4S<h]aWTJE0
+l49
+L9
+Vocd>bB[7<UB>3K[i0aAYW3
+R16
+32
+R50
+R51
+R52
+R53
+R21
+R22
+!s100 :UJA5oXl@kIQCR4<Y36Ld2
+!i10b 1
+Em_hselectio
+Z54 w1447655232
+R8
+R9
+Z55 DPx8 synopsys 10 attributes 0 22 Ufh[o<EL=]n;G2jV5DZ_z3
+Z56 DPx4 ieee 14 std_logic_misc 0 22 nZdh4oZ?X@`h[Td?AUOFY0
+R10
+R11
+R12
+R13
+R4
+Z57 8../ipcore_dir/M_HSelectIO.vhd
+Z58 F../ipcore_dir/M_HSelectIO.vhd
+l0
+L63
+VY=cnH8cQRln`UHTQT3EC73
+R16
+32
+R17
+R18
+R19
+R20
+R21
+R22
+!s100 CiLFnjjUV8j7ade>lbCUo2
+!i10b 1
+Axilinx
+R8
+R9
+R55
+R56
+R10
+R11
+R12
+R13
+DEx4 work 11 m_hselectio 0 22 Y=cnH8cQRln`UHTQT3EC73
+32
+R17
+l116
+L83
+V_PPcU1m<0Pn>IJIk]3PlV0
+R16
+R18
+R19
+R20
+R21
+R22
+!s100 7UFnFQ8_JO3W47@9RgPD81
+!i10b 1
+Em_icon
+Z59 w1471593256
+R12
+R13
+R4
+Z60 8../ipcore_dir/M_Icon.vhd
+Z61 F../ipcore_dir/M_Icon.vhd
+l0
+L21
+Vz=VN^d:^RMmHagMLmC;bV0
+R16
+32
+R17
+R18
+R19
+R20
+R21
+R22
+!s100 ZKRA?<V9P_4SIN?PF97>m0
+!i10b 1
+Am_icon_a
+R12
+R13
+DEx4 work 6 m_icon 0 22 z=VN^d:^RMmHagMLmC;bV0
+l30
+L29
+VekQNDfA[m[JA?2TAXT4VU3
+R16
+32
+R17
+R18
+R19
+R20
+R21
+R22
+!s100 X3aKBWYIaW7hCRGnIRz`M0
+!i10b 1
+Em_ila
+Z62 w1471593522
+R12
+R13
+R4
+Z63 8../ipcore_dir/M_Ila.vhd
+Z64 F../ipcore_dir/M_Ila.vhd
+l0
+L21
+V:iReJ@@gR1VYJR@8=>Ec_1
+R16
+32
+R17
+R18
+R19
+R20
+R21
+R22
+!s100 V<za:=jX9J@2k7ZJ[5lcH3
+!i10b 1
+Am_ila_a
+R12
+R13
+DEx4 work 5 m_ila 0 22 :iReJ@@gR1VYJR@8=>Ec_1
+32
+R17
+l29
+L28
+VZzBh91F4l53fb5KUN]l`a3
+R16
+R18
+R19
+R20
+R21
+R22
+!s100 OX^Xa?aJ7@Zg0`=D9a?2_3
+!i10b 1
+Em_lcd4top
+Z65 w1480748712
+R8
+R11
+R10
+R12
+R13
+R4
+Z66 8../src/M_Lcd4Top.vhd
+Z67 F../src/M_Lcd4Top.vhd
+l0
+L33
+VmR^_[@NI7FjNT9ZhWNUI02
+R16
+32
+R38
+R32
+R33
+R34
+R21
+R22
+!s100 6K?21;Z:i@ABa0CUn[DD`0
+!i10b 1
+Aarch_m_lcd4top
+R8
+R11
+R10
+R12
+R13
+DEx4 work 9 m_lcd4top 0 22 mR^_[@NI7FjNT9ZhWNUI02
+32
+R38
+l562
+L153
+VPjh_:6:L2=5l_G@M0ZZQb3
+R16
+R32
+R33
+R34
+R21
+R22
+!s100 J2XF8X`MJQ[nE2[hdPN3m0
+!i10b 1
+Em_lcdtxfifo
+Z68 w1455776246
+R12
+R13
+R4
+Z69 8../ipcore_dir/M_LcdTxFifo.vhd
+Z70 F../ipcore_dir/M_LcdTxFifo.vhd
+l0
+L43
+ViSR^?UFa^JH<mfHNk6cJ71
+R16
+32
+R17
+R18
+R19
+R20
+R21
+R22
+!s100 dz;CgiVg:_J9@i4jGhHPX0
+!i10b 1
+Am_lcdtxfifo_a
+R11
+R10
+R42
+R12
+R13
+DEx4 work 11 m_lcdtxfifo 0 22 iSR^?UFa^JH<mfHNk6cJ71
+32
+R17
+l267
+L57
+VYJ5U2JKeacZR9jT<_EAFl2
+R16
+R18
+R19
+R20
+R21
+R22
+!s100 >BN8dBdn_hzTLzm]gLL;50
+!i10b 1
+Em_lcdvsync
+Z71 w1474620770
+R11
+R10
+R12
+R13
+R4
+Z72 8../src/M_LcdVsync.vhd
+Z73 F../src/M_LcdVsync.vhd
+l0
+L29
+V9WUbP5MWcz3RleOJ0VOm;0
+R16
+32
+R38
+R32
+R33
+R34
+R21
+R22
+!s100 k3`U83WW4PA793;6E2J>J0
+!i10b 1
+Aarch_m_lcdvsync
+R11
+R10
+R12
+R13
+DEx4 work 10 m_lcdvsync 0 22 9WUbP5MWcz3RleOJ0VOm;0
+l74
+L49
+VIEjbN7]kQgzWc7WCAcz>50
+R16
+32
+R38
+R32
+R33
+R34
+R21
+R22
+!s100 7CCWaY3kXFk8Qn@o_mE[G0
+!i10b 1
+Em_lselectio
+Z74 w1447655334
+R8
+R9
+R55
+R56
+R10
+R11
+R12
+R13
+R4
+Z75 8../ipcore_dir/M_LSelectIO.vhd
+Z76 F../ipcore_dir/M_LSelectIO.vhd
+l0
+L63
+VC3P:BLGONJ9^jM5e@<nB;3
+R16
+32
+R17
+R18
+R19
+R20
+R21
+R22
+!s100 <8QV>MBnoNa^TGUgI`7Tg0
+!i10b 1
+Axilinx
+R8
+R9
+R55
+R56
+R10
+R11
+R12
+R13
+DEx4 work 11 m_lselectio 0 22 C3P:BLGONJ9^jM5e@<nB;3
+32
+R17
+l116
+L83
+Vfm@2n3FOS8TRaoQN9<VK72
+R16
+R18
+R19
+R20
+R21
+R22
+!s100 ^A2;]]7lKP=:ik<=6e7M`1
+!i10b 1
+Em_pattern
+Z77 w1480666522
+R11
+R10
+R12
+R13
+R4
+Z78 8../src/M_Pattern.vhd
+Z79 F../src/M_Pattern.vhd
+l0
+L29
+VTMc8fG8>T`BYKF2d4b4T42
+R16
+32
+R38
+R32
+R33
+R34
+R21
+R22
+!s100 [cXQff2IEnM<nifY28C`F0
+!i10b 1
+Aarch_m_pattern
+R11
+R10
+R12
+R13
+DEx4 work 9 m_pattern 0 22 TMc8fG8>T`BYKF2d4b4T42
+32
+R38
+l68
+L49
+VKg2fhaYUK2_VS0W5WblJf2
+R16
+R32
+R33
+R34
+R21
+R22
+!s100 hGhLgFo?jQhT^HR4a?ca93
+!i10b 1
+Em_pll
+Z80 w1474527255
+R8
+R9
+R10
+R11
+R12
+R13
+Z81 dD:\Project\Ha Gong Da\M_Lcd4Top_K7\M_Lcd4Top-3FFG900\M_Lcd4Top_20160923\sim
+Z82 8../ipcore_dir/M_Pll.vhd
+Z83 F../ipcore_dir/M_Pll.vhd
+l0
+L76
+V<4oe70<zI[OYIDBlQQOo<2
+R16
+32
+Z84 !s110 1474619360
+Z85 !s108 1474619360.207000
+Z86 !s90 -reportprogress|300|-work|work|../ipcore_dir/M_ClkPll.vhd|../ipcore_dir/M_DviRxFifo.vhd|../ipcore_dir/M_HSelectIO.vhd|../ipcore_dir/M_Icon.vhd|../ipcore_dir/M_Ila.vhd|../ipcore_dir/M_LSelectIO.vhd|../ipcore_dir/M_LcdTxFifo.vhd|../ipcore_dir/M_Pll.vhd|
+Z87 !s107 ../ipcore_dir/M_Pll.vhd|../ipcore_dir/M_LcdTxFifo.vhd|../ipcore_dir/M_LSelectIO.vhd|../ipcore_dir/M_Ila.vhd|../ipcore_dir/M_Icon.vhd|../ipcore_dir/M_HSelectIO.vhd|../ipcore_dir/M_DviRxFifo.vhd|../ipcore_dir/M_ClkPll.vhd|
+R21
+R22
+!s100 gZ_z`D`ia=TN]aKnS;aOQ3
+!i10b 1
+Axilinx
+R8
+R9
+R10
+R11
+R12
+R13
+DEx4 work 5 m_pll 0 22 <4oe70<zI[OYIDBlQQOo<2
+32
+R84
+l118
+L90
+VUC[NaI[>PlN?_XTebbeU@0
+R16
+R85
+R86
+R87
+R21
+R22
+!s100 RLX9QaBFh^PKnFNF4^jGK3
+!i10b 1
+Em_sim
+Z88 w1480757768
+R8
+R11
+R10
+R12
+R13
+R4
+Z89 8./tb/M_Sim.vhd
+Z90 F./tb/M_Sim.vhd
+l0
+L32
+V;Vg^XZQ=7k61K9m?2ILf=3
+R16
+32
+R38
+Z91 !s108 1480758468.581000
+Z92 !s90 -reportprogress|300|-work|work|./tb/M_Sim.vhd|
+Z93 !s107 ./tb/M_Sim.vhd|
+R21
+R22
+!s100 mhRi8eDB<I7oI9c;f<LDn3
+!i10b 1
+Aarch_m_sim
+R8
+R11
+R10
+R12
+R13
+DEx4 work 5 m_sim 0 22 ;Vg^XZQ=7k61K9m?2ILf=3
+32
+R38
+l292
+L35
+VWgPA@?BLT[=Dg[EbSTWV]2
+R16
+R91
+R92
+R93
+R21
+R22
+!s100 g05oMcdM^V6MLP0OnYamV0
+!i10b 1
+Em_simpattern
+Z94 w1480753429
+R11
+R10
+R12
+R13
+R4
+Z95 8./tb/M_SimPattern.vhd
+Z96 F./tb/M_SimPattern.vhd
+l0
+L29
+V05gU?_U]zg4b2QRgRANWW0
+R16
+32
+Z97 !s110 1480753923
+Z98 !s108 1480753923.936000
+Z99 !s90 -reportprogress|300|-work|work|./tb/M_SimPattern.vhd|
+Z100 !s107 ./tb/M_SimPattern.vhd|
+R21
+R22
+!s100 3bgSP2[5MGJLS]Fn38XOA2
+!i10b 1
+Aarch_m_simpattern
+R11
+R10
+R12
+R13
+DEx4 work 12 m_simpattern 0 22 05gU?_U]zg4b2QRgRANWW0
+l76
+L32
+VzzWR<m^cATGg_R2A;7MYc2
+R16
+32
+R97
+R98
+R99
+R100
+R21
+R22
+!s100 d=2VNf9>8>dNE=ef=JeiM0
+!i10b 1
+Em_tb
+w1456015742
+Z101 DPx4 ieee 16 std_logic_textio 0 22 E=LR>a2bb_I?VV>QDdAdh3
+R10
+R11
+R12
+R13
+R47
+8../src/M_Tb.vhd
+F../src/M_Tb.vhd
+l0
+L30
+Vlz^YiFCUeRz0TW?UDc<oE2
+R16
+32
+R51
+R52
+R53
+R21
+R22
+!s100 z;a?23fZieF5lA>6gabMX0
+!s110 1470040296
+!i10b 1
+Em_test
+Z102 w1480749285
+R11
+R10
+R12
+R13
+R4
+Z103 8../src/M_Test.vhd
+Z104 F../src/M_Test.vhd
+l0
+L29
+VXY@;9Z>lbQ8J[S>]3fV<_0
+R16
+32
+R38
+R32
+R33
+R34
+R21
+R22
+!s100 4IM7H>O[zS?VSmCF<HL?h0
+!i10b 1
+Aarch_m_test
+R11
+R10
+R12
+R13
+DEx4 work 6 m_test 0 22 XY@;9Z>lbQ8J[S>]3fV<_0
+32
+R38
+l91
+L52
+VOK:f8A0VPR;4l6hdhhacK0
+R16
+R32
+R33
+R34
+R21
+R22
+!s100 R7NPH<@7SO_dFVFKf8?CF1
+!i10b 1
+vmig_7series_v1_9_arb_mux
+Z105 !s10a 1447988302
+R1
+r1
+31
+I12ULaCebQc3z_<EBDSh=o1
+R2
+Z106 w1447988302
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_arb_mux.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_arb_mux.v
+L0 69
+R3
+Z107 !s108 1474300625.284000
+Z108 !s107 ../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_round_robin_arb.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_rank_mach.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_rank_common.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_rank_cntrl.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_mc.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_col_mach.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_bank_state.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_bank_queue.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_bank_mach.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_bank_compare.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_bank_common.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_bank_cntrl.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_arb_select.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_arb_row_col.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_arb_mux.v|
+Z109 !s90 -reportprogress|300|-work|work|-incr|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_arb_mux.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_arb_row_col.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_arb_select.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_bank_cntrl.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_bank_common.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_bank_compare.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_bank_mach.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_bank_queue.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_bank_state.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_col_mach.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_mc.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_rank_cntrl.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_rank_common.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_rank_mach.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_round_robin_arb.v|
+R5
+!s100 :>Z=zQbm2zZ;mWSM6FFKK0
+!s85 0
+!i10b 1
+vmig_7series_v1_9_arb_row_col
+R105
+R1
+r1
+31
+Imkgki=AO^fd;:2JbfMfOF1
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_arb_row_col.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_arb_row_col.v
+L0 83
+R3
+R107
+R108
+R109
+R5
+!s100 O@k?D42_P4EhPVWnD3LWT3
+!s85 0
+!i10b 1
+vmig_7series_v1_9_arb_select
+R105
+R1
+r1
+31
+IcVf_`dFO^MLN94E8J9[Yb1
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_arb_select.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_arb_select.v
+L0 75
+R3
+R107
+R108
+R109
+R5
+!s100 9iP9Q=FeTnI_D?`PnCR301
+!s85 0
+!i10b 1
+vmig_7series_v1_9_bank_cntrl
+R105
+R1
+r1
+31
+I2A28ehU==HC9<P@_RbH]01
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_bank_cntrl.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_bank_cntrl.v
+L0 70
+R3
+R107
+R108
+R109
+R5
+!s100 @YcWK@gbn_bgiR7h]8X>60
+!s85 0
+!i10b 1
+vmig_7series_v1_9_bank_common
+R105
+R1
+r1
+31
+I4kaHNCOnj16U^4_;=FEEg1
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_bank_common.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_bank_common.v
+L0 73
+R3
+R107
+R108
+R109
+R5
+!s100 6i6Ia>=C^H41T@CJaK0YG2
+!s85 0
+!i10b 1
+vmig_7series_v1_9_bank_compare
+R105
+R1
+r1
+31
+INFP[61oM;_1_XJ6[09_;E0
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_bank_compare.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_bank_compare.v
+L0 74
+R3
+R107
+R108
+R109
+R5
+!s100 6cW^Pk`A:YI>7[UWlaJlf3
+!s85 0
+!i10b 1
+vmig_7series_v1_9_bank_mach
+R105
+R1
+r1
+31
+IQlzKMh4?h=EllIZNR_La80
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_bank_mach.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_bank_mach.v
+L0 72
+R3
+R107
+R108
+R109
+R5
+!s100 gD8jc:DYgbJ[KcHzGbbS31
+!s85 0
+!i10b 1
+vmig_7series_v1_9_bank_queue
+R105
+R1
+r1
+31
+I^LTgjkEj3?dh`;6[T3VLP1
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_bank_queue.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_bank_queue.v
+L0 174
+R3
+R107
+R108
+R109
+R5
+!s100 U4]7bg9DJ<20z1NKgB7Bf0
+!s85 0
+!i10b 1
+vmig_7series_v1_9_bank_state
+R105
+R1
+r1
+31
+IW:1>A^gY0T:l6RUF`>><f1
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_bank_state.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_bank_state.v
+L0 141
+R3
+R107
+R108
+R109
+R5
+!s100 G5_Ja_9]9?5WdOR_XIEAO3
+!s85 0
+!i10b 1
+vmig_7series_v1_9_clk_ibuf
+R105
+R1
+r1
+31
+InabAnMjLJ=6l<TgMeXcOf2
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/clocking/mig_7series_v1_9_clk_ibuf.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/clocking/mig_7series_v1_9_clk_ibuf.v
+L0 68
+R3
+Z110 !s108 1474300625.154000
+Z111 !s107 ../ipcore_dir/M_DdrCtrl/user_design/rtl/clocking/mig_7series_v1_9_tempmon.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/clocking/mig_7series_v1_9_iodelay_ctrl.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/clocking/mig_7series_v1_9_infrastructure.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/clocking/mig_7series_v1_9_clk_ibuf.v|
+Z112 !s90 -reportprogress|300|-work|work|-incr|../ipcore_dir/M_DdrCtrl/user_design/rtl/clocking/mig_7series_v1_9_clk_ibuf.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/clocking/mig_7series_v1_9_infrastructure.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/clocking/mig_7series_v1_9_iodelay_ctrl.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/clocking/mig_7series_v1_9_tempmon.v|
+R5
+!s100 bcjL8:_0J3MI^gI2keO?91
+!s85 0
+!i10b 1
+vmig_7series_v1_9_col_mach
+R105
+R1
+r1
+31
+I?bbN_W=5egGV^BJ_a`P@32
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_col_mach.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_col_mach.v
+L0 88
+R3
+R107
+R108
+R109
+R5
+!s100 8dXXaj=<iR=UgPnQkFK=<1
+!s85 0
+!i10b 1
+vmig_7series_v1_9_ddr_byte_group_io
+R105
+R1
+r1
+31
+IfS:Ff05=JA0_de6L:1JeM1
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_byte_group_io.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_byte_group_io.v
+L0 69
+R3
+Z113 !s108 1474300625.817000
+Z114 !s107 ../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_prbs_gen.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_wrlvl_off_delay.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_wrlvl.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_wrcal.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_tempmon.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_rdlvl.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_prbs_rdlvl.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_oclkdelay_cal.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_init.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_dqs_found_cal_hr.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_dqs_found_cal.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_ck_addr_cmd_delay.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_4lanes.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_of_pre_fifo.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_mc_phy_wrapper.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_mc_phy.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_if_post_fifo.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_calib_top.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_byte_lane.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_byte_group_io.v|
+Z115 !s90 -reportprogress|300|-work|work|-incr|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_byte_group_io.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_byte_lane.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_calib_top.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_if_post_fifo.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_mc_phy.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_mc_phy_wrapper.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_of_pre_fifo.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_4lanes.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_ck_addr_cmd_delay.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_dqs_found_cal.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_dqs_found_cal_hr.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_init.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_oclkdelay_cal.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_prbs_rdlvl.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_rdlvl.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_tempmon.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_wrcal.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_wrlvl.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_wrlvl_off_delay.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_prbs_gen.v|
+R5
+!s100 RJg2F;jM9EI]zKl?59BU>3
+!s85 0
+!i10b 1
+vmig_7series_v1_9_ddr_byte_lane
+R105
+R1
+r1
+31
+I]A@T=8<oOeYV>9BId6R>V2
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_byte_lane.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_byte_lane.v
+L0 70
+R3
+R113
+R114
+R115
+R5
+!s100 N]iViYh8PV6=0IF7mA;?i2
+!s85 0
+!i10b 1
+vmig_7series_v1_9_ddr_calib_top
+R105
+R1
+r1
+31
+IUR7m5jIZfhHZ1z_@U]4>m1
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_calib_top.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_calib_top.v
+L0 82
+R3
+R113
+R114
+R115
+R5
+!s100 W>18ON5H^TSB@ej5kGH_:0
+!s85 0
+!i10b 1
+vmig_7series_v1_9_ddr_if_post_fifo
+R105
+R1
+r1
+31
+IORJc_=bchZRB^985KGz9<2
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_if_post_fifo.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_if_post_fifo.v
+L0 68
+R3
+R113
+R114
+R115
+R5
+!s100 i@J58J_>3>W_>aM50kGDg3
+!s85 0
+!i10b 1
+vmig_7series_v1_9_ddr_mc_phy
+R105
+R1
+r1
+31
+IhEmXh]D7bJalNAGoLU?MK2
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_mc_phy.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_mc_phy.v
+L0 70
+R3
+R113
+R114
+R115
+R5
+!s100 UUYf:d@W51Bc5`6FL5;g51
+!s85 0
+!i10b 1
+vmig_7series_v1_9_ddr_mc_phy_wrapper
+R105
+R1
+r1
+31
+I<Zhc]9j2af4gTz?a]H@Sg0
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_mc_phy_wrapper.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_mc_phy_wrapper.v
+L0 71
+R3
+R113
+R114
+R115
+R5
+!s100 SeoBJgaUF8gbezO;O=A7:1
+!s85 0
+!i10b 1
+vmig_7series_v1_9_ddr_of_pre_fifo
+R105
+R1
+r1
+31
+I]RPjF>D<=cbReHPc<@;m_2
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_of_pre_fifo.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_of_pre_fifo.v
+L0 76
+R3
+R113
+R114
+R115
+R5
+!s100 1E=Xc9:^8K78LzhDSzZFL3
+!s85 0
+!i10b 1
+vmig_7series_v1_9_ddr_phy_4lanes
+R105
+R1
+r1
+31
+I7z2aBWed_kFid>lNHl0nb0
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_4lanes.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_4lanes.v
+L0 72
+R3
+R113
+R114
+R115
+R5
+!s100 K[bzW<J>V3kZN^Xd<TFBc2
+!s85 0
+!i10b 1
+vmig_7series_v1_9_ddr_phy_ck_addr_cmd_delay
+R105
+R1
+r1
+31
+IUCI_h1i7=[5S2iXQ9=XXV2
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_ck_addr_cmd_delay.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_ck_addr_cmd_delay.v
+L0 68
+R3
+R113
+R114
+R115
+R5
+!s100 ?:ZEZkmje5^aS^ES`?Vbh2
+!s85 0
+!i10b 1
+vmig_7series_v1_9_ddr_phy_dqs_found_cal
+R105
+R1
+r1
+31
+I8`RU[k]gYYDL`US638JH93
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_dqs_found_cal.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_dqs_found_cal.v
+L0 79
+R3
+R113
+R114
+R115
+R5
+!s100 ]:]lhHkcX5>VLz2>UJB9g2
+!s85 0
+!i10b 1
+vmig_7series_v1_9_ddr_phy_dqs_found_cal_hr
+R105
+Z116 !s110 1474300626
+IlXB<;=HZ?Qo0=Ak1Nenhg1
+R1
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_dqs_found_cal_hr.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_dqs_found_cal_hr.v
+L0 79
+R3
+r1
+31
+R113
+R114
+R115
+R5
+!s100 k^XSFM<l4K=AFBHK>ej>R3
+!i10b 1
+!s85 0
+vmig_7series_v1_9_ddr_phy_init
+R105
+R1
+r1
+31
+I6eZMhL8_7>21<;aVe:LSH2
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_init.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_init.v
+L0 89
+R3
+R113
+R114
+R115
+R5
+!s100 C;NZ[[XeI6X4Y09c2dZBA1
+!s85 0
+!i10b 1
+vmig_7series_v1_9_ddr_phy_oclkdelay_cal
+R105
+R1
+r1
+31
+IX7?S`;`LzZ3416PBYzhY=3
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_oclkdelay_cal.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_oclkdelay_cal.v
+L0 69
+R3
+R113
+R114
+R115
+R5
+!s100 XUWL=8e]7L@UB]6P42BbI3
+!s85 0
+!i10b 1
+vmig_7series_v1_9_ddr_phy_prbs_rdlvl
+R105
+R1
+r1
+31
+IG7S>dW;YnFWBZ9d`53[ie1
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_prbs_rdlvl.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_prbs_rdlvl.v
+L0 79
+R3
+R113
+R114
+R115
+R5
+!s100 Sj=S>ZffE9RZ7NJ9d2WSI3
+!s85 0
+!i10b 1
+vmig_7series_v1_9_ddr_phy_rdlvl
+R105
+R1
+r1
+31
+IAROLlBVk9n98iW<IT7P4F0
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_rdlvl.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_rdlvl.v
+L0 81
+R3
+R113
+R114
+R115
+R5
+!s100 n8JkPRf1ZILSO<K`_IMY90
+!s85 0
+!i10b 1
+vmig_7series_v1_9_ddr_phy_tempmon
+R105
+R1
+r1
+31
+IDb3=A8YzacYf@i=E]nWAG1
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_tempmon.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_tempmon.v
+L0 69
+R3
+R113
+R114
+R115
+R5
+!s100 :amem1`k49b7id5m^b6HS0
+!s85 0
+!i10b 1
+Emig_7series_v1_9_ddr_phy_top
+R106
+R9
+R12
+R13
+R4
+Z117 8../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_top.vhd
+Z118 F../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_top.vhd
+l0
+L73
+VLbZ01k>zU4;Ie<fWZIOmL2
+R16
+32
+Z119 !s110 1480758466
+Z120 !s108 1480758466.444000
+Z121 !s90 -reportprogress|300|-work|work|../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_top.vhd|
+Z122 !s107 ../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_top.vhd|
+R21
+R22
+!s100 _:n`NfLhiXG8:5L1Z:Xzl1
+!i10b 1
+Aarch_ddr_phy_top
+R9
+R12
+R13
+DEx4 work 28 mig_7series_v1_9_ddr_phy_top 0 22 LbZ01k>zU4;Ie<fWZIOmL2
+32
+R119
+l1319
+L342
+VDMTaj?agJlV8jP^bRQ57=3
+R16
+R120
+R121
+R122
+R21
+R22
+!s100 ;eCgM^nV25T8IozmlfT<:3
+!i10b 1
+vmig_7series_v1_9_ddr_phy_wrcal
+R105
+R1
+r1
+31
+IANj@d48AV4dUL8=g6X0g^2
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_wrcal.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_wrcal.v
+L0 77
+R3
+R113
+R114
+R115
+R5
+!s100 THfIPjJd3;^g;O@A=1i4c0
+!s85 0
+!i10b 1
+vmig_7series_v1_9_ddr_phy_wrlvl
+R105
+R1
+r1
+31
+In1bI]k5PcFXL2[<E5S]F41
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_wrlvl.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_wrlvl.v
+L0 90
+R3
+R113
+R114
+R115
+R5
+!s100 _VPk^dX[_`C9`8fdMamn50
+!s85 0
+!i10b 1
+vmig_7series_v1_9_ddr_phy_wrlvl_off_delay
+R105
+R116
+IeiXdCEW4@H>N4EcQdeQBo2
+R1
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_wrlvl_off_delay.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_phy_wrlvl_off_delay.v
+L0 68
+R3
+r1
+31
+R113
+R114
+R115
+R5
+!s100 ?]6PmWYbTYlCnN6NcCCFX3
+!i10b 1
+!s85 0
+vmig_7series_v1_9_ddr_prbs_gen
+R105
+R1
+r1
+31
+Il0IFOlii@i5?fA6Y8ENRJ0
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_prbs_gen.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/phy/mig_7series_v1_9_ddr_prbs_gen.v
+L0 92
+R3
+R113
+R114
+R115
+R5
+!s100 RZd=M=RRc]F8>P5dg9nlH0
+!s85 0
+!i10b 1
+vmig_7series_v1_9_ecc_buf
+R105
+Z123 !s110 1474300625
+Io:<C>g6:b1F?f7aMOhD`=1
+R1
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/ecc/mig_7series_v1_9_ecc_buf.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/ecc/mig_7series_v1_9_ecc_buf.v
+L0 68
+R3
+r1
+31
+Z124 !s108 1474300625.542000
+Z125 !s107 ../ipcore_dir/M_DdrCtrl/user_design/rtl/ecc/mig_7series_v1_9_ecc_merge_enc.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/ecc/mig_7series_v1_9_ecc_gen.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/ecc/mig_7series_v1_9_ecc_dec_fix.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/ecc/mig_7series_v1_9_ecc_buf.v|
+Z126 !s90 -reportprogress|300|-work|work|-incr|../ipcore_dir/M_DdrCtrl/user_design/rtl/ecc/mig_7series_v1_9_ecc_buf.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/ecc/mig_7series_v1_9_ecc_dec_fix.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/ecc/mig_7series_v1_9_ecc_gen.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/ecc/mig_7series_v1_9_ecc_merge_enc.v|
+R5
+!s100 W4iR3^SFWFW[XO]6^A9DF1
+!i10b 1
+!s85 0
+vmig_7series_v1_9_ecc_dec_fix
+R105
+R123
+IGgW?;PB9Zd@D[5fV<CeS[2
+R1
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/ecc/mig_7series_v1_9_ecc_dec_fix.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/ecc/mig_7series_v1_9_ecc_dec_fix.v
+L0 67
+R3
+r1
+31
+R124
+R125
+R126
+R5
+!s100 81_i5[lVK8i^8bSA^QImS0
+!i10b 1
+!s85 0
+vmig_7series_v1_9_ecc_gen
+R105
+R123
+IZ9b?0oh;O>6Ii[25[=8c=0
+R1
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/ecc/mig_7series_v1_9_ecc_gen.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/ecc/mig_7series_v1_9_ecc_gen.v
+L0 104
+R3
+r1
+31
+R124
+R125
+R126
+R5
+!s100 =[]`SjRBzJil9_l_Yo34_1
+!i10b 1
+!s85 0
+vmig_7series_v1_9_ecc_merge_enc
+R105
+R123
+IfaRBK2M>JzoP:OIWWSkB@3
+R1
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/ecc/mig_7series_v1_9_ecc_merge_enc.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/ecc/mig_7series_v1_9_ecc_merge_enc.v
+L0 68
+R3
+r1
+31
+R124
+R125
+R126
+R5
+!s100 :?NcVPS:jB4OKD>SMo^eF0
+!i10b 1
+!s85 0
+vmig_7series_v1_9_infrastructure
+R105
+R1
+r1
+31
+I2KV9C:Kb:]9__OGo4k;lf0
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/clocking/mig_7series_v1_9_infrastructure.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/clocking/mig_7series_v1_9_infrastructure.v
+L0 78
+R3
+R110
+R111
+R112
+R5
+!s100 :m2oOUIfITAmm[R=g?OI^2
+!s85 0
+!i10b 1
+vmig_7series_v1_9_iodelay_ctrl
+R105
+R1
+r1
+31
+I2Dk]z9bNHB7<Y7XY7]OB51
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/clocking/mig_7series_v1_9_iodelay_ctrl.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/clocking/mig_7series_v1_9_iodelay_ctrl.v
+L0 80
+R3
+R110
+R111
+R112
+R5
+!s100 K]<_Om]BAf^eP_T:kY`aj2
+!s85 0
+!i10b 1
+vmig_7series_v1_9_mc
+R105
+R1
+r1
+31
+I@T_KA>=E49fLHkS798^B82
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_mc.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_mc.v
+L0 73
+R3
+R107
+R108
+R109
+R5
+!s100 WTV@jiizmZ_DIcJjlVMlQ3
+!s85 0
+!i10b 1
+vmig_7series_v1_9_mem_intfc
+R105
+R1
+r1
+31
+I3d22>_b1kean@T@>>a]O[1
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/ip_top/mig_7series_v1_9_mem_intfc.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/ip_top/mig_7series_v1_9_mem_intfc.v
+L0 70
+R3
+Z127 !s108 1474300625.688000
+Z128 !s107 ../ipcore_dir/M_DdrCtrl/user_design/rtl/ip_top/mig_7series_v1_9_memc_ui_top_std.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/ip_top/mig_7series_v1_9_mem_intfc.v|
+Z129 !s90 -reportprogress|300|-work|work|-incr|../ipcore_dir/M_DdrCtrl/user_design/rtl/ip_top/mig_7series_v1_9_mem_intfc.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/ip_top/mig_7series_v1_9_memc_ui_top_std.v|
+R5
+!s100 ngcaU4ojO`ENU7zOTDFOo3
+!s85 0
+!i10b 1
+vmig_7series_v1_9_memc_ui_top_std
+R105
+R1
+r1
+31
+IENWLoEoh66gljA?aSg0Nf2
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/ip_top/mig_7series_v1_9_memc_ui_top_std.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/ip_top/mig_7series_v1_9_memc_ui_top_std.v
+L0 72
+R3
+R127
+R128
+R129
+R5
+!s100 oTXUdKSd59DQX@coZ<X_c1
+!s85 0
+!i10b 1
+vmig_7series_v1_9_rank_cntrl
+R105
+R1
+r1
+31
+ISfSODX3@gWagiYH`hZbK52
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_rank_cntrl.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_rank_cntrl.v
+L0 79
+R3
+R107
+R108
+R109
+R5
+!s100 KVjhMMIK[LdNoViYN7A<K0
+!s85 0
+!i10b 1
+vmig_7series_v1_9_rank_common
+R105
+R1
+r1
+31
+IG]JIETC3:Uz>477Wkc<1<0
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_rank_common.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_rank_common.v
+L0 72
+R3
+R107
+R108
+R109
+R5
+!s100 b:o[hZ4]WQJ_F4?4kUGAJ0
+!s85 0
+!i10b 1
+vmig_7series_v1_9_rank_mach
+R105
+R1
+r1
+31
+In8SYHC_6^@QF3c`Yn@h911
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_rank_mach.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_rank_mach.v
+L0 71
+R3
+R107
+R108
+R109
+R5
+!s100 m6RbOzWVMKEQQ5BkgD=UJ0
+!s85 0
+!i10b 1
+vmig_7series_v1_9_round_robin_arb
+R105
+R1
+r1
+31
+I8`]FHh5;1YOC<nS=TSXe]0
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_round_robin_arb.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/controller/mig_7series_v1_9_round_robin_arb.v
+L0 121
+R3
+R107
+R108
+R109
+R5
+!s100 PE?3Hzl]mAYD>cjdn[bf;0
+!s85 0
+!i10b 1
+vmig_7series_v1_9_tempmon
+R105
+R1
+r1
+31
+I8lPeW:3<Z4AEzGiFH=Nl?2
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/clocking/mig_7series_v1_9_tempmon.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/clocking/mig_7series_v1_9_tempmon.v
+L0 69
+R3
+R110
+R111
+R112
+R5
+!s100 zAlIXS>JgIoT:]ZF1SMS80
+!s85 0
+!i10b 1
+vmig_7series_v1_9_ui_cmd
+R105
+R1
+r1
+31
+IiENaKCe><3@;=HQAN:AM62
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/ui/mig_7series_v1_9_ui_cmd.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/ui/mig_7series_v1_9_ui_cmd.v
+L0 70
+R3
+Z130 !s108 1474300626.289000
+Z131 !s107 ../ipcore_dir/M_DdrCtrl/user_design/rtl/ui/mig_7series_v1_9_ui_wr_data.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/ui/mig_7series_v1_9_ui_top.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/ui/mig_7series_v1_9_ui_rd_data.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/ui/mig_7series_v1_9_ui_cmd.v|
+Z132 !s90 -reportprogress|300|-work|work|-incr|../ipcore_dir/M_DdrCtrl/user_design/rtl/ui/mig_7series_v1_9_ui_cmd.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/ui/mig_7series_v1_9_ui_rd_data.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/ui/mig_7series_v1_9_ui_top.v|../ipcore_dir/M_DdrCtrl/user_design/rtl/ui/mig_7series_v1_9_ui_wr_data.v|
+R5
+!s100 93O6g?o]Fj]db=0YRVIg?1
+!s85 0
+!i10b 1
+vmig_7series_v1_9_ui_rd_data
+R105
+R1
+r1
+31
+I<5V<hmGI78X7`c0_hO66I1
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/ui/mig_7series_v1_9_ui_rd_data.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/ui/mig_7series_v1_9_ui_rd_data.v
+L0 140
+R3
+R130
+R131
+R132
+R5
+!s100 `1[flahgWg<2HjekJDKEU3
+!s85 0
+!i10b 1
+vmig_7series_v1_9_ui_top
+R105
+R1
+r1
+31
+I4AC`Y[ncJ:AmM7<kBbC`<1
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/ui/mig_7series_v1_9_ui_top.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/ui/mig_7series_v1_9_ui_top.v
+L0 71
+R3
+R130
+R131
+R132
+R5
+!s100 miQbYUFdB_iI7dld;`S>P0
+!s85 0
+!i10b 1
+vmig_7series_v1_9_ui_wr_data
+R105
+R1
+r1
+31
+IE^l]kU:2M60e=B4`Y:Az70
+R2
+R106
+8../ipcore_dir/M_DdrCtrl/user_design/rtl/ui/mig_7series_v1_9_ui_wr_data.v
+F../ipcore_dir/M_DdrCtrl/user_design/rtl/ui/mig_7series_v1_9_ui_wr_data.v
+L0 131
+R3
+R130
+R131
+R132
+R5
+!s100 X45>YIZC0;;CRK0AVf=>c0
+!s85 0
+!i10b 1
+Epulse2pulse
+Z133 w1274441373
+R55
+R56
+R11
+R10
+R12
+R13
+R4
+Z134 8../src/pulse2pulse.vhd
+Z135 F../src/pulse2pulse.vhd
+l0
+L8
+Vc>gaKGzz55kR>JRIR5Q:E3
+R16
+32
+R38
+R32
+R33
+R34
+R21
+R22
+!s100 bZiDL9hDPFTg@WTTca_1o0
+!i10b 1
+Asyn
+R55
+R56
+R11
+R10
+R12
+R13
+DEx4 work 11 pulse2pulse 0 22 c>gaKGzz55kR>JRIR5Q:E3
+32
+R38
+l48
+L19
+VnS`_P6ZhAgJkGcjemS`ez0
+R16
+R32
+R33
+R34
+R21
+R22
+!s100 keaKESHF>?oV^S2YKP6:]1
+!i10b 1
+Eremapper
+Z136 w1390884366
+R11
+R10
+R12
+R13
+R4
+Z137 8../src/remapper.vhd
+Z138 F../src/remapper.vhd
+l0
+L6
+VmakDj`X7M@HX1JF5X3QN?3
+R16
+32
+R38
+R32
+R33
+R34
+R21
+R22
+!s100 9`7zZfKOWl4<NG`[K3<Ll3
+!i10b 1
+Aa
+R11
+R10
+R12
+R13
+DEx4 work 8 remapper 0 22 makDj`X7M@HX1JF5X3QN?3
+32
+R38
+l71
+L50
+VZ;R0_V?I6b?T6U[b;I5eP1
+R16
+R32
+R33
+R34
+R21
+R22
+!s100 C^a3Rhh6Z];9YXQliT7W]2
+!i10b 1
+vWireDelay
+R116
+I_F5;@U37e0ooe[8^C>NeI2
+R1
+R2
+w1447988304
+8../ipcore_dir/M_DdrCtrl/example_design/sim/wiredly.v
+F../ipcore_dir/M_DdrCtrl/example_design/sim/wiredly.v
+L0 91
+R3
+r1
+31
+R5
+n@wire@delay
+!s10a 1447988304
+!s100 kzgHiBCP>KBKNeh>W`JcS2
+!s108 1474300626.503000
+!s107 ../ipcore_dir/M_DdrCtrl/example_design/sim/wiredly.v|
+!s90 -reportprogress|300|-work|work|-incr|../ipcore_dir/M_DdrCtrl/example_design/sim/wiredly.v|
+!i10b 1
+!s85 0

@@ -1,0 +1,243 @@
+Mon Sep 19 23:57:33 CST 2016
+Trace back: Bad sequence in.main_pane.memory.interior.cs.body.list.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)
+    while executing
+"$itk_component(tree) insertquery end """
+    (object "::.main_pane.memory.interior.cs.body.list" method "::vsimwidgets::Hierarchy::requery" body line 3)
+    invoked from within
+"requery"
+    (object "::.main_pane.memory.interior.cs.body.list" method "::FlatMemlist::UpdateFlatMemList" body line 8)
+    invoked from within
+"$list UpdateFlatMemList"
+    (procedure "Memview::delayedUpdateMemoryList" line 5)
+    invoked from within
+"Memview::delayedUpdateMemoryList"
+    ("after" script)
+  <2:C:/modeltech64_10.2/tcl/tk8.5/bgerror.tcl:95: ::tkerror {Bad sequence in.main_pane.memory.interior.cs.body.list.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)}
+  <1:eval:1: ::tk::dialog::error::bgerror {Bad sequence in.main_pane.memory.interior.cs.body.list.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)}
+Tue Sep 20 16:17:31 CST 2016
+Trace back: Bad sequence in.main_pane.memory.interior.cs.body.list.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)
+    while executing
+"$itk_component(tree) insertquery end """
+    (object "::.main_pane.memory.interior.cs.body.list" method "::vsimwidgets::Hierarchy::requery" body line 3)
+    invoked from within
+"requery"
+    (object "::.main_pane.memory.interior.cs.body.list" method "::FlatMemlist::UpdateFlatMemList" body line 8)
+    invoked from within
+"$list UpdateFlatMemList"
+    (procedure "Memview::delayedUpdateMemoryList" line 5)
+    invoked from within
+"Memview::delayedUpdateMemoryList"
+    ("after" script)
+  <2:C:/modeltech64_10.2/tcl/tk8.5/bgerror.tcl:95: ::tkerror {Bad sequence in.main_pane.memory.interior.cs.body.list.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)}
+  <1:eval:1: ::tk::dialog::error::bgerror {Bad sequence in.main_pane.memory.interior.cs.body.list.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)}
+Tue Sep 20 17:47:57 CST 2016
+Trace back: Macro Break
+    while executing
+"macroMark"
+    (procedure "update" line 6)
+    invoked from within
+"update idletasks"
+    (procedure "mti_popup" line 27)
+    invoked from within
+"mti_popup $popupMenu $X $Y"
+    (procedure "Transcript::DoPopupMenu" line 9)
+    invoked from within
+"Transcript::DoPopupMenu 178 954"
+    (command bound to event)
+  <2:C:/modeltech64_10.2/tcl/tk8.5/bgerror.tcl:95: ::tkerror {Macro Break}
+  <1:proc:136: ::tk::dialog::error::bgerror {Macro Break}
+Tue Sep 20 17:49:25 CST 2016
+Trace back: Bad sequence in.main_pane.memory.interior.cs.body.list.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)
+    while executing
+"$itk_component(tree) insertquery end """
+    (object "::.main_pane.memory.interior.cs.body.list" method "::vsimwidgets::Hierarchy::requery" body line 3)
+    invoked from within
+"requery"
+    (object "::.main_pane.memory.interior.cs.body.list" method "::FlatMemlist::UpdateFlatMemList" body line 8)
+    invoked from within
+"$list UpdateFlatMemList"
+    (procedure "Memview::delayedUpdateMemoryList" line 5)
+    invoked from within
+"Memview::delayedUpdateMemoryList"
+    ("after" script)
+  <2:C:/modeltech64_10.2/tcl/tk8.5/bgerror.tcl:95: ::tkerror {Bad sequence in.main_pane.memory.interior.cs.body.list.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)}
+  <1:proc:15: ::tk::dialog::error::bgerror {Bad sequence in.main_pane.memory.interior.cs.body.list.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)}
+Tue Sep 20 21:41:27 CST 2016
+Trace back: Bad sequence in.main_pane.memory.interior.cs.body.list.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)
+    while executing
+"$itk_component(tree) insertquery end """
+    (object "::.main_pane.memory.interior.cs.body.list" method "::vsimwidgets::Hierarchy::requery" body line 3)
+    invoked from within
+"requery"
+    (object "::.main_pane.memory.interior.cs.body.list" method "::FlatMemlist::UpdateFlatMemList" body line 8)
+    invoked from within
+"$list UpdateFlatMemList"
+    (procedure "Memview::delayedUpdateMemoryList" line 5)
+    invoked from within
+"Memview::delayedUpdateMemoryList"
+    ("after" script)
+  <2:C:/modeltech64_10.2/tcl/tk8.5/bgerror.tcl:95: ::tkerror {Bad sequence in.main_pane.memory.interior.cs.body.list.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)}
+  <1:proc:15: ::tk::dialog::error::bgerror {Bad sequence in.main_pane.memory.interior.cs.body.list.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)}
+Tue Sep 20 22:37:57 CST 2016
+Trace back: Bad sequence in.main_pane.memory.interior.cs.body.list.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)
+    while executing
+"$itk_component(tree) insertquery end """
+    (object "::.main_pane.memory.interior.cs.body.list" method "::vsimwidgets::Hierarchy::requery" body line 3)
+    invoked from within
+"requery"
+    (object "::.main_pane.memory.interior.cs.body.list" method "::FlatMemlist::UpdateFlatMemList" body line 8)
+    invoked from within
+"$list UpdateFlatMemList"
+    (procedure "Memview::delayedUpdateMemoryList" line 5)
+    invoked from within
+"Memview::delayedUpdateMemoryList"
+    ("after" script)
+  <2:C:/modeltech64_10.2/tcl/tk8.5/bgerror.tcl:95: ::tkerror {Bad sequence in.main_pane.memory.interior.cs.body.list.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)}
+  <1:proc:15: ::tk::dialog::error::bgerror {Bad sequence in.main_pane.memory.interior.cs.body.list.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)}
+Wed Sep 21 00:13:59 CST 2016
+Trace back: Bad sequence in.main_pane.memory.interior.cs.body.list.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)
+    while executing
+"$itk_component(tree) insertquery end """
+    (object "::.main_pane.memory.interior.cs.body.list" method "::vsimwidgets::Hierarchy::requery" body line 3)
+    invoked from within
+"requery"
+    (object "::.main_pane.memory.interior.cs.body.list" method "::FlatMemlist::UpdateFlatMemList" body line 8)
+    invoked from within
+"$list UpdateFlatMemList"
+    (procedure "Memview::delayedUpdateMemoryList" line 5)
+    invoked from within
+"Memview::delayedUpdateMemoryList"
+    ("after" script)
+  <2:C:/modeltech64_10.2/tcl/tk8.5/bgerror.tcl:95: ::tkerror {Bad sequence in.main_pane.memory.interior.cs.body.list.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)}
+  <1:proc:136: ::tk::dialog::error::bgerror {Bad sequence in.main_pane.memory.interior.cs.body.list.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)}
+Wed Sep 21 00:14:02 CST 2016
+Trace back: Bad sequence in.main_pane.memory.interior.cs.body.list.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)
+    while executing
+"$itk_component(tree) insertquery end """
+    (object "::.main_pane.memory.interior.cs.body.list" method "::vsimwidgets::Hierarchy::requery" body line 3)
+    invoked from within
+"requery"
+    (object "::.main_pane.memory.interior.cs.body.list" method "::FlatMemlist::UpdateFlatMemList" body line 8)
+    invoked from within
+"$list UpdateFlatMemList"
+    (procedure "Memview::delayedUpdateMemoryList" line 5)
+    invoked from within
+"Memview::delayedUpdateMemoryList"
+    ("after" script)
+  <2:C:/modeltech64_10.2/tcl/tk8.5/bgerror.tcl:95: ::tkerror {Bad sequence in.main_pane.memory.interior.cs.body.list.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)}
+  <1:proc:8: ::tk::dialog::error::bgerror {Bad sequence in.main_pane.memory.interior.cs.body.list.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)}
+Wed Sep 21 10:52:43 CST 2016
+Trace back: Bad sequence in.main_pane.memory.interior.cs.body.list.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (1)
+    while executing
+"$itk_component(tree) insertquery end """
+    (object "::.main_pane.memory.interior.cs.body.list" method "::vsimwidgets::Hierarchy::requery" body line 3)
+    invoked from within
+"requery"
+    (object "::.main_pane.memory.interior.cs.body.list" method "::FlatMemlist::UpdateFlatMemList" body line 8)
+    invoked from within
+"$list UpdateFlatMemList"
+    (procedure "Memview::delayedUpdateMemoryList" line 5)
+    invoked from within
+"Memview::delayedUpdateMemoryList"
+    ("after" script)
+  <2:C:/modeltech64_10.2/tcl/tk8.5/bgerror.tcl:95: ::tkerror {Bad sequence in.main_pane.memory.interior.cs.body.list.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (1)}
+  <1:eval:1: ::tk::dialog::error::bgerror {Bad sequence in.main_pane.memory.interior.cs.body.list.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (1)}
+Fri Sep 23 14:53:05 CST 2016
+Trace back: internal error: no Archetype information for widget
+    (method "::itk::Archetype::configure" )
+    invoked from within
+"configure -cursor {}"
+    ("eval" body line 1)
+    invoked from within
+"eval configure $option $args"
+    (method "::itk::Archetype::config" body line 2)
+    invoked from within
+"config -cursor {}"
+    (method "::vsimwidgets::Srcedit::BusyPost" body line 7)
+    invoked from within
+"BusyPost"
+    (method "::vsimwidgets::Srcedit::ExecBusyCmd" body line 26)
+    invoked from within
+"$_srcedit ExecBusyCmd 1500 "<< [_name]s Results""
+    (method "::vsimwidgets::Srcedit::ResultsWidget::_update" body line 57)
+    invoked from within
+"::.main_pane.source.interior.cs.body.editor.cs.panedWindow.f1.frame.paned.f0.frame.sw.tf.extra.drivers _update -data {{sim:/m_sim/U_M_Lcd4Top_0/U_M_Dd..."
+    ("eval" body line 1)
+    invoked from within
+"eval $o _update $args"
+    (procedure "::vsimwidgets::Srcedit::ResultsWidget::Update" body line 10)
+    invoked from within
+"vsimwidgets::Srcedit::ResultsWidget::Update  -data $DriverList -signal $sig -from $drivers_or_readers"
+    (procedure "::vsimwidgets::Srcedit::HandleDrivers" body line 60)
+    invoked from within
+"vsimwidgets::Srcedit::HandleDrivers [lindex $sigList 0] $d_or_r"
+    (procedure "_showDFReadersDrivers" line 41)
+    invoked from within
+"_showDFReadersDrivers drivers .main_pane.wave.interior.cs.body.pw.wf 1"
+    ("eval" body line 1)
+    invoked from within
+"eval _showDFReadersDrivers "drivers" $winname $classic $args"
+    (procedure "Wave::ShowDFDrivers" line 2)
+    invoked from within
+"Wave::ShowDFDrivers $top 1"
+    ("dataflow" arm line 2)
+    invoked from within
+"switch $m {
+               "none" {}
+               "dataflow" {
+                  Wave::ShowDFDrivers $top 1
+               }
+               "schemat..."
+    (procedure "Wave::1Up" line 24)
+    invoked from within
+"Wave::1Up $widget $x $y"
+    (procedure "Wave::SelectUp" line 4)
+    invoked from within
+"Wave::SelectUp	 .main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data 343 140 808 333 "
+    (command bound to event)
+  <2:D:/modeltech64_10.2/tcl/tk8.5/bgerror.tcl:95: ::tkerror {internal error: no Archetype information for widget}
+  <1:eval:1: ::tk::dialog::error::bgerror {internal error: no Archetype information for widget}
+Sat Dec 03 17:45:29 CST 2016
+Trace back: 
+    while executing
+"vsim_kernel ContextView absname $id"
+    (object "::AbstractDataset::simDataset0" method "::SimDataset::absname" body line 13)
+    invoked from within
+"$this absname $id"
+    (object "::AbstractDataset::simDataset0" method "::AbstractDataset::fullname" body line 2)
+    invoked from within
+"$func fullname $n"
+    (procedure "SelectItem" line 12)
+    invoked from within
+"SelectItem .main_pane.structure PNmTMmzz1"
+    (in namespace inscope "::QStructure" script line 1)
+    invoked from within
+"namespace inscope ::QStructure {SelectItem .main_pane.structure PNmTMmzz1}"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel "#0" $cmd"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::_evalCmd" body line 45)
+    invoked from within
+"_evalCmd $itk_option(-selectcommand) $node "
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::_select" body line 7)
+    invoked from within
+"_select $idx"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::selection" body line 74)
+    invoked from within
+"vsimwidgets::Hierarchy::selection set $idx"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::_button1" body line 69)
+    invoked from within
+"::.main_pane.structure.interior.cs.body.struct _button1 .main_pane.structure.interior.cs.body.struct.lwchildsite.clipper.canvas.sfchildsite.col13 4 30..."
+    (in namespace inscope "::vsimwidgets::Hierarchy" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _button1 .main_pane.structure.interior.cs.body.struct.lwchi..."
+    (command bound to event)
+  <2:D:/My_tool/modeltech64_10.2/tcl/tk8.5/bgerror.tcl:95: ::tkerror {}
+  <1:eval:1: ::tk::dialog::error::bgerror {}
+Sat Dec 03 17:45:39 CST 2016
+Trace back: ** Error: (vish-4000) A design must be loaded before the "vsim_break" command can be used.
+    while executing
+".vcop Eval vsim_break"
+    (menu invoke)
+  <2:D:/My_tool/modeltech64_10.2/tcl/tk8.5/bgerror.tcl:95: ::tkerror {** Error: (vish-4000) A design must be loaded before the "vsim_break" command can be used.}
+  <1:proc:57: ::tk::dialog::error::bgerror {** Error: (vish-4000) A design must be loaded before the "vsim_break" command can be used.}

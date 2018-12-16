@@ -1,0 +1,10 @@
+Storage Target: BPI Flash Single FPGA
+Storage Family: Kintex7
+128M
+FF
+20160926
+D:/Project/Ha Gong Da/M_Lcd4Top_K7/M_Lcd4Top_Successful_Code/M_Lcd4Top-3_20160926/mcs/20160926
+
+MCS
+x16
+No

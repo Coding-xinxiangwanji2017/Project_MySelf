@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.20131013
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.20131013
+DATE            12/04/2016 - 16:04
+SOURCE          D:\Project\xi an gong suo project\FPGA_Code\FPGA-2\M_Lcd4Top_20161130\mcs\FPGA-2_20161203\FPGA-2_20161203.mcs
+DEVICE          131072K
+DATA_WIDTH      16
+FILL_DATA       0xFF
+SIGNATURE       0x4B975B45
+START_ADDRESS   0x00000000 END_ADDRESS 0x00AE9D9B DIRECTION_UP   "D:/Project/xi an gong suo project/FPGA_Code/FPGA-2/M_Lcd4Top_20161130/Bit/m_lcd4top_FPGA-2_20161203.bit" 7k325tffg900

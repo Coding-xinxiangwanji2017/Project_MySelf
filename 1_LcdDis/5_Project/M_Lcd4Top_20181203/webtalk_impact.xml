@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="impact" timeStamp="Mon Sep 26 16:58:33 2016">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="d4de53fac2934789be859200c95b33f7"/>
+<property name="ProjectIteration" value="1"/>
+</section>
+<section name="iMPACT Project Info" visible="true">
+<property name="Use Project File" value="No"/>
+<property name="Project Entry" value="ise"/>
+<property name="OS Name" value="Microsoft Windows 7 (64 Bit)"/>
+<property name="User Lic. Info" value="__0_0_0"/>
+</section>
+<section name="iMPACT BPI FLASH File Generation Mode" visible="true">
+<item name="FLASH File Summary">
+<property name="Number of FLASH" value="1"/>
+<property name="FLASH Data Width" value="16"/>
+<property name="FLASH" value="1"/>
+<property name="FLASH Size" value="128M Byte"/>
+</item>
+<item name="Revision_Data File Summary">
+<property name="Number of Revision" value="1"/>
+<property name="Number of Data File" value="0"/>
+</item>
+<item name="Revision 1">
+<property name="Number of device" value="1"/>
+<property name="Part1" value="xc7k325t"/>
+</item>
+</section>
+</application>
+</document>

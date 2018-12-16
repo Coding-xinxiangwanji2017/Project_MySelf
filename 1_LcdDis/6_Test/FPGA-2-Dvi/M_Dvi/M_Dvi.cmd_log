@@ -1,0 +1,21 @@
+xst -intstyle ise -ifn "D:/Project/Zhang wenjun/Xi'an Institute Of Optics/FPGA_Code/Test Code/M_Dvi/M_Dvi.xst" -ofn "D:/Project/Zhang wenjun/Xi'an Institute Of Optics/FPGA_Code/Test Code/M_Dvi/M_Dvi.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ip -nt timestamp -uc "src/M_Dvi.ucf" -p xc7k325t-ffg900-3 "M_Dvi.ngc" M_Dvi.ngd  
+map -intstyle ise -p xc7k325t-ffg900-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o M_Dvi_map.ncd M_Dvi.ngd M_Dvi.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ip -nt timestamp -uc "src/M_Dvi.ucf" -p xc7k325t-ffg900-3 "M_Dvi.ngc" M_Dvi.ngd  
+map -intstyle ise -p xc7k325t-ffg900-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o M_Dvi_map.ncd M_Dvi.ngd M_Dvi.pcf 
+par -w -intstyle ise -ol high -mt off M_Dvi_map.ncd M_Dvi.ncd M_Dvi.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml M_Dvi.twx M_Dvi.ncd -o M_Dvi.twr M_Dvi.pcf 
+bitgen -intstyle ise -f M_Dvi.ut M_Dvi.ncd 
+xst -intstyle ise -ifn "D:/Project/xi an gong suo project/FPGA_Code/FPGA-2/M_Dvi/M_Dvi.xst" -ofn "D:/Project/xi an gong suo project/FPGA_Code/FPGA-2/M_Dvi/M_Dvi.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ip -nt timestamp -uc "src/M_Dvi.ucf" -p xc7k325t-ffg900-2 "M_Dvi.ngc" M_Dvi.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o M_Dvi_map.ncd M_Dvi.ngd M_Dvi.pcf 
+par -w -intstyle ise -ol high -mt off M_Dvi_map.ncd M_Dvi.ncd M_Dvi.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml M_Dvi.twx M_Dvi.ncd -o M_Dvi.twr M_Dvi.pcf 
+bitgen -intstyle ise -f M_Dvi.ut M_Dvi.ncd 
+xst -intstyle ise -ifn "D:/Project_MySelf/1_LcdDis/FPGA-2-Dvi/M_Dvi/M_Dvi.xst" -ofn "D:/Project_MySelf/1_LcdDis/FPGA-2-Dvi/M_Dvi/M_Dvi.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ip -nt timestamp -uc src/M_Dvi.ucf -p xc7k325t-ffg900-2 M_Dvi.ngc M_Dvi.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o M_Dvi_map.ncd M_Dvi.ngd M_Dvi.pcf 
+par -w -intstyle ise -ol high -mt off M_Dvi_map.ncd M_Dvi.ncd M_Dvi.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml M_Dvi.twx M_Dvi.ncd -o M_Dvi.twr M_Dvi.pcf 
+bitgen -intstyle ise -f M_Dvi.ut M_Dvi.ncd 
+bitgen -intstyle ise -f M_Dvi.ut M_Dvi.ncd 

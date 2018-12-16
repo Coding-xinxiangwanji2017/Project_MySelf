@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Dec 16 22:09:04 2018
+# Process ID: 9956
+# Current directory: D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/synth_1
+# Command line: vivado.exe -log example_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source example_top.tcl
+# Log file: D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/synth_1/example_top.vds
+# Journal file: D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source example_top.tcl -notrace

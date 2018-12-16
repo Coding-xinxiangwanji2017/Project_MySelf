@@ -1,0 +1,170 @@
+#------------------------------------------------------------------------------
+# Clk & Reset
+#------------------------------------------------------------------------------
+set_property IOSTANDARD LVCMOS33 [get_ports CpSl_Rst_iN]
+set_property PACKAGE_PIN F12 [get_ports CpSl_Rst_iN]
+set_property IOSTANDARD LVCMOS25 [get_ports CpSl_Clk_i]
+set_property PACKAGE_PIN AB27 [get_ports CpSl_Clk_i]
+
+create_clock -period 10.000 -name CpSl_Clk_i [get_ports CpSl_Clk_i]
+NET "CpSl_Clk_i" TNM_NET = "TNM_CpSl_Clk_i";
+TIMESPEC "TS_CpSl_Clk_i" = PERIOD "TNM_CpSl_Clk_i" 100MHz HIGH 50%;
+
+#------------------------------------------------------------------------------
+# DVI_D 2-channel
+#------------------------------------------------------------------------------
+##--------------------------------------
+## DVI0
+##--------------------------------------
+set_property IOSTANDARD LVCMOS33 [get_ports HDMI_in_DVI0_CLK]
+set_property PACKAGE_PIN G13 [get_ports HDMI_in_DVI0_CLK]
+
+#create_clock -period 6.060 -name HDMI_in_DVI0_CLK [get_ports HDMI_in_DVI0_CLK]
+#NET "HDMI_in_DVI0_CLK" TNM_NET = "TNM_HDMI_in_DVI0_CLK";
+#TIMESPEC "TS_HDMI_in_DVI0_CLK" = PERIOD "TNM_HDMI_in_DVI0_CLK" 165MHz HIGH 50%;
+set_property IOSTANDARD LVCMOS33 [get_ports HDMI_in_DVI0_DE]
+set_property PACKAGE_PIN B12 [get_ports HDMI_in_DVI0_DE]
+
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI0_R[7]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI0_R[6]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI0_R[5]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI0_R[4]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI0_R[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI0_R[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI0_R[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI0_R[0]}]
+set_property PACKAGE_PIN C12 [get_ports {HDMI_in_DVI0_R[7]}]
+set_property PACKAGE_PIN G14 [get_ports {HDMI_in_DVI0_R[6]}]   
+set_property PACKAGE_PIN H14 [get_ports {HDMI_in_DVI0_R[5]}]   
+set_property PACKAGE_PIN H12 [get_ports {HDMI_in_DVI0_R[4]}]   
+set_property PACKAGE_PIN H11 [get_ports {HDMI_in_DVI0_R[3]}]   
+set_property PACKAGE_PIN H16 [get_ports {HDMI_in_DVI0_R[2]}]   
+set_property PACKAGE_PIN J16 [get_ports {HDMI_in_DVI0_R[1]}]   
+set_property PACKAGE_PIN J12 [get_ports {HDMI_in_DVI0_R[0]}]  
+
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI0_G[7]}] 
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI0_G[6]}] 
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI0_G[5]}] 
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI0_G[4]}] 
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI0_G[3]}] 
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI0_G[2]}] 
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI0_G[1]}] 
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI0_G[0]}] 
+set_property PACKAGE_PIN J11 [get_ports {HDMI_in_DVI0_G[7]}]
+set_property PACKAGE_PIN G15 [get_ports {HDMI_in_DVI0_G[6]}]    
+set_property PACKAGE_PIN H15 [get_ports {HDMI_in_DVI0_G[5]}]    
+set_property PACKAGE_PIN K11 [get_ports {HDMI_in_DVI0_G[4]}]    
+set_property PACKAGE_PIN L11 [get_ports {HDMI_in_DVI0_G[3]}]    
+set_property PACKAGE_PIN J14 [get_ports {HDMI_in_DVI0_G[2]}]   
+set_property PACKAGE_PIN K14 [get_ports {HDMI_in_DVI0_G[1]}]    
+set_property PACKAGE_PIN J13 [get_ports {HDMI_in_DVI0_G[0]}]    
+
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI0_B[7]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI0_B[6]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI0_B[5]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI0_B[4]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI0_B[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI0_B[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI0_B[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI0_B[0]}]
+set_property PACKAGE_PIN K13 [get_ports {HDMI_in_DVI0_B[7]}]
+set_property PACKAGE_PIN L13 [get_ports {HDMI_in_DVI0_B[6]}]
+set_property PACKAGE_PIN L12 [get_ports {HDMI_in_DVI0_B[5]}]
+set_property PACKAGE_PIN K15 [get_ports {HDMI_in_DVI0_B[4]}]
+set_property PACKAGE_PIN L15 [get_ports {HDMI_in_DVI0_B[3]}]
+set_property PACKAGE_PIN K16 [get_ports {HDMI_in_DVI0_B[2]}]
+set_property PACKAGE_PIN L16 [get_ports {HDMI_in_DVI0_B[1]}]
+set_property PACKAGE_PIN G12 [get_ports {HDMI_in_DVI0_B[0]}]
+
+set_property IOSTANDARD LVCMOS33 [get_ports HDMI_in_DVI0_HSYNC]
+set_property IOSTANDARD LVCMOS25 [get_ports HDMI_in_PDO_n]
+set_property IOSTANDARD LVCMOS33 [get_ports HDMI_in_DVI0_VSYNC]
+set_property IOSTANDARD LVCMOS25 [get_ports HDMI_in_SCDT]
+set_property IOSTANDARD LVCMOS25 [get_ports HDMI_stag0_out]
+set_property IOSTANDARD LVCMOS25 [get_ports HPD_Si1161]
+set_property IOSTANDARD LVCMOS25 [get_ports LED0]
+
+set_property PACKAGE_PIN E11 [get_ports HDMI_in_DVI0_HSYNC]
+set_property PACKAGE_PIN F11 [get_ports HDMI_in_DVI0_VSYNC]   
+set_property PACKAGE_PIN AC29 [get_ports HDMI_in_PDO_n]
+set_property PACKAGE_PIN AB25 [get_ports HDMI_in_SCDT]
+set_property PACKAGE_PIN AA25 [get_ports HDMI_stag0_out]
+set_property PACKAGE_PIN AB30 [get_ports HPD_Si1161]
+set_property PACKAGE_PIN W27 [get_ports LED0] 
+
+##--------------------------------------
+## DVI1
+##--------------------------------------
+set_property IOSTANDARD LVCMOS33 [get_ports HDMI_in_DVI1_CLK]
+set_property PACKAGE_PIN D12 [get_ports HDMI_in_DVI1_CLK]
+
+create_clock -period 6.060 -name HDMI_in_DVI1_CLK [get_ports HDMI_in_DVI1_CLK]
+NET "HDMI_in_DVI1_CLK" TNM_NET = "TNM_HDMI_in_DVI1_CLK";
+TIMESPEC "TS_HDMI_in_DVI1_CLK" = PERIOD "TNM_HDMI_in_DVI1_CLK" 165MHz HIGH 50%;
+
+set_property IOSTANDARD LVCMOS33 [get_ports HDMI_in_DVI1_DE]
+set_property PACKAGE_PIN A11 [get_ports HDMI_in_DVI1_DE]
+
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI1_R[7]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI1_R[6]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI1_R[5]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI1_R[4]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI1_R[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI1_R[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI1_R[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI1_R[0]}]
+set_property PACKAGE_PIN F20 [get_ports {HDMI_in_DVI1_R[7]}]   
+set_property PACKAGE_PIN E21 [get_ports {HDMI_in_DVI1_R[6]}]   
+set_property PACKAGE_PIN F21 [get_ports {HDMI_in_DVI1_R[5]}]   
+set_property PACKAGE_PIN C22 [get_ports {HDMI_in_DVI1_R[4]}]   
+set_property PACKAGE_PIN D22 [get_ports {HDMI_in_DVI1_R[3]}]   
+set_property PACKAGE_PIN F22 [get_ports {HDMI_in_DVI1_R[2]}]   
+set_property PACKAGE_PIN G22 [get_ports {HDMI_in_DVI1_R[1]}]   
+set_property PACKAGE_PIN C21 [get_ports {HDMI_in_DVI1_R[0]}]
+
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI1_G[7]}] 
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI1_G[6]}] 
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI1_G[5]}] 
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI1_G[4]}] 
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI1_G[3]}] 
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI1_G[2]}] 
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI1_G[1]}] 
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI1_G[0]}] 
+set_property PACKAGE_PIN D21 [get_ports {HDMI_in_DVI1_G[7]}]    
+set_property PACKAGE_PIN H22 [get_ports {HDMI_in_DVI1_G[6]}]    
+set_property PACKAGE_PIN H21 [get_ports {HDMI_in_DVI1_G[5]}]   
+set_property PACKAGE_PIN K20 [get_ports {HDMI_in_DVI1_G[4]}]    
+set_property PACKAGE_PIN K19 [get_ports {HDMI_in_DVI1_G[3]}]    
+set_property PACKAGE_PIN L18 [get_ports {HDMI_in_DVI1_G[2]}]    
+set_property PACKAGE_PIN L17 [get_ports {HDMI_in_DVI1_G[1]}]    
+set_property PACKAGE_PIN H19 [get_ports {HDMI_in_DVI1_G[0]}]
+
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI1_B[7]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI1_B[6]}]       
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI1_B[5]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI1_B[4]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI1_B[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI1_B[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI1_B[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {HDMI_in_DVI1_B[0]}]
+set_property PACKAGE_PIN J19 [get_ports {HDMI_in_DVI1_B[7]}]
+set_property PACKAGE_PIN H17 [get_ports {HDMI_in_DVI1_B[6]}]
+set_property PACKAGE_PIN J17 [get_ports {HDMI_in_DVI1_B[5]}] 
+set_property PACKAGE_PIN G20 [get_ports {HDMI_in_DVI1_B[4]}]
+set_property PACKAGE_PIN H20 [get_ports {HDMI_in_DVI1_B[3]}]
+set_property PACKAGE_PIN J18 [get_ports {HDMI_in_DVI1_B[2]}]
+set_property PACKAGE_PIN K18 [get_ports {HDMI_in_DVI1_B[1]}]
+set_property PACKAGE_PIN G19 [get_ports {HDMI_in_DVI1_B[0]}]
+
+set_property IOSTANDARD LVCMOS33 [get_ports HDMI_in_DVI1_HSYNC]
+set_property PACKAGE_PIN D11 [get_ports HDMI_in_DVI1_HSYNC]   
+set_property IOSTANDARD LVCMOS33 [get_ports HDMI_in_DVI1_VSYNC]
+set_property PACKAGE_PIN A12 [get_ports HDMI_in_DVI1_VSYNC]   
+set_property IOSTANDARD LVCMOS25 [get_ports HDMI_inB_PDO_n]
+set_property PACKAGE_PIN AA30 [get_ports HDMI_inB_PDO_n]
+set_property IOSTANDARD LVCMOS25 [get_ports HDMI_inB_SCDT]
+set_property PACKAGE_PIN Y30 [get_ports HDMI_inB_SCDT]
+set_property IOSTANDARD LVCMOS25 [get_ports HDMI_stag1_out]
+set_property PACKAGE_PIN AC30 [get_ports HDMI_stag1_out]   
+set_property IOSTANDARD LVCMOS25 [get_ports LED1]
+set_property PACKAGE_PIN W28 [get_ports LED1]

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="M_DdrCtrl_synth_1" LaunchDir="D:/Project_MySelf/1_LcdDis/Vivado/M_Ddr_4/M_Ddr.runs/M_DdrCtrl_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

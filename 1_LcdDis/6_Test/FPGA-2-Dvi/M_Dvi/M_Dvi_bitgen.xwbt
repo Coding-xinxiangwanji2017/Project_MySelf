@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Project_MySelf\1_LcdDis\FPGA-2-Dvi\M_Dvi\M_Dvi.ncd
+OUTFILE=D:\Project_MySelf\1_LcdDis\FPGA-2-Dvi\M_Dvi\M_Dvi.bit
+FAMILY=Kintex7
+PART=xc7k325t-2ffg900
+WORKINGDIR=D:\Project_MySelf\1_LcdDis\FPGA-2-Dvi\M_Dvi
+LICENSE=ISE
+USER_INFO=_

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Project_MySelf\1_LcdDis\Data_16bit\M_Top\M_Top.ncd
+OUTFILE=D:\Project_MySelf\1_LcdDis\Data_16bit\M_Top\M_Top.bit
+FAMILY=Kintex7
+PART=xc7k325t-2ffg900
+WORKINGDIR=D:\Project_MySelf\1_LcdDis\Data_16bit\M_Top
+LICENSE=ISE
+USER_INFO=_

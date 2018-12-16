@@ -1,0 +1,9 @@
+run
+-ifmt MIXED
+-top M_FreClkPll_exdes
+-p xc7k325t-ffg900-3
+-ifn xst.prj
+-ofn M_FreClkPll_exdes
+-keep_hierarchy soft 
+-equivalent_register_removal no 
+-max_fanout 65535

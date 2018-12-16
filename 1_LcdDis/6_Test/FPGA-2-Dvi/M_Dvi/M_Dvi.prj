@@ -1,0 +1,4 @@
+vhdl work "ip/M_Dvi_ila.vhd"
+vhdl work "ip/M_icon.vhd"
+vhdl work "ip/M_ClkPll.vhd"
+vhdl work "src/M_Dvi.vhd"

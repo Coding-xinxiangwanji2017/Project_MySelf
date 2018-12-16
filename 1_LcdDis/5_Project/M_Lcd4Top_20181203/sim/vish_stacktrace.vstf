@@ -1,0 +1,123 @@
+# Current time Tue Sep 20 10:35:16 2016
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.2"
+# Version = "2013.02"
+# Date = "Feb  2 2013"
+# Platform = win64
+
+Exception c0000005 has occurred at address 4022519f. Traceback:
+# 0    0x4022519f: 'Mtirpc_Init + 0x139b0f'
+# 1    0x40226548: 'Mtirpc_Init + 0x13aeb8'
+# 2    0x029c9c20: '<unknown (@0x29c9c20)>'
+# 3    0x00000002: '<unknown (@0x2)>'
+# 4    0x407a31d0: 'Sqlite_SafeUnload + 0x287c70'
+# 5    0x130c9250: '<unknown (@0x130c9250)>'
+StackWalk failed 487
+# End of Stack Trace
+
+# Current time Tue Sep 20 11:37:48 2016
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.2"
+# Version = "2013.02"
+# Date = "Feb  2 2013"
+# Platform = win64
+
+Exception c0000005 has occurred at address 4022519f. Traceback:
+# 0    0x4022519f: 'Mtirpc_Init + 0x139b0f'
+# 1    0x40226548: 'Mtirpc_Init + 0x13aeb8'
+# 2    0x02969c20: '<unknown (@0x2969c20)>'
+# 3    0x00000002: '<unknown (@0x2)>'
+# 4    0x407a31d0: 'Sqlite_SafeUnload + 0x287c70'
+# 5    0x08747040: '<unknown (@0x8747040)>'
+StackWalk failed 487
+# End of Stack Trace
+
+# Current time Tue Sep 20 14:45:48 2016
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.2"
+# Version = "2013.02"
+# Date = "Feb  2 2013"
+# Platform = win64
+
+Exception c0000005 has occurred at address 4022519f. Traceback:
+# 0    0x4022519f: 'Mtirpc_Init + 0x139b0f'
+# 1    0x40226548: 'Mtirpc_Init + 0x13aeb8'
+# 2    0x02a19c20: '<unknown (@0x2a19c20)>'
+# 3    0x00000002: '<unknown (@0x2)>'
+# 4    0x407a31d0: 'Sqlite_SafeUnload + 0x287c70'
+# 5    0x1720a110: '<unknown (@0x1720a110)>'
+StackWalk failed 487
+# End of Stack Trace
+
+# Current time Tue Sep 20 16:15:28 2016
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.2"
+# Version = "2013.02"
+# Date = "Feb  2 2013"
+# Platform = win64
+
+Exception c0000005 has occurred at address 4022519f. Traceback:
+# 0    0x4022519f: 'Mtirpc_Init + 0x139b0f'
+# 1    0x40226548: 'Mtirpc_Init + 0x13aeb8'
+# 2    0x028b9c20: '<unknown (@0x28b9c20)>'
+# 3    0x00000002: '<unknown (@0x2)>'
+# 4    0x407a31d0: 'Sqlite_SafeUnload + 0x287c70'
+# 5    0x087c9240: '<unknown (@0x87c9240)>'
+StackWalk failed 487
+# End of Stack Trace
+
+# Current time Sat Dec 03 16:30:53 2016
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.2"
+# Version = "2013.02"
+# Date = "Feb  2 2013"
+# Platform = win64
+
+Exception c0000005 has occurred at address 4022519f. Traceback:
+# 0    0x4022519f: 'Mtirpc_Init + 0x139b0f'
+# 1    0x40226548: 'Mtirpc_Init + 0x13aeb8'
+# 2    0x02b1e650: '<unknown (@0x2b1e650)>'
+# 3    0x00000002: '<unknown (@0x2)>'
+# 4    0x407a31d0: 'Sqlite_SafeUnload + 0x287c70'
+# 5    0x084db930: '<unknown (@0x84db930)>'
+StackWalk failed 487
+# End of Stack Trace
+
+# Current time Sat Dec 03 17:38:44 2016
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.2"
+# Version = "2013.02"
+# Date = "Feb  2 2013"
+# Platform = win64
+
+Exception c0000005 has occurred at address 4029254c. Traceback:
+# 0    0x4029254c: 'Ucdb_Init + 0x8c8c'
+# 1    0x401d28da: 'Mtirpc_Init + 0xe724a'
+# 2    0x401b81a7: 'Mtirpc_Init + 0xccb17'
+StackWalk failed 0
+# End of Stack Trace
+
+# Current time Sun Dec 04 02:15:57 2016
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.2"
+# Version = "2013.02"
+# Date = "Feb  2 2013"
+# Platform = win64
+
+Exception c0000005 has occurred at address 4022519f. Traceback:
+# 0    0x4022519f: 'Mtirpc_Init + 0x139b0f'
+# 1    0x40226548: 'Mtirpc_Init + 0x13aeb8'
+# 2    0x0288e650: '<unknown (@0x288e650)>'
+# 3    0x00000002: '<unknown (@0x2)>'
+# 4    0x407a31d0: 'Sqlite_SafeUnload + 0x287c70'
+# 5    0x113a52a0: '<unknown (@0x113a52a0)>'
+StackWalk failed 487
+# End of Stack Trace
+

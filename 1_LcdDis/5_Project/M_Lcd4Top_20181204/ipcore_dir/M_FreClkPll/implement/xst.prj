@@ -1,0 +1,2 @@
+vhdl work ../../M_FreClkPll.vhd
+vhdl work ../example_design/M_FreClkPll_exdes.vhd

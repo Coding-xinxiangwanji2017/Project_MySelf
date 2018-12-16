@@ -1,0 +1,9 @@
+M_Ddr_Bank2
+    >> 测试DDR3的第三片DDR
+
+M_Ddr_Bank3
+    >> 测试DDR3的第四片DDR
+
+M_Dvi
+    >> 测试DVI的接口
+

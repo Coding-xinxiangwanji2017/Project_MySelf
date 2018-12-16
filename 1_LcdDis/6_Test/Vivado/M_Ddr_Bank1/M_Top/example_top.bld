@@ -1,0 +1,1078 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: D:\M_Tool\ISE_14.7\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd ../Debug -nt timestamp -uc
+D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf -p
+xc7k325t-ffg900-2 example_top.ngc example_top.ngd
+
+Reading NGO file "D:/Project_MySelf/1_LcdDis/Data_16bit/M_Top/example_top.ngc"
+...
+Loading design module "../Debug/M_ila.ngc"...
+Loading design module "../Debug/M_icon.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file
+"D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf"
+...
+Resolving constraint associations...
+Checking Constraint Associations...
+ERROR:ConstraintSystem:59 - Constraint <NET   "ddr3_dq[16]"                     
+         LOC = "AH4"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (51)]: NET "ddr3_dq[16]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET   "ddr3_dq[16]"                            LOC = "AH4"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (51)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = SSTL15_T_DCI         |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (51)]: NET "ddr3_dq[16]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <VCCAUX_IO = NORMAL      |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (51)]: NET "ddr3_dq[16]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <SLEW = FAST        ;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (51)]: NET "ddr3_dq[16]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET   "ddr3_dq[17]"                     
+         LOC = "AJ4"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (52)]: NET "ddr3_dq[17]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET   "ddr3_dq[17]"                            LOC = "AJ4"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (52)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = SSTL15_T_DCI         |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (52)]: NET "ddr3_dq[17]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <VCCAUX_IO = NORMAL      |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (52)]: NET "ddr3_dq[17]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <SLEW = FAST        ;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (52)]: NET "ddr3_dq[17]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET   "ddr3_dq[18]"                     
+         LOC = "AH6"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (53)]: NET "ddr3_dq[18]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET   "ddr3_dq[18]"                            LOC = "AH6"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (53)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = SSTL15_T_DCI         |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (53)]: NET "ddr3_dq[18]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <VCCAUX_IO = NORMAL      |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (53)]: NET "ddr3_dq[18]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <SLEW = FAST        ;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (53)]: NET "ddr3_dq[18]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET   "ddr3_dq[19]"                     
+         LOC = "AH5"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (54)]: NET "ddr3_dq[19]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET   "ddr3_dq[19]"                            LOC = "AH5"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (54)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = SSTL15_T_DCI         |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (54)]: NET "ddr3_dq[19]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <VCCAUX_IO = NORMAL      |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (54)]: NET "ddr3_dq[19]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <SLEW = FAST        ;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (54)]: NET "ddr3_dq[19]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET   "ddr3_dq[20]"                     
+         LOC = "AJ2"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (55)]: NET "ddr3_dq[20]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET   "ddr3_dq[20]"                            LOC = "AJ2"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (55)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = SSTL15_T_DCI         |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (55)]: NET "ddr3_dq[20]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <VCCAUX_IO = NORMAL      |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (55)]: NET "ddr3_dq[20]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <SLEW = FAST        ;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (55)]: NET "ddr3_dq[20]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET   "ddr3_dq[21]"                     
+         LOC = "AJ1"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (56)]: NET "ddr3_dq[21]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET   "ddr3_dq[21]"                            LOC = "AJ1"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (56)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = SSTL15_T_DCI         |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (56)]: NET "ddr3_dq[21]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <VCCAUX_IO = NORMAL      |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (56)]: NET "ddr3_dq[21]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <SLEW = FAST        ;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (56)]: NET "ddr3_dq[21]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET   "ddr3_dq[22]"                     
+         LOC = "AK1"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (57)]: NET "ddr3_dq[22]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET   "ddr3_dq[22]"                            LOC = "AK1"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (57)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = SSTL15_T_DCI         |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (57)]: NET "ddr3_dq[22]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <VCCAUX_IO = NORMAL      |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (57)]: NET "ddr3_dq[22]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <SLEW = FAST        ;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (57)]: NET "ddr3_dq[22]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET   "ddr3_dq[23]"                     
+         LOC = "AJ3"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (58)]: NET "ddr3_dq[23]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET   "ddr3_dq[23]"                            LOC = "AJ3"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (58)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = SSTL15_T_DCI         |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (58)]: NET "ddr3_dq[23]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <VCCAUX_IO = NORMAL      |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (58)]: NET "ddr3_dq[23]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <SLEW = FAST        ;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (58)]: NET "ddr3_dq[23]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET   "ddr3_dq[24]"                     
+         LOC = "AF7"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (59)]: NET "ddr3_dq[24]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET   "ddr3_dq[24]"                            LOC = "AF7"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (59)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = SSTL15_T_DCI         |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (59)]: NET "ddr3_dq[24]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <VCCAUX_IO = NORMAL      |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (59)]: NET "ddr3_dq[24]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <SLEW = FAST        ;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (59)]: NET "ddr3_dq[24]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET   "ddr3_dq[25]"                     
+         LOC = "AG7"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (60)]: NET "ddr3_dq[25]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET   "ddr3_dq[25]"                            LOC = "AG7"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (60)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = SSTL15_T_DCI         |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (60)]: NET "ddr3_dq[25]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <VCCAUX_IO = NORMAL      |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (60)]: NET "ddr3_dq[25]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <SLEW = FAST        ;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (60)]: NET "ddr3_dq[25]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET   "ddr3_dq[26]"                     
+         LOC = "AJ6"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (61)]: NET "ddr3_dq[26]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET   "ddr3_dq[26]"                            LOC = "AJ6"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (61)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = SSTL15_T_DCI         |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (61)]: NET "ddr3_dq[26]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <VCCAUX_IO = NORMAL      |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (61)]: NET "ddr3_dq[26]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <SLEW = FAST        ;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (61)]: NET "ddr3_dq[26]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET   "ddr3_dq[27]"                     
+         LOC = "AK6"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (62)]: NET "ddr3_dq[27]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET   "ddr3_dq[27]"                            LOC = "AK6"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (62)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = SSTL15_T_DCI         |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (62)]: NET "ddr3_dq[27]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <VCCAUX_IO = NORMAL      |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (62)]: NET "ddr3_dq[27]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <SLEW = FAST        ;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (62)]: NET "ddr3_dq[27]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET   "ddr3_dq[28]"                     
+         LOC = "AJ8"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (63)]: NET "ddr3_dq[28]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET   "ddr3_dq[28]"                            LOC = "AJ8"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (63)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = SSTL15_T_DCI         |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (63)]: NET "ddr3_dq[28]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <VCCAUX_IO = NORMAL      |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (63)]: NET "ddr3_dq[28]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <SLEW = FAST        ;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (63)]: NET "ddr3_dq[28]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET   "ddr3_dq[29]"                     
+         LOC = "AK8"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (64)]: NET "ddr3_dq[29]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET   "ddr3_dq[29]"                            LOC = "AK8"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (64)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = SSTL15_T_DCI         |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (64)]: NET "ddr3_dq[29]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <VCCAUX_IO = NORMAL      |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (64)]: NET "ddr3_dq[29]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <SLEW = FAST        ;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (64)]: NET "ddr3_dq[29]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET   "ddr3_dq[30]"                     
+         LOC = "AK5"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (65)]: NET "ddr3_dq[30]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET   "ddr3_dq[30]"                            LOC = "AK5"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (65)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = SSTL15_T_DCI         |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (65)]: NET "ddr3_dq[30]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <VCCAUX_IO = NORMAL      |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (65)]: NET "ddr3_dq[30]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <SLEW = FAST        ;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (65)]: NET "ddr3_dq[30]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET   "ddr3_dq[31]"                     
+         LOC = "AK4"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (66)]: NET "ddr3_dq[31]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET   "ddr3_dq[31]"                            LOC = "AK4"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (66)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = SSTL15_T_DCI         |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (66)]: NET "ddr3_dq[31]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <VCCAUX_IO = NORMAL      |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (66)]: NET "ddr3_dq[31]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <SLEW = FAST        ;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (66)]: NET "ddr3_dq[31]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET   "ddr3_dm[2]"                      
+         LOC = "AH2"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (94)]: NET "ddr3_dm[2]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET   "ddr3_dm[2]"                             LOC = "AH2"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (94)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = SSTL15               |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (94)]: NET "ddr3_dm[2]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <VCCAUX_IO = NORMAL      |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (94)]: NET "ddr3_dm[2]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <SLEW = FAST        ;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (94)]: NET "ddr3_dm[2]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET   "ddr3_dm[3]"                      
+         LOC = "AF8"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (95)]: NET "ddr3_dm[3]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET   "ddr3_dm[3]"                             LOC = "AF8"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (95)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = SSTL15               |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (95)]: NET "ddr3_dm[3]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <VCCAUX_IO = NORMAL      |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (95)]: NET "ddr3_dm[3]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <SLEW = FAST        ;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (95)]: NET "ddr3_dm[3]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET   "ddr3_dqs_p[2]"                   
+         LOC = "AG2"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (102)]: NET "ddr3_dqs_p[2]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET   "ddr3_dqs_p[2]"                          LOC = "AG2"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (102)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = DIFF_SSTL15_T_DCI    |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (102)]: NET "ddr3_dqs_p[2]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <VCCAUX_IO = NORMAL      |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (102)]: NET "ddr3_dqs_p[2]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <SLEW = FAST        ;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (102)]: NET "ddr3_dqs_p[2]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET   "ddr3_dqs_n[2]"                   
+         LOC = "AH1"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (103)]: NET "ddr3_dqs_n[2]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET   "ddr3_dqs_n[2]"                          LOC = "AH1"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (103)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = DIFF_SSTL15_T_DCI    |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (103)]: NET "ddr3_dqs_n[2]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <VCCAUX_IO = NORMAL      |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (103)]: NET "ddr3_dqs_n[2]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <SLEW = FAST        ;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (103)]: NET "ddr3_dqs_n[2]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET   "ddr3_dqs_p[3]"                   
+         LOC = "AH7"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (104)]: NET "ddr3_dqs_p[3]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET   "ddr3_dqs_p[3]"                          LOC = "AH7"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (104)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = DIFF_SSTL15_T_DCI    |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (104)]: NET "ddr3_dqs_p[3]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <VCCAUX_IO = NORMAL      |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (104)]: NET "ddr3_dqs_p[3]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <SLEW = FAST        ;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (104)]: NET "ddr3_dqs_p[3]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET   "ddr3_dqs_n[3]"                   
+         LOC = "AJ7"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (105)]: NET "ddr3_dqs_n[3]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET   "ddr3_dqs_n[3]"                          LOC = "AJ7"     |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (105)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = DIFF_SSTL15_T_DCI    |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (105)]: NET "ddr3_dqs_n[3]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <VCCAUX_IO = NORMAL      |>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (105)]: NET "ddr3_dqs_n[3]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <SLEW = FAST        ;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (105)]: NET "ddr3_dqs_n[3]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:58 - Constraint <INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/phaser_o
+   ut" LOC=PHASER_OUT_PHY_X1Y9;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (116)]: INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/phaser_o
+   ut" does not match any design objects.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/phaser_o
+   ut" LOC=PHASER_OUT_PHY_X1Y9;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (116)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:58 - Constraint <INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/phaser_o
+   ut" LOC=PHASER_OUT_PHY_X1Y8;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (117)]: INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/phaser_o
+   ut" does not match any design objects.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/phaser_o
+   ut" LOC=PHASER_OUT_PHY_X1Y8;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (117)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:58 - Constraint <INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/phaser_i
+   n_gen.phaser_in" LOC=PHASER_IN_PHY_X1Y9;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (124)]: INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/phaser_i
+   n_gen.phaser_in" does not match any design objects.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/phaser_i
+   n_gen.phaser_in" LOC=PHASER_IN_PHY_X1Y9;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (124)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:58 - Constraint <INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/phaser_i
+   n_gen.phaser_in" LOC=PHASER_IN_PHY_X1Y8;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (125)]: INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/phaser_i
+   n_gen.phaser_in" does not match any design objects.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/phaser_i
+   n_gen.phaser_in" LOC=PHASER_IN_PHY_X1Y8;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (125)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:58 - Constraint <INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/out_fifo
+   " LOC=OUT_FIFO_X1Y9;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (134)]: INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/out_fifo
+   " does not match any design objects.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/out_fifo
+   " LOC=OUT_FIFO_X1Y9;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (134)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:58 - Constraint <INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/out_fifo
+   " LOC=OUT_FIFO_X1Y8;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (135)]: INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/out_fifo
+   " does not match any design objects.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/out_fifo
+   " LOC=OUT_FIFO_X1Y8;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (135)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:58 - Constraint <INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/in_fifo_
+   gen.in_fifo" LOC=IN_FIFO_X1Y9;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (139)]: INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/in_fifo_
+   gen.in_fifo" does not match any design objects.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/in_fifo_
+   gen.in_fifo" LOC=IN_FIFO_X1Y9;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (139)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:58 - Constraint <INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/in_fifo_
+   gen.in_fifo" LOC=IN_FIFO_X1Y8;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (140)]: INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/in_fifo_
+   gen.in_fifo" does not match any design objects.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/in_fifo_
+   gen.in_fifo" LOC=IN_FIFO_X1Y8;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (140)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:58 - Constraint <INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/ddr_byte
+   _group_io/*slave_ts" LOC=OLOGIC_X1Y119;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (151)]: INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/ddr_byte
+   _group_io/*slave_ts" does not match any design objects.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/ddr_byte
+   _group_io/*slave_ts" LOC=OLOGIC_X1Y119;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (151)]' could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:58 - Constraint <INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/ddr_byte
+   _group_io/*slave_ts" LOC=OLOGIC_X1Y107;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (152)]: INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/ddr_byte
+   _group_io/*slave_ts" does not match any design objects.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<INST
+   "*/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/ddr_byte
+   _group_io/*slave_ts" LOC=OLOGIC_X1Y107;>
+   [D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf
+   (152)]' could not be found and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:178 - TNM 'TNM_sys_clk', used in period specification
+   'TS_sys_clk', was traced into PLLE2_ADV instance
+   u_M_DdrCtrl/u_ddr3_infrastructure/plle2_i. The following new TNM groups and
+   period specifications were generated at the PLLE2_ADV output(s): 
+   CLKOUT3: <TIMESPEC TS_u_M_DdrCtrl_u_ddr3_infrastructure_pll_clk3 = PERIOD
+   "u_M_DdrCtrl_u_ddr3_infrastructure_pll_clk3" TS_sys_clk / 0.5 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'TNM_sys_clk', used in period specification
+   'TS_sys_clk', was traced into PLLE2_ADV instance
+   u_M_DdrCtrl/u_ddr3_infrastructure/plle2_i. The following new TNM groups and
+   period specifications were generated at the PLLE2_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_u_M_DdrCtrl_freq_refclk = PERIOD
+   "u_M_DdrCtrl_freq_refclk" TS_sys_clk / 2 PHASE 2.34375 ns HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'TNM_sys_clk', used in period specification
+   'TS_sys_clk', was traced into PLLE2_ADV instance
+   u_M_DdrCtrl/u_ddr3_infrastructure/plle2_i. The following new TNM groups and
+   period specifications were generated at the PLLE2_ADV output(s): 
+   CLKOUT1: <TIMESPEC TS_u_M_DdrCtrl_mem_refclk = PERIOD
+   "u_M_DdrCtrl_mem_refclk" TS_sys_clk / 2 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'TNM_sys_clk', used in period specification
+   'TS_sys_clk', was traced into PLLE2_ADV instance
+   u_M_DdrCtrl/u_ddr3_infrastructure/plle2_i. The following new TNM groups and
+   period specifications were generated at the PLLE2_ADV output(s): 
+   CLKOUT2: <TIMESPEC TS_u_M_DdrCtrl_sync_pulse = PERIOD
+   "u_M_DdrCtrl_sync_pulse" TS_sys_clk / 0.125 PHASE 1.09375 ns HIGH 6.25%>
+
+INFO:ConstraintSystem:178 - TNM 'u_M_DdrCtrl_u_ddr3_infrastructure_pll_clk3',
+   used in period specification 'TS_u_M_DdrCtrl_u_ddr3_infrastructure_pll_clk3',
+   was traced into MMCME2_ADV instance
+   u_M_DdrCtrl/u_ddr3_infrastructure/gen_mmcm.mmcm_i. The following new TNM
+   groups and period specifications were generated at the MMCME2_ADV output(s): 
+   CLKFBOUT: <TIMESPEC TS_u_M_DdrCtrl_u_ddr3_infrastructure_clk_pll_i = PERIOD
+   "u_M_DdrCtrl_u_ddr3_infrastructure_clk_pll_i"
+   TS_u_M_DdrCtrl_u_ddr3_infrastructure_pll_clk3 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'u_M_DdrCtrl_mem_refclk', used in period
+   specification 'TS_u_M_DdrCtrl_mem_refclk', was traced into PHASER_OUT_PHY
+   instance
+   u_M_DdrCtrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_
+   ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/
+   phaser_out. The following new TNM groups and period specifications were
+   generated at the PHASER_OUT_PHY output(s): 
+   OCLK: <TIMESPEC
+   TS_u_M_DdrCtrl_u_memc_ui_top_std_mem_intfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper
+   _u_ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4lanes_ddr_byte_lane_C_ddr_byte_lane
+   _C_oserdes_clk = PERIOD "u_M_DdrCt...>
+
+INFO:ConstraintSystem:178 - TNM 'u_M_DdrCtrl_mem_refclk', used in period
+   specification 'TS_u_M_DdrCtrl_mem_refclk', was traced into PHASER_OUT_PHY
+   instance
+   u_M_DdrCtrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_
+   ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/
+   phaser_out. The following new TNM groups and period specifications were
+   generated at the PHASER_OUT_PHY output(s): 
+   OCLKDIV: <TIMESPEC
+   TS_u_M_DdrCtrl_u_memc_ui_top_std_mem_intfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper
+   _u_ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4lanes_ddr_byte_lane_C_ddr_byte_lane
+   _C_oserdes_clkdiv = PERIOD "u_M_Dd...>
+
+INFO:ConstraintSystem:178 - TNM 'u_M_DdrCtrl_mem_refclk', used in period
+   specification 'TS_u_M_DdrCtrl_mem_refclk', was traced into PHASER_OUT_PHY
+   instance
+   u_M_DdrCtrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_
+   ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/
+   phaser_out. The following new TNM groups and period specifications were
+   generated at the PHASER_OUT_PHY output(s): 
+   OCLK: <TIMESPEC
+   TS_u_M_DdrCtrl_u_memc_ui_top_std_mem_intfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper
+   _u_ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4lanes_ddr_byte_lane_D_ddr_byte_lane
+   _D_oserdes_clk = PERIOD "u_M_DdrCt...>
+
+INFO:ConstraintSystem:178 - TNM 'u_M_DdrCtrl_mem_refclk', used in period
+   specification 'TS_u_M_DdrCtrl_mem_refclk', was traced into PHASER_OUT_PHY
+   instance
+   u_M_DdrCtrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_
+   ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/
+   phaser_out. The following new TNM groups and period specifications were
+   generated at the PHASER_OUT_PHY output(s): 
+   OCLKDIV: <TIMESPEC
+   TS_u_M_DdrCtrl_u_memc_ui_top_std_mem_intfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper
+   _u_ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4lanes_ddr_byte_lane_D_ddr_byte_lane
+   _D_oserdes_clkdiv = PERIOD "u_M_Dd...>
+
+INFO:ConstraintSystem:178 - TNM 'u_M_DdrCtrl_mem_refclk', used in period
+   specification 'TS_u_M_DdrCtrl_mem_refclk', was traced into PHASER_OUT_PHY
+   instance
+   u_M_DdrCtrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_
+   ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/
+   phaser_out. The following new TNM groups and period specifications were
+   generated at the PHASER_OUT_PHY output(s): 
+   OCLK: <TIMESPEC
+   TS_u_M_DdrCtrl_u_memc_ui_top_std_mem_intfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper
+   _u_ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4lanes_ddr_byte_lane_D_ddr_byte_lane
+   _D_oserdes_clk = PERIOD "u_M_DdrCt...>
+
+INFO:ConstraintSystem:178 - TNM 'u_M_DdrCtrl_mem_refclk', used in period
+   specification 'TS_u_M_DdrCtrl_mem_refclk', was traced into PHASER_OUT_PHY
+   instance
+   u_M_DdrCtrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_
+   ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/
+   phaser_out. The following new TNM groups and period specifications were
+   generated at the PHASER_OUT_PHY output(s): 
+   OCLKDIV: <TIMESPEC
+   TS_u_M_DdrCtrl_u_memc_ui_top_std_mem_intfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper
+   _u_ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4lanes_ddr_byte_lane_D_ddr_byte_lane
+   _D_oserdes_clkdiv = PERIOD "u_M_Dd...>
+
+INFO:ConstraintSystem:178 - TNM 'u_M_DdrCtrl_mem_refclk', used in period
+   specification 'TS_u_M_DdrCtrl_mem_refclk', was traced into PHASER_OUT_PHY
+   instance
+   u_M_DdrCtrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_
+   ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/
+   phaser_out. The following new TNM groups and period specifications were
+   generated at the PHASER_OUT_PHY output(s): 
+   OCLK: <TIMESPEC
+   TS_u_M_DdrCtrl_u_memc_ui_top_std_mem_intfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper
+   _u_ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4lanes_ddr_byte_lane_C_ddr_byte_lane
+   _C_oserdes_clk = PERIOD "u_M_DdrCt...>
+
+INFO:ConstraintSystem:178 - TNM 'u_M_DdrCtrl_mem_refclk', used in period
+   specification 'TS_u_M_DdrCtrl_mem_refclk', was traced into PHASER_OUT_PHY
+   instance
+   u_M_DdrCtrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_
+   ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/
+   phaser_out. The following new TNM groups and period specifications were
+   generated at the PHASER_OUT_PHY output(s): 
+   OCLKDIV: <TIMESPEC
+   TS_u_M_DdrCtrl_u_memc_ui_top_std_mem_intfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper
+   _u_ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4lanes_ddr_byte_lane_C_ddr_byte_lane
+   _C_oserdes_clkdiv = PERIOD "u_M_Dd...>
+
+INFO:ConstraintSystem:178 - TNM 'u_M_DdrCtrl_mem_refclk', used in period
+   specification 'TS_u_M_DdrCtrl_mem_refclk', was traced into PHASER_OUT_PHY
+   instance
+   u_M_DdrCtrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_
+   ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/
+   phaser_out. The following new TNM groups and period specifications were
+   generated at the PHASER_OUT_PHY output(s): 
+   OCLK: <TIMESPEC
+   TS_u_M_DdrCtrl_u_memc_ui_top_std_mem_intfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper
+   _u_ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4lanes_ddr_byte_lane_B_ddr_byte_lane
+   _B_oserdes_clk = PERIOD "u_M_DdrCt...>
+
+INFO:ConstraintSystem:178 - TNM 'u_M_DdrCtrl_mem_refclk', used in period
+   specification 'TS_u_M_DdrCtrl_mem_refclk', was traced into PHASER_OUT_PHY
+   instance
+   u_M_DdrCtrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_
+   ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/
+   phaser_out. The following new TNM groups and period specifications were
+   generated at the PHASER_OUT_PHY output(s): 
+   OCLKDIV: <TIMESPEC
+   TS_u_M_DdrCtrl_u_memc_ui_top_std_mem_intfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper
+   _u_ddr_mc_phy_ddr_phy_4lanes_1_u_ddr_phy_4lanes_ddr_byte_lane_B_ddr_byte_lane
+   _B_oserdes_clkdiv = PERIOD "u_M_Dd...>
+
+INFO:ConstraintSystem:178 - TNM 'u_M_DdrCtrl_freq_refclk', used in period
+   specification 'TS_u_M_DdrCtrl_freq_refclk', was traced into PHASER_IN_PHY
+   instance
+   u_M_DdrCtrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_
+   ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/
+   phaser_in_gen.phaser_in. The following new TNM groups and period
+   specifications were generated at the PHASER_IN_PHY output(s): 
+   ICLK: <TIMESPEC
+   TS_u_M_DdrCtrl_u_memc_ui_top_std_mem_intfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper
+   _u_ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4lanes_ddr_byte_lane_C_ddr_byte_lane
+   _C_iserdes_clk = PERIOD "u_M_DdrCt...>
+
+INFO:ConstraintSystem:178 - TNM 'u_M_DdrCtrl_freq_refclk', used in period
+   specification 'TS_u_M_DdrCtrl_freq_refclk', was traced into PHASER_IN_PHY
+   instance
+   u_M_DdrCtrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_
+   ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/
+   phaser_in_gen.phaser_in. The following new TNM groups and period
+   specifications were generated at the PHASER_IN_PHY output(s): 
+   ICLKDIV: <TIMESPEC
+   TS_u_M_DdrCtrl_u_memc_ui_top_std_mem_intfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper
+   _u_ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4lanes_ddr_byte_lane_C_ddr_byte_lane
+   _C_iserdes_clkdiv = PERIOD "u_M_Dd...>
+
+INFO:ConstraintSystem:178 - TNM 'u_M_DdrCtrl_freq_refclk', used in period
+   specification 'TS_u_M_DdrCtrl_freq_refclk', was traced into PHASER_IN_PHY
+   instance
+   u_M_DdrCtrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_
+   ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/
+   phaser_in_gen.phaser_in. The following new TNM groups and period
+   specifications were generated at the PHASER_IN_PHY output(s): 
+   ICLK: <TIMESPEC
+   TS_u_M_DdrCtrl_u_memc_ui_top_std_mem_intfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper
+   _u_ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4lanes_ddr_byte_lane_D_ddr_byte_lane
+   _D_iserdes_clk = PERIOD "u_M_DdrCt...>
+
+INFO:ConstraintSystem:178 - TNM 'u_M_DdrCtrl_freq_refclk', used in period
+   specification 'TS_u_M_DdrCtrl_freq_refclk', was traced into PHASER_IN_PHY
+   instance
+   u_M_DdrCtrl/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_
+   ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/
+   phaser_in_gen.phaser_in. The following new TNM groups and period
+   specifications were generated at the PHASER_IN_PHY output(s): 
+   ICLKDIV: <TIMESPEC
+   TS_u_M_DdrCtrl_u_memc_ui_top_std_mem_intfc0_ddr_phy_top0_u_ddr_mc_phy_wrapper
+   _u_ddr_mc_phy_ddr_phy_4lanes_0_u_ddr_phy_4lanes_ddr_byte_lane_D_ddr_byte_lane
+   _D_iserdes_clkdiv = PERIOD "u_M_Dd...>
+
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:452 - logical net 'N1386' has no driver
+WARNING:NgdBuild:452 - logical net 'N1387' has no driver
+WARNING:NgdBuild:452 - logical net 'N1388' has no driver
+WARNING:NgdBuild:452 - logical net 'N1389' has no driver
+WARNING:NgdBuild:452 - logical net 'N1390' has no driver
+WARNING:NgdBuild:452 - logical net 'N1391' has no driver
+WARNING:NgdBuild:452 - logical net 'N1392' has no driver
+WARNING:NgdBuild:452 - logical net 'N1393' has no driver
+WARNING:NgdBuild:452 - logical net 'N1394' has no driver
+WARNING:NgdBuild:452 - logical net 'N1395' has no driver
+WARNING:NgdBuild:452 - logical net 'N1396' has no driver
+WARNING:NgdBuild:452 - logical net 'N1397' has no driver
+WARNING:NgdBuild:452 - logical net 'N1398' has no driver
+WARNING:NgdBuild:452 - logical net 'N1399' has no driver
+WARNING:NgdBuild:452 - logical net 'N1400' has no driver
+WARNING:NgdBuild:452 - logical net 'N1401' has no driver
+WARNING:NgdBuild:452 - logical net 'N1402' has no driver
+WARNING:NgdBuild:452 - logical net 'N1403' has no driver
+WARNING:NgdBuild:452 - logical net 'N1404' has no driver
+WARNING:NgdBuild:452 - logical net 'N1405' has no driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:    98
+  Number of warnings:  52
+
+Total memory usage is 4581504 kilobytes
+
+Total REAL time to NGDBUILD completion:  23 sec
+Total CPU time to NGDBUILD completion:   19 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "example_top.bld"...

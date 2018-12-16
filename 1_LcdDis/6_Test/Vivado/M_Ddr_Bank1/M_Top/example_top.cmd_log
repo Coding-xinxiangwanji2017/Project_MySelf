@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/Project_MySelf/1_LcdDis/Data_16bit/M_Top/example_top.xst" -ofn "D:/Project_MySelf/1_LcdDis/Data_16bit/M_Top/example_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../Debug -nt timestamp -uc D:/Project_MySelf/1_LcdDis/Data_16bit/M_DdrCtrl/example_design/par/M_Top.ucf -p xc7k325t-ffg900-2 example_top.ngc example_top.ngd  

@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="946" delta="old" >"D:\Project_MySelf\1_LcdDis\FPGA-2-Dvi\M_Dvi\src\M_Dvi.vhd" Line 204: Actual for formal port <arg fmt="%s" index="1">reset</arg> is neither a static name nor a globally static expression
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[0].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[0].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[1].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[1].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[2].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[2].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[3].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[3].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[4].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[4].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[5].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[5].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[6].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[6].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[7].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[7].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[8].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[8].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[9].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[9].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[10].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[10].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[11].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[11].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[12].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[12].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[13].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[13].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[14].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[14].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[15].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[15].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[16].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[16].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[17].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[17].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[18].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[18].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[19].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[19].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[20].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[20].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[21].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[21].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[22].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[22].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[23].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[23].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[24].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[24].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[25].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[25].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[26].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[26].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[27].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[27].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[28].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[28].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[29].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[29].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[30].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[30].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[31].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[31].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[32].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[32].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[33].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[33].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[34].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[34].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[35].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[35].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[36].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[36].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[37].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[37].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[38].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[38].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[39].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[39].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[40].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[40].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[41].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[41].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[42].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[42].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[43].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[43].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[44].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[44].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[45].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[45].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[46].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[46].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[47].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[47].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[48].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[48].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[49].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[49].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[50].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[50].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[51].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[51].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[52].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[52].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[53].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[53].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[54].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[54].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[55].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[55].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[56].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[56].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[57].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[57].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[58].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[58].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[59].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[59].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[60].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[60].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[61].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[61].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[62].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[62].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[63].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[63].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[64].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[64].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[65].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[65].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[66].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[66].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[67].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[67].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[68].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[68].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[69].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[69].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[70].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[70].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[71].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[71].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[72].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[72].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[73].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[73].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[74].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[74].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[75].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[75].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[76].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[76].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[77].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[77].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[78].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[78].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[79].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[79].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[80].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[80].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[81].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[81].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[82].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[82].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[83].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[83].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[84].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[84].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[85].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[85].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[86].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[86].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[87].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[87].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[88].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[88].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[89].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[89].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[90].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[90].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[91].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[91].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[92].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[92].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[93].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[93].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[94].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[94].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[95].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[95].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[96].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[96].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[97].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[97].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[98].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[98].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[99].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[99].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[100].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[100].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[101].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[101].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[102].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[102].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[103].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[103].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[104].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[104].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[105].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[105].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[106].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[106].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[107].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[107].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[108].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[108].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[109].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[109].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[110].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[110].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[111].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[111].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[112].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[112].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[113].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[113].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[114].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[114].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[115].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[115].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[116].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[116].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[117].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[117].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[118].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[118].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[119].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[119].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[120].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[120].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[121].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[121].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[122].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[122].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[123].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[123].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[124].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[124].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[125].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[125].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[126].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[126].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[127].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[127].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[128].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_1/I_B36KGT0.G_RAMB36[128].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[0].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[0].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[1].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[1].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[2].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[2].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[3].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[3].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[4].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[4].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[5].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[5].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[6].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[6].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[7].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[7].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[8].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[8].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[9].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[9].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[10].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[10].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[11].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[11].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[12].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[12].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[13].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[13].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[14].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[14].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[15].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[15].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[16].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[16].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[17].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[17].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[18].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[18].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[19].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[19].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[20].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[20].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[21].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[21].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[22].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[22].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[23].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[23].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[24].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[24].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[25].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[25].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[26].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[26].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[27].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[27].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[28].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[28].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[29].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[29].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[30].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[30].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[31].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[31].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[32].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[32].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[33].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[33].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[34].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[34].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[35].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[35].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[36].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[36].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[37].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[37].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[38].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[38].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[39].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[39].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[40].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[40].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[41].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[41].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[42].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[42].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[43].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[43].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[44].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[44].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[45].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[45].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[46].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[46].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[47].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[47].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[48].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[48].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[49].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[49].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[50].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[50].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[51].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[51].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[52].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[52].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[53].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[53].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[54].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[54].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[55].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[55].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[56].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[56].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[57].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[57].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[58].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[58].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[59].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[59].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[60].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[60].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[61].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[61].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[62].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[62].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[63].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[63].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[64].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[64].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[65].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[65].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[66].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[66].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[67].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[67].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[68].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[68].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[69].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[69].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[70].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[70].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[71].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[71].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[72].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[72].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[73].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[73].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[74].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[74].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[75].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[75].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[76].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[76].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[77].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[77].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[78].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[78].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[79].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[79].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[80].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[80].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[81].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[81].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[82].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[82].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[83].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[83].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[84].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[84].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[85].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[85].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[86].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[86].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[87].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[87].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[88].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[88].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[89].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[89].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[90].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[90].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[91].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[91].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[92].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[92].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[93].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[93].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[94].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[94].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[95].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[95].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[96].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[96].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[97].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[97].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[98].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[98].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[99].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[99].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[100].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[100].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[101].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[101].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[102].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[102].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[103].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[103].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[104].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[104].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[105].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[105].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[106].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[106].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[107].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[107].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[108].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[108].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[109].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[109].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[110].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[110].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[111].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[111].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[112].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[112].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[113].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[113].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[114].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[114].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[115].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[115].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[116].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[116].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[117].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[117].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[118].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[118].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[119].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[119].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[120].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[120].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[121].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[121].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[122].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[122].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[123].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[123].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[124].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[124].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[125].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[125].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[126].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[126].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[127].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[127].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[128].u_ramb36/U_RAMB36</arg> in unit <arg fmt="%s" index="2">U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_K7.U_CS_BRAM_CASCADE_K7/I_DEPTH_EQ_48K_OR_64K.U_SBRAM_0/I_B36KGT0.G_RAMB36[128].u_ramb36/U_RAMB36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

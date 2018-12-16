@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="M_Lcd4Top.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="M_Lcd4Top.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="M_Lcd4Top.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="M_Lcd4Top.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="M_Lcd4Top.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="M_Lcd4Top.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="M_Lcd4Top.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="M_Lcd4Top.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="M_Lcd4Top.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="M_Lcd4Top.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="M_Lcd4Top.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="M_Lcd4Top.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="M_Lcd4Top.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="M_Lcd4Top.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="M_Lcd4Top.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="M_Lcd4Top.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="M_Lcd4Top.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="M_Lcd4Top.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="M_Lcd4Top.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="M_Lcd4Top.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="M_Lcd4Top.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="M_Lcd4Top_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="M_Lcd4Top_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="M_Lcd4Top_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="M_Lcd4Top_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="M_Lcd4Top_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="M_Lcd4Top_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="M_Lcd4Top_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="M_Lcd4Top_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="M_Lcd4Top_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="M_Lcd4Top_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="M_Lcd4Top_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="M_Lcd4Top_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="M_Lcd4Top_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="M_Lcd4Top_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="M_Lcd4Top_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="ipcore_dir/M_DviRxFifo.asy" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="ipcore_dir/M_DviRxFifo.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="ipcore_dir/M_DviRxFifo.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="ipcore_dir/M_Icon.asy" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="ipcore_dir/M_Icon.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="ipcore_dir/M_Ila.asy" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="ipcore_dir/M_Ila.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="ipcore_dir/M_LcdTxFifo.asy" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="ipcore_dir/M_LcdTxFifo.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="ipcore_dir/M_LcdTxFifo.vho" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="m_lcd4top.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="m_lcd4top.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="m_lcd4top.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1543833016" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1543833016">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543833016" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-1766442386931063037" xil_pn:start_ts="1543833016">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543833016" xil_pn:in_ck="7666242697733361791" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="2691512064551424680" xil_pn:start_ts="1543833016">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/M_DviRxFifo.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/M_DviRxFifo.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/M_Icon.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/M_Icon.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/M_Ila.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/M_Ila.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/M_LcdTxFifo.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/M_LcdTxFifo.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1543833016" xil_pn:in_ck="-7464467163729879141" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1543833016">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543833016" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-7344185416326134641" xil_pn:start_ts="1543833016">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543833016" xil_pn:in_ck="-7464467163729879141" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-5918749233538361311" xil_pn:start_ts="1543833016">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543833016" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="7498026243445714482" xil_pn:start_ts="1543833016">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543920991" xil_pn:in_ck="-4443637826315254538" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="4658480086757709978" xil_pn:start_ts="1543920863">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="M_Lcd4Top.lso"/>
+      <outfile xil_pn:name="M_Lcd4Top.ngc"/>
+      <outfile xil_pn:name="M_Lcd4Top.ngr"/>
+      <outfile xil_pn:name="M_Lcd4Top.prj"/>
+      <outfile xil_pn:name="M_Lcd4Top.stx"/>
+      <outfile xil_pn:name="M_Lcd4Top.syr"/>
+      <outfile xil_pn:name="M_Lcd4Top.xst"/>
+      <outfile xil_pn:name="M_Lcd4Top_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1543918208" xil_pn:in_ck="6206754397674847401" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="8570581980730253796" xil_pn:start_ts="1543918208">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543921049" xil_pn:in_ck="6677243544338078348" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="1103680834786251246" xil_pn:start_ts="1543920991">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="M_Lcd4Top.bld"/>
+      <outfile xil_pn:name="M_Lcd4Top.ngd"/>
+      <outfile xil_pn:name="M_Lcd4Top_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1543921421" xil_pn:in_ck="461775015391214806" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="1066978947743128725" xil_pn:start_ts="1543921049">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="M_Lcd4Top.pcf"/>
+      <outfile xil_pn:name="M_Lcd4Top_map.map"/>
+      <outfile xil_pn:name="M_Lcd4Top_map.mrp"/>
+      <outfile xil_pn:name="M_Lcd4Top_map.ncd"/>
+      <outfile xil_pn:name="M_Lcd4Top_map.ngm"/>
+      <outfile xil_pn:name="M_Lcd4Top_map.xrpt"/>
+      <outfile xil_pn:name="M_Lcd4Top_summary.xml"/>
+      <outfile xil_pn:name="M_Lcd4Top_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1543921659" xil_pn:in_ck="-8477748598525685873" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="3510646383847945537" xil_pn:start_ts="1543921421">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="M_Lcd4Top.ncd"/>
+      <outfile xil_pn:name="M_Lcd4Top.pad"/>
+      <outfile xil_pn:name="M_Lcd4Top.par"/>
+      <outfile xil_pn:name="M_Lcd4Top.ptwx"/>
+      <outfile xil_pn:name="M_Lcd4Top.unroutes"/>
+      <outfile xil_pn:name="M_Lcd4Top.xpi"/>
+      <outfile xil_pn:name="M_Lcd4Top_pad.csv"/>
+      <outfile xil_pn:name="M_Lcd4Top_pad.txt"/>
+      <outfile xil_pn:name="M_Lcd4Top_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1543921994" xil_pn:in_ck="4222921964035716105" xil_pn:name="TRANEXT_bitFile_virtex7" xil_pn:prop_ck="5735365748045746051" xil_pn:start_ts="1543921659">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="M_Lcd4Top.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="m_lcd4top.bgn"/>
+      <outfile xil_pn:name="m_lcd4top.bit"/>
+      <outfile xil_pn:name="m_lcd4top.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1543922225" xil_pn:in_ck="2304164790258004531" xil_pn:name="TRAN_impactProgrammingTool" xil_pn:prop_ck="6552783135083104433" xil_pn:start_ts="1543922225">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543911456" xil_pn:in_ck="2304164790258004531" xil_pn:name="TRAN_analyzeDesignUsingChipscope" xil_pn:prop_ck="1103680834786251246" xil_pn:start_ts="1543911456">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1543921659" xil_pn:in_ck="6185415204342440914" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1543921624">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="M_Lcd4Top.twr"/>
+      <outfile xil_pn:name="M_Lcd4Top.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

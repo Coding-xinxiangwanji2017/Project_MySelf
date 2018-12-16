@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.20131013
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.20131013
+DATE            12/08/2018 - 12:51
+SOURCE          D:\Project_MySelf\1_LcdDis\FPGA-2-Dvi\M_Dvi\mcs\20181207\M_Dvi_FPGA-2_20181207.mcs
+DEVICE          32768K
+DATA_WIDTH      4
+FILL_DATA       0xFF
+SIGNATURE       0x50887FC9
+START_ADDRESS   0x00000000 END_ADDRESS 0x00AE9D9B DIRECTION_UP   "D:/Project_MySelf/1_LcdDis/FPGA-2-Dvi/M_Dvi/bit/M_Dvi_FPGA-2_20181207.bit" 7k325tffg900
